@@ -13,7 +13,8 @@ import QuizPageHeader from '../Common/QuizPageHeader'
 //
 //  Controls
 //
-import Controls from '../../../../components/controls/Controls'
+import MyCheckbox from '../../../../components/controls/MyCheckbox'
+import MyButton from '../../../../components/controls/MyButton'
 //
 //  Utilities
 //
@@ -127,7 +128,7 @@ const QuizSettings = () => {
               <Grid container spacing={2}>
                 {/*.................................................................................................*/}
                 <Grid item xs={6}>
-                  <Controls.MyCheckbox
+                  <MyCheckbox
                     name='z_Log'
                     label='Log'
                     value={values.z_Log}
@@ -137,7 +138,7 @@ const QuizSettings = () => {
                 </Grid>
 
                 <Grid item xs={6}>
-                  <Controls.MyCheckbox
+                  <MyCheckbox
                     name='z_TestData'
                     label='Static Data'
                     value={values.z_TestData}
@@ -148,11 +149,7 @@ const QuizSettings = () => {
               </Grid>
               {/*.................................................................................................*/}
               <Grid item xs={12}>
-                <Controls.MyButton
-                  type='submit'
-                  text='Test SignIn'
-                  value='Submit'
-                />
+                <MyButton type='submit' text='Test SignIn' value='Submit' />
               </Grid>
             </QForm>
           </Form>

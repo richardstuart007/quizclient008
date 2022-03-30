@@ -9,8 +9,8 @@ import { Accessibility } from '@mui/icons-material'
 //
 //  Controls
 //
-import Controls from '../../../../components/controls/Controls'
-import MyTextField from '../../../../components/controls/MyTextField'
+import MyButton from '../../../../components/controls/MyButton'
+import MyFormikTextField from '../../../../components/controls/MyFormikTextField'
 //
 //  Common Sub Components
 //
@@ -109,25 +109,21 @@ function QuizTest() {
               <Grid container spacing={2}>
                 {g_TestData ? (
                   <Grid item xs={12}>
-                    <MyTextField name='name' label='name' />
+                    <MyFormikTextField name='name' label='name' />
                   </Grid>
                 ) : null}
                 {g_TestData ? (
                   <Grid item xs={12}>
-                    <MyTextField name='email' label='email' />
+                    <MyFormikTextField name='email' label='email' />
                   </Grid>
                 ) : null}
                 {/*.................................................................................................*/}
                 <Grid item xs={12}>
                   {g_TestData ? (
-                    <Controls.MyButton
-                      type='submit'
-                      text='Signin'
-                      value='Submit'
-                    />
+                    <MyButton type='submit' text='Signin' value='Submit' />
                   ) : null}
                   {g_TestData ? null : (
-                    <Controls.MyButton
+                    <MyButton
                       text='Signin'
                       onClick={() => {
                         ValtioStore.v_Page = 'QuizSignin'
@@ -140,7 +136,7 @@ function QuizTest() {
                   </Typography>
 
                   {g_TestData ? null : (
-                    <Controls.MyButton
+                    <MyButton
                       text='Register'
                       variant='outlined'
                       color='secondary'
@@ -149,7 +145,7 @@ function QuizTest() {
                       }}
                     />
                   )}
-                  <Controls.MyButton
+                  <MyButton
                     text='Settings'
                     variant='outlined'
                     color='secondary'

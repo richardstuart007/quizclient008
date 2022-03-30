@@ -29,7 +29,7 @@ export default function QuizReviewPanel({ quizRow, quizanswer }) {
   //
   //  Deconstruct
   //
-  const { qanswer_correct, qbad1, qbad2, qbad3 } = quizRow
+  const { qcorrect, qbad1, qbad2, qbad3 } = quizRow
   let Ans = []
   Ans.push(qbad1)
   Ans.push(qbad2)

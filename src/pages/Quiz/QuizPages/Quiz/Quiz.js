@@ -8,7 +8,7 @@ import { QuestionAnswer } from '@mui/icons-material'
 //
 //  Controls
 //
-import Controls from '../../../../components/controls/Controls'
+import MyButton from '../../../../components/controls/MyButton'
 //
 //  Sub Components
 //
@@ -183,7 +183,7 @@ const Quiz = () => {
           Navigation
         </Typography>
 
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Restart'
           color='secondary'
@@ -193,7 +193,7 @@ const Quiz = () => {
             ValtioStore.v_Page = 'Quiz'
           }}
         />
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='NewQuiz'
           color='secondary'
@@ -202,7 +202,7 @@ const Quiz = () => {
             ValtioStore.v_Page = 'QuizSelect'
           }}
         />
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Results'
           color='secondary'
@@ -212,7 +212,7 @@ const Quiz = () => {
           }}
         />
 
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Quit'
           color='secondary'

@@ -1,7 +1,7 @@
 import { TextField } from '@mui/material'
 import { useField } from 'formik'
 
-const MyTextField = ({ name, ...otherProps }) => {
+const MyFormikTextField = ({ name, ...otherProps }) => {
   const [field, mata] = useField(name)
 
   const configTextfield = {
@@ -19,4 +19,4 @@ const MyTextField = ({ name, ...otherProps }) => {
   return <TextField {...configTextfield} />
 }
 
-export default MyTextField
+export default MyFormikTextField

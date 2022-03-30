@@ -8,7 +8,7 @@ import { ShowChart } from '@mui/icons-material'
 //
 //  Controls
 //
-import Controls from '../../../../components/controls/Controls'
+import MyButton from '../../../../components/controls/MyButton'
 //
 //  Common Sub Components
 //
@@ -91,7 +91,7 @@ const QuizResults = () => {
         </Typography>
       </Box>
       <Box sx={{ mt: 2 }}>
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Review'
           color='primary'
@@ -106,7 +106,7 @@ const QuizResults = () => {
           Navigation
         </Typography>
 
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Restart'
           color='secondary'
@@ -116,7 +116,7 @@ const QuizResults = () => {
             ValtioStore.v_Reset = true
           }}
         />
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='NewQuiz'
           color='secondary'
@@ -126,7 +126,7 @@ const QuizResults = () => {
           }}
         />
 
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Quit'
           color='secondary'

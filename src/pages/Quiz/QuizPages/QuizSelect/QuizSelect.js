@@ -21,7 +21,9 @@ import QuizInfo from '../Common/QuizInfo'
 //  Controls
 //
 import MyQueryPromise from '../../../../components/controls/MyQueryPromise'
-import Controls from '../../../../components/controls/Controls'
+import MyButton from '../../../../components/controls/MyButton'
+import MyInput from '../../../../components/controls/MyInput'
+import MySelect from '../../../../components/controls/MySelect'
 //
 //  Utilities
 //
@@ -295,10 +297,11 @@ const QuizSelect = () => {
                 icon={<Storage fontSize='large' />}
               />
               <QForm>
+                {/*.................................................................................................*/}
+
                 <Grid container spacing={2}>
-                  {/*.................................................................................................*/}
-                  <Grid item xs={6}>
-                    <Controls.MySelect
+                  <Grid item xs={4}>
+                    <MySelect
                       name='qowner'
                       label='Owner'
                       value={values.qowner}
@@ -307,10 +310,13 @@ const QuizSelect = () => {
                       error={errors.qowner}
                     />
                   </Grid>
-                  {/*.................................................................................................*/}
+                </Grid>
 
-                  <Grid item xs={6}>
-                    <Controls.MySelect
+                {/*.................................................................................................*/}
+
+                <Grid container spacing={2}>
+                  <Grid item xs={4}>
+                    <MySelect
                       name='qgroup1'
                       label='Group1'
                       value={values.qgroup1}
@@ -318,7 +324,9 @@ const QuizSelect = () => {
                       options={QuizServices.getGroup1Collection()}
                       error={errors.qgroup1}
                     />
-                    <Controls.MySelect
+                  </Grid>
+                  <Grid item xs={4}>
+                    <MySelect
                       name='qgroup2'
                       label='Group2'
                       value={values.qgroup2}
@@ -326,17 +334,21 @@ const QuizSelect = () => {
                       options={QuizServices.getGroup2Collection()}
                     />
                   </Grid>
-                  {/*.................................................................................................*/}
-
-                  <Grid item xs={6}>
-                    <Controls.MySelect
+                  <Grid item xs={4}>
+                    <MySelect
                       name='qgroup3'
                       label='Group3'
                       value={values.qgroup3}
                       onChange={handleInputChange}
                       options={QuizServices.getGroup3Collection()}
                     />
-                    <Controls.MyInput
+                  </Grid>
+                </Grid>
+
+                {/*.................................................................................................*/}
+                <Grid container spacing={2}>
+                  <Grid item xs={4}>
+                    <MyInput
                       name='MaxQuestions'
                       label='MaxQuestions'
                       value={values.MaxQuestions}
@@ -353,12 +365,9 @@ const QuizSelect = () => {
 
                   {/*.................................................................................................*/}
                   <Grid item xs={12}>
-                    <Controls.MyButton
-                      type='submit'
-                      text='Start Quiz'
-                      value='Submit'
-                    />
+                    <MyButton type='submit' text='Start Quiz' value='Submit' />
                   </Grid>
+                  {/*.................................................................................................*/}
                 </Grid>
               </QForm>
             </Form>

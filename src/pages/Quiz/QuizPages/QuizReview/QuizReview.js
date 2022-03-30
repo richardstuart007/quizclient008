@@ -8,7 +8,7 @@ import { Visibility } from '@mui/icons-material'
 //
 //  Controls
 //
-import Controls from '../../../../components/controls/Controls'
+import MyButton from '../../../../components/controls/MyButton'
 //
 //  Sub Components
 //
@@ -168,7 +168,7 @@ const QuizReview = () => {
       <QuizHyperlinks quizRow={quizRow} />
 
       <Box sx={{ mt: 2 }}>
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Previous'
           color='primary'
@@ -176,7 +176,7 @@ const QuizReview = () => {
           onClick={() => handlePrevious()}
         />
 
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Next'
           color='primary'
@@ -189,7 +189,7 @@ const QuizReview = () => {
         <Typography variant='subtitle2' gutterBottom>
           Navigation
         </Typography>
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Restart'
           color='secondary'
@@ -199,7 +199,7 @@ const QuizReview = () => {
             ValtioStore.v_Page = 'Quiz'
           }}
         />
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='NewQuiz'
           color='secondary'
@@ -208,7 +208,7 @@ const QuizReview = () => {
             ValtioStore.v_Page = 'QuizSelect'
           }}
         />
-        <Controls.MyButton
+        <MyButton
           type='submit'
           text='Quit'
           color='secondary'
