@@ -14,26 +14,26 @@ import * as QuizServices from './QuizServices'
 //
 //  Common Sub Components
 //
-import { useQForm, QForm } from '../../useQForm'
+import { useQForm, QForm } from '../useQForm'
 import QuizPageHeader from '../Common/QuizPageHeader'
 import QuizInfo from '../Common/QuizInfo'
 //
 //  Controls
 //
-import MyQueryPromise from '../../../components/controls/MyQueryPromise'
-import MyButton from '../../../components/controls/MyButton'
-import MyInput from '../../../components/controls/MyInput'
-import MySelect from '../../../components/controls/MySelect'
+import MyQueryPromise from '../../components/controls/MyQueryPromise'
+import MyButton from '../../components/controls/MyButton'
+import MyInput from '../../components/controls/MyInput'
+import MySelect from '../../components/controls/MySelect'
 //
 //  Utilities
 //
-import { ValtioStore } from '../../ValtioStore'
-import QuizRandomSort from '../../../services/QuizRandomSort'
+import { ValtioStore } from '../ValtioStore'
+import QuizRandomSort from '../../services/QuizRandomSort'
 //
 //  Constants
 //
-const { ROWS_DEFAULT } = require('../../../services/constants.js')
-const { ROWS_MAX } = require('../../../services/constants.js')
+const { ROWS_DEFAULT } = require('../../services/constants.js')
+const { ROWS_MAX } = require('../../services/constants.js')
 //..............................................................................
 //.  Initialisation
 //.............................................................................

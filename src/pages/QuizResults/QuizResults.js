@@ -8,7 +8,7 @@ import { ShowChart } from '@mui/icons-material'
 //
 //  Controls
 //
-import MyButton from '../../../components/controls/MyButton'
+import MyButton from '../../components/controls/MyButton'
 //
 //  Common Sub Components
 //
@@ -17,7 +17,7 @@ import QuizInfo from '../Common/QuizInfo'
 //
 //  Utilities
 //
-import { ValtioStore } from '../../ValtioStore'
+import { ValtioStore } from '../ValtioStore'
 //.............................................................................
 //.  Initialisation
 //.............................................................................

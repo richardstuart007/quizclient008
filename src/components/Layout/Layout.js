@@ -1,10 +1,8 @@
 //
 //  Libraries
 //
-import { Typography, AppBar, Toolbar, Avatar, Grid } from '@mui/material';
-
-import makeStyles from '@mui/styles/makeStyles';
-
+import { Typography, AppBar, Toolbar, Avatar, Grid } from '@mui/material'
+import makeStyles from '@mui/styles/makeStyles'
 import { format } from 'date-fns'
 //
 //  Style overrides

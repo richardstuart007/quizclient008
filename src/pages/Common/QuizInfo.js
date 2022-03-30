@@ -6,7 +6,7 @@ import { useSnapshot } from 'valtio'
 //
 //  Utilities
 //
-import { ValtioStore } from '../../ValtioStore'
+import { ValtioStore } from '../ValtioStore'
 //===================================================================================
 const QuizInfo = () => {
   //...................................................................................

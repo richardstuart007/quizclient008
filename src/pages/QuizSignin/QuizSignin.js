@@ -2,6 +2,7 @@
 //  Libraries
 //
 import { useSnapshot } from 'valtio'
+import { useState } from 'react'
 import { Formik, Form } from 'formik'
 import * as Yup from 'yup'
 import { Container, Grid, Typography } from '@mui/material'
@@ -9,8 +10,8 @@ import { Accessibility } from '@mui/icons-material'
 //
 //  Controls
 //
-import MyButton from '../../../components/controls/MyButton'
-import MyFormikTextField from '../../../components/controls/MyFormikTextField'
+import MyButton from '../../components/controls/MyButton'
+import MyFormikTextField from '../../components/controls/MyFormikTextField'
 //
 //  Common Sub Components
 //
@@ -19,34 +20,39 @@ import QuizInfo from '../Common/QuizInfo'
 //
 //  Utilities
 //
-import { ValtioStore } from '../../ValtioStore'
+import { ValtioStore } from '../ValtioStore'
 //..............................................................................
 //.  Initialisation
 //.............................................................................
 //
 // Constants
 //
-const { QUESTIONS_DATA } = require('./QuizTestData.js')
+const { URL_BASE } = require('../../services/constants.js')
+const { URL_SIGNIN } = require('../../services/constants.js')
+const sqlClient = 'Quiz/Signin'
 //
-//  Debug logging
+// Debugging
 //
 let g_log1 = false
+//.............................................................................
+//.  Data Input Fields
+//.............................................................................
 //
 //  Initial Values
 //
 const initialValues = {
-  name: 'Test',
-  email: 'Test@gmail.com'
+  email: 'quizuser@gmail.com',
+  password: 'quizuser'
 }
 //.............................................................................
 //.  Input field validation
 //.............................................................................
 const validationSchema = Yup.object({
   email: Yup.string().email().required('Required'),
-  name: Yup.string().required('Required')
+  password: Yup.string().required('Required')
 })
 //===================================================================================
-function QuizTest() {
+function QuizSignin() {
   //
   //  Define the ValtioStore
   //
@@ -55,36 +61,47 @@ function QuizTest() {
   //  Set Debug State
   //
   g_log1 = snapShot.v_Log
-  if (g_log1) console.log('Start QuizTest')
+  if (g_log1) console.log('Start QuizSignin')
   //
-  //  TestData ?
+  // Form Message
   //
-  const g_TestData = snapShot.v_TestData
-  if (g_log1) console.log('g_TestData ', g_TestData)
-  //
-  //  Subtitle
-  //
-  let g_subTitle
-  g_TestData
-    ? (g_subTitle = `Static Data no need to change name(${initialValues.name}) and email(${initialValues.email})`)
-    : (g_subTitle = `SignIn to start Quiz`)
+  const [form_message, setForm_message] = useState('')
   //...................................................................................
   //.  Form Submit
   //...................................................................................
-  const onSubmitForm = values => {
+  const onSubmitForm = (values, submitProps) => {
     //
     //  Deconstruct values
     //
-    const { email, name } = values
+    const { email, password } = values
     //
-    //  Update Store
+    //  Post to server
     //
-    ValtioStore.v_Page = 'QuizSelect'
-    ValtioStore.v_Email = email
-    ValtioStore.v_Name = name
-    ValtioStore.v_Reset = true
-    ValtioStore.v_Data = QUESTIONS_DATA
-    if (g_log1) console.log(QUESTIONS_DATA)
+    const URL = URL_BASE + URL_SIGNIN
+    fetch(URL, {
+      method: 'post',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        sqlClient: sqlClient,
+        email: email,
+        password: password
+      })
+    })
+      .then(response => response.json())
+
+      .then(user => {
+        if (user.id) {
+          setForm_message(`Signin successful with ID(${user.id})`)
+          ValtioStore.v_Page = 'QuizSelect'
+          ValtioStore.v_Email = email
+          ValtioStore.v_Name = user.name
+        } else {
+          setForm_message('User not registered or password invalid')
+        }
+      })
+      .catch(err => {
+        setForm_message(err.message)
+      })
   }
   //...................................................................................
   //.  Render the form
@@ -101,56 +118,38 @@ function QuizTest() {
           >
             <Form>
               <QuizPageHeader
-                title='Test SignIn'
-                subTitle={g_subTitle}
+                title='Sign In'
+                subTitle='Register first'
                 icon={<Accessibility fontSize='large' />}
               />
+
               {/*.................................................................................................*/}
               <Grid container spacing={2}>
-                {g_TestData ? (
-                  <Grid item xs={12}>
-                    <MyFormikTextField name='name' label='name' />
-                  </Grid>
-                ) : null}
-                {g_TestData ? (
-                  <Grid item xs={12}>
-                    <MyFormikTextField name='email' label='email' />
-                  </Grid>
-                ) : null}
+                <Grid item xs={12}>
+                  <MyFormikTextField name='email' label='email' />
+                </Grid>
+                <Grid item xs={12}>
+                  <MyFormikTextField name='password' label='password' />
+                </Grid>
                 {/*.................................................................................................*/}
                 <Grid item xs={12}>
-                  {g_TestData ? (
-                    <MyButton type='submit' text='Signin' value='Submit' />
-                  ) : null}
-                  {g_TestData ? null : (
-                    <MyButton
-                      text='Signin'
-                      onClick={() => {
-                        ValtioStore.v_Page = 'QuizSignin'
-                      }}
-                    />
-                  )}
-
+                  <Typography style={{ color: 'red' }}>
+                    {form_message}
+                  </Typography>
+                </Grid>
+                {/*.................................................................................................*/}
+                <Grid item xs={12}>
+                  <MyButton type='submit' text='SignIn' value='Submit' />
                   <Typography variant='subtitle2' gutterBottom>
                     Navigation
                   </Typography>
 
-                  {g_TestData ? null : (
-                    <MyButton
-                      text='Register'
-                      variant='outlined'
-                      color='secondary'
-                      onClick={() => {
-                        ValtioStore.v_Page = 'QuizRegister'
-                      }}
-                    />
-                  )}
                   <MyButton
-                    text='Settings'
-                    variant='outlined'
+                    text='Register'
                     color='secondary'
+                    variant='outlined'
                     onClick={() => {
-                      ValtioStore.v_Page = 'QuizSettings'
+                      ValtioStore.v_Page = 'QuizRegister'
                     }}
                   />
                 </Grid>
@@ -164,4 +163,4 @@ function QuizTest() {
   )
 }
 
-export default QuizTest
+export default QuizSignin

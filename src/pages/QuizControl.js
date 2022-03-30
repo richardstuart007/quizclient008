@@ -5,15 +5,15 @@ import { useSnapshot } from 'valtio'
 //
 //  Sub Components
 //
-import QuizTest from './QuizPages/QuizTest/QuizTest'
-import QuizSettings from './QuizPages/QuizSettings/QuizSettings'
-import QuizRegister from './QuizPages/QuizRegister/QuizRegister'
-import QuizSignin from './QuizPages/QuizSignin/QuizSignin'
-import QuizSelect from './QuizPages/QuizSelect/QuizSelect'
-import Quiz from './QuizPages/Quiz/Quiz'
-import QuizResults from './QuizPages/QuizResults/QuizResults'
-import QuizReview from './QuizPages/QuizReview/QuizReview'
-import QuizGoodbye from './QuizPages/QuizGoodbye/QuizGoodbye'
+import QuizTest from './QuizTest/QuizTest'
+import QuizSettings from './QuizSettings/QuizSettings'
+import QuizRegister from './QuizRegister/QuizRegister'
+import QuizSignin from './QuizSignin/QuizSignin'
+import QuizSelect from './QuizSelect/QuizSelect'
+import Quiz from './Quiz/Quiz'
+import QuizResults from './QuizResults/QuizResults'
+import QuizReview from './QuizReview/QuizReview'
+import QuizGoodbye from './QuizGoodbye/QuizGoodbye'
 //
 //  Utilities
 //

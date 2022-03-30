@@ -10,8 +10,8 @@ import { HowToReg } from '@mui/icons-material'
 //
 //  Controls
 //
-import MyButton from '../../../components/controls/MyButton'
-import MyFormikTextField from '../../../components/controls/MyFormikTextField'
+import MyButton from '../../components/controls/MyButton'
+import MyFormikTextField from '../../components/controls/MyFormikTextField'
 //
 //  Common Sub Components
 //
@@ -20,15 +20,15 @@ import QuizInfo from '../Common/QuizInfo'
 //
 //  Utilities
 //
-import { ValtioStore } from '../../ValtioStore'
+import { ValtioStore } from '../ValtioStore'
 //..............................................................................
 //.  Initialisation
 //.............................................................................
 //
 // Constants
 //
-const { URL_BASE } = require('../../../services/constants.js')
-const { URL_REGISTER } = require('../../../services/constants.js')
+const { URL_BASE } = require('../../services/constants.js')
+const { URL_REGISTER } = require('../../services/constants.js')
 const sqlClient = 'Quiz/Register'
 //.............................................................................
 //.  Data Input Fields

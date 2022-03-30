@@ -1,16 +1,16 @@
 //
 //  Utilities
 //
-import { ValtioStore } from '../../ValtioStore'
-import apiAxios from '../../../services/apiAxios'
-import QuizRandomSort from '../../../services/QuizRandomSort'
+import { ValtioStore } from '../ValtioStore'
+import apiAxios from '../../services/apiAxios'
+import QuizRandomSort from '../../services/QuizRandomSort'
 //
 // Constants
 //
 const sqlClient = 'Quiz/QuizGetData'
-const { URL_BASE } = require('../../../services/constants.js')
-const { URL_QUESTIONS } = require('../../../services/constants.js')
-const { SQL_TABLE } = require('../../../services/constants.js')
+const { URL_BASE } = require('../../services/constants.js')
+const { URL_QUESTIONS } = require('../../services/constants.js')
+const { SQL_TABLE } = require('../../services/constants.js')
 //
 //  Debug logging
 //

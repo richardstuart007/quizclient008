@@ -10,7 +10,7 @@ import QuizReviewCard from './QuizReviewCard'
 //
 //  Utilities
 //
-import { ValtioStore } from '../../ValtioStore'
+import { ValtioStore } from '../ValtioStore'
 //
 //  Debug logging
 //

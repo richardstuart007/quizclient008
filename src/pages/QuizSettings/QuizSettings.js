@@ -8,17 +8,17 @@ import { Storage } from '@mui/icons-material'
 //
 //  Common Sub Components
 //
-import { useQForm, QForm } from '../../useQForm'
+import { useQForm, QForm } from '../useQForm'
 import QuizPageHeader from '../Common/QuizPageHeader'
 //
 //  Controls
 //
-import MyCheckbox from '../../../components/controls/MyCheckbox'
-import MyButton from '../../../components/controls/MyButton'
+import MyCheckbox from '../../components/controls/MyCheckbox'
+import MyButton from '../../components/controls/MyButton'
 //
 //  Utilities
 //
-import { ValtioStore } from '../../ValtioStore'
+import { ValtioStore } from '../ValtioStore'
 //..............................................................................
 //.  Initialisation
 //.............................................................................
