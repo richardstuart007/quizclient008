@@ -13,8 +13,8 @@ import QuizPageHeader from '../Common/QuizPageHeader'
 //
 //  Controls
 //
-import MyCheckbox from '../../../../components/controls/MyCheckbox'
-import MyButton from '../../../../components/controls/MyButton'
+import MyCheckbox from '../../../components/controls/MyCheckbox'
+import MyButton from '../../../components/controls/MyButton'
 //
 //  Utilities
 //

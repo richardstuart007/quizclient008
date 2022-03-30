@@ -8,7 +8,7 @@ import { QuestionAnswer } from '@mui/icons-material'
 //
 //  Controls
 //
-import MyButton from '../../../../components/controls/MyButton'
+import MyButton from '../../../components/controls/MyButton'
 //
 //  Sub Components
 //

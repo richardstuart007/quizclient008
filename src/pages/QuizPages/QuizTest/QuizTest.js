@@ -9,8 +9,8 @@ import { Accessibility } from '@mui/icons-material'
 //
 //  Controls
 //
-import MyButton from '../../../../components/controls/MyButton'
-import MyFormikTextField from '../../../../components/controls/MyFormikTextField'
+import MyButton from '../../../components/controls/MyButton'
+import MyFormikTextField from '../../../components/controls/MyFormikTextField'
 //
 //  Common Sub Components
 //

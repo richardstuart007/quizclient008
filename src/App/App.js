@@ -10,7 +10,7 @@ import { CssBaseline } from '@mui/material'
 //
 //  Pages
 //
-import QuizControl from '../pages/Quiz/QuizControl'
+import QuizControl from '../pages/QuizControl'
 //
 //  Common Components
 //
