@@ -3,7 +3,7 @@
 //
 import { ValtioStore } from '../ValtioStore'
 import apiAxios from '../../services/apiAxios'
-import QuizRandomSort from '../../services/QuizRandomSort'
+import randomSort from '../../services/randomSort'
 //
 // Constants
 //
@@ -68,7 +68,7 @@ async function QuizSelectGetData({
       //
       // update ValtioStore - Questions
       //
-      const sortedData = QuizRandomSort(resultData)
+      const sortedData = randomSort(resultData)
       if (g_log1) console.log('update v_Quest', sortedData)
       ValtioStore.v_Quest = sortedData
       //

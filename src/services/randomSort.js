@@ -3,7 +3,7 @@
 //
 const g_log1 = false
 //===================================================================================
-function QuizRandomSort(dataIn) {
+export default function randomSort(dataIn) {
   //
   //  Load the workArray
   //
@@ -32,5 +32,3 @@ function QuizRandomSort(dataIn) {
   if (g_log1) console.log('dataSorted  ', dataSorted)
   return dataSorted
 }
-
-export default QuizRandomSort

@@ -28,7 +28,7 @@ import MySelect from '../../components/controls/MySelect'
 //  Utilities
 //
 import { ValtioStore } from '../ValtioStore'
-import QuizRandomSort from '../../services/QuizRandomSort'
+import randomSort from '../../services/randomSort'
 //
 //  Constants
 //
@@ -169,7 +169,7 @@ const QuizSelect = () => {
         //
         // Sort Data
         //
-        const sortedData = QuizRandomSort(data)
+        const sortedData = randomSort(data)
         //
         // update ValtioStore - Questions
         //
@@ -245,7 +245,7 @@ const QuizSelect = () => {
     // Sort Data
     //
 
-    const sortedData = QuizRandomSort(filteredData)
+    const sortedData = randomSort(filteredData)
     if (g_log1) console.log('sortedData ', sortedData)
     //
     //  Apply max number
