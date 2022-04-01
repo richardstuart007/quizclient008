@@ -35,7 +35,7 @@ async function QuizSelectGetData({
       let sqlWhere = `qowner = '${qowner}' and qgroup1 = '${qgroup1}' `
       if (qgroup2) sqlWhere = sqlWhere.concat(` and qgroup2 = '${qgroup2}'`)
       if (qgroup3) sqlWhere = sqlWhere.concat(` and qgroup3 = '${qgroup3}'`)
-      sqlWhere = sqlWhere.concat(` FETCH NEXT ${MaxQuestions} ROWS ONLY`)
+      sqlWhere = sqlWhere.concat(` FETCH FIRST ${MaxQuestions} ROWS ONLY`)
       if (g_log1) console.log('sqlWhere ', sqlWhere)
       //
       //  Setup actions
