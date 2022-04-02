@@ -32,20 +32,23 @@ function QuizControl() {
   //
   //  Define the ValtioStore
   //
-  const snapShot = useSnapshot(ValtioStore)
+  const snapShot = useSnapshot(ValtioStore, { sync: true })
+  if (g_log1) console.log('snapShot.v_Page ', snapShot.v_Page)
   //
   //  Get the URL Parameters (once only)
   //
   const Params = snapShot.v_Params
   if (Params === null) {
+    if (g_log1) console.log('Get Parameters')
     ValtioStore.v_Params = false
     const queryString = window.location.search
-    console.log(queryString)
+    if (g_log1) console.log(queryString)
     const urlParams = new URLSearchParams(queryString)
     //
     //  Extract the parameters
     //
     if (urlParams.has('testdata')) {
+      if (g_log1) console.log('Has Parameters')
       const vpTestData = urlParams.get('testdata')
       const vpAllowSelection = urlParams.get('allowselection')
       const vpPage = urlParams.get('page')
@@ -55,15 +58,15 @@ function QuizControl() {
       const vpGroup1 = urlParams.get('group1')
       const vpGroup2 = urlParams.get('group2')
       const vpGroup3 = urlParams.get('group3')
-      console.log('vpTestData ', vpTestData)
-      console.log('vpAllowSelection ', vpAllowSelection)
-      console.log('vppage ', vpPage)
-      console.log('vpemail ', vpEmail)
-      console.log('vpname ', vpName)
-      console.log('vpowner ', vpOwner)
-      console.log('vpgroup1 ', vpGroup1)
-      console.log('vpgroup2 ', vpGroup2)
-      console.log('vpgroup3 ', vpGroup3)
+      if (g_log1) console.log('vpTestData ', vpTestData)
+      if (g_log1) console.log('vpAllowSelection ', vpAllowSelection)
+      if (g_log1) console.log('vppage ', vpPage)
+      if (g_log1) console.log('vpemail ', vpEmail)
+      if (g_log1) console.log('vpname ', vpName)
+      if (g_log1) console.log('vpowner ', vpOwner)
+      if (g_log1) console.log('vpgroup1 ', vpGroup1)
+      if (g_log1) console.log('vpgroup2 ', vpGroup2)
+      if (g_log1) console.log('vpgroup3 ', vpGroup3)
       //
       //  Update the Store
       //
@@ -81,12 +84,13 @@ function QuizControl() {
       ValtioStore.v_Group1 = vpGroup1
       ValtioStore.v_Group2 = vpGroup2
       ValtioStore.v_Group3 = vpGroup3
+      if (g_log1) console.log('snapShot.v_Page ', snapShot.v_Page)
     }
   }
   //
   //  Retrieve the state
   //
-  const page = snapShot.v_Page
+  let page = snapShot.v_Page
   if (g_log1) console.log('Page: ', page)
   //
   //  Present the selected component

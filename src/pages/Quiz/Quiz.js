@@ -190,7 +190,6 @@ const Quiz = () => {
           variant='outlined'
           onClick={() => {
             ValtioStore.v_Reset = true
-            ValtioStore.v_Page = 'Quiz'
           }}
         />
         <MyButton
