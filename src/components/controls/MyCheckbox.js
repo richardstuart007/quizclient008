@@ -1,8 +1,23 @@
+//
+//  Libraries
+//
 import { FormControl, FormControlLabel, Checkbox } from '@mui/material'
-
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
+// Debug Settings
+//
+const g_log1 = debugSettings()
+//=====================================================================================
 export default function MyCheckbox(props) {
-  const { name, label, value, onChange } = props
+  if (g_log1) console.log('Start MyCheckbox')
 
+  const { name, label, value, onChange, ...other } = props
+  //
+  //  Convert the parameters to name, value parameters needed for onChange function
+  //
   const convertToDefEventPara = (name, value) => ({
     target: {
       name,
@@ -18,6 +33,7 @@ export default function MyCheckbox(props) {
             name={name}
             color='primary'
             checked={value}
+            {...other}
             onChange={e =>
               onChange(convertToDefEventPara(name, e.target.checked))
             }

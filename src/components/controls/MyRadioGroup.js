@@ -1,3 +1,6 @@
+//
+//  Libraries
+//
 import {
   FormControl,
   FormLabel,
@@ -5,9 +8,19 @@ import {
   FormControlLabel,
   Radio
 } from '@mui/material'
-
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
+// Debug Settings
+//
+const g_log1 = debugSettings()
+//=====================================================================================
 export default function MyRadioGroup(props) {
-  const { name, label, value, onChange, items } = props
+  if (g_log1) console.log('Start MyRadioGroup')
+
+  const { name, label, value, onChange, items, ...other } = props
 
   return (
     <FormControl>
@@ -19,6 +32,7 @@ export default function MyRadioGroup(props) {
             value={item.id}
             control={<Radio />}
             label={item.title}
+            {...other}
           />
         ))}
       </RadioGroup>

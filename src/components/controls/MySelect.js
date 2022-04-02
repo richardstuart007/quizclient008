@@ -1,4 +1,6 @@
-import React from 'react'
+//
+//  Libraries
+//
 import {
   FormControl,
   InputLabel,
@@ -6,8 +8,18 @@ import {
   MenuItem,
   FormHelperText
 } from '@mui/material'
-
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
+// Debug Settings
+//
+const g_log1 = debugSettings()
+//=====================================================================================
 export default function MySelect(props) {
+  if (g_log1) console.log('Start MySelect')
+
   const {
     name,
     label,
@@ -19,7 +31,7 @@ export default function MySelect(props) {
   } = props
 
   return (
-    <FormControl variant='outlined' {...(error && { error: true })}>
+    <FormControl variant='outlined' {...(error && { error: true })} {...other}>
       <InputLabel>{label}</InputLabel>
       <Select
         label={label}
