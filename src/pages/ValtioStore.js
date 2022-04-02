@@ -1,6 +1,8 @@
 import { proxy } from 'valtio'
 
 const ValtioStore = proxy({
+  v_Params: null,
+  v_AllowSelection: true,
   v_TestData: true,
   v_Page: 'QuizTest',
   v_Email: '',
@@ -13,8 +15,7 @@ const ValtioStore = proxy({
   v_Quest: [],
   v_Ans: [],
   v_Reset: true,
-  v_MaxQuestions: 0,
-  v_Log: false
+  v_MaxQuestions: 0
 })
 
 export { ValtioStore }

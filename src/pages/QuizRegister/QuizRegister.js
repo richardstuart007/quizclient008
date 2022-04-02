@@ -1,12 +1,15 @@
 //
 //  Libraries
 //
-import { useSnapshot } from 'valtio'
 import { useState } from 'react'
 import { Formik, Form } from 'formik'
 import * as Yup from 'yup'
 import { Container, Grid, Typography } from '@mui/material'
 import { HowToReg } from '@mui/icons-material'
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
 //
 //  Controls
 //
@@ -25,6 +28,10 @@ import { ValtioStore } from '../ValtioStore'
 //.  Initialisation
 //.............................................................................
 //
+// Debug Settings
+//
+const g_log1 = debugSettings()
+//
 // Constants
 //
 const { URL_BASE } = require('../../services/constants.js')
@@ -41,10 +48,6 @@ const initialValues = {
   email: '',
   password: ''
 }
-//
-// Debugging
-//
-let g_log1 = false
 //.............................................................................
 //.  Input field validation
 //.............................................................................
@@ -55,14 +58,6 @@ const validationSchema = Yup.object({
 })
 //===================================================================================
 function QuizRegister() {
-  //
-  //  Define the ValtioStore
-  //
-  const snapShot = useSnapshot(ValtioStore)
-  //
-  //  Set Debug State
-  //
-  g_log1 = snapShot.v_Log
   if (g_log1) console.log('Start QuizRegister')
   //
   // Form Message

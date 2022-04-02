@@ -1,12 +1,15 @@
 //
 //  Libraries
 //
-import { useSnapshot } from 'valtio'
 import { useState } from 'react'
 import { Formik, Form } from 'formik'
 import * as Yup from 'yup'
 import { Container, Grid, Typography } from '@mui/material'
 import { Accessibility } from '@mui/icons-material'
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
 //
 //  Controls
 //
@@ -31,9 +34,9 @@ const { URL_BASE } = require('../../services/constants.js')
 const { URL_SIGNIN } = require('../../services/constants.js')
 const sqlClient = 'Quiz/Signin'
 //
-// Debugging
+// Debug Settings
 //
-let g_log1 = false
+const g_log1 = debugSettings()
 //.............................................................................
 //.  Data Input Fields
 //.............................................................................
@@ -53,14 +56,6 @@ const validationSchema = Yup.object({
 })
 //===================================================================================
 function QuizSignin() {
-  //
-  //  Define the ValtioStore
-  //
-  const snapShot = useSnapshot(ValtioStore)
-  //
-  //  Set Debug State
-  //
-  g_log1 = snapShot.v_Log
   if (g_log1) console.log('Start QuizSignin')
   //
   // Form Message

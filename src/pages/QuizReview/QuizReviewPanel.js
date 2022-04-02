@@ -1,30 +1,21 @@
 //
 //  Libraries
 //
-import { useSnapshot } from 'valtio'
 import { Typography, Box } from '@mui/material'
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
 //
 //  Components
 //
 import QuizReviewCard from './QuizReviewCard'
 //
-//  Utilities
+// Debug Settings
 //
-import { ValtioStore } from '../ValtioStore'
-//
-//  Debug logging
-//
-let g_log1 = false
+const g_log1 = debugSettings()
 //===================================================================================
 export default function QuizReviewPanel({ quizRow, quizanswer }) {
-  //
-  //  Define the ValtioStore
-  //
-  const snapShot = useSnapshot(ValtioStore)
-  //
-  //  Set Debug State
-  //
-  g_log1 = snapShot.v_Log
   if (g_log1) console.log('Start QuizReviewPanel')
   //
   //  Deconstruct

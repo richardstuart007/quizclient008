@@ -6,6 +6,10 @@ import { Formik, Form } from 'formik'
 import { Container, Grid } from '@mui/material'
 import { Storage } from '@mui/icons-material'
 //
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
 //  Common Sub Components
 //
 import { useQForm, QForm } from '../useQForm'
@@ -23,32 +27,26 @@ import { ValtioStore } from '../ValtioStore'
 //.  Initialisation
 //.............................................................................
 //
-// Constants
+// Debug Settings
 //
-let g_log1 = false
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizSettings = () => {
+  if (g_log1) console.log('Start QuizSettings')
   //
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
   //
-  //  Set Debug State
-  //
-  g_log1 = snapShot.v_Log
-  if (g_log1) console.log('Start QuizSettings')
-  //
   //  Initial Values
   //
   const initialFValues = {
-    z_Log: snapShot.v_Log,
     z_TestData: snapShot.v_TestData
   }
   //
   //  Saved Values on Submit
   //
   const savedValues = {
-    z_Log: false,
     z_TestData: false
   }
   //.............................................................................
@@ -57,7 +55,6 @@ const QuizSettings = () => {
   const validate = (fieldValues = values) => {
     if (g_log1) console.log('fieldValues ', fieldValues)
     let temp = { ...errors }
-    if ('z_Log' in fieldValues) temp.z_Log = ''
     if ('z_TestData' in fieldValues) temp.z_TestData = ''
     setErrors({
       ...temp
@@ -85,15 +82,12 @@ const QuizSettings = () => {
     //  Save data
     //
     if (g_log1) console.log(values)
-    savedValues.z_Log = values.z_Log
     savedValues.z_TestData = values.z_TestData
     //
     //  Update Store
     //
-    if (g_log1) console.log('Update Store: v_Log ', savedValues.z_Log)
     if (g_log1) console.log('Update Store: z_TestData ', savedValues.z_TestData)
     ValtioStore.v_Page = 'QuizTest'
-    ValtioStore.v_Log = savedValues.z_Log
     ValtioStore.v_TestData = savedValues.z_TestData
   }
   //...................................................................................
@@ -127,15 +121,6 @@ const QuizSettings = () => {
             <QForm>
               <Grid container spacing={2}>
                 {/*.................................................................................................*/}
-                <Grid item xs={6}>
-                  <MyCheckbox
-                    name='z_Log'
-                    label='Log'
-                    value={values.z_Log}
-                    onChange={handleInputChange}
-                    error={errors.z_Log}
-                  />
-                </Grid>
 
                 <Grid item xs={6}>
                   <MyCheckbox

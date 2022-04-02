@@ -7,6 +7,10 @@ import * as Yup from 'yup'
 import { Container, Grid, Typography } from '@mui/material'
 import { Accessibility } from '@mui/icons-material'
 //
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
 //  Controls
 //
 import MyButton from '../../components/controls/MyButton'
@@ -24,13 +28,9 @@ import { ValtioStore } from '../ValtioStore'
 //.  Initialisation
 //.............................................................................
 //
-// Constants
+// Debug Settings
 //
-const { QUESTIONS_DATA } = require('./QuizTestData.js')
-//
-//  Debug logging
-//
-let g_log1 = false
+const g_log1 = debugSettings()
 //
 //  Initial Values
 //
@@ -47,15 +47,11 @@ const validationSchema = Yup.object({
 })
 //===================================================================================
 function QuizTest() {
+  if (g_log1) console.log('Start QuizTest')
   //
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
-  //
-  //  Set Debug State
-  //
-  g_log1 = snapShot.v_Log
-  if (g_log1) console.log('Start QuizTest')
   //
   //  TestData ?
   //
@@ -83,8 +79,8 @@ function QuizTest() {
     ValtioStore.v_Email = email
     ValtioStore.v_Name = name
     ValtioStore.v_Reset = true
-    ValtioStore.v_Data = QUESTIONS_DATA
-    if (g_log1) console.log(QUESTIONS_DATA)
+    // ValtioStore.v_Data = QUESTIONS_DATA
+    // if (g_log1) console.log(QUESTIONS_DATA)
   }
   //...................................................................................
   //.  Render the form

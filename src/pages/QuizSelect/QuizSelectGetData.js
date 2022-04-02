@@ -1,9 +1,7 @@
 //
 //  Utilities
 //
-import { ValtioStore } from '../ValtioStore'
 import apiAxios from '../../services/apiAxios'
-import randomSort from '../../services/randomSort'
 //
 // Constants
 //
@@ -61,21 +59,10 @@ async function QuizSelectGetData({
         throw Error('No data received')
       }
       //
-      // update ValtioStore - Data
-      //
-      if (g_log1) console.log('update v_Data', resultData)
-      ValtioStore.v_Data = resultData
-      //
-      // update ValtioStore - Questions
-      //
-      const sortedData = randomSort(resultData)
-      if (g_log1) console.log('update v_Quest', sortedData)
-      ValtioStore.v_Quest = sortedData
-      //
       // Return data
       //
-      if (g_log1) console.log('return data 1', sortedData)
-      return sortedData
+      if (g_log1) console.log('return data 1', resultData)
+      return resultData
       //
       // Errors
       //
@@ -86,13 +73,6 @@ async function QuizSelectGetData({
   //--------------------------------------------------------------------
   //-  Initial fetch of data
   //--------------------------------------------------------------------
-  //
-  // Clear the store
-  //
-  if (g_log1) console.log('clear v_Data')
-  ValtioStore.v_Data = []
-  if (g_log1) console.log('clear v_Quest')
-  ValtioStore.v_Quest = []
   //
   // Load the store
   //

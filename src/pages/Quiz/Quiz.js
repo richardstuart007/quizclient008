@@ -6,6 +6,10 @@ import { useSnapshot } from 'valtio'
 import { Typography, Box } from '@mui/material'
 import { QuestionAnswer } from '@mui/icons-material'
 //
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
 //  Controls
 //
 import MyButton from '../../components/controls/MyButton'
@@ -29,9 +33,9 @@ import { ValtioStore } from '../ValtioStore'
 //.  Initialisation
 //.............................................................................
 //
-//  Debug logging
+// Debug Settings
 //
-let g_log1 = false
+const g_log1 = debugSettings()
 //
 //  Global store variables
 //
@@ -41,15 +45,11 @@ let g_questCount = 0
 let g_quizRow = {}
 //===================================================================================
 const Quiz = () => {
+  if (g_log1) console.log('Start Quiz')
   //
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
-  //
-  //  Set Debug State
-  //
-  g_log1 = snapShot.v_Log
-  if (g_log1) console.log('Start Quiz')
   //
   //  Define the State variables
   //

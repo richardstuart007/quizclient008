@@ -1,35 +1,26 @@
 //
 //  Libraries
 //
-import { useSnapshot } from 'valtio'
 import { Typography } from '@mui/material'
 import { teal } from 'material-ui-colors'
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
 //
 //  Sub Components
 //
 import QuizPanelCard from './QuizPanelCard'
-//
-//  Utilities
-//
-import { ValtioStore } from '../ValtioStore'
 //..............................................................................
 //.  Initialisation
 //.............................................................................
 //
-// Constants
+// Debug Settings
 //
-let g_log1 = false
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizPanel = ({ quizRow, handleSelect }) => {
-  //
-  //  Define the ValtioStore
-  //
-  const snapShot = useSnapshot(ValtioStore)
   if (g_log1) console.log('Start QuizPanel')
-  //
-  //  Set Debug State
-  //
-  g_log1 = snapShot.v_Log
   //
   //  Deconstruct row
   //

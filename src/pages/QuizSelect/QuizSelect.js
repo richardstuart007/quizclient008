@@ -7,6 +7,10 @@ import { Formik, Form } from 'formik'
 import { Container, Grid, Typography } from '@mui/material'
 import { Storage } from '@mui/icons-material'
 //
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
 //  Sub Components
 //
 import QuizSelectGetData from './QuizSelectGetData'
@@ -38,9 +42,9 @@ const { ROWS_MAX } = require('../../services/constants.js')
 //.  Initialisation
 //.............................................................................
 //
-// Constants
+// Debug Settings
 //
-let g_log1 = false
+const g_log1 = debugSettings()
 //.............................................................................
 //.  Data Input Fields
 //.............................................................................
@@ -73,8 +77,17 @@ const QuizSelect = () => {
   //
   //  Set Debug State
   //
-  g_log1 = snapShot.v_Log
   if (g_log1) console.log('Start QuizSelect')
+  //
+  //  If parameters were passed in, set initial state
+  //
+  if (snapShot.v_Params) {
+    initialFValues.qowner = snapShot.v_Owner
+    initialFValues.qgroup1 = snapShot.v_Group1
+    initialFValues.qgroup2 = snapShot.v_Group2
+    initialFValues.qgroup3 = snapShot.v_Group3
+  }
+  const disabled = !snapShot.v_AllowSelection
   //
   // Form Message
   //
@@ -128,9 +141,17 @@ const QuizSelect = () => {
     savedValues.qgroup3 = values.qgroup3
     savedValues.MaxQuestions = values.MaxQuestions
     //
+    // Clear the store
+    //
+    if (g_log1) console.log('clear v_Data')
+    ValtioStore.v_Data = []
+    if (g_log1) console.log('clear v_Quest')
+    ValtioStore.v_Quest = []
+    //
     //  Test mode then filter v_Data to v_Quest, else populate v_Data/v_Quest from server
     //
-    snapShot.v_TestData ? filterData() : getServerData()
+    if (g_log1) console.log(snapShot.v_TestData)
+    snapShot.v_TestData ? testData() : getServerData()
   }
   //...................................................................................
   //.  Get Data from server
@@ -167,6 +188,11 @@ const QuizSelect = () => {
       //
       else {
         //
+        // update ValtioStore - Data
+        //
+        if (g_log1) console.log('update v_Data', data)
+        ValtioStore.v_Data = data
+        //
         // Sort Data
         //
         const sortedData = randomSort(data)
@@ -198,31 +224,18 @@ const QuizSelect = () => {
   //...................................................................................
   //.  Filter v_Data into v_Quest
   //...................................................................................
-  const filterData = () => {
-    if (g_log1) console.log('filterData')
+  const testData = () => {
+    if (g_log1) console.log('testData')
     //
     //  Get unfiltered data
     //
-    const data = snapShot.v_Data
+    const { QUESTIONS_DATA } = require('./QuizTestData.js')
+    const data = QUESTIONS_DATA
     if (g_log1) console.log('Data ', data)
     //
     //  Filter
     //
     const filteredData = data.filter(question => {
-      if (g_log1)
-        console.log(
-          question.qowner,
-          question.qgroup1,
-          question.qgroup2,
-          question.qgroup3
-        )
-      if (g_log1)
-        console.log(
-          savedValues.qowner,
-          savedValues.qgroup1,
-          savedValues.qgroup2,
-          savedValues.qgroup3
-        )
       if (savedValues.qowner && question.qowner !== savedValues.qowner)
         return false
       if (savedValues.qgroup1 && question.qgroup1 !== savedValues.qgroup1)
@@ -242,9 +255,12 @@ const QuizSelect = () => {
       return
     }
     //
+    //  Save filtered data
+    //
+    ValtioStore.v_Data = filteredData
+    //
     // Sort Data
     //
-
     const sortedData = randomSort(filteredData)
     if (g_log1) console.log('sortedData ', sortedData)
     //
@@ -277,7 +293,6 @@ const QuizSelect = () => {
     true,
     validate
   )
-
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -308,6 +323,7 @@ const QuizSelect = () => {
                       onChange={handleInputChange}
                       options={QuizServices.getOwnerCollection()}
                       error={errors.qowner}
+                      disabled={disabled}
                     />
                   </Grid>
                 </Grid>
@@ -323,6 +339,7 @@ const QuizSelect = () => {
                       onChange={handleInputChange}
                       options={QuizServices.getGroup1Collection()}
                       error={errors.qgroup1}
+                      disabled={disabled}
                     />
                   </Grid>
                   <Grid item xs={4}>
@@ -332,6 +349,7 @@ const QuizSelect = () => {
                       value={values.qgroup2}
                       onChange={handleInputChange}
                       options={QuizServices.getGroup2Collection()}
+                      disabled={disabled}
                     />
                   </Grid>
                   <Grid item xs={4}>
@@ -341,6 +359,7 @@ const QuizSelect = () => {
                       value={values.qgroup3}
                       onChange={handleInputChange}
                       options={QuizServices.getGroup3Collection()}
+                      disabled={disabled}
                     />
                   </Grid>
                 </Grid>
