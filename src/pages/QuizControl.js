@@ -85,6 +85,11 @@ function QuizControl() {
       ValtioStore.v_Group2 = vpGroup2
       ValtioStore.v_Group3 = vpGroup3
       if (g_log1) console.log('snapShot.v_Page ', snapShot.v_Page)
+      //
+      //  Remove Parameters
+      //
+      // eslint-disable-next-line
+      history.replaceState({}, null, 'Params')
     }
   }
   //
