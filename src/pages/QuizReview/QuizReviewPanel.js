@@ -2,6 +2,7 @@
 //  Libraries
 //
 import { Typography, Box } from '@mui/material'
+import { green, red } from 'material-ui-colors'
 //
 //  Debug Settings
 //
@@ -38,7 +39,8 @@ export default function QuizReviewPanel({ quizRow, quizanswer }) {
         <QuizReviewCard
           key={1}
           field={qcorrect}
-          backgroundColor={quizanswer === 1 ? 'green' : 'white'}
+          style={{ color: green['A100'] }}
+          backgroundColor={quizanswer === 1 ? green.A100 : 'white'}
         />
       </Box>
 
@@ -61,7 +63,7 @@ export default function QuizReviewPanel({ quizRow, quizanswer }) {
           <QuizReviewCard
             key={index + 1}
             field={answer}
-            backgroundColor={quizanswer - 2 === index ? 'red' : 'white'}
+            backgroundColor={quizanswer - 2 === index ? red.A100 : 'white'}
           />
         ))}
       </Box>
