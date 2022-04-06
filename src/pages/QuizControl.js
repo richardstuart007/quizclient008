@@ -32,7 +32,7 @@ function QuizControl() {
   //
   //  Define the ValtioStore
   //
-  const snapShot = useSnapshot(ValtioStore, { sync: true })
+  const snapShot = useSnapshot(ValtioStore)
   if (g_log1) console.log('snapShot.v_Page ', snapShot.v_Page)
   //
   //  Get the URL Parameters (once only)
@@ -88,8 +88,12 @@ function QuizControl() {
       //
       //  Remove Parameters
       //
-      // eslint-disable-next-line
-      // history.replaceState({}, null, 'Params')
+      const HideParams = snapShot.v_HideParams
+      if (HideParams) {
+        if (g_log1) console.log('Hide Parameters')
+        // eslint-disable-next-line
+        history.replaceState({}, null, 'Params')
+      }
     }
   }
   //

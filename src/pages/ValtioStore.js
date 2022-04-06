@@ -2,6 +2,7 @@ import { proxy } from 'valtio'
 
 const ValtioStore = proxy({
   v_Params: null,
+  v_HideParams: false,
   v_AllowSelection: true,
   v_TestData: true,
   v_Page: 'QuizTest',

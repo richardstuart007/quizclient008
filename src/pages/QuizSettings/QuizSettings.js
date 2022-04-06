@@ -41,13 +41,15 @@ const QuizSettings = () => {
   //  Initial Values
   //
   const initialFValues = {
-    z_TestData: snapShot.v_TestData
+    z_TestData: snapShot.v_TestData,
+    z_HideParams: snapShot.v_HideParams
   }
   //
   //  Saved Values on Submit
   //
   const savedValues = {
-    z_TestData: false
+    z_TestData: false,
+    z_HideParams: false
   }
   //.............................................................................
   //.  Input field validation
@@ -56,6 +58,7 @@ const QuizSettings = () => {
     if (g_log1) console.log('fieldValues ', fieldValues)
     let temp = { ...errors }
     if ('z_TestData' in fieldValues) temp.z_TestData = ''
+    if ('z_HideParams' in fieldValues) temp.z_HideParams = ''
     setErrors({
       ...temp
     })
@@ -89,6 +92,7 @@ const QuizSettings = () => {
     if (g_log1) console.log('Update Store: z_TestData ', savedValues.z_TestData)
     ValtioStore.v_Page = 'QuizTest'
     ValtioStore.v_TestData = savedValues.z_TestData
+    ValtioStore.v_HideParams = savedValues.z_HideParams
   }
   //...................................................................................
   //.  Main Line
@@ -119,9 +123,8 @@ const QuizSettings = () => {
               icon={<Storage fontSize='large' />}
             />
             <QForm>
+              {/*.................................................................................................*/}
               <Grid container spacing={2}>
-                {/*.................................................................................................*/}
-
                 <Grid item xs={6}>
                   <MyCheckbox
                     name='z_TestData'
@@ -129,6 +132,16 @@ const QuizSettings = () => {
                     value={values.z_TestData}
                     onChange={handleInputChange}
                     error={errors.z_TestData}
+                  />
+                </Grid>
+
+                <Grid item xs={6}>
+                  <MyCheckbox
+                    name='z_HideParams'
+                    label='Hide Params'
+                    value={values.z_HideParams}
+                    onChange={handleInputChange}
+                    error={errors.z_HideParams}
                   />
                 </Grid>
               </Grid>
