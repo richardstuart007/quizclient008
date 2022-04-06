@@ -9,6 +9,7 @@ export const getGroup1Collection = () => [
   { id: 'Doubles', title: 'Doubles' },
   { id: 'Carol', title: 'Carol' },
   { id: 'WBF', title: 'WBF' },
+  { id: 'TwoWayCheckback', title: 'TwoWayCheckback' },
   { id: 'Points Schmoints', title: 'Points Schmoints' }
 ]
 

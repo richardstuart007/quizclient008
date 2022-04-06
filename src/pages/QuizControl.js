@@ -89,7 +89,7 @@ function QuizControl() {
       //  Remove Parameters
       //
       // eslint-disable-next-line
-      history.replaceState({}, null, 'Params')
+      // history.replaceState({}, null, 'Params')
     }
   }
   //
