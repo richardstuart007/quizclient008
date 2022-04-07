@@ -1,7 +1,7 @@
 //
 //  Libraries
 //
-import { Typography, Box } from '@mui/material'
+import { Typography, Box, Button } from '@mui/material'
 import { teal } from 'material-ui-colors'
 //.............................................................................
 //.  Initialisation
@@ -20,6 +20,18 @@ const QuizHeader = ({ quizRow, quizQuestion }) => {
   //
   if (g_log1) console.log('quizRow ', quizRow)
   const { qdetail } = quizRow
+  let hyperLink
+  qdetail.substring(0, 8) === 'https://'
+    ? (hyperLink = true)
+    : (hyperLink = false)
+  if (g_log1) console.log('hyperLink ', hyperLink)
+  //
+  //  Hyperlink open
+  //
+  const openTab = hyperlink => () => {
+    if (g_log1) console.log('hyperlink ', hyperlink)
+    window.open(hyperlink, '_blank')
+  }
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -34,11 +46,25 @@ const QuizHeader = ({ quizRow, quizQuestion }) => {
           Question {quizQuestion}
         </Typography>
 
-        <Box>
-          <Typography variant='h6' style={{ color: 'blue' }} gutterBottom>
-            {qdetail}
-          </Typography>
-        </Box>
+        {hyperLink && (
+          <Button
+            onClick={openTab(qdetail)}
+            type='submit'
+            style={{ color: 'blue' }}
+            variant='outlined'
+            size='small'
+          >
+            Question
+          </Button>
+        )}
+
+        {!hyperLink && (
+          <Box>
+            <Typography variant='h6' style={{ color: 'blue' }} gutterBottom>
+              {qdetail}
+            </Typography>
+          </Box>
+        )}
       </Box>
     </div>
   )
