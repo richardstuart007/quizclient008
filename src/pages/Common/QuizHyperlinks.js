@@ -1,7 +1,11 @@
 //
 //  Libraries
 //
-import { Typography, Button, Box } from '@mui/material'
+import { Box } from '@mui/material'
+//
+//  Controls
+//
+import MyButton from '../../components/controls/MyButton'
 //.............................................................................
 //.  Initialisation
 //.............................................................................
@@ -37,31 +41,26 @@ const QuizHyperlinks = ({ quizRow }) => {
   return (
     <>
       <Box>
-        <Typography variant='subtitle2' gutterBottom>
-          Help Articles
-        </Typography>
         {qhl1 && (
-          <Button
+          <MyButton
             onClick={openTab(qhl1)}
             type='submit'
             style={{ color: 'blue' }}
             variant='outlined'
             size='small'
-          >
-            Article1
-          </Button>
+            text='Help Article1'
+          ></MyButton>
         )}
 
         {qhl2 && (
-          <Button
+          <MyButton
             onClick={openTab(qhl2)}
             type='submit'
             style={{ color: 'blue' }}
             variant='outlined'
             size='small'
-          >
-            Article2
-          </Button>
+            text='Help Article2'
+          ></MyButton>
         )}
       </Box>
     </>

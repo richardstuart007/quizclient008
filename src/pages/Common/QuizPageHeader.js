@@ -1,19 +1,19 @@
-import { Paper, Card, Typography } from '@mui/material';
+import { Paper, Card, Typography } from '@mui/material'
 
-import makeStyles from '@mui/styles/makeStyles';
+import makeStyles from '@mui/styles/makeStyles'
 
 const useStyles = makeStyles(theme => ({
   root: {
     backgroundColor: '#fdfdff'
   },
   pageHeader: {
-    padding: theme.spacing(2),
+    // padding: theme.spacing(0),
     display: 'flex',
-    marginBottom: theme.spacing(2)
+    marginBottom: theme.spacing(1)
   },
   pageIcon: {
     display: 'inline-block',
-    padding: theme.spacing(2),
+    padding: theme.spacing(1),
     color: '#3c44b1'
   },
   pageTitle: {

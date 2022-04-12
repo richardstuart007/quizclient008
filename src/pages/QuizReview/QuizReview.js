@@ -165,7 +165,6 @@ const QuizReview = () => {
 
       <QuizHeader quizRow={quizRow} quizQuestion={rowIdx + 1} />
       <QuizReviewPanel quizRow={quizRow} quizanswer={quizAns[rowIdx]} />
-      <QuizHyperlinks quizRow={quizRow} />
 
       <Box sx={{ mt: 2 }}>
         <MyButton
@@ -185,10 +184,9 @@ const QuizReview = () => {
         />
       </Box>
 
+      <QuizHyperlinks quizRow={quizRow} />
+
       <Box sx={{ mt: 2 }}>
-        <Typography variant='subtitle2' gutterBottom>
-          Navigation
-        </Typography>
         <MyButton
           type='submit'
           text='Restart'
@@ -218,6 +216,7 @@ const QuizReview = () => {
           }}
         />
       </Box>
+
       <QuizInfo />
     </>
   )

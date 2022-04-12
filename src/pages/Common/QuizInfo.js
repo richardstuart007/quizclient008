@@ -36,7 +36,7 @@ const QuizInfo = () => {
   //...................................................................................
   return (
     <footer>
-      <Box bgcolor='DodgerBlue' color='white' sx={{ p: 2, mt: 2 }}>
+      <Box bgcolor='DodgerBlue' color='white' sx={{ p: 1, mt: 1 }}>
         <Container maxWidth='lg'>
           <Grid container spacing={5}>
             <Grid item xs={12} sm={4}>

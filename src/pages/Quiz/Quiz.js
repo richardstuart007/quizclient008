@@ -3,7 +3,7 @@
 //
 import { useState } from 'react'
 import { useSnapshot } from 'valtio'
-import { Typography, Box } from '@mui/material'
+import { Box } from '@mui/material'
 import { QuestionAnswer } from '@mui/icons-material'
 //
 //  Debug Settings
@@ -179,10 +179,6 @@ const Quiz = () => {
       ></QuizLinearProgress>
 
       <Box sx={{ mt: 2 }}>
-        <Typography variant='subtitle2' gutterBottom>
-          Navigation
-        </Typography>
-
         <MyButton
           type='submit'
           text='Restart'

@@ -102,10 +102,6 @@ const QuizResults = () => {
         />
       </Box>
       <Box sx={{ mt: 2 }}>
-        <Typography variant='subtitle2' gutterBottom>
-          Navigation
-        </Typography>
-
         <MyButton
           type='submit'
           text='Restart'

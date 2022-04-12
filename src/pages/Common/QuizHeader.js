@@ -1,8 +1,12 @@
 //
 //  Libraries
 //
-import { Typography, Box, Button } from '@mui/material'
+import { Typography, Box } from '@mui/material'
 import { teal } from 'material-ui-colors'
+//
+//  Components
+//
+import MyButton from '../../components/controls/MyButton'
 //.............................................................................
 //.  Initialisation
 //.............................................................................
@@ -47,15 +51,14 @@ const QuizHeader = ({ quizRow, quizQuestion }) => {
         </Typography>
 
         {hyperLink && (
-          <Button
+          <MyButton
             onClick={openTab(qdetail)}
             type='submit'
             style={{ color: 'blue' }}
             variant='outlined'
             size='small'
-          >
-            Question
-          </Button>
+            text='Question'
+          ></MyButton>
         )}
 
         {!hyperLink && (
