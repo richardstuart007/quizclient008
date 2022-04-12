@@ -4008,7 +4008,7 @@ exports.QUESTIONS_DATA = [
     qowner: 'public',
     qkey: 'BergenRaises10',
     qdetail:
-      "What do you respond to partner's 1S with 5 card support and 0-5 hcp, VUL and NO singleton ?",
+      "What do you respond to partner's 1H with 5 card support and 0-5 hcp, VUL and NO singleton ?",
     qcorrect: '3H',
     qbad1: '4H',
     qbad2: '3D',
@@ -4024,7 +4024,7 @@ exports.QUESTIONS_DATA = [
     qowner: 'public',
     qkey: 'BergenRaises11',
     qdetail:
-      "What do you respond to partner's 1S with 5 card support and 0-5 hcp, VUL and a SINGLETON ?",
+      "What do you respond to partner's 1H with 5 card support and 0-5 hcp, VUL and a SINGLETON ?",
     qcorrect: '4H',
     qbad1: '3H',
     qbad2: '3D',
@@ -4040,7 +4040,7 @@ exports.QUESTIONS_DATA = [
     qowner: 'public',
     qkey: 'BergenRaises12',
     qdetail:
-      "What do you respond to partner's 1S with 5 card support and 0-5 hcp, NON-VUL and NO singleton ?",
+      "What do you respond to partner's 1H with 5 card support and 0-5 hcp, NON-VUL and NO singleton ?",
     qcorrect: '4H',
     qbad1: '3H',
     qbad2: '3D',
@@ -4056,7 +4056,7 @@ exports.QUESTIONS_DATA = [
     qowner: 'public',
     qkey: 'BergenRaises13',
     qdetail:
-      "What do you respond to partner's 1S with 5 card support and 0-5 hcp, NON-VUL and a SINGLETON ?",
+      "What do you respond to partner's 1H with 5 card support and 0-5 hcp, NON-VUL and a SINGLETON ?",
     qcorrect: '4H',
     qbad1: '3H',
     qbad2: '3D',
