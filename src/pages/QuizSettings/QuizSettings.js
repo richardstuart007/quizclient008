@@ -89,10 +89,13 @@ const QuizSettings = () => {
     //
     if (g_log1) console.log(values)
     savedValues.z_TestData = values.z_TestData
+    savedValues.z_HideParams = values.z_HideParams
+    savedValues.z_ShowInfo = values.z_ShowInfo
     //
     //  Update Store
     //
     if (g_log1) console.log('Update Store: z_TestData ', savedValues.z_TestData)
+    if (g_log1) console.log('Update Store: z_ShowInfo ', savedValues.z_ShowInfo)
     ValtioStore.v_Page = 'QuizTest'
     ValtioStore.v_TestData = savedValues.z_TestData
     ValtioStore.v_HideParams = savedValues.z_HideParams
@@ -109,6 +112,7 @@ const QuizSettings = () => {
     true,
     validate
   )
+  if (g_log1) console.log('initialFValues ', initialFValues)
   //...................................................................................
   //.  Render the form
   //...................................................................................

@@ -29,7 +29,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //
 //  Global store variables
 //
@@ -79,7 +79,7 @@ const Quiz = () => {
     if (g_log1) console.log('g_questCount ', g_questCount)
     if (g_log1) console.log('g_quizRow ', g_quizRow)
     //
-    // Update Answers
+    // Reset Answers
     //
     ValtioStore.v_ResetAns = []
     setAnsPass(0)
@@ -144,7 +144,7 @@ const Quiz = () => {
     return <p style={{ color: 'red' }}>No data</p>
   }
   //
-  //  Set Help Article
+  //  Set Help Article (for layout button)
   //
   if (g_log1) console.log('g_quizRow.qhl1 ', g_quizRow.qhl1)
   ValtioStore.v_Help = g_quizRow.qhl1

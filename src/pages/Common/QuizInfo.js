@@ -7,6 +7,13 @@ import { useSnapshot } from 'valtio'
 //  Utilities
 //
 import { ValtioStore } from '../ValtioStore'
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
+// Debug Settings
+//
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizInfo = () => {
   //...................................................................................
@@ -34,7 +41,8 @@ const QuizInfo = () => {
   //  Show Info ?
   //
   const ShowInfo = snapShot.v_ShowInfo
-  if (!ShowInfo) return null
+  if (g_log1) console.log('ShowInfo ', ShowInfo)
+  if (ShowInfo === false) return null
   //...................................................................................
   //.  Render the form
   //...................................................................................

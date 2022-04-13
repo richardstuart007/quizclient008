@@ -5,7 +5,7 @@ import { useSnapshot } from 'valtio'
 import { useState } from 'react'
 import { Formik, Form } from 'formik'
 import { Container, Grid, Typography } from '@mui/material'
-import { Storage } from '@mui/icons-material'
+import { DataArray } from '@mui/icons-material'
 //
 //  Debug Settings
 //
@@ -310,7 +310,7 @@ const QuizSelect = () => {
               <QuizPageHeader
                 title='Question Selection'
                 subTitle='Select the question data-set'
-                icon={<Storage fontSize='large' />}
+                icon={<DataArray fontSize='large' />}
               />
               <QForm>
                 {/*.................................................................................................*/}

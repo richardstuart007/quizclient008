@@ -54,7 +54,7 @@ const useStyles = makeStyles(theme => {
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 export default function Layout({ children }) {
   const classes = useStyles()
@@ -63,6 +63,11 @@ export default function Layout({ children }) {
   //
   const snapShot = useSnapshot(ValtioStore)
   //
+  //  Show Refresh Button ?
+  //
+  let showButtonRefresh = true
+  if (snapShot.v_Page === 'QuizSelect') showButtonRefresh = false
+  //
   //  Show Review Button ?
   //
   if (g_log1) console.log('snapShot.v_Ans ', snapShot.v_Ans)
@@ -70,6 +75,7 @@ export default function Layout({ children }) {
   snapShot.v_Ans.length > 0
     ? (showButtonReview = true)
     : (showButtonReview = false)
+  if (snapShot.v_Page === 'QuizReview') showButtonReview = false
   //
   //  Show Help Button ?
   //
@@ -134,16 +140,18 @@ export default function Layout({ children }) {
             ) : null}
 
             {/* .......................................................................................... */}
-            <MyActionButton
-              color='warning'
-              onClick={() => {
-                ValtioStore.v_Page = 'QuizSelect'
-                ValtioStore.v_Help = ''
-                ValtioStore.v_Ans = []
-              }}
-            >
-              <RefreshIcon fontSize='large' />
-            </MyActionButton>
+            {showButtonRefresh ? (
+              <MyActionButton
+                color='warning'
+                onClick={() => {
+                  ValtioStore.v_Page = 'QuizSelect'
+                  ValtioStore.v_Help = ''
+                  ValtioStore.v_Ans = []
+                }}
+              >
+                <RefreshIcon fontSize='large' />
+              </MyActionButton>
+            ) : null}
             {/* .......................................................................................... */}
             <Grid item>
               <Typography className={classes.date}>
