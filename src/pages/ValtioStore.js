@@ -3,6 +3,7 @@ import { proxy } from 'valtio'
 const ValtioStore = proxy({
   v_Params: null,
   v_HideParams: false,
+  v_ShowInfo: false,
   v_AllowSelection: true,
   v_TestData: true,
   v_Page: 'QuizTest',
@@ -16,7 +17,8 @@ const ValtioStore = proxy({
   v_Quest: [],
   v_Ans: [],
   v_Reset: true,
-  v_MaxQuestions: 0
+  v_MaxQuestions: 0,
+  v_Help: ''
 })
 
 export { ValtioStore }

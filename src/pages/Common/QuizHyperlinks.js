@@ -2,6 +2,7 @@
 //  Libraries
 //
 import { Box } from '@mui/material'
+import { orange } from 'material-ui-colors'
 //
 //  Controls
 //
@@ -45,7 +46,7 @@ const QuizHyperlinks = ({ quizRow }) => {
           <MyButton
             onClick={openTab(qhl1)}
             type='submit'
-            style={{ color: 'blue' }}
+            style={{ color: orange['A700'] }}
             variant='outlined'
             size='small'
             text='Help Article1'
@@ -56,7 +57,7 @@ const QuizHyperlinks = ({ quizRow }) => {
           <MyButton
             onClick={openTab(qhl2)}
             type='submit'
-            style={{ color: 'blue' }}
+            style={{ color: orange['A700'] }}
             variant='outlined'
             size='small'
             text='Help Article2'

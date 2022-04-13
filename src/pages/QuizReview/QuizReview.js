@@ -22,7 +22,6 @@ import QuizReviewPanel from './QuizReviewPanel'
 //
 import QuizPageHeader from '../Common/QuizPageHeader'
 import QuizHeader from '../Common/QuizHeader'
-import QuizHyperlinks from '../Common/QuizHyperlinks'
 import QuizInfo from '../Common/QuizInfo'
 //
 //  Utilities
@@ -42,6 +41,7 @@ const QuizReview = () => {
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
+
   //
   //  Define the State variables
   //
@@ -147,6 +147,18 @@ const QuizReview = () => {
   //  Deconstruct row
   //
   if (g_log1) console.log('quizRow ', quizRow)
+  //
+  //  Set Help Article
+  //
+  if (g_log1) console.log('quizRow.qhl1 ', quizRow.qhl1)
+  ValtioStore.v_Help = quizRow.qhl1
+  //
+  //  Hide/Show Previous/Next Buttons
+  //
+  let hidePreviousButton
+  rowIdx + 1 === 1 ? (hidePreviousButton = true) : (hidePreviousButton = false)
+  let hideNextButton
+  rowIdx + 1 === ansCount ? (hideNextButton = true) : (hideNextButton = false)
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -167,54 +179,24 @@ const QuizReview = () => {
       <QuizReviewPanel quizRow={quizRow} quizanswer={quizAns[rowIdx]} />
 
       <Box sx={{ mt: 2 }}>
-        <MyButton
-          type='submit'
-          text='Previous'
-          color='primary'
-          variant='contained'
-          onClick={() => handlePrevious()}
-        />
-
-        <MyButton
-          type='submit'
-          text='Next'
-          color='primary'
-          variant='contained'
-          onClick={() => nextQuestion()}
-        />
-      </Box>
-
-      <QuizHyperlinks quizRow={quizRow} />
-
-      <Box sx={{ mt: 2 }}>
-        <MyButton
-          type='submit'
-          text='Restart'
-          color='secondary'
-          variant='outlined'
-          onClick={() => {
-            ValtioStore.v_Reset = true
-            ValtioStore.v_Page = 'Quiz'
-          }}
-        />
-        <MyButton
-          type='submit'
-          text='NewQuiz'
-          color='secondary'
-          variant='outlined'
-          onClick={() => {
-            ValtioStore.v_Page = 'QuizSelect'
-          }}
-        />
-        <MyButton
-          type='submit'
-          text='Quit'
-          color='secondary'
-          variant='outlined'
-          onClick={() => {
-            ValtioStore.v_Page = 'QuizGoodbye'
-          }}
-        />
+        {hidePreviousButton ? null : (
+          <MyButton
+            type='submit'
+            text='Previous'
+            color='primary'
+            variant='contained'
+            onClick={() => handlePrevious()}
+          />
+        )}
+        {hideNextButton ? null : (
+          <MyButton
+            type='submit'
+            text='Next'
+            color='primary'
+            variant='contained'
+            onClick={() => nextQuestion()}
+          />
+        )}
       </Box>
 
       <QuizInfo />

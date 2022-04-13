@@ -3,16 +3,11 @@
 //
 import { useState } from 'react'
 import { useSnapshot } from 'valtio'
-import { Box } from '@mui/material'
 import { QuestionAnswer } from '@mui/icons-material'
 //
 //  Debug Settings
 //
 import debugSettings from '../../debug/debugSettings'
-//
-//  Controls
-//
-import MyButton from '../../components/controls/MyButton'
 //
 //  Sub Components
 //
@@ -22,7 +17,6 @@ import QuizPanel from './QuizPanel'
 //
 import QuizPageHeader from '../Common/QuizPageHeader'
 import QuizHeader from '../Common/QuizHeader'
-import QuizHyperlinks from '../Common/QuizHyperlinks'
 import QuizLinearProgress from '../Common/QuizLinearProgress'
 import QuizInfo from '../Common/QuizInfo'
 //
@@ -35,7 +29,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
+const g_log1 = debugSettings(true)
 //
 //  Global store variables
 //
@@ -116,7 +110,7 @@ const Quiz = () => {
     //
     if (g_Idx + 1 >= g_questCount) {
       if (g_log1) console.log('v_Ans', snapShot.v_Ans)
-      ValtioStore.v_Page = 'QuizResults'
+      ValtioStore.v_Page = 'QuizReview'
       return
     }
     //
@@ -149,6 +143,11 @@ const Quiz = () => {
     if (g_log1) console.log('No data')
     return <p style={{ color: 'red' }}>No data</p>
   }
+  //
+  //  Set Help Article
+  //
+  if (g_log1) console.log('g_quizRow.qhl1 ', g_quizRow.qhl1)
+  ValtioStore.v_Help = g_quizRow.qhl1
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -166,7 +165,7 @@ const Quiz = () => {
         quizRow={g_quizRow}
         handleSelect={handleSelect}
       />
-      <QuizHyperlinks quizRow={g_quizRow} />
+
       <QuizLinearProgress
         count={ansCount}
         total={g_questCount}
@@ -177,46 +176,6 @@ const Quiz = () => {
         total={ansCount}
         text={'Score'}
       ></QuizLinearProgress>
-
-      <Box sx={{ mt: 2 }}>
-        <MyButton
-          type='submit'
-          text='Restart'
-          color='secondary'
-          variant='outlined'
-          onClick={() => {
-            ValtioStore.v_Reset = true
-          }}
-        />
-        <MyButton
-          type='submit'
-          text='NewQuiz'
-          color='secondary'
-          variant='outlined'
-          onClick={() => {
-            ValtioStore.v_Page = 'QuizSelect'
-          }}
-        />
-        <MyButton
-          type='submit'
-          text='Results'
-          color='secondary'
-          variant='outlined'
-          onClick={() => {
-            ValtioStore.v_Page = 'QuizResults'
-          }}
-        />
-
-        <MyButton
-          type='submit'
-          text='Quit'
-          color='secondary'
-          variant='outlined'
-          onClick={() => {
-            ValtioStore.v_Page = 'QuizGoodbye'
-          }}
-        />
-      </Box>
 
       <QuizInfo />
     </>

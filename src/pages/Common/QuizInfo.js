@@ -30,7 +30,11 @@ const QuizInfo = () => {
   snapShot.v_TestData === true
     ? (DataSource = 'Static')
     : (DataSource = 'Server')
-
+  //
+  //  Show Info ?
+  //
+  const ShowInfo = snapShot.v_ShowInfo
+  if (!ShowInfo) return null
   //...................................................................................
   //.  Render the form
   //...................................................................................

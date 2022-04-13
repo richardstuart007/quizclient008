@@ -19,7 +19,6 @@ import MyFormikTextField from '../../components/controls/MyFormikTextField'
 //  Common Sub Components
 //
 import QuizPageHeader from '../Common/QuizPageHeader'
-import QuizInfo from '../Common/QuizInfo'
 //
 //  Utilities
 //
@@ -159,7 +158,6 @@ function QuizTest() {
           </Formik>
         </Container>
       </Grid>
-      <QuizInfo />
     </>
   )
 }
