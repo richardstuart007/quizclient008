@@ -313,10 +313,9 @@ const QuizSelect = () => {
                 icon={<DataArray fontSize='large' />}
               />
               <QForm>
-                {/*.................................................................................................*/}
-
                 <Grid container spacing={2}>
-                  <Grid item xs={4}>
+                  {/*.................................................................................................*/}
+                  <Grid item xs={12}>
                     <MySelect
                       name='qowner'
                       label='Owner'
@@ -327,12 +326,10 @@ const QuizSelect = () => {
                       disabled={disabled}
                     />
                   </Grid>
-                </Grid>
 
-                {/*.................................................................................................*/}
+                  {/*.................................................................................................*/}
 
-                <Grid container spacing={2}>
-                  <Grid item xs={4}>
+                  <Grid item xs={12}>
                     <MySelect
                       name='qgroup1'
                       label='Group1'
@@ -343,7 +340,7 @@ const QuizSelect = () => {
                       disabled={disabled}
                     />
                   </Grid>
-                  <Grid item xs={4}>
+                  <Grid item xs={12}>
                     <MySelect
                       name='qgroup2'
                       label='Group2'
@@ -353,7 +350,7 @@ const QuizSelect = () => {
                       disabled={disabled}
                     />
                   </Grid>
-                  <Grid item xs={4}>
+                  <Grid item xs={12}>
                     <MySelect
                       name='qgroup3'
                       label='Group3'
@@ -363,11 +360,10 @@ const QuizSelect = () => {
                       disabled={disabled}
                     />
                   </Grid>
-                </Grid>
 
-                {/*.................................................................................................*/}
-                <Grid container spacing={2}>
-                  <Grid item xs={4}>
+                  {/*.................................................................................................*/}
+
+                  <Grid item xs={12}>
                     <MyInput
                       name='MaxQuestions'
                       label='MaxQuestions'

@@ -43,7 +43,9 @@ const QuizSettings = () => {
   const initialFValues = {
     z_TestData: snapShot.v_TestData,
     z_HideParams: snapShot.v_HideParams,
-    z_ShowInfo: snapShot.v_ShowInfo
+    z_ShowInfo: snapShot.v_ShowInfo,
+    z_ShowLinearProgress: snapShot.v_ShowLinearProgress,
+    z_ShowLinearScore: snapShot.v_ShowLinearScore
   }
   //
   //  Saved Values on Submit
@@ -51,7 +53,9 @@ const QuizSettings = () => {
   const savedValues = {
     z_TestData: false,
     z_HideParams: false,
-    z_ShowInfo: false
+    z_ShowInfo: false,
+    z_ShowLinearProgress: false,
+    z_ShowLinearScore: false
   }
   //.............................................................................
   //.  Input field validation
@@ -62,6 +66,8 @@ const QuizSettings = () => {
     if ('z_TestData' in fieldValues) temp.z_TestData = ''
     if ('z_HideParams' in fieldValues) temp.z_HideParams = ''
     if ('z_ShowInfo' in fieldValues) temp.z_ShowInfo = ''
+    if ('z_ShowLinearProgress' in fieldValues) temp.z_ShowLinearProgress = ''
+    if ('z_ShowLinearScore' in fieldValues) temp.z_ShowLinearScore = ''
     setErrors({
       ...temp
     })
@@ -91,6 +97,8 @@ const QuizSettings = () => {
     savedValues.z_TestData = values.z_TestData
     savedValues.z_HideParams = values.z_HideParams
     savedValues.z_ShowInfo = values.z_ShowInfo
+    savedValues.z_ShowLinearProgress = values.z_ShowLinearProgress
+    savedValues.z_ShowLinearScore = values.z_ShowLinearScore
     //
     //  Update Store
     //
@@ -100,6 +108,8 @@ const QuizSettings = () => {
     ValtioStore.v_TestData = savedValues.z_TestData
     ValtioStore.v_HideParams = savedValues.z_HideParams
     ValtioStore.v_ShowInfo = savedValues.z_ShowInfo
+    ValtioStore.v_ShowLinearProgress = savedValues.z_ShowLinearProgress
+    ValtioStore.v_ShowLinearScore = savedValues.z_ShowLinearScore
   }
   //...................................................................................
   //.  Main Line
@@ -161,6 +171,26 @@ const QuizSettings = () => {
                   value={values.z_ShowInfo}
                   onChange={handleInputChange}
                   error={errors.z_ShowInfo}
+                />
+              </Grid>
+
+              <Grid item xs={4}>
+                <MyCheckbox
+                  name='z_ShowLinearProgress'
+                  label='Show Linear Progress'
+                  value={values.z_ShowLinearProgress}
+                  onChange={handleInputChange}
+                  error={errors.z_ShowLinearProgress}
+                />
+              </Grid>
+
+              <Grid item xs={4}>
+                <MyCheckbox
+                  name='z_ShowLinearScore'
+                  label='Show Linear Score'
+                  value={values.z_ShowLinearScore}
+                  onChange={handleInputChange}
+                  error={errors.z_ShowLinearScore}
                 />
               </Grid>
 

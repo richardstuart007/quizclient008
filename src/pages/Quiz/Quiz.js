@@ -45,6 +45,11 @@ const Quiz = () => {
   //
   const snapShot = useSnapshot(ValtioStore)
   //
+  //  Show Linear Bars ?
+  //
+  const showLinearProgress = snapShot.v_ShowLinearProgress
+  const showLinearScore = snapShot.v_ShowLinearScore
+  //
   //  Define the State variables
   //
   const [ansPass, setAnsPass] = useState(0)
@@ -166,16 +171,22 @@ const Quiz = () => {
         handleSelect={handleSelect}
       />
 
-      <QuizLinearProgress
-        count={ansCount}
-        total={g_questCount}
-        text={'Progress'}
-      />
-      <QuizLinearProgress
-        count={ansPass}
-        total={ansCount}
-        text={'Score'}
-      ></QuizLinearProgress>
+      {/* .......................................................................................... */}
+      {showLinearProgress ? (
+        <QuizLinearProgress
+          count={ansCount}
+          total={g_questCount}
+          text={'Progress'}
+        />
+      ) : null}
+      {/* .......................................................................................... */}
+      {showLinearScore ? (
+        <QuizLinearProgress
+          count={ansPass}
+          total={ansCount}
+          text={'Score'}
+        ></QuizLinearProgress>
+      ) : null}
 
       <QuizInfo />
     </>

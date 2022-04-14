@@ -16,7 +16,6 @@ import QuizSignin from './QuizSignin/QuizSignin'
 import QuizSelect from './QuizSelect/QuizSelect'
 import Quiz from './Quiz/Quiz'
 import QuizReview from './QuizReview/QuizReview'
-import QuizGoodbye from './QuizGoodbye/QuizGoodbye'
 //
 //  Utilities
 //
@@ -57,6 +56,8 @@ function QuizControl() {
       const vpGroup1 = urlParams.get('group1')
       const vpGroup2 = urlParams.get('group2')
       const vpGroup3 = urlParams.get('group3')
+      const vpShowLinearProgress = urlParams.get('ShowLinearProgress')
+      const vpShowLinearScore = urlParams.get('ShowLinearScore')
       if (g_log1) console.log('vpTestData ', vpTestData)
       if (g_log1) console.log('vpAllowSelection ', vpAllowSelection)
       if (g_log1) console.log('vppage ', vpPage)
@@ -83,6 +84,12 @@ function QuizControl() {
       ValtioStore.v_Group1 = vpGroup1
       ValtioStore.v_Group2 = vpGroup2
       ValtioStore.v_Group3 = vpGroup3
+      vpShowLinearProgress === 'false'
+        ? (ValtioStore.v_ShowLinearProgress = false)
+        : (ValtioStore.v_ShowLinearProgress = true)
+      vpShowLinearScore === 'false'
+        ? (ValtioStore.v_ShowLinearScore = false)
+        : (ValtioStore.v_ShowLinearScore = true)
       if (g_log1) console.log('snapShot.v_Page ', snapShot.v_Page)
       //
       //  Remove Parameters
@@ -118,8 +125,6 @@ function QuizControl() {
       return <Quiz />
     case 'QuizReview':
       return <QuizReview />
-    case 'QuizGoodbye':
-      return <QuizGoodbye />
     default:
       return <p>error</p>
   }

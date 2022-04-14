@@ -4,6 +4,8 @@ const ValtioStore = proxy({
   v_Params: null,
   v_HideParams: false,
   v_ShowInfo: false,
+  v_ShowLinearProgress: true,
+  v_ShowLinearScore: true,
   v_AllowSelection: true,
   v_TestData: true,
   v_Page: 'QuizTest',
