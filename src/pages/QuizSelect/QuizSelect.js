@@ -80,14 +80,12 @@ const QuizSelect = () => {
   //
   if (g_log1) console.log('Start QuizSelect')
   //
-  //  If parameters were passed in, set initial state
+  //  Set initial state
   //
-  if (snapShot.v_Params) {
-    initialFValues.qowner = snapShot.v_Owner
-    initialFValues.qgroup1 = snapShot.v_Group1
-    initialFValues.qgroup2 = snapShot.v_Group2
-    initialFValues.qgroup3 = snapShot.v_Group3
-  }
+  initialFValues.qowner = snapShot.v_Owner
+  initialFValues.qgroup1 = snapShot.v_Group1
+  initialFValues.qgroup2 = snapShot.v_Group2
+  initialFValues.qgroup3 = snapShot.v_Group3
   const disabled = !snapShot.v_AllowSelection
   //
   // Form Message
@@ -102,9 +100,6 @@ const QuizSelect = () => {
     if ('qowner' in fieldValues)
       temp.qowner =
         fieldValues.qowner.length !== 0 ? '' : 'This field is required.'
-    if ('qgroup1' in fieldValues)
-      temp.qgroup1 =
-        fieldValues.qgroup1.length !== 0 ? '' : 'This field is required.'
     if ('MaxQuestions' in fieldValues)
       temp.MaxQuestions =
         parseInt(fieldValues.MaxQuestions) > 0 &&
@@ -230,8 +225,8 @@ const QuizSelect = () => {
     //
     //  Get unfiltered data
     //
-    const { QUESTIONS_DATA } = require('./QuizTestData.js')
-    const data = QUESTIONS_DATA
+    const { QUESTIONS } = require('./DataQuestions.js')
+    const data = QUESTIONS
     if (g_log1) console.log('Data ', data)
     //
     //  Filter
@@ -278,6 +273,13 @@ const QuizSelect = () => {
     //
     if (g_log1) console.log('update v_Quest', quest)
     ValtioStore.v_Quest = quest
+    //
+    //  Hands and Bidding
+    //
+    const { HANDS } = require('./DataHands.js')
+    ValtioStore.v_Hands = HANDS
+    const { BIDDING } = require('./DataBidding.js')
+    ValtioStore.v_Bidding = BIDDING
     //
     //  Update other store values
     //

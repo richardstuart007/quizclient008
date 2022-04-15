@@ -16,6 +16,8 @@ const ValtioStore = proxy({
   v_Group2: '',
   v_Group3: '',
   v_Data: [],
+  v_Hands: [],
+  v_Bidding: [],
   v_Quest: [],
   v_Ans: [],
   v_Reset: true,

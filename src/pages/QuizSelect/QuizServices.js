@@ -25,5 +25,6 @@ export const getGroup2Collection = () => [
 
 export const getGroup3Collection = () => [
   { id: '', title: 'none' },
-  { id: 'richard', title: 'richard' }
+  { id: 'richard', title: 'richard' },
+  { id: 'Test', title: 'Test' }
 ]

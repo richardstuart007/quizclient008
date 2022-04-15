@@ -12,6 +12,8 @@ import debugSettings from '../../debug/debugSettings'
 //  Sub Components
 //
 import QuizPanel from './QuizPanel'
+import QuizHand from '../QuizHand/QuizHand'
+import QuizBidding from '../QuizBidding/QuizBidding'
 //
 //  Common Sub Components
 //
@@ -164,6 +166,8 @@ const Quiz = () => {
         icon={<QuestionAnswer fontSize='large' />}
       />
       <QuizHeader quizRow={g_quizRow} quizQuestion={g_Idx + 1} />
+      <QuizBidding qid={g_quizRow.qid} />
+      <QuizHand qid={g_quizRow.qid} />
 
       <QuizPanel
         key={g_quizRow.qid}
