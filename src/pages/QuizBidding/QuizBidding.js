@@ -1,7 +1,8 @@
 //
 //  Libraries
 //
-import { Box, Grid } from '@mui/material'
+import { Typography } from '@mui/material'
+import { teal } from 'material-ui-colors'
 import { useSnapshot } from 'valtio'
 //
 //  Debug Settings
@@ -70,8 +71,7 @@ const QuizBidding = ({ qid }) => {
     if (g_log1) console.log('level ', level)
     const bidObj = {
       bid: '',
-      suit: '',
-      src: ''
+      suit: ''
     }
     switch (level) {
       case 'P':
@@ -92,19 +92,6 @@ const QuizBidding = ({ qid }) => {
         } else {
           bidObj.bid = level
           bidObj.suit = bid.substr(1, 1)
-          switch (bidObj.suit) {
-            case 'C':
-              bidObj.src = './club.svg'
-              break
-            case 'D':
-              bidObj.src = './diamond.svg'
-              break
-            case 'H':
-              bidObj.src = './heart.svg'
-              break
-            default:
-              bidObj.src = './spade.svg'
-          }
           bidsArray.push(bidObj)
         }
         break
@@ -131,22 +118,21 @@ const QuizBidding = ({ qid }) => {
   //.  Render the form
   //...................................................................................
   return (
-    <div>
-      <Box sx={{ bgcolor: 'background.paper' }}>
-        <Grid container alignItems='center' justify='center'>
-          {roundsArray.map((innerArray, roundidx) => (
-            <>
-              <br />
-              <QuizBiddingLine
-                key={roundidx + 1}
-                round={innerArray}
-                roundidx={roundidx + 1}
-              />
-            </>
-          ))}
-        </Grid>
-      </Box>
-    </div>
+    <>
+      <Typography variant='subtitle2' style={{ color: teal['A700'] }}>
+        Bidding
+      </Typography>
+
+      {roundsArray.map((innerArray, roundidx) => (
+        <>
+          <QuizBiddingLine
+            key={roundidx + 1}
+            round={innerArray}
+            roundidx={roundidx + 1}
+          />
+        </>
+      ))}
+    </>
   )
 }
 

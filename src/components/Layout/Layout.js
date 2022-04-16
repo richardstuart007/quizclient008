@@ -19,6 +19,7 @@ import debugSettings from '../../debug/debugSettings'
 //  Components
 //
 import MyActionButton from '../controls/MyActionButton'
+import cards from '../../assets/cards.svg'
 //
 //  Utilities
 //
@@ -110,7 +111,7 @@ export default function Layout({ children }) {
           <Grid container alignItems='center'>
             {/* .......................................................................................... */}
             <Grid item>
-              <Avatar className={classes.avatar} src='./cards.svg' />
+              <Avatar className={classes.avatar} src={cards} />
             </Grid>
             {/* .......................................................................................... */}
             <Grid item>
