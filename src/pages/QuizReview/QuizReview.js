@@ -17,6 +17,8 @@ import MyButton from '../../components/controls/MyButton'
 //  Sub Components
 //
 import QuizReviewPanel from './QuizReviewPanel'
+import QuizHand from '../QuizHand/QuizHand'
+import QuizBidding from '../QuizBidding/QuizBidding'
 //
 //  Common Components
 //
@@ -176,6 +178,8 @@ const QuizReview = () => {
       </Box>
 
       <QuizHeader quizRow={quizRow} quizQuestion={rowIdx + 1} />
+      <QuizBidding qid={quizRow.qid} />
+      <QuizHand qid={quizRow.qid} />
       <QuizReviewPanel quizRow={quizRow} quizanswer={quizAns[rowIdx]} />
 
       <Box sx={{ mt: 2 }}>

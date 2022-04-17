@@ -21,7 +21,7 @@ exports.BIDDING = [
   },
   {
     bid: 220,
-    bbidding: ['1C', 'Pass', '1S', 'Pass', '1NT']
+    bbidding: ['1C', 'Pass', '1S', 'Pass', '1NT', 'Pass']
   },
   {
     bid: 221,
@@ -49,7 +49,18 @@ exports.BIDDING = [
   },
   {
     bid: 224,
-    bbidding: ['1D', 'Pass', '1S', 'Pass', '1NT', 'Pass', '2D', 'Pass', '2H']
+    bbidding: [
+      '1D',
+      'Pass',
+      '1S',
+      'Pass',
+      '1NT',
+      'Pass',
+      '2D',
+      'Pass',
+      '2H',
+      'Pass'
+    ]
   },
   {
     bid: 225,

@@ -107,7 +107,7 @@ const QuizBidding = ({ qid }) => {
   bidsArray.forEach(bidObj => {
     i++
     roundArray.push(bidObj)
-    if (i === 4) {
+    if (i % 4 === 0) {
       roundsArray.push(roundArray)
       roundArray = []
     }
