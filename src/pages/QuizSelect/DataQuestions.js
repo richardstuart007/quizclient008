@@ -3479,8 +3479,7 @@ exports.QUESTIONS = [
     qid: 220,
     qowner: 'public',
     qkey: '2WayCheckBack01',
-    qdetail:
-      'You have 87652, AT54, A3, AJ and partner opens 1C.  You respond 1S and they bid 1NT (12-14).  What is your bid ?',
+    qdetail: 'What is your bid ?',
     qcorrect: '2D two way checkback',
     qbad1: '2C two way checkback',
     qbad2: '2H showing 5S and 4+H',
@@ -3495,8 +3494,7 @@ exports.QUESTIONS = [
     qid: 221,
     qowner: 'public',
     qkey: '2WayCheckBack02',
-    qdetail:
-      'You hold Q7, AQ96, 982, AQ63.  You open 1D, then partner responds 1S.  You bid 1NT (12-14) and partner bids 2D.  What does their 2D bid mean ?',
+    qdetail: 'What does their 2D bid mean ?',
     qcorrect: 'Game forcing checkback',
     qbad1: 'Signoff in Diamonds',
     qbad2: 'Transfer to Hearts',
@@ -3511,8 +3509,7 @@ exports.QUESTIONS = [
     qid: 222,
     qowner: 'public',
     qkey: '2WayCheckBack03',
-    qdetail:
-      'You hold Q7, AQ96, 982, AQ63.  You open 1D, then partner responds 1S.  You bid 1NT (12-14) and partner bids 2D.  What do you bid ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2H showing 4 hearts',
     qbad1: 'Pass ',
     qbad2: '2H accepting transfer',
@@ -3527,8 +3524,7 @@ exports.QUESTIONS = [
     qid: 223,
     qowner: 'public',
     qkey: '2WayCheckBack04',
-    qdetail:
-      'You hold Q7, AQ96, 982, AQ63.  You open 1D, then partner responds 1S.  You bid 1NT (12-14) and partner bids 2D.  You bid 2H.  What is partners bid of 3D ?',
+    qdetail: 'What is partners bid of 3D ?',
     qcorrect: 'Invitational in Diamonds',
     qbad1: 'transfer to hearts',
     qbad2: 'sign off in diamonds',
@@ -3543,8 +3539,7 @@ exports.QUESTIONS = [
     qid: 224,
     qowner: 'public',
     qkey: '2WayCheckBack05',
-    qdetail:
-      'You hold JT852, K4, KT, AQ86, and patner opens 1D.  Bidding goes 1D - 1S -, 1NT - 2D -, 2H -.  What do you bid ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2S showing 5 spades',
     qbad1: '2NT',
     qbad2: '3C showing 4+ clubs',
@@ -3559,8 +3554,7 @@ exports.QUESTIONS = [
     qid: 225,
     qowner: 'public',
     qkey: '2WayCheckBack06',
-    qdetail:
-      'You hold A87632, J3, KQ, At9.  Partner opens, bidding goes 1D - 1S -, 1NT -.  What do you bid ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '4S',
     qbad1: '2D checkback game force',
     qbad2: '2C checkback invitational',
@@ -3575,8 +3569,7 @@ exports.QUESTIONS = [
     qid: 226,
     qowner: 'public',
     qkey: '2WayCheckBack07',
-    qdetail:
-      'You hold KJ, T87, Q87, QT973.  Partner opens.  Bidding goes 1S - 1NT -, 2D -.  What does your partners bid mean ?',
+    qdetail: 'What does your partners bid mean ?',
     qcorrect: '5S & 4+ diamonds',
     qbad1: '2 way game force checkback',
     qbad2: null,
@@ -3591,8 +3584,7 @@ exports.QUESTIONS = [
     qid: 227,
     qowner: 'public',
     qkey: '2WayCheckBack08',
-    qdetail:
-      'You hold Q43, AK983, A8, 942.  You open.  Bidding goes 1H - 1S -, 1NT (12-14) - 2D -.  What do we bid ?',
+    qdetail: 'What do we bid ?',
     qcorrect: '2S showing 3 spades',
     qbad1: '2H showing 5 hearts',
     qbad2: '3S game invite',
@@ -3607,8 +3599,7 @@ exports.QUESTIONS = [
     qid: 228,
     qowner: 'public',
     qkey: '2WayCheckBack09',
-    qdetail:
-      'You hold A7543, A752, AJ, QT.  Partner opens and bidding goes.  1D - 1S -, 1NT - .  What do you bid ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2D game force checkback',
     qbad1: '2H showing 4+ hearts',
     qbad2: '4H asking partner to choose Hearts or Spades',
@@ -3623,8 +3614,7 @@ exports.QUESTIONS = [
     qid: 229,
     qowner: 'public',
     qkey: '2WayCheckBack10',
-    qdetail:
-      'You hold A4, KT7632, 642, Q8.  Partner opens and the bidding goes 1D - 1H -, 1NT(12-14) -.  How do you invite in hearts ?',
+    qdetail: 'How do you invite in hearts ?',
     qcorrect: '2C invitational checkback',
     qbad1: '2D checkback',
     qbad2: '3H invitational',
@@ -3639,8 +3629,7 @@ exports.QUESTIONS = [
     qid: 230,
     qowner: 'public',
     qkey: '2WayCheckBack11',
-    qdetail:
-      'You open the bidding and the bidding goes 1C - 1H -, 1NT - 2C.  What is your bid with 4 clubs ?',
+    qdetail: 'What is your bid with 4 clubs ?',
     qcorrect: '2D relay',
     qbad1: 'Pass, partner has your clubs',
     qbad2: '3C partner has 5 clubs',
@@ -3655,8 +3644,7 @@ exports.QUESTIONS = [
     qid: 231,
     qowner: 'public',
     qkey: '2WayCheckBack12',
-    qdetail:
-      'You hold A4, KT7632, 642, Q8.  Partner opens and the bidding goes 1D - 1H -, 1NT(12-14) - 2C -, 2D.  How do you invite in hearts ?',
+    qdetail: 'How do you invite in hearts ?',
     qcorrect: '2H invitational',
     qbad1: '3H invitational',
     qbad2: '2NT Invitational',
@@ -3671,8 +3659,7 @@ exports.QUESTIONS = [
     qid: 232,
     qowner: 'public',
     qkey: '2WayCheckBack13',
-    qdetail:
-      'You hold JT7, AQJT, J74, KJT and you open.  Bidding goes 1C - 1S -, 1NT (12-14) - 2C -.  What is your bid ?',
+    qdetail: 'What is your bid ?',
     qcorrect: '2D relay',
     qbad1: 'Pass, agree clubs',
     qbad2: '2H show hearts',
@@ -3687,8 +3674,7 @@ exports.QUESTIONS = [
     qid: 233,
     qowner: 'public',
     qkey: '2WayCheckBack14',
-    qdetail:
-      'You hold JT7, AQJT, J74, KJT and you open.  Bidding goes 1C - 1S -, 1NT (12-14) - 2C -, 2D - 2S.  What does 2S mean ?',
+    qdetail: 'What does 2S mean ?',
     qcorrect: 'Invitational with 5+ Spades',
     qbad1: 'Sign-off in 2S',
     qbad2: '4 Spades and 4 Hearts',
@@ -3703,8 +3689,7 @@ exports.QUESTIONS = [
     qid: 234,
     qowner: 'public',
     qkey: '2WayCheckBack15',
-    qdetail:
-      'You hold A9, 98542, AKT3, T8.  Partner opens and bidding goes. 1C - 1H -, 1NT (12-14) -.  How do you invite in hearts ?',
+    qdetail: 'How do you invite in hearts ?',
     qcorrect: '2C invitational checkback',
     qbad1: '2H show 5 hearts',
     qbad2: '3H Invitational',
@@ -3719,8 +3704,7 @@ exports.QUESTIONS = [
     qid: 235,
     qowner: 'public',
     qkey: '2WayCheckBack16',
-    qdetail:
-      "You open and the bidding goes 1D - 1S -, 1NT (12-14) - 2C -, 2D - 2H.  What is partner's hand ?",
+    qdetail: "What is partner's hand ?",
     qcorrect: '5 Spades and 4 Hearts invitational',
     qbad1: '5 Spades and 5 Hearts invitational',
     qbad2: '5 Spades and 4 Hearts, 2 level stop',
@@ -3735,8 +3719,7 @@ exports.QUESTIONS = [
     qid: 236,
     qowner: 'public',
     qkey: '2WayCheckBack17',
-    qdetail:
-      'You hold T96, AJ76, 42, AKT5 and you open.  Bidding goes 1C - 1S -, 1NT (12-14) - 2C -, 2D - 2H.  What is your bid ?',
+    qdetail: 'What is your bid ?',
     qcorrect: '4H with a double fit Spades/Hearts',
     qbad1: '4S with a double fir Spades and Hearts',
     qbad2: '3H invitational',
@@ -3751,8 +3734,7 @@ exports.QUESTIONS = [
     qid: 237,
     qowner: 'public',
     qkey: '2WayCheckBack18',
-    qdetail:
-      'You hold K98, A7432, T86, J5 and partner opens.  Bidding goes 1C - 1H -, 1NT (12-14) -.  What is your bid to stop in 2H',
+    qdetail: 'What is your bid to stop in 2H',
     qcorrect: '2H',
     qbad1: '2C and partner will bid 2D and we will bid 2H',
     qbad2: '2D transfer to Hearts',
@@ -3767,8 +3749,7 @@ exports.QUESTIONS = [
     qid: 238,
     qowner: 'public',
     qkey: '2WayCheckBack19',
-    qdetail:
-      'You hold KJ6, AJ52, T8752, 7.  Partner opens and bidding goes 1C - 1H -, 1NT (12-14) -.  How do you stop in 2D ?',
+    qdetail: 'How do you stop in 2D ?',
     qcorrect: '2C transfer to 2D',
     qbad1: '2D partner will pass',
     qbad2: null,
@@ -3783,8 +3764,7 @@ exports.QUESTIONS = [
     qid: 239,
     qowner: 'public',
     qkey: '2WayCheckBack20',
-    qdetail:
-      'You hold 3 spades and 14HCP and open.  Bidding goes 1H - 1S -, 1NT (12-14) - 2S.  What is your bid ?',
+    qdetail: 'You hold 3 spades and 14HCP and open.What is next your bid ?',
     qcorrect: 'Pass',
     qbad1: '3S Invitational',
     qbad2: null,
@@ -3799,8 +3779,7 @@ exports.QUESTIONS = [
     qid: 240,
     qowner: 'public',
     qkey: '2WayCheckBack21',
-    qdetail:
-      'You hold T753, 73, AT98, QJ8.  Partner opens and bidding goes.  1D - !S -, 1NT (12-14) -.  What is your bid ?',
+    qdetail: 'What is your bid ?',
     qcorrect: '2C transfer to 2D',
     qbad1: '2D signoff',
     qbad2: 'pass',
@@ -3815,8 +3794,7 @@ exports.QUESTIONS = [
     qid: 241,
     qowner: 'public',
     qkey: '2WayCheckBack22',
-    qdetail:
-      "I open and the bidding goes 1C - 1S -, 1NT (12-14) - 2H.  What is partner's hand ?",
+    qdetail: "What is partner's hand ?",
     qcorrect: '5 Spades and 4 Hearts weak',
     qbad1: '5 Spades and 4 Hearts invitational',
     qbad2: '5/5 Spades and hearts invitational',
@@ -3831,8 +3809,7 @@ exports.QUESTIONS = [
     qid: 242,
     qowner: 'public',
     qkey: '2WayCheckBack23',
-    qdetail:
-      'You hold K985, 65, QT865, Q6.  Partner opens and bidding goes. 1D - 1S -, 1NT (12-14) -.  What is your bid ?',
+    qdetail: 'What is your bid ?',
     qcorrect: '2C relay to diamonds',
     qbad1: '2D signoff',
     qbad2: '2NT Invitational',
@@ -3848,7 +3825,7 @@ exports.QUESTIONS = [
     qowner: 'public',
     qkey: '2WayCheckBack24',
     qdetail:
-      'You hold 15HCP and partner opens 1C and you bid your 5 card diamond suit, you have a 4 Spades.  Bidding goes 1C - 1D -, 1NT (12-14) -. What bid do you make ?',
+      'You have 15HCP with 5 card diamonds and 4 Spades.  What bid do you make ?',
     qcorrect: '2S responders reverse, forcing',
     qbad1: '2D checkback, game force',
     qbad2: '3S game force',
