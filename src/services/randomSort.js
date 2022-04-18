@@ -1,7 +1,14 @@
 //
-//  Debug logging
+//  Debug Settings
 //
-const g_log1 = false
+import debugSettings from '../debug/debugSettings'
+//.............................................................................
+//.  Initialisation
+//.............................................................................
+//
+// Debug Settings
+//
+const g_log1 = debugSettings(true)
 //===================================================================================
 export default function randomSort(dataIn) {
   //

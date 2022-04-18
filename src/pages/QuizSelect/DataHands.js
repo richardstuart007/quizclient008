@@ -7,6 +7,83 @@ exports.HANDS = [
     hclubs: 'KJT          '
   },
   {
+    hid: 103,
+    hspades: 'K964',
+    hhearts: '5',
+    hdiamonds: 'KT53',
+    hclubs: 'A984'
+  },
+  {
+    hid: 107,
+    hspades: 'Kxxx',
+    hhearts: 'KQxxx',
+    hdiamonds: 'x',
+    hclubs: 'xxx'
+  },
+  {
+    hid: 108,
+    hspades: 'QJ987',
+    hhearts: 'QJT987',
+    hdiamonds: null,
+    hclubs: '7'
+  },
+  {
+    hid: 109,
+    hspades: 'QJ987',
+    hhearts: 'QJT987',
+    hdiamonds: null,
+    hclubs: '7'
+  },
+  {
+    hid: 110,
+    hspades: '32',
+    hhearts: 'K732',
+    hdiamonds: 'Q5',
+    hclubs: 'KQJT3'
+  },
+  {
+    hid: 111,
+    hspades: '543',
+    hhearts: '653',
+    hdiamonds: 'AT9876',
+    hclubs: null
+  },
+  {
+    hid: 112,
+    hspades: '762',
+    hhearts: null,
+    hdiamonds: 'AT987',
+    hclubs: 'K9876'
+  },
+  {
+    hid: 113,
+    hspades: 'A762',
+    hhearts: null,
+    hdiamonds: '76',
+    hclubs: 'T876543'
+  },
+  {
+    hid: 114,
+    hspades: 'A86',
+    hhearts: '95',
+    hdiamonds: 'AKJ86',
+    hclubs: 'K42'
+  },
+  {
+    hid: 115,
+    hspades: 'J5',
+    hhearts: 'AQT864',
+    hdiamonds: '8',
+    hclubs: 'AQT8'
+  },
+  {
+    hid: 116,
+    hspades: 'J75',
+    hhearts: 'AKT864',
+    hdiamonds: '8',
+    hclubs: 'AK9'
+  },
+  {
     hid: 161,
     hspades: 'AKJTxx       ',
     hhearts: '7654',

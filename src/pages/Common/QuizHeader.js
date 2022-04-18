@@ -3,27 +3,45 @@
 //
 import { Typography, Box } from '@mui/material'
 import { teal } from 'material-ui-colors'
+import { useSnapshot } from 'valtio'
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
 //
 //  Components
 //
 import MyButton from '../../components/controls/MyButton'
+//
+//  Utilities
+//
+import { ValtioStore } from '../ValtioStore'
 //.............................................................................
 //.  Initialisation
 //.............................................................................
 //
-//  Debug logging
+// Debug Settings
 //
-const g_log1 = false
+const g_log1 = debugSettings(true)
 //===================================================================================
-const QuizHeader = ({ quizRow, quizQuestion }) => {
+const QuizHeader = params => {
   //...................................................................................
   //.  Main Line
   //...................................................................................
   //
+  //  Deconstruct params
+  //
+  const { quizRow, quizQuestion } = params
+  //
+  //  Define the ValtioStore
+  //
+  const snapShot = useSnapshot(ValtioStore)
+  const ShowQid = snapShot.v_ShowQid
+  //
   //  Deconstruct row
   //
   if (g_log1) console.log('quizRow ', quizRow)
-  const { qdetail } = quizRow
+  const { qid, qdetail } = quizRow
   let hyperLink
   qdetail.substring(0, 8) === 'https://'
     ? (hyperLink = true)
@@ -36,6 +54,11 @@ const QuizHeader = ({ quizRow, quizQuestion }) => {
     if (g_log1) console.log('hyperlink ', hyperlink)
     window.open(hyperlink, '_blank')
   }
+  //
+  //  Question string (with ID ?)
+  //
+  let QuestionString = `Question ${quizQuestion}`
+  if (ShowQid) QuestionString = QuestionString.concat(`        (ID:${qid})`)
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -47,7 +70,7 @@ const QuizHeader = ({ quizRow, quizQuestion }) => {
           gutterBottom
           style={{ color: teal['A700'] }}
         >
-          Question {quizQuestion}
+          {QuestionString}
         </Typography>
 
         {hyperLink && (

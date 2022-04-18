@@ -191,7 +191,9 @@ const QuizSelect = () => {
         //
         // Sort Data
         //
-        const sortedData = randomSort(data)
+        let sortedData = []
+        const QuestionSort = snapShot.v_QuestionSort
+        QuestionSort ? (sortedData = randomSort(data)) : (sortedData = data)
         //
         // update ValtioStore - Questions
         //
@@ -257,7 +259,11 @@ const QuizSelect = () => {
     //
     // Sort Data
     //
-    const sortedData = randomSort(filteredData)
+    let sortedData = []
+    const QuestionSort = snapShot.v_QuestionSort
+    QuestionSort
+      ? (sortedData = randomSort(filteredData))
+      : (sortedData = filteredData)
     if (g_log1) console.log('sortedData ', sortedData)
     //
     //  Apply max number

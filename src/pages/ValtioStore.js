@@ -22,7 +22,9 @@ const ValtioStore = proxy({
   v_Ans: [],
   v_Reset: true,
   v_MaxQuestions: 0,
-  v_Help: ''
+  v_Help: '',
+  v_QuestionSort: true,
+  v_ShowQid: false
 })
 
 export { ValtioStore }

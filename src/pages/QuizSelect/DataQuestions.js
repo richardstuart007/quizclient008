@@ -1134,8 +1134,7 @@ exports.QUESTIONS = [
     qid: 73,
     qowner: 'public',
     qkey: 'Double01',
-    qdetail:
-      'After the following biddding.   1D  P  1H  1S,  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
     qbad1: '4+ clubs',
     qbad2: 'Heart stopper',
@@ -1150,8 +1149,7 @@ exports.QUESTIONS = [
     qid: 74,
     qowner: 'public',
     qkey: 'Double02',
-    qdetail:
-      'After the following biddding.   1D  1H  1S  2C,  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
     qbad1: 'Penalty double',
     qbad2: 'Asking for a club stopper',
@@ -1166,8 +1164,7 @@ exports.QUESTIONS = [
     qid: 75,
     qowner: 'public',
     qkey: 'Double03',
-    qdetail:
-      'After the following biddding.   1C  1D  1H  2D, X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
     qbad1: 'Penalty double',
     qbad2: 'Takeout, has 4 spades',
@@ -1182,8 +1179,7 @@ exports.QUESTIONS = [
     qid: 76,
     qowner: 'public',
     qkey: 'Double04',
-    qdetail:
-      'After the following biddding.   1H  P  1S  X,  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
     qbad1: 'Take out, has clubs and diamonds',
     qbad2: 'Penalty, subsequent doubles are also penalty',
@@ -1198,8 +1194,7 @@ exports.QUESTIONS = [
     qid: 77,
     qowner: 'public',
     qkey: 'Double05',
-    qdetail:
-      'After the following biddding.   1D  P  1H  1S,  2C  How many hearts does opener have ?',
+    qdetail: 'How many hearts does opener have ?',
     qcorrect: 'Less than 3 hearts',
     qbad1: '3 or fewer',
     qbad2: 'Undetermined',
@@ -1214,8 +1209,7 @@ exports.QUESTIONS = [
     qid: 78,
     qowner: 'public',
     qkey: 'Double06',
-    qdetail:
-      'After the following biddding.   1D  P  1S  3C,  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Penalty Double',
     qbad1: '3 card support of partners suit',
     qbad2: 'Takeout, has diamonds and hearts',
@@ -1230,8 +1224,7 @@ exports.QUESTIONS = [
     qid: 79,
     qowner: 'public',
     qkey: 'Double07',
-    qdetail:
-      'After the following biddding.   1D  P  1S  2H,  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
     qbad1: '5+ Diamonds, 4 clubs',
     qbad2: 'Penalty, subsequent doubles are also penalty',
@@ -1246,8 +1239,7 @@ exports.QUESTIONS = [
     qid: 80,
     qowner: 'public',
     qkey: 'Double08',
-    qdetail:
-      'After the following biddding.   1D  P  1S  3C,  P  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit & extra values',
     qbad1: 'Penalty double',
     qbad2: 'Take out',
@@ -1262,8 +1254,7 @@ exports.QUESTIONS = [
     qid: 81,
     qowner: 'public',
     qkey: 'Double09',
-    qdetail:
-      'After the following biddding.   1D  1H  1S  2C,  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
     qbad1: 'Penalty, has clubs',
     qbad2: 'Flat 10+ HCP',
@@ -1278,8 +1269,7 @@ exports.QUESTIONS = [
     qid: 82,
     qowner: 'public',
     qkey: 'Double10',
-    qdetail:
-      'After the following biddding.   1C  1D  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '4H+, 4S+, 6+ points',
     qbad1: 'At least one 4+ card major and a 3+ card',
     qbad2: 'Shows NO stopper in Diamonds, 6-9 HCP, no 4 card major',
@@ -1294,8 +1284,7 @@ exports.QUESTIONS = [
     qid: 83,
     qowner: 'public',
     qkey: 'Double11',
-    qdetail:
-      'After the following biddding.   1H  1S  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '4C+, 4D+, 6+ points',
     qbad1: 'Support double of Hearts',
     qbad2: 'Has both Minors and 10+ HCP',
@@ -1310,8 +1299,7 @@ exports.QUESTIONS = [
     qid: 84,
     qowner: 'public',
     qkey: 'Double12',
-    qdetail:
-      'After the following biddding.   1D  2C  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'At least one 4 card major',
     qbad1: 'Both Majors, 4+ cards',
     qbad2: '10+ HCP, no diamond support',
@@ -1326,8 +1314,7 @@ exports.QUESTIONS = [
     qid: 85,
     qowner: 'public',
     qkey: 'Double13',
-    qdetail:
-      'After the following biddding.   1D  1H  X  P,  1S.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 4S (sometimes 3), 11-14 HCP',
     qbad1: 'Exactly 3 spades support',
     qbad2: 'Exactly 4 card spades support',
@@ -1342,8 +1329,7 @@ exports.QUESTIONS = [
     qid: 86,
     qowner: 'public',
     qkey: 'Double14',
-    qdetail:
-      'After the following biddding.   1D  1H  X  P,  2S.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 4S, 15-16 HCP',
     qbad1: 'Pre-empt, 4 card spades and 11-14 HCP',
     qbad2: 'Pre-empt, 3 card spades and 11-14 HCP',
@@ -1358,8 +1344,7 @@ exports.QUESTIONS = [
     qid: 87,
     qowner: 'public',
     qkey: 'Double15',
-    qdetail:
-      'After the following biddding.   1D  1H  X  P,  3S.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 4S, 17-18 HCP',
     qbad1: 'Pre-empt, 4 card spades and 11-14 HCP',
     qbad2: '4 card spades and 15-16 HCP',
@@ -1374,8 +1359,7 @@ exports.QUESTIONS = [
     qid: 88,
     qowner: 'public',
     qkey: 'Double16',
-    qdetail:
-      'After the following biddding.   1D  1H  X  P,  4S.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 4S, 19-21 HCP',
     qbad1: '4 card spades and 15-16 HCP',
     qbad2: '4 card spades and 17-18 HCP',
@@ -1390,8 +1374,7 @@ exports.QUESTIONS = [
     qid: 89,
     qowner: 'public',
     qkey: 'Double17',
-    qdetail:
-      'After the following biddding.   1D  1S  X  P,  1NT.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Opener <4H, Spade stopper, 12-14 HCP',
     qbad1: 'Weak, <3 hearts',
     qbad2: 'Opener <4 Hearts, 12-14 HCP',
@@ -1406,8 +1389,7 @@ exports.QUESTIONS = [
     qid: 90,
     qowner: 'public',
     qkey: 'Double18',
-    qdetail:
-      'After the following biddding.   1D  1S  X  P,  2NT.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Opener <4H, Spade stopper, 18-19 HCP',
     qbad1: 'Opener <3H, Spade stopper, 16+ HCP',
     qbad2: 'Opener <4H, Spade stopper, 15-17 HCP',
@@ -1422,8 +1404,7 @@ exports.QUESTIONS = [
     qid: 91,
     qowner: 'public',
     qkey: 'Double19',
-    qdetail:
-      'After the following biddding.   1C  1S  X  P,  2C.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 6C+, 11-15 HCP',
     qbad1: 'Opener has no spade stopper, 5+ clubs',
     qbad2: 'Opener has 5+ clubs, <4H, <4D',
@@ -1438,8 +1419,7 @@ exports.QUESTIONS = [
     qid: 92,
     qowner: 'public',
     qkey: 'Double20',
-    qdetail:
-      'After the following biddding.   1C  1S  X  P,  3C.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 6C+, 16-19 HCP',
     qbad1: 'Opener has 7C+, 11-14 HCP',
     qbad2: 'Opener has 6C+,  <3H, <3S',
@@ -1454,8 +1434,7 @@ exports.QUESTIONS = [
     qid: 93,
     qowner: 'public',
     qkey: 'Double21',
-    qdetail:
-      'After the following biddding.   1D  1H  X  P,  2H.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '16+ HCP, 3S',
     qbad1: 'Exactly 3 spades support',
     qbad2: '16+ HCP, 4S',
@@ -1470,8 +1449,7 @@ exports.QUESTIONS = [
     qid: 94,
     qowner: 'public',
     qkey: 'Double22',
-    qdetail:
-      'After the following biddding.   1D  P  1NT  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Take-out.  Asks partner to bid Clubs, Hearts or Spades',
     qbad1: 'Penalty.  16+ HCP',
     qbad2: 'Take-out.  Has both majors',
@@ -1486,8 +1464,7 @@ exports.QUESTIONS = [
     qid: 95,
     qowner: 'public',
     qkey: 'Double23',
-    qdetail:
-      'After the following biddding.   1C  P  P  X,  P  1H  P  1S.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: '1S shows 5S+,  16+ HCP',
     qbad1: '1S shows no support for Hearts, weak',
     qbad2: '1S shows 4S and 3H, weak',
@@ -1502,8 +1479,7 @@ exports.QUESTIONS = [
     qid: 96,
     qowner: 'public',
     qkey: 'Double24',
-    qdetail:
-      'After the following biddding.   1S  P  2S  P, X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Takout double',
     qbad1: 'Penalty double',
     qbad2: '4 Hearts, 3+ of other suots',
@@ -1518,8 +1494,7 @@ exports.QUESTIONS = [
     qid: 97,
     qowner: 'public',
     qkey: 'Double25',
-    qdetail:
-      'After the following biddding.   1S  P  2S  P,  3S  P  4S  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Penalty Double',
     qbad1: 'Take Out Double',
     qbad2: 'Lead directing double',
@@ -1534,8 +1509,7 @@ exports.QUESTIONS = [
     qid: 98,
     qowner: 'public',
     qkey: 'Double26',
-    qdetail:
-      'After the following biddding.   1NT  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Penalty Double',
     qbad1: 'Take Out Double',
     qbad2: 'Snapdragon Double',
@@ -1550,8 +1524,7 @@ exports.QUESTIONS = [
     qid: 99,
     qowner: 'public',
     qkey: 'Double27',
-    qdetail:
-      'After the following biddding.   1H  P  1NT  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does the double mean ?',
     qcorrect: 'Takout double',
     qbad1: 'Penalty Double',
     qbad2: '2 suiter 5/5',
@@ -1566,8 +1539,7 @@ exports.QUESTIONS = [
     qid: 100,
     qowner: 'public',
     qkey: 'Double28',
-    qdetail:
-      'After the following biddding.   1NT  X  2D  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Penalty Double',
     qbad1: 'Takout double',
     qbad2: 'Lead directing double',
@@ -1582,8 +1554,7 @@ exports.QUESTIONS = [
     qid: 101,
     qowner: 'public',
     qkey: 'Double29',
-    qdetail:
-      'After the following biddding.   1D  X  2D  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Responsive Double.  Showing 4+ in the Majors',
     qbad1: 'Take Out, Flat hand at least 3 in each suit.  You choose partner',
     qbad2: 'Penalty, 10+ HCP',
@@ -1598,8 +1569,7 @@ exports.QUESTIONS = [
     qid: 102,
     qowner: 'public',
     qkey: 'Double30',
-    qdetail:
-      'After the following biddding.   1H  X  2H  X ?.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Responsive Double.  Showing 4+ in the Minors',
     qbad1: 'Take Out, Flat hand at least 3 in each suit.  You choose partner',
     qbad2: '4 Spades',
@@ -1614,7 +1584,7 @@ exports.QUESTIONS = [
     qid: 103,
     qowner: 'public',
     qkey: 'Double31',
-    qdetail: '1H  X  2H  You hold  K964,5,KT53,A984, what do you bid ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2S .  Support partner',
     qbad1: 'X.  Take-out double for the other 3 suits',
     qbad2: 'X.  Responsive double showing the minors',
@@ -1646,8 +1616,7 @@ exports.QUESTIONS = [
     qid: 105,
     qowner: 'public',
     qkey: 'Double33',
-    qdetail:
-      'After the following biddding.   1S  2H  2S  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Denying heart support but promising both minors',
     qbad1: '3 card support of partners suit',
     qbad2: '10+ HCP, flat hand',
@@ -1677,8 +1646,7 @@ exports.QUESTIONS = [
     qid: 107,
     qowner: 'public',
     qkey: 'Double35',
-    qdetail:
-      'What should you bid with 8HCP and 4513 distribution after the following bidding,  1D  X  2D ?',
+    qdetail: 'What should you bid ?',
     qcorrect: '2H',
     qbad1: 'Double',
     qbad2: '3D',
@@ -1693,8 +1661,7 @@ exports.QUESTIONS = [
     qid: 108,
     qowner: 'public',
     qkey: 'Double36',
-    qdetail:
-      'You hold 873,72,QJT7,QJT5.  Bidding goes 1H  X  2H, what should you bid ?',
+    qdetail: 'What should you bid ?',
     qcorrect: 'Responsive double showing the minors',
     qbad1: 'Support double showing 3 spades',
     qbad2: 'Pass, too weak',
@@ -1709,8 +1676,7 @@ exports.QUESTIONS = [
     qid: 109,
     qowner: 'public',
     qkey: 'Double37',
-    qdetail:
-      'You hold QJ987,QJT987,void,7.  Bidding goes 1D  X  2D, what should you bid ?',
+    qdetail: 'What should you bid ?',
     qcorrect: '3D Cue bid showing BOTH Majors',
     qbad1: 'Responsive Double showing BOTH majors',
     qbad2: '2S planning to bid 3/4H next bid',
@@ -1725,8 +1691,7 @@ exports.QUESTIONS = [
     qid: 110,
     qowner: 'public',
     qkey: 'Double38',
-    qdetail:
-      'You hold 32,K732,Q5,KQJT3.  Bidding goes P,  1D  1S  3D (pre-emptive), what should you bid ?',
+    qdetail: 'What should you bid ?',
     qcorrect: 'Double showing the other two suits',
     qbad1: '3H  Always bid the Major first',
     qbad2: '4C  Always bid the longest suit',
@@ -1741,8 +1706,7 @@ exports.QUESTIONS = [
     qid: 111,
     qowner: 'public',
     qkey: 'Double39',
-    qdetail:
-      'What should you bid holding 543, 653, AT9876, void after the bidding goes 1H   P  2C  P ,  3H  P  6H  ?',
+    qdetail: 'What should you bid ?',
     qcorrect: 'Double',
     qbad1: 'Pass',
     qbad2: '7D',
@@ -1757,8 +1721,7 @@ exports.QUESTIONS = [
     qid: 112,
     qowner: 'public',
     qkey: 'Double40',
-    qdetail:
-      'What should you bid holding 762,void,AT987,K9876 after the bidding goes 1S  3C  3S  5C, 6S  P  P ?',
+    qdetail: 'What should you bid ?',
     qcorrect: 'Double',
     qbad1: 'Pass',
     qbad2: '7C',
@@ -1773,8 +1736,7 @@ exports.QUESTIONS = [
     qid: 113,
     qowner: 'public',
     qkey: 'Double41',
-    qdetail:
-      'What should you bid holding A762,void,76,T876543 after the bidding goes 1D  P  3D  P,  4NT  P  5D  P,  6D ?',
+    qdetail: 'What should you bid ?',
     qcorrect: 'Double',
     qbad1: 'Pass',
     qbad2: '7C',
@@ -1789,7 +1751,7 @@ exports.QUESTIONS = [
     qid: 114,
     qowner: 'public',
     qkey: 'Double51',
-    qdetail: 'What do you bid holding A86,95,AKJ86,K42 after 1H  2D ?',
+    qdetail: 'What should you bid ?',
     qcorrect: 'Pass',
     qbad1: '2NT',
     qbad2: 'Double',
@@ -1804,7 +1766,7 @@ exports.QUESTIONS = [
     qid: 115,
     qowner: 'public',
     qkey: 'Double52',
-    qdetail: 'What do you bid holding J5,AQT864,8,AQT8 after 1H  2D  P  P,  ?',
+    qdetail: 'What should you bid ?',
     qcorrect: '2H',
     qbad1: 'Pass',
     qbad2: 'Double',
@@ -1819,7 +1781,7 @@ exports.QUESTIONS = [
     qid: 116,
     qowner: 'public',
     qkey: 'Double53',
-    qdetail: 'What do you bid holding J75,AKT864,8,AK9 after 1H  2D ?',
+    qdetail: 'What should you bid ?',
     qcorrect: 'Double',
     qbad1: '2H',
     qbad2: 'Pass',
@@ -1834,8 +1796,7 @@ exports.QUESTIONS = [
     qid: 117,
     qowner: 'public',
     qkey: 'Double54',
-    qdetail:
-      'After the following biddding.   1S  X  2S.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Simple raise, can be pre-emptive 3-9 HCP',
     qbad1: 'Simple raise, 2 Spades, pre-emptive',
     qbad2: 'Bergen Raise.  3 Spades 6-9 HCP',
@@ -1850,7 +1811,7 @@ exports.QUESTIONS = [
     qid: 118,
     qowner: 'public',
     qkey: 'Double55',
-    qdetail: 'A Support Double is ?',
+    qdetail: 'What is a Support Double ?',
     qcorrect:
       'Opener shows EXACTLY 3 card support of Responders suit after opposition interference',
     qbad1:
@@ -1868,7 +1829,7 @@ exports.QUESTIONS = [
     qid: 119,
     qowner: 'public',
     qkey: 'Double56',
-    qdetail: 'A Negative Double is ?',
+    qdetail: 'What is a Negative Double ?',
     qcorrect:
       'Responder shows 6+ HCP and at least one 4 card suit in the unbid suits, usually the Major',
     qbad1: 'Responder shows EXACTLY 4 cards in the unbid major',
@@ -1884,7 +1845,7 @@ exports.QUESTIONS = [
     qid: 120,
     qowner: 'public',
     qkey: 'Double57',
-    qdetail: 'A Takeout Double is ?',
+    qdetail: 'What is a Takeout Double?',
     qcorrect:
       'The takeout double is a double by OPENER that asks partner to bid one of the unbid suits. The double usually shows 11+ points and 3+ cards in each unbid suit.',
     qbad1:
@@ -1902,7 +1863,7 @@ exports.QUESTIONS = [
     qid: 121,
     qowner: 'public',
     qkey: 'Double58',
-    qdetail: 'A Responsive Double is ?',
+    qdetail: 'What is a Responsive Double?',
     qcorrect:
       'A Responsive double is used after partner makes a takeout double to show 4-4 shape in the Minor or Major suits',
     qbad1:
@@ -1937,7 +1898,7 @@ exports.QUESTIONS = [
     qid: 123,
     qowner: 'public',
     qkey: 'Double62',
-    qdetail: 'A Reopening Double is ?',
+    qdetail: 'What is a Reopening Double ?',
     qcorrect:
       'A double to protect against partner having the opponents suit.  No extra values promised, but no more than two cards in the overcallers suit.',
     qbad1: 'A double promising extra values in pass out seat',
@@ -1953,7 +1914,7 @@ exports.QUESTIONS = [
     qid: 124,
     qowner: 'public',
     qkey: 'Double63',
-    qdetail: '1NT  P  2C  X',
+    qdetail: 'What does the double mean ?',
     qcorrect:
       'Lead directing, partner has Clubs - At least a 5 card suit with 3 of the top 5 honours',
     qbad1: 'Penalty, partner has both Majors',

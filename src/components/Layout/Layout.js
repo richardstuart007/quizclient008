@@ -6,7 +6,7 @@ import RefreshIcon from '@mui/icons-material/Refresh'
 import ScoreboardIcon from '@mui/icons-material/Scoreboard'
 import HelpIcon from '@mui/icons-material/Help'
 import makeStyles from '@mui/styles/makeStyles'
-import { format } from 'date-fns'
+// import { format } from 'date-fns'
 //
 //  Libraries
 //
@@ -154,11 +154,11 @@ export default function Layout({ children }) {
               </MyActionButton>
             ) : null}
             {/* .......................................................................................... */}
-            <Grid item>
+            {/* <Grid item>
               <Typography className={classes.date}>
                 Today is the {format(new Date(), 'do MMMM Y')}
               </Typography>
-            </Grid>
+            </Grid> */}
             {/* .......................................................................................... */}
           </Grid>
         </Toolbar>

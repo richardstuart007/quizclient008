@@ -3,13 +3,17 @@
 //
 import { useState, useEffect } from 'react'
 import { LinearProgress, Typography, Box } from '@mui/material'
+//
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
 //.............................................................................
 //.  Initialisation
 //.............................................................................
 //
-//  Debug logging
+// Debug Settings
 //
-const g_log1 = false
+const g_log1 = debugSettings(true)
 //===================================================================================
 const QuizLinearProgress = props => {
   const { count, total, text } = props
