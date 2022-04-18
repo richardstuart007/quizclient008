@@ -45,7 +45,9 @@ const QuizSettings = () => {
     z_HideParams: snapShot.v_HideParams,
     z_ShowInfo: snapShot.v_ShowInfo,
     z_ShowLinearProgress: snapShot.v_ShowLinearProgress,
-    z_ShowLinearScore: snapShot.v_ShowLinearScore
+    z_ShowLinearScore: snapShot.v_ShowLinearScore,
+    z_QuestionSort: snapShot.v_QuestionSort,
+    z_ShowQid: snapShot.v_ShowQid
   }
   //
   //  Saved Values on Submit
@@ -55,7 +57,9 @@ const QuizSettings = () => {
     z_HideParams: false,
     z_ShowInfo: false,
     z_ShowLinearProgress: false,
-    z_ShowLinearScore: false
+    z_ShowLinearScore: false,
+    z_QuestionSort: false,
+    z_ShowQid: false
   }
   //.............................................................................
   //.  Input field validation
@@ -68,6 +72,8 @@ const QuizSettings = () => {
     if ('z_ShowInfo' in fieldValues) temp.z_ShowInfo = ''
     if ('z_ShowLinearProgress' in fieldValues) temp.z_ShowLinearProgress = ''
     if ('z_ShowLinearScore' in fieldValues) temp.z_ShowLinearScore = ''
+    if ('z_QuestionSort' in fieldValues) temp.z_QuestionSort = ''
+    if ('z_ShowQid' in fieldValues) temp.z_ShowQid = ''
     setErrors({
       ...temp
     })
@@ -99,6 +105,8 @@ const QuizSettings = () => {
     savedValues.z_ShowInfo = values.z_ShowInfo
     savedValues.z_ShowLinearProgress = values.z_ShowLinearProgress
     savedValues.z_ShowLinearScore = values.z_ShowLinearScore
+    savedValues.z_QuestionSort = values.z_QuestionSort
+    savedValues.z_ShowQid = values.z_ShowQid
     //
     //  Update Store
     //
@@ -110,6 +118,8 @@ const QuizSettings = () => {
     ValtioStore.v_ShowInfo = savedValues.z_ShowInfo
     ValtioStore.v_ShowLinearProgress = savedValues.z_ShowLinearProgress
     ValtioStore.v_ShowLinearScore = savedValues.z_ShowLinearScore
+    ValtioStore.v_QuestionSort = savedValues.z_QuestionSort
+    ValtioStore.v_ShowQid = savedValues.z_ShowQid
   }
   //...................................................................................
   //.  Main Line
@@ -142,26 +152,25 @@ const QuizSettings = () => {
             />
             <QForm>
               {/*.................................................................................................*/}
-              <Grid container spacing={2}>
-                <Grid item xs={4}>
-                  <MyCheckbox
-                    name='z_TestData'
-                    label='Static Data'
-                    value={values.z_TestData}
-                    onChange={handleInputChange}
-                    error={errors.z_TestData}
-                  />
-                </Grid>
 
-                <Grid item xs={4}>
-                  <MyCheckbox
-                    name='z_HideParams'
-                    label='Hide Params'
-                    value={values.z_HideParams}
-                    onChange={handleInputChange}
-                    error={errors.z_HideParams}
-                  />
-                </Grid>
+              <Grid item xs={4}>
+                <MyCheckbox
+                  name='z_TestData'
+                  label='Static Data'
+                  value={values.z_TestData}
+                  onChange={handleInputChange}
+                  error={errors.z_TestData}
+                />
+              </Grid>
+
+              <Grid item xs={4}>
+                <MyCheckbox
+                  name='z_HideParams'
+                  label='Hide Params'
+                  value={values.z_HideParams}
+                  onChange={handleInputChange}
+                  error={errors.z_HideParams}
+                />
               </Grid>
 
               <Grid item xs={4}>
@@ -191,6 +200,26 @@ const QuizSettings = () => {
                   value={values.z_ShowLinearScore}
                   onChange={handleInputChange}
                   error={errors.z_ShowLinearScore}
+                />
+              </Grid>
+
+              <Grid item xs={4}>
+                <MyCheckbox
+                  name='z_QuestionSort'
+                  label='Sort Questions'
+                  value={values.z_QuestionSort}
+                  onChange={handleInputChange}
+                  error={errors.z_QuestionSort}
+                />
+              </Grid>
+
+              <Grid item xs={4}>
+                <MyCheckbox
+                  name='z_ShowQid'
+                  label='Show Qid'
+                  value={values.z_ShowQid}
+                  onChange={handleInputChange}
+                  error={errors.z_ShowQid}
                 />
               </Grid>
 

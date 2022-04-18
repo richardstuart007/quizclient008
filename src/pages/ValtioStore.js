@@ -11,7 +11,7 @@ const ValtioStore = proxy({
   v_Page: 'QuizTest',
   v_Email: '',
   v_Name: '',
-  v_Owner: '',
+  v_Owner: 'public',
   v_Group1: '',
   v_Group2: '',
   v_Group3: '',
