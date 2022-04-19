@@ -59,6 +59,7 @@ const validationSchema = Yup.object({
 //===================================================================================
 function QuizRegister() {
   if (g_log1) console.log('Start QuizRegister')
+  const CurrentPage = 'QuizRegister'
   //
   // Form Message
   //
@@ -91,6 +92,7 @@ function QuizRegister() {
         if (user.id) {
           // setId(user.id)
           setForm_message(`Data updated in Database with ID(${user.id})`)
+          ValtioStore.v_PagePrevious = CurrentPage
           ValtioStore.v_Page = 'QuizSignin'
         } else {
           setForm_message('User not registered')
@@ -149,6 +151,7 @@ function QuizRegister() {
                     variant='outlined'
                     color='secondary'
                     onClick={() => {
+                      ValtioStore.v_PagePrevious = CurrentPage
                       ValtioStore.v_Page = 'QuizSignin'
                     }}
                   />

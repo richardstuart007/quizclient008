@@ -6,6 +6,7 @@ import RefreshIcon from '@mui/icons-material/Refresh'
 import ScoreboardIcon from '@mui/icons-material/Scoreboard'
 import HelpIcon from '@mui/icons-material/Help'
 import makeStyles from '@mui/styles/makeStyles'
+import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications'
 // import { format } from 'date-fns'
 //
 //  Libraries
@@ -63,11 +64,12 @@ export default function Layout({ children }) {
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
+  const CurrentPage = snapShot.v_Page
   //
   //  Show Refresh Button ?
   //
   let showButtonRefresh = true
-  if (snapShot.v_Page === 'QuizSelect') showButtonRefresh = false
+  if (CurrentPage === 'QuizSelect') showButtonRefresh = false
   //
   //  Show Review Button ?
   //
@@ -76,7 +78,7 @@ export default function Layout({ children }) {
   snapShot.v_Ans.length > 0
     ? (showButtonReview = true)
     : (showButtonReview = false)
-  if (snapShot.v_Page === 'QuizReview') showButtonReview = false
+  if (CurrentPage === 'QuizReview') showButtonReview = false
   //
   //  Show Help Button ?
   //
@@ -86,6 +88,13 @@ export default function Layout({ children }) {
   helpHyperlink && helpHyperlink.length > 0
     ? (showButtonHelp = true)
     : (showButtonHelp = false)
+  //
+  //  Show Settings Button ?
+  //
+  let showButtonSettings = true
+  if (CurrentPage === 'QuizSettings') showButtonSettings = false
+  if (CurrentPage === 'Quiz') showButtonSettings = false
+  if (CurrentPage === 'QuizReview') showButtonSettings = false
   //...................................................................................
   //
   //  Hyperlink open
@@ -129,10 +138,12 @@ export default function Layout({ children }) {
               </MyActionButton>
             ) : null}
             {/* .......................................................................................... */}
+
             {showButtonReview ? (
               <MyActionButton
                 color='warning'
                 onClick={() => {
+                  ValtioStore.v_PagePrevious = CurrentPage
                   ValtioStore.v_Page = 'QuizReview'
                 }}
               >
@@ -145,6 +156,7 @@ export default function Layout({ children }) {
               <MyActionButton
                 color='warning'
                 onClick={() => {
+                  ValtioStore.v_PagePrevious = CurrentPage
                   ValtioStore.v_Page = 'QuizSelect'
                   ValtioStore.v_Help = ''
                   ValtioStore.v_Ans = []
@@ -154,12 +166,18 @@ export default function Layout({ children }) {
               </MyActionButton>
             ) : null}
             {/* .......................................................................................... */}
-            {/* <Grid item>
-              <Typography className={classes.date}>
-                Today is the {format(new Date(), 'do MMMM Y')}
-              </Typography>
-            </Grid> */}
-            {/* .......................................................................................... */}
+            {showButtonSettings ? (
+              <MyActionButton
+                color='warning'
+                onClick={() => {
+                  ValtioStore.v_PagePrevious = CurrentPage
+                  ValtioStore.v_Page = 'QuizSettings'
+                  ValtioStore.v_Help = ''
+                }}
+              >
+                <SettingsApplicationsIcon fontSize='large' />
+              </MyActionButton>
+            ) : null}
           </Grid>
         </Toolbar>
       </AppBar>

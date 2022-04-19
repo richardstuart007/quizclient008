@@ -37,6 +37,7 @@ const sqlClient = 'Quiz/Signin'
 // Debug Settings
 //
 const g_log1 = debugSettings()
+
 //.............................................................................
 //.  Data Input Fields
 //.............................................................................
@@ -57,6 +58,7 @@ const validationSchema = Yup.object({
 //===================================================================================
 function QuizSignin() {
   if (g_log1) console.log('Start QuizSignin')
+  const CurrentPage = 'QuizRegister'
   //
   // Form Message
   //
@@ -87,9 +89,11 @@ function QuizSignin() {
       .then(user => {
         if (user.id) {
           setForm_message(`Signin successful with ID(${user.id})`)
+          ValtioStore.v_PagePrevious = CurrentPage
           ValtioStore.v_Page = 'QuizSelect'
           ValtioStore.v_Email = email
           ValtioStore.v_Name = user.name
+          ValtioStore.v_SignedIn = true
         } else {
           setForm_message('User not registered or password invalid')
         }
@@ -144,6 +148,7 @@ function QuizSignin() {
                     color='secondary'
                     variant='outlined'
                     onClick={() => {
+                      ValtioStore.v_PagePrevious = CurrentPage
                       ValtioStore.v_Page = 'QuizRegister'
                     }}
                   />

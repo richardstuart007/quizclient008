@@ -46,6 +46,7 @@ const Quiz = () => {
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
+  const CurrentPage = snapShot.v_Page
   //
   //  Show Linear Bars ?
   //
@@ -117,6 +118,7 @@ const Quiz = () => {
     //
     if (g_Idx + 1 >= g_questCount) {
       if (g_log1) console.log('v_Ans', snapShot.v_Ans)
+      ValtioStore.v_PagePrevious = CurrentPage
       ValtioStore.v_Page = 'QuizReview'
       return
     }

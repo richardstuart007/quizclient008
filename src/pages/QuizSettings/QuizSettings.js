@@ -37,6 +37,7 @@ const QuizSettings = () => {
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
+  const CurrentPage = snapShot.v_Page
   //
   //  Initial Values
   //
@@ -74,6 +75,7 @@ const QuizSettings = () => {
     if ('z_ShowLinearScore' in fieldValues) temp.z_ShowLinearScore = ''
     if ('z_QuestionSort' in fieldValues) temp.z_QuestionSort = ''
     if ('z_ShowQid' in fieldValues) temp.z_ShowQid = ''
+
     setErrors({
       ...temp
     })
@@ -107,12 +109,14 @@ const QuizSettings = () => {
     savedValues.z_ShowLinearScore = values.z_ShowLinearScore
     savedValues.z_QuestionSort = values.z_QuestionSort
     savedValues.z_ShowQid = values.z_ShowQid
+
     //
     //  Update Store
     //
     if (g_log1) console.log('Update Store: z_TestData ', savedValues.z_TestData)
     if (g_log1) console.log('Update Store: z_ShowInfo ', savedValues.z_ShowInfo)
-    ValtioStore.v_Page = 'QuizTest'
+    ValtioStore.v_PagePrevious = CurrentPage
+    ValtioStore.v_Page = 'QuizSelect'
     ValtioStore.v_TestData = savedValues.z_TestData
     ValtioStore.v_HideParams = savedValues.z_HideParams
     ValtioStore.v_ShowInfo = savedValues.z_ShowInfo
@@ -225,7 +229,7 @@ const QuizSettings = () => {
 
               {/*.................................................................................................*/}
               <Grid item xs={12}>
-                <MyButton type='submit' text='Test SignIn' value='Submit' />
+                <MyButton type='submit' text='Update' value='Submit' />
               </Grid>
             </QForm>
           </Form>

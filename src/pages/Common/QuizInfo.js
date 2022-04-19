@@ -27,6 +27,7 @@ const QuizInfo = () => {
   //  Retrieve the state
   //
   const page = snapShot.v_Page
+  const pageprevious = snapShot.v_PagePrevious
   const name = snapShot.v_Name
   const email = snapShot.v_Email
   const owner = snapShot.v_Owner
@@ -54,6 +55,7 @@ const QuizInfo = () => {
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>Page</Box>
               <Box>{page}</Box>
+              <Box>{pageprevious}</Box>
             </Grid>
             <Grid item xs={12} sm={4}>
               <Box borderBottom={1}>User</Box>

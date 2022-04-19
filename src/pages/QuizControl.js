@@ -9,7 +9,6 @@ import debugSettings from '../debug/debugSettings'
 //
 //  Sub Components
 //
-import QuizTest from './QuizTest/QuizTest'
 import QuizSettings from './QuizSettings/QuizSettings'
 import QuizRegister from './QuizRegister/QuizRegister'
 import QuizSignin from './QuizSignin/QuizSignin'
@@ -31,7 +30,6 @@ function QuizControl() {
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
-  if (g_log1) console.log('snapShot.v_Page ', snapShot.v_Page)
   //
   //  Get the URL Parameters (once only)
   //
@@ -105,16 +103,25 @@ function QuizControl() {
   //
   //  Retrieve the state
   //
-  let page = snapShot.v_Page
-  if (g_log1) console.log('Page: ', page)
+  let CurrentPage = snapShot.v_Page
+  if (g_log1) console.log('CurrentPage: ', CurrentPage)
+  //
+  //  Override the page if Server Data and not signed in
+  //
+  if (
+    (CurrentPage === 'QuizSelect') &
+    (snapShot.v_TestData === false) &
+    (snapShot.v_SignedIn === false)
+  ) {
+    ValtioStore.v_Page = 'QuizSignin'
+    CurrentPage = 'QuizSignin'
+  }
   //
   //  Present the selected component
   //
-  switch (page) {
+  switch (CurrentPage) {
     case 'QuizSettings':
       return <QuizSettings />
-    case 'QuizTest':
-      return <QuizTest />
     case 'QuizRegister':
       return <QuizRegister />
     case 'QuizSignin':
@@ -126,7 +133,7 @@ function QuizControl() {
     case 'QuizReview':
       return <QuizReview />
     default:
-      return <p>error</p>
+      return <QuizSelect />
   }
 }
 

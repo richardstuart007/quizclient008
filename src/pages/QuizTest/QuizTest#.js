@@ -4,7 +4,7 @@
 import { useSnapshot } from 'valtio'
 import { Formik, Form } from 'formik'
 import * as Yup from 'yup'
-import { Container, Grid, Typography } from '@mui/material'
+import { Container, Grid } from '@mui/material'
 import { Accessibility } from '@mui/icons-material'
 //
 //  Debug Settings
@@ -51,6 +51,7 @@ function QuizTest() {
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
+  const CurrentPage = snapShot.v_Page
   //
   //  TestData ?
   //
@@ -74,12 +75,12 @@ function QuizTest() {
     //
     //  Update Store
     //
+    ValtioStore.v_PagePrevious = CurrentPage
     ValtioStore.v_Page = 'QuizSelect'
     ValtioStore.v_Email = email
     ValtioStore.v_Name = name
+    ValtioStore.v_SignedIn = true
     ValtioStore.v_Reset = true
-    // ValtioStore.v_Data = QUESTIONS_DATA
-    // if (g_log1) console.log(QUESTIONS_DATA)
   }
   //...................................................................................
   //.  Render the form
@@ -125,14 +126,11 @@ function QuizTest() {
                     <MyButton
                       text='Signin'
                       onClick={() => {
+                        ValtioStore.v_PagePrevious = CurrentPage
                         ValtioStore.v_Page = 'QuizSignin'
                       }}
                     />
                   )}
-
-                  <Typography variant='subtitle2' gutterBottom>
-                    Navigation
-                  </Typography>
 
                   {g_TestData ? null : (
                     <MyButton
@@ -140,18 +138,11 @@ function QuizTest() {
                       variant='outlined'
                       color='secondary'
                       onClick={() => {
+                        ValtioStore.v_PagePrevious = CurrentPage
                         ValtioStore.v_Page = 'QuizRegister'
                       }}
                     />
                   )}
-                  <MyButton
-                    text='Settings'
-                    variant='outlined'
-                    color='secondary'
-                    onClick={() => {
-                      ValtioStore.v_Page = 'QuizSettings'
-                    }}
-                  />
                 </Grid>
               </Grid>
             </Form>

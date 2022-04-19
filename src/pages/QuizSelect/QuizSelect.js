@@ -75,6 +75,7 @@ const QuizSelect = () => {
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
+  const CurrentPage = snapShot.v_Page
   //
   //  Set Debug State
   //
@@ -211,6 +212,7 @@ const QuizSelect = () => {
   //...................................................................................
   const updateStore = () => {
     if (g_log1) console.log('snapShot.v_Quest', snapShot.v_Quest)
+    ValtioStore.v_PagePrevious = CurrentPage
     ValtioStore.v_Page = 'Quiz'
     ValtioStore.v_Reset = true
     ValtioStore.v_Owner = savedValues.qowner
