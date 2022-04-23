@@ -236,5 +236,19 @@ exports.HANDS = [
     hhearts: 'AK983',
     hdiamonds: 'A8',
     hclubs: '942'
+  },
+  {
+    hid: 321,
+    hspades: 'KT764',
+    hhearts: 'AJ742',
+    hdiamonds: 'Q2',
+    hclubs: '3'
+  },
+  {
+    hid: 327,
+    hspades: 'A975',
+    hhearts: 'QT74',
+    hdiamonds: '6',
+    hclubs: 'KT74'
   }
 ]
