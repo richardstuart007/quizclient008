@@ -8,7 +8,6 @@ export const getGroup1Collection = () => [
   { id: 'Redoubles', title: 'Re-doubles' },
   { id: '1NT', title: '1NT' },
   { id: 'Doubles', title: 'Doubles' },
-  { id: 'Carol', title: 'Carol' },
   { id: 'WBF', title: 'WBF' },
   { id: 'TwoWayCheckback', title: 'Two Way Checkback' },
   { id: 'Quantitative4NT', title: 'Quantitative 4NT' },

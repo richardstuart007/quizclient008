@@ -192,10 +192,6 @@ exports.BIDDING = [
     bbidding: ['1NT', 'P', '2C', 'X']
   },
   {
-    bid: 161,
-    bbidding: ['2NT', 'Pass', '3S']
-  },
-  {
     bid: 220,
     bbidding: ['1C', 'Pass', '1S', 'Pass', '1NT', 'Pass']
   },
@@ -362,14 +358,6 @@ exports.BIDDING = [
   {
     bid: 243,
     bbidding: ['1C', 'Pass', '1D', 'Pass', '1NT', 'Pass']
-  },
-  {
-    bid: 9073,
-    bbidding: ['1D', 'Pass', '1H', '1S', 'X']
-  },
-  {
-    bid: 9227,
-    bbidding: ['1H', 'Pass', '1S', 'Pass', '1NT', 'Pass', '2D', 'Pass']
   },
   {
     bid: 305,
