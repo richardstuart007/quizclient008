@@ -1,7 +1,7 @@
 exports.QUESTIONS = [
   {
     qid: 1,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT01',
     qdetail:
       'After the following biddding.   AKJx, AQxxx, Kx xx what is the opening bid ?  Think about your rebid.',
@@ -17,7 +17,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 2,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT02',
     qdetail:
       'After the following biddding.   AKx, AQxxx, KJx xx what is the opening bid ?  Think about your rebid.',
@@ -33,7 +33,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 3,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT03',
     qdetail:
       'After the following biddding.   1NT  P  2C  P,  2D  Pass.  What is your bid ?',
@@ -49,7 +49,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 4,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT04',
     qdetail:
       'After the following biddding.   1NT  P  2C  P, 2D  P  2NT.  What is your bid ?',
@@ -65,7 +65,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 5,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT05',
     qdetail:
       'After the following biddding.   1NT  P  2C  P, 2D  P  3H.  What is your bid ?',
@@ -81,7 +81,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 6,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT06',
     qdetail: 'After the following biddding.   1NT  P  3H.  What is your bid ?',
     qcorrect: 'Game force shortage in hearts',
@@ -96,7 +96,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 7,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT07',
     qdetail: 'After the following biddding.   1NT  P  3S.  What is your bid ?',
     qcorrect: 'Game force shortage in Spades',
@@ -111,7 +111,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 8,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT08',
     qdetail:
       'After the following biddding.   1NT  P  2C  P,  2H  P  3S.  What is your bid ?',
@@ -127,7 +127,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 9,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT09',
     qdetail:
       'After the following biddding.   1NT  P  2C  P,  2S  P  3H.  What is your bid ?',
@@ -143,7 +143,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 10,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT10',
     qdetail:
       'After the following biddding.   1NT  P  2D  P,  2H  P  2S.  What is your bid ?',
@@ -159,7 +159,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 11,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT11',
     qdetail:
       'After the following biddding.   1NT  P  2S P, 2NT.  What is your bid ?',
@@ -175,7 +175,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 12,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT12',
     qdetail:
       'After the following biddding.   1NT  P  2S P, 3C.  What is your bid ?',
@@ -191,7 +191,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 13,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT13',
     qdetail:
       'After the following biddding.   1NT  P  2NT P, 3C.  What is your bid ?',
@@ -207,7 +207,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 14,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT14',
     qdetail:
       'After the following biddding.   1NT  P  2S P, 3D.  What is your bid ?',
@@ -223,7 +223,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 15,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT15',
     qdetail: 'After the following biddding.   1NT  P  3C.  What is your bid ?',
     qcorrect: 'Puppet Stayman',
@@ -238,7 +238,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 16,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT16',
     qdetail: 'After the following biddding.   1NT  P  3D.  What is your bid ?',
     qcorrect: 'Shortage in Diamonds, Game force',
@@ -253,7 +253,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 17,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT17',
     qdetail: 'After the following biddding.   1NT  P  3H.  What is your bid ?',
     qcorrect: 'Shortage in Hearts Game force',
@@ -268,7 +268,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 18,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT18',
     qdetail: 'After the following biddding.   1NT  P  3S.  What is your bid ?',
     qcorrect: 'Shortage in Spades, Game force',
@@ -283,7 +283,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 19,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT19',
     qdetail: 'After the following biddding.   1NT   P  4D.  What is your bid ?',
     qcorrect: 'Texas Transfer to Hearts',
@@ -298,7 +298,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 20,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT20',
     qdetail: 'After the following biddding.   1NT   P  4H.  What is your bid ?',
     qcorrect: 'Texas Transfer to Spades',
@@ -313,7 +313,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 21,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT21',
     qdetail: 'After the following biddding.   1NT  P  4S.  What is your bid ?',
     qcorrect: 'To Play, no slam interest',
@@ -328,7 +328,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 22,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT30',
     qdetail:
       'After the following biddding.   1NT P 3C P, 3NT.  What is your bid ?',
@@ -344,7 +344,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 23,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT31',
     qdetail:
       'After the following biddding.   1NT  P  3C P, 3H.  What is your bid ?',
@@ -360,7 +360,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 24,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT32',
     qdetail:
       'After the following biddding.   1NT  P  3C P, 3S.  What is your bid ?',
@@ -376,7 +376,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 25,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT33',
     qdetail:
       'After the following biddding.   1NT P 3C P, 3D P 3NT.  What is your bid ?',
@@ -392,7 +392,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 26,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT34',
     qdetail:
       'After the following biddding.   1NT  P  3C  P,  3D  P 3H.  What is your bid ?',
@@ -408,7 +408,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 27,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT35',
     qdetail:
       'After the following biddding.   1NT  P  3C  P,  3D  P 3S.  What is your bid ?',
@@ -424,7 +424,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 28,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT36',
     qdetail: 'After the following biddding.   1NT  P  3C.  What is your bid ?',
     qcorrect: 'I have AT LEAST one 3+ Card major',
@@ -439,7 +439,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 29,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT37',
     qdetail: 'After the following biddding.   1NT   P  3S.  What is your bid ?',
     qcorrect: 'I have exactly 5 Spades and 4 Hearts',
@@ -454,7 +454,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 30,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT38',
     qdetail:
       'After the following biddding.   1NT  P  3C  P, 3D  P  4D.  What is your bid ?',
@@ -470,7 +470,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 31,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT39',
     qdetail: 'After the following biddding.   1NT  P  4C.  What is your bid ?',
     qcorrect: 'Gerber CRO',
@@ -485,7 +485,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 32,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT40',
     qdetail: 'After the following biddding.   1NT  P  4NT.  What is your bid ?',
     qcorrect: 'Quantitive Raise to 6NT',
@@ -500,7 +500,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 33,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT41',
     qdetail: 'After the following biddding.   1NT  P  5NT.  What is your bid ?',
     qcorrect: 'Quantitive Raise to 7NT',
@@ -515,7 +515,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 34,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT42',
     qdetail:
       'How do you bid after your partner shows 20-22 arriving at 2NT, if you hold 5 Spades and 4 Hearts ?',
@@ -531,7 +531,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 35,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT43',
     qdetail:
       'How do you bid after your partner shows 20-22 arriving at 2NT, if you hold 5 Hearts and 4 Spades ?',
@@ -547,7 +547,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 36,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT44',
     qdetail:
       'How do you bid after your partner shows 20-22 arriving at 2NT, if you hold 5 Hearts and 5 Spades ?',
@@ -563,7 +563,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 37,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT46',
     qdetail:
       'Where 2NT shows 5/5 in the minors.   1NT  2NT X.  What does this bidding sequence mean ?',
@@ -579,7 +579,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 38,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT47',
     qdetail:
       'Where 2NT shows 5/5 in the minors.   1NT  2NT 3C.  What does this bidding sequence mean ?',
@@ -595,7 +595,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 39,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT48',
     qdetail:
       'Where 2NT shows 5/5 in the minors.   1NT  2NT 3D.  What does this bidding sequence mean ?',
@@ -611,7 +611,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 40,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT49',
     qdetail:
       'Where 2NT shows 5/5 in the minors.   1NT  2NT 3H.  What does this bidding sequence mean ?',
@@ -627,7 +627,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 41,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT50',
     qdetail:
       'Where 2NT shows 5/5 in the minors.   1NT  2NT 3S.  What does this bidding sequence mean ?',
@@ -643,7 +643,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 42,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT51',
     qdetail:
       'Where 2NT shows 5/5 in the minors.   1NT  2NT 3H P, 3S P 4H.  What does this bidding sequence mean ?',
@@ -659,7 +659,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 43,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT52',
     qdetail:
       'Where 2NT shows 5/5 in the minors.   1NT  2NT 3NT.  What does this bidding sequence mean ?',
@@ -675,7 +675,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 44,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT53',
     qdetail:
       'After the following biddding.   1NT  P  2D  X,  P.  What is your bid ?',
@@ -691,7 +691,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 45,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT54',
     qdetail:
       'After the following biddding.   1NT  P  2D  X,  2H.  What is your bid ?',
@@ -707,7 +707,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 46,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT55',
     qdetail:
       'After the following biddding.   1NT  P  2D  X,  XX.  What is your bid ?',
@@ -723,7 +723,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 47,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT56',
     qdetail: 'After the following biddding.   1D 1NT P 2C.  What is your bid ?',
     qcorrect: 'To Play, weak SOS Rescue',
@@ -738,7 +738,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 48,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT57',
     qdetail: 'After the following biddding.   1D 1NT P 2D.  What is your bid ?',
     qcorrect: 'To Play, weak SOS Rescue',
@@ -753,7 +753,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 49,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT58',
     qdetail: 'After the following biddding.   1D 1NT X 2C.  What is your bid ?',
     qcorrect: 'Helvic Wriggle',
@@ -768,7 +768,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 50,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT59',
     qdetail: 'After the following biddding.   1D 1NT X XX.  What is your bid ?',
     qcorrect: 'Helvic Wriggle, partner must bid 2C',
@@ -783,7 +783,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 51,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT60',
     qdetail:
       'After the following biddding.   1D 1NT X Pass.  What is your bid ?',
@@ -799,7 +799,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 52,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT61',
     qdetail: 'After the following biddding.   1D 1NT X 2D.  What is your bid ?',
     qcorrect: 'Helvic Wriggle, shows Diamonds and Hearts',
@@ -814,7 +814,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 53,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT62',
     qdetail: 'After the following biddding.   1D 1NT P 3C.  What is your bid ?',
     qcorrect: 'Puppet Stayman.  Game force.',
@@ -829,7 +829,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 54,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT63',
     qdetail: 'After the following biddding.   1D 1NT X 3C.  What is your bid ?',
     qcorrect: 'Puppet Stayman.  Game force.',
@@ -844,7 +844,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 55,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT64',
     qdetail: 'After the following biddding.   1D 1NT X 3D.  What is your bid ?',
     qcorrect: 'Transfer to Hearts.  Game force.',
@@ -859,7 +859,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 56,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT65',
     qdetail:
       'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds X..  What does this bidding sequence mean ?',
@@ -875,7 +875,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 57,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT66',
     qdetail:
       'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds 2D..  What does this bidding sequence mean ?',
@@ -891,7 +891,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 58,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT67',
     qdetail:
       'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds 2H..  What does this bidding sequence mean ?',
@@ -907,7 +907,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 59,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT68',
     qdetail:
       'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds 2NT.  What does this bidding sequence mean ?',
@@ -923,7 +923,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 60,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT69',
     qdetail:
       'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds 3H.  What does this bidding sequence mean ?',
@@ -939,7 +939,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 61,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT70',
     qdetail:
       'Opposition bid 2C (6 card suit) over our 1NT.  Partner responds 2NT.  What does this bidding sequence mean ?',
@@ -955,7 +955,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 62,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT71',
     qdetail:
       'After the following biddding.   1NT  2S (natural) 3S.  What does this bidding sequence mean ?',
@@ -971,7 +971,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 63,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT72',
     qdetail:
       'After the following biddding.   1NT  2S (natural)  2NT  P,  3C  P  3H.  What does this bidding sequence mean ?',
@@ -987,7 +987,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 64,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT73',
     qdetail:
       'After the following biddding.   1NT  2S (natural)  2NT  P,  3C  P  3S.  What does this bidding sequence mean ?',
@@ -1003,7 +1003,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 65,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT74',
     qdetail:
       'After the following biddding.   1NT  2S (natural)  2NT  P,  3C  P  3NT.  What does this bidding sequence mean ?',
@@ -1019,7 +1019,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 66,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT75',
     qdetail:
       'After the following biddding.   1NT  2S  3NT.  What does this bidding sequence mean ?',
@@ -1036,7 +1036,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 67,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT76',
     qdetail:
       'Opposition bid 2C (Clubs stayman) over our 1NT.  Partner responds 2NT.  What does this bidding sequence mean ?',
@@ -1052,7 +1052,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 68,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT77',
     qdetail:
       'Opposition bid 2C (Clubs stayman) over our 1NT.  Partner responds X.  What does this bidding sequence mean ?',
@@ -1068,7 +1068,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 69,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT78',
     qdetail:
       'Opposition bid 2C (Clubs stayman) over our 1NT.  1NT  2C  3C.  What does this bidding sequence mean ?',
@@ -1084,7 +1084,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 70,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT79',
     qdetail:
       'After 1NT  P  2D  X, what would you bid holding the following KQx,xx,KQJTx,AQx ?',
@@ -1100,7 +1100,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 71,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT80',
     qdetail:
       'After 1NT  P  2D  X, what would you bid holding the following KQJx,Ax,Jxxx,AQx ?',
@@ -1116,7 +1116,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 72,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: '1NT81',
     qdetail:
       'After 1NT  P  2D  X, what would you bid holding the following KQx,Qxx,KJTx,AQx ?',
@@ -1950,8 +1950,7 @@ exports.QUESTIONS = [
     qid: 126,
     qowner: 'public',
     qkey: 'Redouble01',
-    qdetail:
-      'After the following biddding.   1C  X  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect:
       'VALUES Responder Redouble.  10+ HCP, subsequent doubles are penalty',
     qbad1: 'SUPPORT Double, 3 card fit, 6 + HCP',
@@ -1967,8 +1966,7 @@ exports.QUESTIONS = [
     qid: 127,
     qowner: 'public',
     qkey: 'Redouble02',
-    qdetail:
-      'After the following biddding.   1H  X  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect:
       'VALUES Responder Redouble.  10+ HCP, subsequent doubles are penalty',
     qbad1: 'SNAPDRAGON re-double',
@@ -1984,8 +1982,7 @@ exports.QUESTIONS = [
     qid: 128,
     qowner: 'public',
     qkey: 'Redouble03',
-    qdetail:
-      'After the following biddding.   1C  P  1H   X,   XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect:
       "SUPPORT re-double.  3 card support of partners suit, after partner's 1 of a major",
     qbad1: 'GAME FORCE re-double',
@@ -2001,8 +1998,7 @@ exports.QUESTIONS = [
     qid: 129,
     qowner: 'public',
     qkey: 'Redouble04',
-    qdetail:
-      'After the following biddding.   1C 1S  2H  X,  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'VALUES redouble from opener',
     qbad1: 'SUPPORT re-double.  3 card support of partners suit, 1 of a major',
     qbad2: 'RESCUE re-double (SOS)',
@@ -2017,8 +2013,7 @@ exports.QUESTIONS = [
     qid: 130,
     qowner: 'public',
     qkey: 'Redouble05',
-    qdetail:
-      'After the following biddding.   1C  P  P  X,  P  P  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'RESCUE re-double (SOS)',
     qbad1: 'SUPPORT Double, 3 card fit, 6 + HCP',
     qbad2: 'SUPPORT 4 card fit for clubs',
@@ -2033,8 +2028,7 @@ exports.QUESTIONS = [
     qid: 131,
     qowner: 'public',
     qkey: 'Redouble06',
-    qdetail:
-      'After the following biddding.   1NT  P  P  X,  P  P  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Bid lowest 4 card suit, try to escape 1NT XX',
     qbad1: 'HELVIC Wriggle',
     qbad2: 'PENALTY double',
@@ -2049,8 +2043,7 @@ exports.QUESTIONS = [
     qid: 132,
     qowner: 'public',
     qkey: 'Redouble07',
-    qdetail:
-      'After the following biddding.   4S  X  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'PENALTY, To play, subsequent doubles penalty',
     qbad1: 'SLAM INVITATION, responder has a big hand',
     qbad2: 'TAKE-OUT responder wants you to bid your best suit',
@@ -2065,8 +2058,7 @@ exports.QUESTIONS = [
     qid: 133,
     qowner: 'public',
     qkey: 'Redouble08',
-    qdetail:
-      'After the following biddding.   2S  X  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'PENALTY, To play, subsequent doubles penalty',
     qbad1: 'TAKE OUT, responder is looking for 3NT',
     qbad2: 'TAKE-OUT responder wants you to bid your best suit',
@@ -2081,8 +2073,7 @@ exports.QUESTIONS = [
     qid: 134,
     qowner: 'public',
     qkey: 'Redouble09',
-    qdetail:
-      'After the following biddding.   2S  X  2NT  3H,   P  P  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'PENALTY, To play, subsequent doubles penalty',
     qbad1: 'TAKE OUT, responder is looking for 3NT',
     qbad2: 'TAKE-OUT responder wants you to bid your best suit',
@@ -2097,8 +2088,7 @@ exports.QUESTIONS = [
     qid: 135,
     qowner: 'public',
     qkey: 'Redouble10',
-    qdetail:
-      'After the following biddding.   2S  X  XX  3C,  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'PENALTY, To play, subsequent doubles penalty',
     qbad1: 'TAKE OUT, opener has no stops in clubs',
     qbad2: 'Opener has extra spade length but is weak',
@@ -2113,8 +2103,7 @@ exports.QUESTIONS = [
     qid: 136,
     qowner: 'public',
     qkey: 'Redouble11',
-    qdetail:
-      'After the following biddding.   2S  X  XX  3C, Pass.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: "CAN'T PENALTY.  Opener has no defensive tricks.",
     qbad1: 'TRAP PASS - Opener is waiting for responder to double',
     qbad2: 'Opener likes clubs and wishes to defend',
@@ -2129,8 +2118,7 @@ exports.QUESTIONS = [
     qid: 137,
     qowner: 'public',
     qkey: 'Redouble12',
-    qdetail:
-      'After the following biddding.   2S  X  XX  3H,  P  P  X.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'PENALTY.  Responder has values to defeat contract',
     qbad1: 'TAKE OUT.  Responder is two suited in the minors',
     qbad2: 'STOPPER ASK - Responder is looking to play in 3NT',
@@ -2145,8 +2133,7 @@ exports.QUESTIONS = [
     qid: 138,
     qowner: 'public',
     qkey: 'Redouble13',
-    qdetail:
-      'After the following biddding.   1NT  P  2C  X,  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'TO PLAY in 2C',
     qbad1: 'I have BOTH majors, you choose, game force',
     qbad2:
@@ -2179,7 +2166,7 @@ exports.QUESTIONS = [
     qowner: 'public',
     qkey: 'Redouble15',
     qdetail:
-      'We are looking to bid 3NT with a cue bid of their suit at the 3 level as a stopper ask.  They double and we bid 3NT..  What does this bidding sequence mean ?',
+      'We are looking to bid 3NT with a cue bid of their suit at the 3 level as a stopper ask.  They double and we bid 3NT.  What does this bidding sequence mean ?',
     qcorrect: 'I have a 1+ stoppers',
     qbad1: 'I have exactly 1 stopper',
     qbad2: 'I have exactly 2 stoppers',
@@ -2194,8 +2181,7 @@ exports.QUESTIONS = [
     qid: 141,
     qowner: 'public',
     qkey: 'Redouble16',
-    qdetail:
-      '1H  P  3D  P,  3S  X  P  P,  XX.  What does this bidding sequence mean ?',
+    qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'First round control in Spades, Ace/Void in bid suit',
     qbad1: 'King of Spades',
     qbad2: 'Asking for a stopper to get to 3NT',
@@ -2210,7 +2196,7 @@ exports.QUESTIONS = [
     qid: 142,
     qowner: 'public',
     qkey: 'PS01',
-    qdetail: 'What do you bid holding 86,AQ73,6,KJT762 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '1C',
     qbad1: 'Pass',
     qbad2: '3C',
@@ -2225,7 +2211,7 @@ exports.QUESTIONS = [
     qid: 143,
     qowner: 'public',
     qkey: 'PS02',
-    qdetail: 'What do you bid holding 6,763,K86,KJT942 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '3C',
     qbad1: 'Pass',
     qbad2: '1C',
@@ -2240,7 +2226,7 @@ exports.QUESTIONS = [
     qid: 144,
     qowner: 'public',
     qkey: 'PS03',
-    qdetail: 'What do you bid holding AQ,J43,Q765,KQT3 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '1C',
     qbad1: '1D',
     qbad2: '1NT',
@@ -2255,8 +2241,7 @@ exports.QUESTIONS = [
     qid: 145,
     qowner: 'public',
     qkey: 'PS04',
-    qdetail:
-      'What do you bid after 1H  P  1S  P, 2C  P holding K743,52,AJT84,T4 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2H',
     qbad1: '2D',
     qbad2: '2NT',
@@ -2271,8 +2256,7 @@ exports.QUESTIONS = [
     qid: 146,
     qowner: 'public',
     qkey: 'PS05',
-    qdetail:
-      'What do you bid after 1H  P  1S  P, 2C  P holding AQ742,A5,973,K86 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2D',
     qbad1: '2S',
     qbad2: '2NT',
@@ -2287,7 +2271,7 @@ exports.QUESTIONS = [
     qid: 147,
     qowner: 'public',
     qkey: 'PS06',
-    qdetail: 'What do you bid after 1S X holding Q832,76,94,T9865 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '3S',
     qbad1: '2S',
     qbad2: 'Pass',
@@ -2302,7 +2286,7 @@ exports.QUESTIONS = [
     qid: 148,
     qowner: 'public',
     qkey: 'PS07',
-    qdetail: 'What do you bid after 1S X holding 9,Q753,K94,AQJ53 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: 'Redouble',
     qbad1: '2C',
     qbad2: 'Pass',
@@ -2317,7 +2301,7 @@ exports.QUESTIONS = [
     qid: 149,
     qowner: 'public',
     qkey: 'PS08',
-    qdetail: 'What do you bid after 1S X holding AT97,AQ5.9753,T9 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '3D',
     qbad1: '2NT',
     qbad2: '3S',
@@ -2332,7 +2316,7 @@ exports.QUESTIONS = [
     qid: 150,
     qowner: 'public',
     qkey: 'PS09',
-    qdetail: 'What do you bid after 1NT  P   holding 74,85,K92,AQJ753 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '3NT',
     qbad1: '2S',
     qbad2: '4C',
@@ -2347,7 +2331,7 @@ exports.QUESTIONS = [
     qid: 151,
     qowner: 'public',
     qkey: 'PS10',
-    qdetail: 'What do you bid after 1NT  P  holding J765,9864,QT63,5 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2C',
     qbad1: 'Pass',
     qbad2: '2D',
@@ -2362,7 +2346,7 @@ exports.QUESTIONS = [
     qid: 152,
     qowner: 'public',
     qkey: 'PS11',
-    qdetail: 'What do you bid after 1H  1NT holding 984,7,KQJ743,987 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2D',
     qbad1: 'Pass',
     qbad2: 'Double',
@@ -2377,7 +2361,7 @@ exports.QUESTIONS = [
     qid: 153,
     qowner: 'public',
     qkey: 'PS12',
-    qdetail: 'What do you bid after 1H  1NT holding KT,K9,A8765,9753 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: 'Double',
     qbad1: '2D',
     qbad2: 'Pass',
@@ -2392,7 +2376,7 @@ exports.QUESTIONS = [
     qid: 154,
     qowner: 'public',
     qkey: 'PS13',
-    qdetail: 'What do you bid after 1D from RHO holding 4,A9863,AK7,AK98 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '1H',
     qbad1: 'Double',
     qbad2: '1NT',
@@ -2407,7 +2391,7 @@ exports.QUESTIONS = [
     qid: 155,
     qowner: 'public',
     qkey: 'PS14',
-    qdetail: 'What do you bid after 1D from RHO holding K76,AQ7,53,A8743 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: 'Double',
     qbad1: '2C',
     qbad2: 'Pass',
@@ -2422,7 +2406,7 @@ exports.QUESTIONS = [
     qid: 156,
     qowner: 'public',
     qkey: 'PS15',
-    qdetail: 'What do you bid after 1D from RHO holding AQJ6,96,AQ9,9853 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '1S',
     qbad1: '1NT',
     qbad2: 'Double',
@@ -2437,8 +2421,7 @@ exports.QUESTIONS = [
     qid: 157,
     qowner: 'public',
     qkey: 'PS16',
-    qdetail:
-      'Your LHO opens 1C which is passed around to you holding KQ4,AJ7,9762,KQJ ?',
+    qdetail: 'What do you bid ?',
     qcorrect: 'Double',
     qbad1: '1NT',
     qbad2: '1D',
@@ -2453,8 +2436,7 @@ exports.QUESTIONS = [
     qid: 158,
     qowner: 'public',
     qkey: 'PS17',
-    qdetail:
-      'Your LHO opens 1C which is passed around to you holding AKJT74,KJ4,75,63 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '2S',
     qbad1: '1S',
     qbad2: '3S',
@@ -2469,8 +2451,7 @@ exports.QUESTIONS = [
     qid: 159,
     qowner: 'public',
     qkey: 'PS18',
-    qdetail:
-      'The auction proceeds 1H  2S  3S  what do you bid holding K4,842,98753,A84 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: 'Double',
     qbad1: 'Pass',
     qbad2: '3S',
@@ -2485,8 +2466,7 @@ exports.QUESTIONS = [
     qid: 160,
     qowner: 'public',
     qkey: 'PS19',
-    qdetail:
-      'The auction proceeds 1H  2S  3S  what do you bid holding K764,76,A9873,76 ?',
+    qdetail: 'What do you bid ?',
     qcorrect: '4S',
     qbad1: 'Double',
     qbad2: 'Pass',
@@ -3673,8 +3653,7 @@ exports.QUESTIONS = [
     qid: 261,
     qowner: 'public',
     qkey: 'BergenRaises18',
-    qdetail:
-      'What is your bid with the following hand when your partner opens 1S ?  KQ92, 732, QJ8, A86',
+    qdetail: 'What is your bid ?',
     qcorrect: '3D',
     qbad1: '3C',
     qbad2: '3S',
@@ -3689,8 +3668,7 @@ exports.QUESTIONS = [
     qid: 262,
     qowner: 'public',
     qkey: 'BergenRaises19',
-    qdetail:
-      'What is your bid with the following hand when your partner opens 1S ?  AKT3, 985, KT6, KJ5',
+    qdetail: 'What is your bid ?',
     qcorrect: '2NT Jacoby',
     qbad1: '3D',
     qbad2: '3S',
@@ -3705,8 +3683,7 @@ exports.QUESTIONS = [
     qid: 263,
     qowner: 'public',
     qkey: 'BergenRaises20',
-    qdetail:
-      'What is your bid with the following hand when your partner opens 1S ?  Q732, AT6, KQ97, AJ',
+    qdetail: 'What is your bid ?',
     qcorrect: '2NT Jacoby',
     qbad1: '3D',
     qbad2: '3S',
@@ -3721,8 +3698,7 @@ exports.QUESTIONS = [
     qid: 264,
     qowner: 'public',
     qkey: 'BergenRaises21',
-    qdetail:
-      'What is your bid with the following hand when your partner opens 1S and you are PLAYING 2/1 ?  K54, K87, Aj953, K7',
+    qdetail: 'What is your bid ?',
     qcorrect: '2D game force',
     qbad1: '3NT pudding raise',
     qbad2: '2NT Jocoby',
@@ -3737,8 +3713,7 @@ exports.QUESTIONS = [
     qid: 265,
     qowner: 'public',
     qkey: 'BergenRaises22',
-    qdetail:
-      'What is your bid with the following hand when your partner opens 1S and you are PLAYING STANDARD AMERICAN ?  K54, K87, Aj953, K7',
+    qdetail: 'What is your bid ?',
     qcorrect: '2D delayed game raise or 3NT pudding raise',
     qbad1: '2NT jacoby',
     qbad2: null,
@@ -3753,8 +3728,7 @@ exports.QUESTIONS = [
     qid: 266,
     qowner: 'public',
     qkey: 'BergenRaises23',
-    qdetail:
-      'What is your bid with the following hand when your partner opens 1S and you are PLAYING 2/1 ?  AT6, AKT, J72, KJT3',
+    qdetail: 'What is your bid and you are PLAYING 2/1 ?',
     qcorrect: '2C game force',
     qbad1: '3NT pudding raise',
     qbad2: '2NT Jocoby',
@@ -3769,8 +3743,7 @@ exports.QUESTIONS = [
     qid: 267,
     qowner: 'public',
     qkey: 'BergenRaises24',
-    qdetail:
-      'What is your bid with the following hand when your partner opens 1S and you are PLAYING STANDARD AMERICAN ?  AT6, AKT, J72, KJT3',
+    qdetail: 'What is your bid and you are PLAYING STANDARD AMERICAN ?',
     qcorrect: '3NT pudding raise',
     qbad1: '2NT jacoby',
     qbad2: '2C game force',
@@ -3785,8 +3758,7 @@ exports.QUESTIONS = [
     qid: 268,
     qowner: 'public',
     qkey: 'BergenRaises25',
-    qdetail:
-      'After opening 1S and you responding 3C, what does 3D by partner mean ?',
+    qdetail: 'What does 3D by partner mean ?',
     qcorrect: 'Game try, accept if maximum',
     qbad1: 'Min, forced to bid 3S',
     qbad2: 'Game force',
@@ -3801,8 +3773,7 @@ exports.QUESTIONS = [
     qid: 269,
     qowner: 'public',
     qkey: 'BergenRaises26',
-    qdetail:
-      'After opening 1S and you responding 3C, what does 3H by partner mean ?',
+    qdetail: 'What does 3H by partner mean ?',
     qcorrect: 'Game try, accept if not minimum',
     qbad1: 'Min, forced to bid 3S',
     qbad2: 'Game force',
@@ -3817,8 +3788,7 @@ exports.QUESTIONS = [
     qid: 270,
     qowner: 'public',
     qkey: 'BergenRaises27',
-    qdetail:
-      'After opening 1S and you responding 3C, what does 3S by partner mean ?',
+    qdetail: 'What does 3S by partner mean ?',
     qcorrect: 'Sign off',
     qbad1: 'Game try',
     qbad2: 'Game force',
@@ -3833,8 +3803,7 @@ exports.QUESTIONS = [
     qid: 271,
     qowner: 'public',
     qkey: 'BergenRaises28',
-    qdetail:
-      'After opening 1S and you responding 3C, what does 4C by partner mean ?',
+    qdetail: 'What does 4C by partner mean ?',
     qcorrect: 'Club Control',
     qbad1: 'Fit in clubs',
     qbad2: 'Partner forgot the system',
@@ -3849,8 +3818,7 @@ exports.QUESTIONS = [
     qid: 272,
     qowner: 'public',
     qkey: 'BergenRaises29',
-    qdetail:
-      'After opening 1S and you responding 3D, what does 4C by partner mean ?',
+    qdetail: 'What does 4C by partner mean ?',
     qcorrect: 'Club Control',
     qbad1: 'Partner is 5/5 in spades and clubs',
     qbad2: 'Partner forgot the system',
@@ -3865,8 +3833,7 @@ exports.QUESTIONS = [
     qid: 273,
     qowner: 'public',
     qkey: 'BergenRaises30',
-    qdetail:
-      'After opening 1S and you responding 2NT, what does 3C by partner mean ?',
+    qdetail: 'What does 3C by partner mean ?',
     qcorrect: 'Shortage in Clubs',
     qbad1: 'Club suit 4+',
     qbad2: 'Waiting bid',
@@ -3881,8 +3848,7 @@ exports.QUESTIONS = [
     qid: 274,
     qowner: 'public',
     qkey: 'BergenRaises31',
-    qdetail:
-      'After opening 1S and you responding 2NT, what does 3NT by partner mean ?',
+    qdetail: 'What does 3NT by partner mean ?',
     qcorrect: '15/16-17 no shortage',
     qbad1: 'To play',
     qbad2: '15/16-17 may have a shortage',
@@ -3897,8 +3863,7 @@ exports.QUESTIONS = [
     qid: 275,
     qowner: 'public',
     qkey: 'BergenRaises32',
-    qdetail:
-      'After opening 1S and you responding 2NT, what does 3S by partner mean ?',
+    qdetail: 'What does 3S by partner mean ?',
     qcorrect: '18-19 no shortage',
     qbad1: 'To play, partner is minimum',
     qbad2: '18-19 may have a shortage',
@@ -3913,8 +3878,7 @@ exports.QUESTIONS = [
     qid: 276,
     qowner: 'public',
     qkey: 'BergenRaises33',
-    qdetail:
-      'After opening 1S and you responding 2NT, what does 4S by partner mean ?',
+    qdetail: 'What does 4S by partner mean ?',
     qcorrect: '11-14/15 no shortage',
     qbad1: '11-14/15 may have a shortage',
     qbad2: 'Minimum, to play',
@@ -3929,8 +3893,7 @@ exports.QUESTIONS = [
     qid: 277,
     qowner: 'public',
     qkey: 'BergenRaises34',
-    qdetail:
-      'Your partner opens 1S and you are PLAYING 2/1.  The bidding goes 1S 2C (game force) 2NT (12-14) how do you agree spades ?',
+    qdetail: 'You are PLAYING 2/1.  How do you agree spades ?',
     qcorrect: '3S',
     qbad1: '4S',
     qbad2: null,
@@ -3945,7 +3908,7 @@ exports.QUESTIONS = [
     qid: 278,
     qowner: 'public',
     qkey: 'Quantitative4NT01',
-    qdetail: 'You open 1NT and partner goes 4NT, what is this bid ?',
+    qdetail: 'What is 4NT ?',
     qcorrect: 'Quantitative 4NT',
     qbad1: 'Ace Ask',
     qbad2: 'Pre-emptive',
@@ -3960,7 +3923,7 @@ exports.QUESTIONS = [
     qid: 279,
     qowner: 'public',
     qkey: 'Quantitative4NT02',
-    qdetail: 'You open 2NT and partner goes 4NT, what is this bid ?',
+    qdetail: 'What is 4NT ?',
     qcorrect: 'Quantitative 4NT',
     qbad1: 'Ace Ask',
     qbad2: 'Pre-emptive',
@@ -3975,7 +3938,7 @@ exports.QUESTIONS = [
     qid: 280,
     qowner: 'public',
     qkey: 'Quantitative4NT03',
-    qdetail: 'Bidding goes 1NT - 2C -, 2S - 4NT, what is this ?',
+    qdetail: 'What is 4NT ?',
     qcorrect: 'Quantitative 4NT',
     qbad1: 'Roman Key Card, agreeing Spades',
     qbad2: null,
@@ -3990,7 +3953,7 @@ exports.QUESTIONS = [
     qid: 281,
     qowner: 'public',
     qkey: 'Quantitative4NT04',
-    qdetail: 'Bidding goes 1NT - 2C -, 2S - 3H, what is this ?',
+    qdetail: 'What is 3H ?',
     qcorrect: 'Agreeing Spades, looking at Slam',
     qbad1: 'Self agreeing hearts as trumps',
     qbad2: 'Looking for NT, asking for a heart stopper',
@@ -4005,7 +3968,7 @@ exports.QUESTIONS = [
     qid: 282,
     qowner: 'public',
     qkey: 'Quantitative4NT05',
-    qdetail: 'Bidding goes 1NT - 2C -, 2H - 3S, what is this ?',
+    qdetail: 'What is 3S ?',
     qcorrect: 'Agreeing Hearts looking at Slam',
     qbad1: 'Self agreeing Spades as trumps',
     qbad2: 'Looking for NT, asking for a Spade stopper',
@@ -4020,7 +3983,7 @@ exports.QUESTIONS = [
     qid: 283,
     qowner: 'public',
     qkey: 'Quantitative4NT06',
-    qdetail: 'Bidding goes 1NT - 2C -, 2H - 4NT, what is this ?',
+    qdetail: 'What is 4NT ?',
     qcorrect: 'Quantitative 4NT',
     qbad1: 'Roman Key Card, agreeing Hearts',
     qbad2: null,
@@ -4035,7 +3998,7 @@ exports.QUESTIONS = [
     qid: 284,
     qowner: 'public',
     qkey: 'Quantitative4NT07',
-    qdetail: 'Bidding goes 1NT - 2D -, 2H - 4NT, what is this ?',
+    qdetail: 'What is 4NT ?',
     qcorrect: 'Quantitative 4NT',
     qbad1: 'Roman Key Card, agreeing Hearts',
     qbad2: null,
@@ -4050,7 +4013,7 @@ exports.QUESTIONS = [
     qid: 285,
     qowner: 'public',
     qkey: 'Quantitative4NT08',
-    qdetail: 'Bidding goes 1S 2H - 4NT, what is this ?',
+    qdetail: 'What is 4NT ?',
     qcorrect: 'Quantitative 4NT',
     qbad1: 'Roman Key Card, agreeing Hearts',
     qbad2: null,
@@ -4065,7 +4028,7 @@ exports.QUESTIONS = [
     qid: 286,
     qowner: 'public',
     qkey: 'Quantitative4NT09',
-    qdetail: 'Bidding goes 1S 2H - 2S, what is this ?',
+    qdetail: 'What is 2S ?',
     qcorrect: 'Agreeing Hearts',
     qbad1: 'Asking for stop in Spades',
     qbad2: 'Psyche',
@@ -4080,7 +4043,7 @@ exports.QUESTIONS = [
     qid: 287,
     qowner: 'public',
     qkey: 'Quantitative4NT10',
-    qdetail: 'Bidding goes 4H 4S - 4NT, what is this ?',
+    qdetail: 'What is 4NT ?',
     qcorrect: 'Roman Key Card, agreeing Hearts',
     qbad1: 'Quantitative 4NT',
     qbad2: null,
@@ -4095,7 +4058,7 @@ exports.QUESTIONS = [
     qid: 288,
     qowner: 'public',
     qkey: 'Cue1st2ndControls01',
-    qdetail: 'Bidding goes 1H - 3H -, 3S.  What is 3S ?',
+    qdetail: 'What is 3S ?',
     qcorrect: 'Control in Spades',
     qbad1: 'Suit Trial bid',
     qbad2: 'Natural spades',
@@ -4110,7 +4073,7 @@ exports.QUESTIONS = [
     qid: 289,
     qowner: 'public',
     qkey: 'Cue1st2ndControls02',
-    qdetail: 'Bidding goes 1H - 2H -, 2S.  What is 2S ?',
+    qdetail: 'What is 2S ?',
     qcorrect: 'Game try trial bid',
     qbad1: 'Control in Spades',
     qbad2: 'Natural spades',
@@ -4125,7 +4088,7 @@ exports.QUESTIONS = [
     qid: 290,
     qowner: 'public',
     qkey: 'Cue1st2ndControls03',
-    qdetail: 'Bidding goes 1NT - 2C -, 2S - 3S.  What is 3S ?',
+    qdetail: 'What is 3S ?',
     qcorrect: 'Agreeing hearts as trumps',
     qbad1: 'Asking for a stop in Spades',
     qbad2: 'Showing 5 Spades',
@@ -4140,7 +4103,7 @@ exports.QUESTIONS = [
     qid: 291,
     qowner: 'public',
     qkey: 'Cue1st2ndControls04',
-    qdetail: 'Bidding goes 1H - 3NT (3 hearts, 13-15 hcp) -, 4C.  What is 4C ?',
+    qdetail: '3NT (3 hearts, 13-15 hcp).  What is 4C ?',
     qcorrect: 'Cue of Clubs, agreeing Hearts',
     qbad1: 'Gerber',
     qbad2: '5+ clubs',
@@ -4155,7 +4118,7 @@ exports.QUESTIONS = [
     qid: 292,
     qowner: 'public',
     qkey: 'Cue1st2ndControls05',
-    qdetail: 'Bidding goes 2C - 2D -, 2S - 3S.  What is 3S ?',
+    qdetail: 'What is 3S ?',
     qcorrect: 'Agreeing spades, start of Cue bidding',
     qbad1: 'Invitational in Spades',
     qbad2: 'Weak Spades',
@@ -4200,7 +4163,7 @@ exports.QUESTIONS = [
     qid: 295,
     qowner: 'public',
     qkey: 'Cue1st2ndControls08',
-    qdetail: 'Bidding goes 1H 2S 3S.  What is 3S ?',
+    qdetail: 'What is 3S ?',
     qcorrect: 'Cue Raise agreeing Hearts, Control in Spades',
     qbad1: 'Asking for a stop in Spades',
     qbad2: 'Cue Raise agreeing Hearts',
@@ -4215,8 +4178,7 @@ exports.QUESTIONS = [
     qid: 296,
     qowner: 'public',
     qkey: 'Cue1st2ndControls09',
-    qdetail:
-      'Bidding goes 1H 2S 3S -.  You have Ace of diamonds and King of Clubs, what do you bid ? ',
+    qdetail: 'You have Ace of diamonds and King of Clubs, what do you bid ? ',
     qcorrect: '4C Control in clubs',
     qbad1: '4D showing a control in diamonds',
     qbad2: '4D showing Ace of diamonds',
@@ -4231,7 +4193,7 @@ exports.QUESTIONS = [
     qid: 297,
     qowner: 'public',
     qkey: 'Cue1st2ndControls10',
-    qdetail: 'Bidding goes 1H - 3D (bergen) -, 3S - 4C -.  What does 4C mean ?',
+    qdetail: 'What does 4C mean ?',
     qcorrect: '1st or 2nd round control in Clubs',
     qbad1: 'Gerber',
     qbad2: 'Waiting bid',
@@ -4246,7 +4208,7 @@ exports.QUESTIONS = [
     qid: 298,
     qowner: 'public',
     qkey: 'Cue1st2ndControls11',
-    qdetail: 'Bidding goes 1H - 3D (bergen) -, 3S - 4C -.  What does 4D mean ?',
+    qdetail: 'What does 4D mean ?',
     qcorrect: '1st or 2nd round control in Diamonds, NO control in Clubs',
     qbad1: '1st or 2nd round control in Diamonds',
     qbad2: 'Ace of Diamonds',
@@ -4261,8 +4223,7 @@ exports.QUESTIONS = [
     qid: 299,
     qowner: 'public',
     qkey: 'Cue1st2ndControls12',
-    qdetail:
-      'Bidding goes 1H - 3D (bergen) -, 3S - 4C -, 4H.  What does 4H mean ?',
+    qdetail: 'What does 4H mean ?',
     qcorrect: 'Sign off, not interested in Slam',
     qbad1: 'Waiting bid',
     qbad2: 'Asking partner to bid Roman Keycard',
@@ -4277,7 +4238,7 @@ exports.QUESTIONS = [
     qid: 300,
     qowner: 'public',
     qkey: 'Cue1st2ndControls13',
-    qdetail: 'Bidding goes 1H - 3D (bergen) -, 4C -.  What does 4C mean ?',
+    qdetail: '3D (bergen).  What does 4C mean ?',
     qcorrect: '1st or 2nd round control in Clubs, NO control in Spades',
     qbad1: 'Splinter in Clubs',
     qbad2: '1st or 2nd round control in Clubs',
@@ -4292,7 +4253,7 @@ exports.QUESTIONS = [
     qid: 301,
     qowner: 'public',
     qkey: 'Cue1st2ndControls14',
-    qdetail: 'Bidding goes 1H 2S 4C.  What is 4C ?',
+    qdetail: 'What is 4C ?',
     qcorrect: 'Agreeing hearts.  Control in Clubs, NO control in Spades',
     qbad1: 'Agreeing hearts.  Control in Clubs.',
     qbad2: 'Gerber',
@@ -4307,8 +4268,7 @@ exports.QUESTIONS = [
     qid: 302,
     qowner: 'public',
     qkey: 'Cue1st2ndControls15',
-    qdetail:
-      'You hold A4, AKQ94, Q63, K86 and open 1H.  Bidding goes 1H - 3NT(3card heart and 12-15 hcp) -.  What is your bid ?',
+    qdetail: '3NT(3card heart and 12-15 hcp).  What is your bid ?',
     qcorrect: '4C Control in clubs.',
     qbad1: '4C Control in clubs AND Spades',
     qbad2: '4NT RKC',
@@ -4323,8 +4283,7 @@ exports.QUESTIONS = [
     qid: 303,
     qowner: 'public',
     qkey: 'Cue1st2ndControls16',
-    qdetail:
-      'Bidding goes 2C - 2D -, 2NT - 3C(stayman) -, 3H - 3S.  What is 3S ?',
+    qdetail: '3C(stayman).  What is 3S ?',
     qcorrect: 'Interest in a Heart Slam, start of Cue Bidding',
     qbad1: '5+ Spades',
     qbad2: 'Ask for a Spade stop',
@@ -4339,7 +4298,7 @@ exports.QUESTIONS = [
     qid: 304,
     qowner: 'public',
     qkey: 'Cue1st2ndControls17',
-    qdetail: 'Bidding goes 2C - 2D -, 2S - 3S -, 4D.  What does 4D show ?',
+    qdetail: 'What does 4D show ?',
     qcorrect: 'Control in Diamonds but NOT in clubs',
     qbad1: 'Controls in Diamonds AND Clubs',
     qbad2: null,

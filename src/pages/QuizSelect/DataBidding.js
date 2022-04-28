@@ -192,6 +192,126 @@ exports.BIDDING = [
     bbidding: ['1NT', 'P', '2C', 'X']
   },
   {
+    bid: 126,
+    bbidding: ['1C', 'X', 'XX']
+  },
+  {
+    bid: 127,
+    bbidding: ['1H', 'X', 'XX']
+  },
+  {
+    bid: 128,
+    bbidding: ['1C', 'Pass', '1H', 'X', 'XX']
+  },
+  {
+    bid: 129,
+    bbidding: ['1C', '1S', '2H', 'X', 'XX']
+  },
+  {
+    bid: 130,
+    bbidding: ['1C', 'Pass', 'Pass', 'X', 'Pass', 'Pass', 'XX']
+  },
+  {
+    bid: 131,
+    bbidding: ['1NT', 'Pass', 'Pass', 'X', 'Pass', 'Pass', 'XX']
+  },
+  {
+    bid: 132,
+    bbidding: ['4S', 'X', 'XX']
+  },
+  {
+    bid: 133,
+    bbidding: ['2S', 'X', 'XX']
+  },
+  {
+    bid: 134,
+    bbidding: ['2S', 'X', '2NT', '3H', 'Pass', 'Pass', 'X']
+  },
+  {
+    bid: 135,
+    bbidding: ['2S', 'X', 'XX', '3C', 'X']
+  },
+  {
+    bid: 136,
+    bbidding: ['2S', 'X', 'XX', '3C', 'Pass']
+  },
+  {
+    bid: 137,
+    bbidding: ['2S', 'X', 'XX', '3H', 'Pass', 'Pass', 'Pass', 'X']
+  },
+  {
+    bid: 138,
+    bbidding: ['1NT', 'Pass', '2C', 'X', 'XX']
+  },
+  {
+    bid: 141,
+    bbidding: ['1H', 'Pass', '3D', 'Pass', '3S', 'X', 'Pass', 'Pass', 'XX']
+  },
+  {
+    bid: 145,
+    bbidding: ['1H', 'Pass', '1S', 'Pass', '2C', 'Pass']
+  },
+  {
+    bid: 146,
+    bbidding: ['1H', 'Pass', '1S', 'Pass', '2C', 'Pass']
+  },
+  {
+    bid: 147,
+    bbidding: ['1S', 'X']
+  },
+  {
+    bid: 148,
+    bbidding: ['1S', 'X']
+  },
+  {
+    bid: 149,
+    bbidding: ['1S', 'X']
+  },
+  {
+    bid: 150,
+    bbidding: ['1NT', 'Pass']
+  },
+  {
+    bid: 151,
+    bbidding: ['1NT', 'Pass']
+  },
+  {
+    bid: 152,
+    bbidding: ['1H', '1NT']
+  },
+  {
+    bid: 153,
+    bbidding: ['1H', '1NT']
+  },
+  {
+    bid: 154,
+    bbidding: ['1D']
+  },
+  {
+    bid: 155,
+    bbidding: ['1D']
+  },
+  {
+    bid: 156,
+    bbidding: ['1D']
+  },
+  {
+    bid: 157,
+    bbidding: ['1C', 'Pass', 'Pass']
+  },
+  {
+    bid: 158,
+    bbidding: ['1C', 'Pass', 'Pass']
+  },
+  {
+    bid: 159,
+    bbidding: ['1H', '2S', '3S']
+  },
+  {
+    bid: 160,
+    bbidding: ['1H', '2S', '3S']
+  },
+  {
     bid: 220,
     bbidding: ['1C', 'Pass', '1S', 'Pass', '1NT', 'Pass']
   },
@@ -358,6 +478,254 @@ exports.BIDDING = [
   {
     bid: 243,
     bbidding: ['1C', 'Pass', '1D', 'Pass', '1NT', 'Pass']
+  },
+  {
+    bid: 244,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 245,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 246,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 247,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 248,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 249,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 250,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 251,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 252,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 253,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 254,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 255,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 256,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 257,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 258,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 259,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 260,
+    bbidding: ['1H', 'Pass']
+  },
+  {
+    bid: 261,
+    bbidding: ['1S', 'Pass']
+  },
+  {
+    bid: 262,
+    bbidding: ['1S', 'Pass']
+  },
+  {
+    bid: 263,
+    bbidding: ['1S', 'Pass']
+  },
+  {
+    bid: 264,
+    bbidding: ['1S', 'Pass']
+  },
+  {
+    bid: 265,
+    bbidding: ['1S', 'Pass']
+  },
+  {
+    bid: 266,
+    bbidding: ['1S', 'Pass']
+  },
+  {
+    bid: 267,
+    bbidding: ['1S', 'Pass']
+  },
+  {
+    bid: 268,
+    bbidding: ['1S', 'Pass', '3C', 'Pass', '3D']
+  },
+  {
+    bid: 269,
+    bbidding: ['1S', 'Pass', '3C', 'Pass', '3H']
+  },
+  {
+    bid: 270,
+    bbidding: ['1S', 'Pass', '3C', 'Pass', '3S']
+  },
+  {
+    bid: 271,
+    bbidding: ['1S', 'Pass', '3C', 'Pass', '4C']
+  },
+  {
+    bid: 272,
+    bbidding: ['1S', 'Pass', '3D', 'Pass', '4C']
+  },
+  {
+    bid: 273,
+    bbidding: ['1S', 'Pass', '2NT', 'Pass', '3C']
+  },
+  {
+    bid: 274,
+    bbidding: ['1S', 'Pass', '2NT', 'Pass', '3NT']
+  },
+  {
+    bid: 275,
+    bbidding: ['1S', 'Pass', '2NT', 'Pass', '3S']
+  },
+  {
+    bid: 276,
+    bbidding: ['1S', 'Pass', '2NT', 'Pass', '4S']
+  },
+  {
+    bid: 277,
+    bbidding: ['1S', 'Pass', '2C', 'Pass', '2NT']
+  },
+  {
+    bid: 278,
+    bbidding: ['1NT', 'Pass', '4NT']
+  },
+  {
+    bid: 279,
+    bbidding: ['2NT', 'Pass', '4NT']
+  },
+  {
+    bid: 280,
+    bbidding: ['1NT', 'Pass', '2C', 'Pass', '2S', 'Pass', '4NT']
+  },
+  {
+    bid: 281,
+    bbidding: ['1NT', 'Pass', '2C', 'Pass', '2S', 'Pass', '3H']
+  },
+  {
+    bid: 282,
+    bbidding: ['1NT', 'Pass', '2C', 'Pass', '2H', 'Pass', '3S']
+  },
+  {
+    bid: 283,
+    bbidding: ['1NT', 'Pass', '2C', 'Pass', '2H', 'Pass', '4NT']
+  },
+  {
+    bid: 284,
+    bbidding: ['1NT', 'Pass', '2D', 'Pass', '2H', 'Pass', '4NT']
+  },
+  {
+    bid: 285,
+    bbidding: ['1S', 'Pass', '2H', 'Pass', '4NT']
+  },
+  {
+    bid: 286,
+    bbidding: ['1S', 'Pass', '2H', 'Pass', '2S']
+  },
+  {
+    bid: 287,
+    bbidding: ['4H', '4S', 'Pass', '4NT']
+  },
+  {
+    bid: 288,
+    bbidding: ['1H', 'Pass', '3H', 'Pass', '3S']
+  },
+  {
+    bid: 289,
+    bbidding: ['1H', 'Pass', '2H', 'Pass', '2S']
+  },
+  {
+    bid: 290,
+    bbidding: ['1NT', 'Pass', '2C', 'Pass', '2S', 'Pass', '3S']
+  },
+  {
+    bid: 291,
+    bbidding: ['1H', 'Pass', '3NT', 'Pass', '4C']
+  },
+  {
+    bid: 292,
+    bbidding: ['2C', 'Pass', '2D', 'Pass', '2S', 'Pass', '3S']
+  },
+  {
+    bid: 295,
+    bbidding: ['1H', '2S', '3S']
+  },
+  {
+    bid: 296,
+    bbidding: ['1H', '2S', '3S']
+  },
+  {
+    bid: 297,
+    bbidding: ['1H', 'Pass', '3D', 'Pass', '3S', 'Pass', '4C']
+  },
+  {
+    bid: 298,
+    bbidding: ['1H', 'Pass', '3D', 'Pass', '3S', 'Pass', '4D']
+  },
+  {
+    bid: 299,
+    bbidding: ['1H', 'Pass', '3D', 'Pass', '3S', 'Pass', '4C', 'Pass', '4H']
+  },
+  {
+    bid: 300,
+    bbidding: ['1H', 'Pass', '3D', 'Pass', '4C']
+  },
+  {
+    bid: 301,
+    bbidding: ['1H', '2S', '4C']
+  },
+  {
+    bid: 302,
+    bbidding: ['1H', 'Pass', '3NT']
+  },
+  {
+    bid: 303,
+    bbidding: [
+      '2C',
+      'Pass',
+      '2D',
+      'Passs',
+      '2NT',
+      'Pass',
+      '3C',
+      'Pass',
+      '3H',
+      'Pass',
+      '3S'
+    ]
+  },
+  {
+    bid: 304,
+    bbidding: ['2C', 'Pass', '2D', 'Pass', '2S', 'Pass', '3S', 'Pass', '4D']
   },
   {
     bid: 305,
