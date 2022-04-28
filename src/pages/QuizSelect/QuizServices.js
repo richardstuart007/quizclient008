@@ -1,12 +1,12 @@
 export const getOwnerCollection = () => [
-  { id: 'public', title: 'public' },
-  { id: 'Richard', title: 'Richard' }
+  { id: 'public', title: 'public' }
+  // { id: 'Richard', title: 'Richard' }
 ]
 
 export const getGroup1Collection = () => [
   { id: '', title: 'none' },
   { id: 'Redoubles', title: 'Re-doubles' },
-  { id: '1NT', title: '1NT' },
+  // { id: '1NT', title: '1NT' },
   { id: 'Doubles', title: 'Doubles' },
   { id: 'WBF', title: 'WBF' },
   { id: 'TwoWayCheckback', title: 'Two Way Checkback' },
