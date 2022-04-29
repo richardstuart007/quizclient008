@@ -7,7 +7,6 @@ import ScoreboardIcon from '@mui/icons-material/Scoreboard'
 import HelpIcon from '@mui/icons-material/Help'
 import makeStyles from '@mui/styles/makeStyles'
 import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications'
-// import { format } from 'date-fns'
 //
 //  Libraries
 //
@@ -43,9 +42,6 @@ const useStyles = makeStyles(theme => {
     },
     appBar: {
       width: '100%'
-    },
-    date: {
-      marginLeft: theme.spacing(10)
     },
     toolbar: theme.mixins.toolbar,
     avatar: {
@@ -131,29 +127,32 @@ export default function Layout({ children }) {
             {/* .......................................................................................... */}
             {showButtonHelp ? (
               <MyActionButton
+                startIcon={<HelpIcon fontSize='large' />}
                 color='warning'
                 onClick={openHyperlink(helpHyperlink)}
               >
-                <HelpIcon fontSize='large' />
+                Help
               </MyActionButton>
             ) : null}
             {/* .......................................................................................... */}
 
             {showButtonReview ? (
               <MyActionButton
+                startIcon={<ScoreboardIcon fontSize='large' />}
                 color='warning'
                 onClick={() => {
                   ValtioStore.v_PagePrevious = CurrentPage
                   ValtioStore.v_Page = 'QuizReview'
                 }}
               >
-                <ScoreboardIcon fontSize='large' />
+                Review
               </MyActionButton>
             ) : null}
 
             {/* .......................................................................................... */}
             {showButtonRefresh ? (
               <MyActionButton
+                startIcon={<RefreshIcon fontSize='large' />}
                 color='warning'
                 onClick={() => {
                   ValtioStore.v_PagePrevious = CurrentPage
@@ -162,20 +161,21 @@ export default function Layout({ children }) {
                   ValtioStore.v_Ans = []
                 }}
               >
-                <RefreshIcon fontSize='large' />
+                Refresh
               </MyActionButton>
             ) : null}
             {/* .......................................................................................... */}
             {showButtonSettings ? (
               <MyActionButton
                 color='warning'
+                startIcon={<SettingsApplicationsIcon fontSize='large' />}
                 onClick={() => {
                   ValtioStore.v_PagePrevious = CurrentPage
                   ValtioStore.v_Page = 'QuizSettings'
                   ValtioStore.v_Help = ''
                 }}
               >
-                <SettingsApplicationsIcon fontSize='large' />
+                Settings
               </MyActionButton>
             ) : null}
           </Grid>
