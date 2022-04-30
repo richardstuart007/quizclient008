@@ -1,6 +1,6 @@
 export default function debugSettings(debug = false) {
   //
-  //  Log1 Override ?
+  //  Log1 Override, then return Debug_Log1 value ?
   //
   const { DEBUG_LOG1_OVERRIDE } = require('./debugConstants.js')
   const { DEBUG_LOG1 } = require('./debugConstants.js')

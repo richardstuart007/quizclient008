@@ -13,7 +13,7 @@ import debugSettings from '../../debug/debugSettings'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizLinearProgress = props => {
   const { count, total, text } = props

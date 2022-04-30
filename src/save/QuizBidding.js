@@ -1,13 +1,7 @@
 //
 //  Libraries
 //
-import {
-  Typography,
-  Table,
-  TableBody,
-  TableContainer,
-  Paper
-} from '@mui/material'
+import { Typography } from '@mui/material'
 import { teal } from 'material-ui-colors'
 import { useSnapshot } from 'valtio'
 //
@@ -21,8 +15,8 @@ import { ValtioStore } from '../ValtioStore'
 //
 //  Sub Components
 //
-import QuizBiddingTableHeader from './QuizBiddingTableHeader'
-import QuizBiddingTableLine from './QuizBiddingTableLine'
+import QuizBiddingLine from './QuizBiddingLine'
+import QuizBiddingLineTable from './QuizBiddingLineTable'
 //.............................................................................
 //.  Initialisation
 //.............................................................................
@@ -130,26 +124,20 @@ const QuizBidding = ({ qid }) => {
         Bidding
       </Typography>
 
-      <TableContainer component={Paper} sx={{ maxWidth: 350 }}>
-        <Table sx={{ maxWidth: 350 }}>
-          {/* .......................................................................................... */}
-          <QuizBiddingTableHeader />
-
-          {/* .......................................................................................... */}
-          <TableBody>
-            {roundsArray.map((innerArray, roundidx) => (
-              <>
-                <QuizBiddingTableLine
-                  key={roundidx + 1}
-                  round={innerArray}
-                  roundidx={roundidx + 1}
-                />
-              </>
-            ))}
-          </TableBody>
-          {/* .......................................................................................... */}
-        </Table>
-      </TableContainer>
+      {roundsArray.map((innerArray, roundidx) => (
+        <>
+          <QuizBiddingLine
+            key={roundidx + 1}
+            round={innerArray}
+            roundidx={roundidx + 1}
+          />
+          <QuizBiddingLineTable
+            key={roundidx + 1}
+            round={innerArray}
+            roundidx={roundidx + 1}
+          />
+        </>
+      ))}
     </>
   )
 }

@@ -22,7 +22,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizHeader = params => {
   //...................................................................................

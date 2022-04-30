@@ -25,7 +25,7 @@ import club from '../../assets/club.svg'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizHand = ({ qid }) => {
   //...................................................................................

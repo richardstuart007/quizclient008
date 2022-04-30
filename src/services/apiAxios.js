@@ -12,7 +12,7 @@ import debugSettings from '../debug/debugSettings'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 //
 // methods - post(get), post(update), delete(delete), put(upsert)
