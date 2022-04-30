@@ -1,8 +1,8 @@
 //
 //  Libraries
 //
-import { Avatar, Typography, Grid } from '@mui/material'
-import { teal } from 'material-ui-colors'
+import { Avatar, Typography, Grid, Card } from '@mui/material'
+import { grey, teal } from 'material-ui-colors'
 import { useSnapshot } from 'valtio'
 //
 //  Debug Settings
@@ -67,44 +67,49 @@ const QuizHand = ({ qid }) => {
   //...................................................................................
   return (
     <>
-      <Grid item sx={{ paddingTop: '8px' }}>
-        <Typography variant='subtitle2' style={{ color: teal['A700'] }}>
-          Your Hand
-        </Typography>
-      </Grid>
-      <Grid container alignItems='center' justify='center'>
-        {/* .......................................................................................... */}
-        <Grid item sx={{ paddingLeft: '4px' }}>
-          <Avatar src={spade} sx={{ height: '1rem', width: '1rem' }} />
-        </Grid>
-        <Grid item sx={{ paddingRight: '8px' }}>
-          <Typography variant='h6'>{hand.hspades}</Typography>
-        </Grid>
-        {/* .......................................................................................... */}
+      <Card
+        sx={{ maxWidth: 300, marginTop: '8px', marginBottom: '8px' }}
+        style={{ backgroundColor: grey[100] }}
+      >
         <Grid item>
-          <Avatar src={heart} sx={{ height: '1rem', width: '1rem' }} />
+          <Typography variant='subtitle2' style={{ color: teal['A700'] }}>
+            Your Hand
+          </Typography>
         </Grid>
-        <Grid item sx={{ paddingRight: '8px' }}>
-          <Typography variant='h6'>{hand.hhearts}</Typography>
-        </Grid>
-        {/* .......................................................................................... */}
-        <Grid item>
-          <Avatar src={diamond} sx={{ height: '1rem', width: '1rem' }} />
-        </Grid>
-        <Grid item sx={{ paddingRight: '8px' }}>
-          <Typography variant='h6'>{hand.hdiamonds}</Typography>
-        </Grid>
+        <Grid container alignItems='center' justify='center'>
+          {/* .......................................................................................... */}
+          <Grid item sx={{ paddingLeft: '4px' }}>
+            <Avatar src={spade} sx={{ height: '1rem', width: '1rem' }} />
+          </Grid>
+          <Grid item sx={{ paddingRight: '16px' }}>
+            <Typography variant='h6'>{hand.hspades}</Typography>
+          </Grid>
+          {/* .......................................................................................... */}
+          <Grid item>
+            <Avatar src={heart} sx={{ height: '1rem', width: '1rem' }} />
+          </Grid>
+          <Grid item sx={{ paddingRight: '16px' }}>
+            <Typography variant='h6'>{hand.hhearts}</Typography>
+          </Grid>
+          {/* .......................................................................................... */}
+          <Grid item>
+            <Avatar src={diamond} sx={{ height: '1rem', width: '1rem' }} />
+          </Grid>
+          <Grid item sx={{ paddingRight: '16px' }}>
+            <Typography variant='h6'>{hand.hdiamonds}</Typography>
+          </Grid>
 
-        {/* .......................................................................................... */}
-        <Grid item>
-          <Avatar src={club} sx={{ height: '1rem', width: '1rem' }} />
-        </Grid>
-        <Grid item sx={{ paddingRight: '8px' }}>
-          <Typography variant='h6'>{hand.hclubs}</Typography>
-        </Grid>
+          {/* .......................................................................................... */}
+          <Grid item>
+            <Avatar src={club} sx={{ height: '1rem', width: '1rem' }} />
+          </Grid>
+          <Grid item>
+            <Typography variant='h6'>{hand.hclubs}</Typography>
+          </Grid>
 
-        {/* .......................................................................................... */}
-      </Grid>
+          {/* .......................................................................................... */}
+        </Grid>
+      </Card>
     </>
   )
 }

@@ -1,8 +1,8 @@
 //
 //  Libraries
 //
-import { Typography, Box } from '@mui/material'
-import { teal } from 'material-ui-colors'
+import { Typography, Box, Card } from '@mui/material'
+import { grey, teal } from 'material-ui-colors'
 import { useSnapshot } from 'valtio'
 //
 //  Debug Settings
@@ -64,34 +64,39 @@ const QuizQuestion = params => {
   //...................................................................................
   return (
     <div>
-      <Box>
-        <Typography
-          variant='subtitle2'
-          gutterBottom
-          style={{ color: teal['A700'] }}
-        >
-          {QuestionString}
-        </Typography>
+      <Card
+        sx={{ marginTop: '8px', marginBottom: '8px' }}
+        style={{ backgroundColor: grey[100] }}
+      >
+        <Box>
+          <Typography
+            variant='subtitle2'
+            gutterBottom
+            style={{ color: teal['A700'] }}
+          >
+            {QuestionString}
+          </Typography>
 
-        {hyperLink && (
-          <MyButton
-            onClick={openTab(qdetail)}
-            type='submit'
-            style={{ color: 'blue' }}
-            variant='outlined'
-            size='small'
-            text='Question'
-          ></MyButton>
-        )}
+          {hyperLink && (
+            <MyButton
+              onClick={openTab(qdetail)}
+              type='submit'
+              style={{ color: 'blue' }}
+              variant='outlined'
+              size='small'
+              text='Question'
+            ></MyButton>
+          )}
 
-        {!hyperLink && (
-          <Box>
-            <Typography variant='h6' style={{ color: 'blue' }} gutterBottom>
-              {qdetail}
-            </Typography>
-          </Box>
-        )}
-      </Box>
+          {!hyperLink && (
+            <Box>
+              <Typography variant='h6' style={{ color: 'blue' }} gutterBottom>
+                {qdetail}
+              </Typography>
+            </Box>
+          )}
+        </Box>
+      </Card>
     </div>
   )
 }

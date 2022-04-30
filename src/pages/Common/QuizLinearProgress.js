@@ -3,6 +3,7 @@
 //
 import { useState, useEffect } from 'react'
 import { LinearProgress, Typography, Box } from '@mui/material'
+import { grey, teal } from 'material-ui-colors'
 //
 //  Debug Settings
 //
@@ -17,7 +18,6 @@ const g_log1 = debugSettings()
 //===================================================================================
 const QuizLinearProgress = props => {
   const { count, total, text } = props
-
   //
   //  State
   //
@@ -36,8 +36,10 @@ const QuizLinearProgress = props => {
   //.  Render the form
   //...................................................................................
   return (
-    <Box sx={{ width: '100%', mt: 2 }}>
-      <Typography variant='subtitle2'>{text}</Typography>
+    <Box sx={{ width: '100%', mt: 2 }} style={{ backgroundColor: grey[100] }}>
+      <Typography variant='subtitle2' style={{ color: teal['A700'] }}>
+        {text}
+      </Typography>
 
       <Box sx={{ display: 'flex', alignItems: 'center' }}>
         <Box sx={{ width: '100%', mr: 1 }}>

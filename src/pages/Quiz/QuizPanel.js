@@ -1,8 +1,8 @@
 //
 //  Libraries
 //
-import { Typography } from '@mui/material'
-import { teal } from 'material-ui-colors'
+import { Typography, Card } from '@mui/material'
+import { grey, teal } from 'material-ui-colors'
 //
 //  Debug Settings
 //
@@ -54,22 +54,31 @@ const QuizPanel = ({ quizRow, handleSelect }) => {
   //
   Answers.sort((a, b) => (a.random > b.random ? 1 : -1))
   if (g_log1) console.log(Answers)
-  //
+  //...................................................................................
   //  Format Panel
-  //
+  //...................................................................................
   return (
     <>
-      <Typography
-        variant='subtitle2'
-        gutterBottom
-        style={{ color: teal['A700'] }}
+      <Card
+        sx={{ marginTop: '8px', marginBottom: '8px' }}
+        style={{ backgroundColor: grey[100] }}
       >
-        Answers - click on your selection
-      </Typography>
+        <Typography
+          variant='subtitle2'
+          gutterBottom
+          style={{ color: teal['A700'] }}
+        >
+          Answers - click on your selection
+        </Typography>
 
-      {Answers.map((answer, key) => (
-        <QuizPanelCard key={key} answer={answer} handleSelect={handleSelect} />
-      ))}
+        {Answers.map((answer, key) => (
+          <QuizPanelCard
+            key={key}
+            answer={answer}
+            handleSelect={handleSelect}
+          />
+        ))}
+      </Card>
     </>
   )
 }

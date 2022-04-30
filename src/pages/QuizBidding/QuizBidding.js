@@ -1,14 +1,8 @@
 //
 //  Libraries
 //
-import {
-  Typography,
-  Table,
-  TableBody,
-  TableContainer,
-  Paper
-} from '@mui/material'
-import { teal } from 'material-ui-colors'
+import { Typography, Table, TableBody, Card } from '@mui/material'
+import { grey, teal } from 'material-ui-colors'
 import { useSnapshot } from 'valtio'
 //
 //  Debug Settings
@@ -126,15 +120,17 @@ const QuizBidding = ({ qid }) => {
   //...................................................................................
   return (
     <>
-      <Typography variant='subtitle2' style={{ color: teal['A700'] }}>
-        Bidding
-      </Typography>
+      <Card
+        sx={{ maxWidth: 300, marginTop: '8px', marginBottom: '8px' }}
+        style={{ backgroundColor: grey[100] }}
+      >
+        <Typography variant='subtitle2' style={{ color: teal['A700'] }}>
+          Bidding
+        </Typography>
 
-      <TableContainer component={Paper} sx={{ maxWidth: 350 }}>
-        <Table sx={{ maxWidth: 350 }}>
+        <Table>
           {/* .......................................................................................... */}
           <QuizBiddingTableHeader />
-
           {/* .......................................................................................... */}
           <TableBody>
             {roundsArray.map((innerArray, roundidx) => (
@@ -149,7 +145,7 @@ const QuizBidding = ({ qid }) => {
           </TableBody>
           {/* .......................................................................................... */}
         </Table>
-      </TableContainer>
+      </Card>
     </>
   )
 }
