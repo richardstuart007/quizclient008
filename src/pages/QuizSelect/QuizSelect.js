@@ -5,7 +5,6 @@ import { useSnapshot } from 'valtio'
 import { useState } from 'react'
 import { Formik, Form } from 'formik'
 import { Container, Grid, Typography } from '@mui/material'
-import { DataArray } from '@mui/icons-material'
 //
 //  Debug Settings
 //
@@ -19,7 +18,6 @@ import * as QuizServices from './QuizServices'
 //  Common Sub Components
 //
 import { useQForm, QForm } from '../useQForm'
-import QuizPageHeader from '../Common/QuizPageHeader'
 import QuizInfo from '../Common/QuizInfo'
 //
 //  Controls
@@ -317,11 +315,6 @@ const QuizSelect = () => {
             enableReinitialize
           >
             <Form>
-              <QuizPageHeader
-                title='Question Selection'
-                subTitle='Select the question data-set'
-                icon={<DataArray fontSize='large' />}
-              />
               <QForm>
                 <Grid container spacing={2}>
                   {/*.................................................................................................*/}

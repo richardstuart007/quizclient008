@@ -14,7 +14,6 @@ import spade from '../../assets/spade.svg'
 import heart from '../../assets/heart.svg'
 import diamond from '../../assets/diamond.svg'
 import club from '../../assets/club.svg'
-
 //.............................................................................
 //.  Initialisation
 //.............................................................................
@@ -33,7 +32,27 @@ const QuizBiddingTableCell = props => {
   const { bid, suit } = props
   if (g_log1) console.log('bid ', bid)
   if (g_log1) console.log('suit ', suit)
-
+  //
+  //  Source svg
+  //
+  let src
+  switch (suit) {
+    case 'C':
+      src = club
+      break
+    case 'D':
+      src = diamond
+      break
+    case 'H':
+      src = heart
+      break
+    case 'S':
+      src = spade
+      break
+    default:
+      src = null
+      break
+  }
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -58,35 +77,12 @@ const QuizBiddingTableCell = props => {
           {/* .......................................................................................... */}
           {/*  Suit Symbol                                                                               */}
           {/* .......................................................................................... */}
-          {suit === 'C' && (
+          {suit !== null && (
             <Grid item>
-              <Avatar src={club} sx={{ height: '1.25rem', width: '1.25rem' }} />
+              <Avatar src={src} sx={{ height: '1rem', width: '1rem' }} />
             </Grid>
           )}
-          {suit === 'D' && (
-            <Grid item>
-              <Avatar
-                src={diamond}
-                sx={{ height: '1.25rem', width: '1.25rem' }}
-              />
-            </Grid>
-          )}
-          {suit === 'H' && (
-            <Grid item>
-              <Avatar
-                src={heart}
-                sx={{ height: '1.25rem', width: '1.25rem' }}
-              />
-            </Grid>
-          )}
-          {suit === 'S' && (
-            <Grid item>
-              <Avatar
-                src={spade}
-                sx={{ height: '1.25rem', width: '1.25rem' }}
-              />
-            </Grid>
-          )}
+
           {/* .......................................................................................... */}
         </Grid>
       </TableCell>

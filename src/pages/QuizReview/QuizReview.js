@@ -4,7 +4,6 @@
 import { useState, useEffect } from 'react'
 import { useSnapshot } from 'valtio'
 import { Typography, Box } from '@mui/material'
-import { Visibility } from '@mui/icons-material'
 //
 //  Debug Settings
 //
@@ -22,8 +21,7 @@ import QuizBidding from '../QuizBidding/QuizBidding'
 //
 //  Common Components
 //
-import QuizPageHeader from '../Common/QuizPageHeader'
-import QuizHeader from '../Common/QuizHeader'
+import QuizQuestion from '../Common/QuizQuestion'
 import QuizInfo from '../Common/QuizInfo'
 //
 //  Utilities
@@ -166,20 +164,15 @@ const QuizReview = () => {
   //...................................................................................
   return (
     <>
-      <QuizPageHeader
-        title='Quiz Review'
-        subTitle='Use the Previous/Next buttons'
-        icon={<Visibility fontSize='large' />}
-      />
       <Box>
         <Typography variant='subtitle1'>
           Result ({mark}%) {ansPass} out of {ansCount}
         </Typography>
       </Box>
 
-      <QuizHeader quizRow={quizRow} quizQuestion={rowIdx + 1} />
-      <QuizBidding qid={quizRow.qid} />
+      <QuizQuestion quizRow={quizRow} quizQuestion={rowIdx + 1} />
       <QuizHand qid={quizRow.qid} />
+      <QuizBidding qid={quizRow.qid} />
       <QuizReviewPanel quizRow={quizRow} quizanswer={quizAns[rowIdx]} />
 
       <Box sx={{ mt: 2 }}>

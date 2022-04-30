@@ -4,7 +4,6 @@
 import { useSnapshot } from 'valtio'
 import { Formik, Form } from 'formik'
 import { Container, Grid } from '@mui/material'
-import { Storage } from '@mui/icons-material'
 //
 //  Debug Settings
 //
@@ -13,7 +12,6 @@ import debugSettings from '../../debug/debugSettings'
 //  Common Sub Components
 //
 import { useQForm, QForm } from '../useQForm'
-import QuizPageHeader from '../Common/QuizPageHeader'
 //
 //  Controls
 //
@@ -149,11 +147,6 @@ const QuizSettings = () => {
           enableReinitialize
         >
           <Form>
-            <QuizPageHeader
-              title='Quiz Settings'
-              subTitle='Change the settings as required'
-              icon={<Storage fontSize='large' />}
-            />
             <QForm>
               {/*.................................................................................................*/}
 

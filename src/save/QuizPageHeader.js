@@ -7,7 +7,6 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#fdfdff'
   },
   pageHeader: {
-    // padding: theme.spacing(0),
     display: 'flex',
     marginBottom: theme.spacing(1)
   },
@@ -30,15 +29,24 @@ export default function QuizPageHeader(props) {
   return (
     <Paper elevation={0} square className={classes.root}>
       <div className={classes.pageHeader}>
+        {/* .......................................................................................... */}
+        {/* Icon if exists                                                                             */}
+        {/* .......................................................................................... */}
         {{ icon } ? <Card className={classes.pageIcon}>{icon}</Card> : null}
 
         <div className={classes.pageTitle}>
           <Typography variant='h6' component='div'>
             {title}
           </Typography>
-          <Typography variant='subtitle2' component='div'>
-            {subTitle}
-          </Typography>
+          {/* .......................................................................................... */}
+          {/* Subtitle if exists                                                                         */}
+          {/* .......................................................................................... */}
+          {{ subTitle } ? (
+            <Typography variant='subtitle2' component='div'>
+              {subTitle}
+            </Typography>
+          ) : null}
+          {/* .......................................................................................... */}
         </div>
       </div>
     </Paper>

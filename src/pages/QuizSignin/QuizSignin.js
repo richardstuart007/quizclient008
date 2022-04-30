@@ -5,7 +5,6 @@ import { useState } from 'react'
 import { Formik, Form } from 'formik'
 import * as Yup from 'yup'
 import { Container, Grid, Typography } from '@mui/material'
-import { Accessibility } from '@mui/icons-material'
 //
 //  Debug Settings
 //
@@ -18,7 +17,6 @@ import MyFormikTextField from '../../components/controls/MyFormikTextField'
 //
 //  Common Sub Components
 //
-import QuizPageHeader from '../Common/QuizPageHeader'
 import QuizInfo from '../Common/QuizInfo'
 //
 //  Utilities
@@ -116,12 +114,6 @@ function QuizSignin() {
             enableReinitialize
           >
             <Form>
-              <QuizPageHeader
-                title='Sign In'
-                subTitle='Register first'
-                icon={<Accessibility fontSize='large' />}
-              />
-
               {/*.................................................................................................*/}
               <Grid container spacing={2}>
                 <Grid item xs={12}>

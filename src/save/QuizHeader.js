@@ -7,15 +7,15 @@ import { useSnapshot } from 'valtio'
 //
 //  Debug Settings
 //
-import debugSettings from '../../debug/debugSettings'
+import debugSettings from '../debug/debugSettings'
 //
 //  Components
 //
-import MyButton from '../../components/controls/MyButton'
+import MyButton from '../components/controls/MyButton'
 //
 //  Utilities
 //
-import { ValtioStore } from '../ValtioStore'
+import { ValtioStore } from '../pages/ValtioStore'
 //.............................................................................
 //.  Initialisation
 //.............................................................................

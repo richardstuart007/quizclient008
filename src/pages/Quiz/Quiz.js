@@ -3,7 +3,6 @@
 //
 import { useState } from 'react'
 import { useSnapshot } from 'valtio'
-import { QuestionAnswer } from '@mui/icons-material'
 //
 //  Debug Settings
 //
@@ -17,8 +16,7 @@ import QuizBidding from '../QuizBidding/QuizBidding'
 //
 //  Common Sub Components
 //
-import QuizPageHeader from '../Common/QuizPageHeader'
-import QuizHeader from '../Common/QuizHeader'
+import QuizQuestion from '../Common/QuizQuestion'
 import QuizLinearProgress from '../Common/QuizLinearProgress'
 import QuizInfo from '../Common/QuizInfo'
 //
@@ -162,15 +160,9 @@ const Quiz = () => {
   //...................................................................................
   return (
     <>
-      <QuizPageHeader
-        title='Quiz'
-        subTitle='Answer the Quiz Questions'
-        icon={<QuestionAnswer fontSize='large' />}
-      />
-      <QuizHeader quizRow={g_quizRow} quizQuestion={g_Idx + 1} />
-      <QuizBidding qid={g_quizRow.qid} />
+      <QuizQuestion quizRow={g_quizRow} quizQuestion={g_Idx + 1} />
       <QuizHand qid={g_quizRow.qid} />
-
+      <QuizBidding qid={g_quizRow.qid} />
       <QuizPanel
         key={g_quizRow.qid}
         quizRow={g_quizRow}

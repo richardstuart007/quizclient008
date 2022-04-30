@@ -67,29 +67,29 @@ const QuizHand = ({ qid }) => {
   //...................................................................................
   return (
     <>
-      <Grid item>
+      <Grid item sx={{ paddingTop: '8px' }}>
         <Typography variant='subtitle2' style={{ color: teal['A700'] }}>
           Your Hand
         </Typography>
       </Grid>
       <Grid container alignItems='center' justify='center'>
         {/* .......................................................................................... */}
-        <Grid item sx={{ paddingLeft: '8px' }}>
-          <Avatar src={spade} sx={{ height: '1.25rem', width: '1.25rem' }} />
+        <Grid item sx={{ paddingLeft: '4px' }}>
+          <Avatar src={spade} sx={{ height: '1rem', width: '1rem' }} />
         </Grid>
         <Grid item sx={{ paddingRight: '8px' }}>
           <Typography variant='h6'>{hand.hspades}</Typography>
         </Grid>
         {/* .......................................................................................... */}
         <Grid item>
-          <Avatar src={heart} sx={{ height: '1.25rem', width: '1.25rem' }} />
+          <Avatar src={heart} sx={{ height: '1rem', width: '1rem' }} />
         </Grid>
         <Grid item sx={{ paddingRight: '8px' }}>
           <Typography variant='h6'>{hand.hhearts}</Typography>
         </Grid>
         {/* .......................................................................................... */}
         <Grid item>
-          <Avatar src={diamond} sx={{ height: '1.25rem', width: '1.25rem' }} />
+          <Avatar src={diamond} sx={{ height: '1rem', width: '1rem' }} />
         </Grid>
         <Grid item sx={{ paddingRight: '8px' }}>
           <Typography variant='h6'>{hand.hdiamonds}</Typography>
@@ -97,7 +97,7 @@ const QuizHand = ({ qid }) => {
 
         {/* .......................................................................................... */}
         <Grid item>
-          <Avatar src={club} sx={{ height: '1.25rem', width: '1.25rem' }} />
+          <Avatar src={club} sx={{ height: '1rem', width: '1rem' }} />
         </Grid>
         <Grid item sx={{ paddingRight: '8px' }}>
           <Typography variant='h6'>{hand.hclubs}</Typography>
