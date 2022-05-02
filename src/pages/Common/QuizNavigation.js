@@ -31,11 +31,6 @@ import { ValtioStore } from '../../pages/ValtioStore'
 //
 const useStyles = makeStyles(theme => {
   return {
-    page: {
-      background: '#f9f9f9',
-      width: '100%',
-      padding: theme.spacing(3)
-    },
     root: {
       display: 'flex'
     }
@@ -100,7 +95,7 @@ export default function QuizNavigation() {
         {/* .......................................................................................... */}
         {showButtonHelp ? (
           <MyActionButton
-            startIcon={<HelpIcon fontSize='large' />}
+            startIcon={<HelpIcon fontSize='small' />}
             color='warning'
             onClick={openHyperlink(helpHyperlink)}
             text='Help'
@@ -110,7 +105,7 @@ export default function QuizNavigation() {
 
         {showButtonReview ? (
           <MyActionButton
-            startIcon={<ScoreboardIcon fontSize='large' />}
+            startIcon={<ScoreboardIcon fontSize='small' />}
             color='warning'
             onClick={() => {
               ValtioStore.v_PagePrevious = CurrentPage
@@ -123,7 +118,7 @@ export default function QuizNavigation() {
         {/* .......................................................................................... */}
         {showButtonRefresh ? (
           <MyActionButton
-            startIcon={<RefreshIcon fontSize='large' />}
+            startIcon={<RefreshIcon fontSize='small' />}
             color='warning'
             onClick={() => {
               ValtioStore.v_PagePrevious = CurrentPage
@@ -137,8 +132,8 @@ export default function QuizNavigation() {
         {/* .......................................................................................... */}
         {showButtonSettings ? (
           <MyActionButton
+            startIcon={<SettingsApplicationsIcon fontSize='small' />}
             color='warning'
-            startIcon={<SettingsApplicationsIcon fontSize='large' />}
             onClick={() => {
               ValtioStore.v_PagePrevious = CurrentPage
               ValtioStore.v_Page = 'QuizSettings'

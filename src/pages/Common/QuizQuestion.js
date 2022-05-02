@@ -1,8 +1,8 @@
 //
 //  Libraries
 //
-import { Typography, Box, Card } from '@mui/material'
-import { grey, teal } from 'material-ui-colors'
+import { Typography, Card } from '@mui/material'
+import { cyan, teal } from 'material-ui-colors'
 import { useSnapshot } from 'valtio'
 //
 //  Debug Settings
@@ -63,41 +63,43 @@ const QuizQuestion = params => {
   //.  Render the form
   //...................................................................................
   return (
-    <div>
-      <Card
-        sx={{ marginTop: '8px', marginBottom: '8px' }}
-        style={{ backgroundColor: grey[100] }}
+    <>
+      {/* .......................................................................................... */}
+      {/* Question number and ID */}
+      {/* .......................................................................................... */}
+      <Typography
+        variant='subtitle2'
+        style={{ color: teal['A700'] }}
+        sx={{ marginTop: '8px' }}
       >
-        <Box>
-          <Typography
-            variant='subtitle2'
-            gutterBottom
-            style={{ color: teal['A700'] }}
-          >
-            {QuestionString}
+        {QuestionString}
+      </Typography>
+      {/* .......................................................................................... */}
+      <Card style={{ backgroundColor: cyan['A100'] }}>
+        {/* .......................................................................................... */}
+        {/* Hyperlink Button */}
+        {/* .......................................................................................... */}
+        {hyperLink && (
+          <MyButton
+            onClick={openTab(qdetail)}
+            type='submit'
+            style={{ color: 'blue' }}
+            variant='outlined'
+            size='small'
+            text='Question'
+          ></MyButton>
+        )}
+        {/* .......................................................................................... */}
+        {/* Normal Text */}
+        {/* .......................................................................................... */}
+        {!hyperLink && (
+          <Typography variant='h6' style={{ color: 'red' }} gutterBottom>
+            {qdetail}
           </Typography>
-
-          {hyperLink && (
-            <MyButton
-              onClick={openTab(qdetail)}
-              type='submit'
-              style={{ color: 'blue' }}
-              variant='outlined'
-              size='small'
-              text='Question'
-            ></MyButton>
-          )}
-
-          {!hyperLink && (
-            <Box>
-              <Typography variant='h6' style={{ color: 'blue' }} gutterBottom>
-                {qdetail}
-              </Typography>
-            </Box>
-          )}
-        </Box>
+        )}
+        {/* .......................................................................................... */}
       </Card>
-    </div>
+    </>
   )
 }
 

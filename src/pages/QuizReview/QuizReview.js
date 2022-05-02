@@ -15,7 +15,7 @@ import MyButton from '../../components/controls/MyButton'
 //
 //  Sub Components
 //
-import QuizReviewPanel from './QuizReviewPanel'
+import QuizAnswers from './QuizAnswers'
 import QuizHand from '../QuizHand/QuizHand'
 import QuizBidding from '../QuizBidding/QuizBidding'
 //
@@ -33,7 +33,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
+const g_log1 = debugSettings(true)
 //===================================================================================
 const QuizReview = () => {
   if (g_log1) console.log('Start QuizReview')
@@ -164,16 +164,14 @@ const QuizReview = () => {
   //...................................................................................
   return (
     <>
-      <Box>
-        <Typography variant='subtitle1'>
-          Result ({mark}%) {ansPass} out of {ansCount}
-        </Typography>
-      </Box>
+      <Typography variant='subtitle1' sx={{ marginTop: '8px' }}>
+        Result ({mark}%) {ansPass} out of {ansCount}
+      </Typography>
 
       <QuizQuestion quizRow={quizRow} quizQuestion={rowIdx + 1} />
       <QuizHand qid={quizRow.qid} />
       <QuizBidding qid={quizRow.qid} />
-      <QuizReviewPanel quizRow={quizRow} quizanswer={quizAns[rowIdx]} />
+      <QuizAnswers quizRow={quizRow} AnswerNum={quizAns[rowIdx]} />
 
       <Box sx={{ mt: 2 }}>
         {hidePreviousButton ? null : (

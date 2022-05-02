@@ -34,7 +34,10 @@ export default function QuizPanelCard({ answer, handleSelect }) {
       <Box sx={{ m: 2 }}>
         <Card elevation={1} className={`${classes.cardHover} ${classes.root}`}>
           <CardActionArea>
-            <CardContent onClick={() => handleSelect(answer.id)}>
+            <CardContent
+              onClick={() => handleSelect(answer.id)}
+              sx={{ padding: '4px' }}
+            >
               <Typography variant='body2' color='textSecondary'>
                 {answer.details}
               </Typography>

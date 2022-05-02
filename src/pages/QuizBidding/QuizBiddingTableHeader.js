@@ -33,7 +33,7 @@ const QuizBiddingTableHeader = () => {
       <TableHead>
         <TableRow>
           <TableCell
-            sx={{ padding: '4px' }}
+            sx={{ padding: '0px' }}
             align='left'
             style={{ width: 60 }}
             className={classes.tableCell}
@@ -41,7 +41,7 @@ const QuizBiddingTableHeader = () => {
             North
           </TableCell>
           <TableCell
-            sx={{ padding: '4px' }}
+            sx={{ padding: '0px' }}
             align='left'
             style={{ width: 60 }}
             className={classes.tableCell}
@@ -49,7 +49,7 @@ const QuizBiddingTableHeader = () => {
             East
           </TableCell>
           <TableCell
-            sx={{ padding: '4px' }}
+            sx={{ padding: '0px' }}
             align='left'
             style={{ width: 60 }}
             className={classes.tableCell}
@@ -57,7 +57,7 @@ const QuizBiddingTableHeader = () => {
             South
           </TableCell>
           <TableCell
-            sx={{ padding: '4px' }}
+            sx={{ padding: '0px' }}
             align='left'
             style={{ width: 60 }}
             className={classes.tableCell}

@@ -28,7 +28,7 @@ import cards from '../../assets/cards.svg'
 const useStyles = makeStyles(theme => {
   return {
     page: {
-      background: '#f9f9f9',
+      background: 'whitesmoke',
       width: '100%',
       padding: theme.spacing(1)
     },

@@ -61,7 +61,7 @@ const QuizBiddingTableCell = props => {
       {/* .......................................................................................... */}
       {/*  Bid & Suit                                                                               */}
       {/* .......................................................................................... */}
-      <TableCell align='left' sx={{ padding: '4px' }}>
+      <TableCell align='left' sx={{ padding: '0px' }}>
         <Grid
           container
           direction='row'

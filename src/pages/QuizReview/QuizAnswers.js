@@ -10,50 +10,35 @@ import debugSettings from '../../debug/debugSettings'
 //
 //  Sub Components
 //
-import QuizPanelCard from './QuizPanelCard'
+import QuizAnswer from './QuizAnswer'
 //..............................................................................
 //.  Initialisation
 //.............................................................................
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
+const g_log1 = debugSettings(true)
 //===================================================================================
-const QuizPanel = ({ quizRow, handleSelect }) => {
-  if (g_log1) console.log('Start QuizPanel')
+const QuizAnswers = props => {
+  if (g_log1) console.log('Start QuizAnswers')
+  //
+  // Deconstruct Props
+  //
+  const { quizRow, AnswerNum } = props
+  if (g_log1) console.log('quizRow ', quizRow)
+  if (g_log1) console.log('AnswerNum ', AnswerNum)
   //
   //  Deconstruct row
   //
-  if (g_log1) console.log('quizRow ', quizRow)
   const { qcorrect, qbad1, qbad2, qbad3 } = quizRow
   //
-  //  Answers array
+  //  Load answers to array
   //
   let Answers = []
-  let j = 0
-  loadAnswers(qcorrect)
-  loadAnswers(qbad1)
-  loadAnswers(qbad2)
-  loadAnswers(qbad3)
-  //
-  //  Load Answers array with answer element
-  //
-  function loadAnswers(answer) {
-    if (answer) {
-      j++
-      const ansObj = {
-        random: Math.random(),
-        id: j,
-        details: answer
-      }
-      Answers.push(ansObj)
-    }
-  }
-  //
-  //  Sort the Answers by the random sort id
-  //
-  Answers.sort((a, b) => (a.random > b.random ? 1 : -1))
-  if (g_log1) console.log(Answers)
+  if (qcorrect) Answers.push(qcorrect)
+  if (qbad1) Answers.push(qbad1)
+  if (qbad2) Answers.push(qbad2)
+  if (qbad3) Answers.push(qbad3)
   //...................................................................................
   //  Format Panel
   //...................................................................................
@@ -64,14 +49,15 @@ const QuizPanel = ({ quizRow, handleSelect }) => {
         style={{ color: teal['A700'] }}
         sx={{ marginTop: '8px' }}
       >
-        Click to select YOUR answer
+        If incorrect your answer will show in Red. Correct answer in Green.
       </Typography>
       <Card style={{ backgroundColor: cyan['A100'] }}>
         {Answers.map((answer, key) => (
-          <QuizPanelCard
+          <QuizAnswer
             key={key}
             answer={answer}
-            handleSelect={handleSelect}
+            AnswerNum={AnswerNum}
+            FieldNum={key + 1}
           />
         ))}
       </Card>
@@ -79,4 +65,4 @@ const QuizPanel = ({ quizRow, handleSelect }) => {
   )
 }
 
-export default QuizPanel
+export default QuizAnswers

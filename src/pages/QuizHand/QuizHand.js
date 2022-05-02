@@ -2,7 +2,7 @@
 //  Libraries
 //
 import { Avatar, Typography, Grid, Card } from '@mui/material'
-import { grey, teal } from 'material-ui-colors'
+import { cyan, teal } from 'material-ui-colors'
 import { useSnapshot } from 'valtio'
 //
 //  Debug Settings
@@ -67,15 +67,15 @@ const QuizHand = ({ qid }) => {
   //...................................................................................
   return (
     <>
-      <Card
-        sx={{ maxWidth: 300, marginTop: '8px', marginBottom: '8px' }}
-        style={{ backgroundColor: grey[100] }}
+      <Typography
+        variant='subtitle2'
+        style={{ color: teal['A700'] }}
+        sx={{ marginTop: '8px' }}
       >
-        <Grid item>
-          <Typography variant='subtitle2' style={{ color: teal['A700'] }}>
-            Your Hand
-          </Typography>
-        </Grid>
+        Your Hand
+      </Typography>
+
+      <Card sx={{ maxWidth: 300 }} style={{ backgroundColor: cyan['A100'] }}>
         <Grid container alignItems='center' justify='center'>
           {/* .......................................................................................... */}
           <Grid item sx={{ paddingLeft: '4px' }}>
