@@ -15,7 +15,7 @@ import MyButton from '../../components/controls/MyButton'
 //
 //  Sub Components
 //
-import QuizAnswers from './QuizAnswers'
+import QuizReviewAnswers from './QuizReviewAnswers'
 import QuizHand from '../QuizHand/QuizHand'
 import QuizBidding from '../QuizBidding/QuizBidding'
 //
@@ -171,7 +171,7 @@ const QuizReview = () => {
       <QuizQuestion quizRow={quizRow} quizQuestion={rowIdx + 1} />
       <QuizHand qid={quizRow.qid} />
       <QuizBidding qid={quizRow.qid} />
-      <QuizAnswers quizRow={quizRow} AnswerNum={quizAns[rowIdx]} />
+      <QuizReviewAnswers quizRow={quizRow} AnswerNum={quizAns[rowIdx]} />
 
       <Box sx={{ mt: 2 }}>
         {hidePreviousButton ? null : (

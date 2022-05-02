@@ -10,7 +10,7 @@ import debugSettings from '../../debug/debugSettings'
 //
 //  Sub Components
 //
-import QuizAnswer from './QuizAnswer'
+import QuizReviewAnswer from './QuizReviewAnswer'
 //..............................................................................
 //.  Initialisation
 //.............................................................................
@@ -19,8 +19,8 @@ import QuizAnswer from './QuizAnswer'
 //
 const g_log1 = debugSettings(true)
 //===================================================================================
-const QuizAnswers = props => {
-  if (g_log1) console.log('Start QuizAnswers')
+const QuizReviewAnswers = props => {
+  if (g_log1) console.log('Start QuizReviewAnswers')
   //
   // Deconstruct Props
   //
@@ -53,7 +53,7 @@ const QuizAnswers = props => {
       </Typography>
       <Card style={{ backgroundColor: cyan['A100'] }}>
         {Answers.map((answer, key) => (
-          <QuizAnswer
+          <QuizReviewAnswer
             key={key}
             answer={answer}
             AnswerNum={AnswerNum}
@@ -65,4 +65,4 @@ const QuizAnswers = props => {
   )
 }
 
-export default QuizAnswers
+export default QuizReviewAnswers
