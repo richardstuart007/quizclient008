@@ -93,7 +93,7 @@ const QuizQuestion = params => {
         {/* Normal Text */}
         {/* .......................................................................................... */}
         {!hyperLink && (
-          <Typography variant='h6' style={{ color: 'red' }} gutterBottom>
+          <Typography variant='h6' style={{ color: 'blue' }} gutterBottom>
             {qdetail}
           </Typography>
         )}
