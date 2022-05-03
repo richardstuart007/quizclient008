@@ -91,7 +91,7 @@ const QuizQuestion = params => {
       {/* .......................................................................................... */}
       <Card style={{ backgroundColor: cyan['A100'] }}>
         {!hyperLink && (
-          <Typography variant='h6' style={{ color: 'blue' }} gutterBottom>
+          <Typography variant='body2' style={{ color: 'blue' }} gutterBottom>
             {qdetail}
           </Typography>
         )}

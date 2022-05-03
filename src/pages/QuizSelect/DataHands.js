@@ -1,429 +1,429 @@
 exports.HANDS = [
   {
     hid: 1,
-    hspades: 'JT7          ',
-    hhearts: 'AQJT         ',
-    hdiamonds: 'J74          ',
-    hclubs: 'KJT          '
+    hnorth: ['JT7', 'AQJT', 'J74', 'KJT'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 103,
-    hspades: 'K964',
-    hhearts: '5',
-    hdiamonds: 'KT53',
-    hclubs: 'A984'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['K964', '5', 'KT53', 'A984']
   },
   {
     hid: 107,
-    hspades: 'Kxxx',
-    hhearts: 'KQxxx',
-    hdiamonds: 'x',
-    hclubs: 'xxx'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['Kxxx', 'KQxxx', 'x', 'xxx']
   },
   {
     hid: 108,
-    hspades: 'QJ987',
-    hhearts: 'QJT987',
-    hdiamonds: null,
-    hclubs: '7'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['QJ987', 'QJT987', 'void', '7']
   },
   {
     hid: 109,
-    hspades: 'QJ987',
-    hhearts: 'QJT987',
-    hdiamonds: null,
-    hclubs: '7'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['QJ987', 'QJT987', 'void', '7']
   },
   {
     hid: 110,
-    hspades: '32',
-    hhearts: 'K732',
-    hdiamonds: 'Q5',
-    hclubs: 'KQJT3'
+    hnorth: ['32', 'K732', 'Q5', 'KQJT3'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 111,
-    hspades: '543',
-    hhearts: '653',
-    hdiamonds: 'AT9876',
-    hclubs: null
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['543', '653', 'AT9876', 'void']
   },
   {
     hid: 112,
-    hspades: '762',
-    hhearts: null,
-    hdiamonds: 'AT987',
-    hclubs: 'K9876'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['762', 'void', 'AT987', 'K9876']
   },
   {
     hid: 113,
-    hspades: 'A762',
-    hhearts: null,
-    hdiamonds: '76',
-    hclubs: 'T876543'
+    hnorth: null,
+    heast: ['A762', 'void', '76', 'T876543'],
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 114,
-    hspades: 'A86',
-    hhearts: '95',
-    hdiamonds: 'AKJ86',
-    hclubs: 'K42'
+    hnorth: null,
+    heast: null,
+    hsouth: ['A86', '95', 'AKJ86', 'K42'],
+    hwest: null
   },
   {
     hid: 115,
-    hspades: 'J5',
-    hhearts: 'AQT864',
-    hdiamonds: '8',
-    hclubs: 'AQT8'
+    hnorth: ['J5', 'AQT864', '8', 'AQT8'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 116,
-    hspades: 'J75',
-    hhearts: 'AKT864',
-    hdiamonds: '8',
-    hclubs: 'AK9'
+    hnorth: null,
+    heast: null,
+    hsouth: ['J75', 'AKT864', '8', 'AK9'],
+    hwest: null
   },
   {
     hid: 142,
-    hspades: '86',
-    hhearts: 'AQ73',
-    hdiamonds: '6',
-    hclubs: 'KJT762'
+    hnorth: ['86', 'AQ73', '6', 'KJT762'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 143,
-    hspades: '6',
-    hhearts: '763',
-    hdiamonds: 'K86',
-    hclubs: 'KJT942'
+    hnorth: ['6', '763', 'K86', 'KJT942'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 144,
-    hspades: 'AQ',
-    hhearts: 'J43',
-    hdiamonds: 'Q765',
-    hclubs: 'KQT3'
+    hnorth: ['AQ', 'J43', 'Q765', 'KQT3'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 145,
-    hspades: 'K743',
-    hhearts: '52',
-    hdiamonds: 'AJT84',
-    hclubs: 'T4'
+    hnorth: null,
+    heast: null,
+    hsouth: ['K743', '52', 'AJT84', 'T4'],
+    hwest: null
   },
   {
     hid: 146,
-    hspades: 'AQ742',
-    hhearts: 'A5',
-    hdiamonds: '973',
-    hclubs: 'K86'
+    hnorth: null,
+    heast: null,
+    hsouth: ['AQ742', 'A5', '973', 'K86'],
+    hwest: null
   },
   {
     hid: 147,
-    hspades: 'Q832',
-    hhearts: '76',
-    hdiamonds: '94',
-    hclubs: 'T9865'
+    hnorth: null,
+    heast: null,
+    hsouth: ['Q832', '76', '94', 'T9865'],
+    hwest: null
   },
   {
     hid: 148,
-    hspades: '9',
-    hhearts: 'Q753',
-    hdiamonds: 'K94',
-    hclubs: 'AQJ53'
+    hnorth: null,
+    heast: null,
+    hsouth: ['9', 'Q753', 'K94', 'AQJ53'],
+    hwest: null
   },
   {
     hid: 149,
-    hspades: 'AT97',
-    hhearts: 'AQ5',
-    hdiamonds: '9753',
-    hclubs: 'T9'
+    hnorth: null,
+    heast: null,
+    hsouth: ['AT97', 'AQ5', '9753', 'T9'],
+    hwest: null
   },
   {
     hid: 150,
-    hspades: '74',
-    hhearts: '85',
-    hdiamonds: 'K92',
-    hclubs: 'AQJ753'
+    hnorth: null,
+    heast: null,
+    hsouth: ['74', '85', 'K92', 'AQJ753'],
+    hwest: null
   },
   {
     hid: 151,
-    hspades: 'J765',
-    hhearts: '9864',
-    hdiamonds: 'QT63',
-    hclubs: '5'
+    hnorth: null,
+    heast: null,
+    hsouth: ['J765', '9864', 'QT63', '5'],
+    hwest: null
   },
   {
     hid: 152,
-    hspades: '984',
-    hhearts: '7',
-    hdiamonds: 'KQJ743',
-    hclubs: '987'
+    hnorth: null,
+    heast: null,
+    hsouth: ['984', '7', 'KQJ743', '987'],
+    hwest: null
   },
   {
     hid: 153,
-    hspades: 'KT',
-    hhearts: 'K9',
-    hdiamonds: 'A8765',
-    hclubs: '9753'
+    hnorth: null,
+    heast: null,
+    hsouth: ['KT', 'K9', 'A8765', '9753'],
+    hwest: null
   },
   {
     hid: 154,
-    hspades: '4',
-    hhearts: 'A9863',
-    hdiamonds: 'AK7',
-    hclubs: 'AK98'
+    hnorth: null,
+    heast: ['4', 'A9863', 'AK7', 'AK98'],
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 155,
-    hspades: 'K76',
-    hhearts: 'AQ73',
-    hdiamonds: '53',
-    hclubs: 'A8743'
+    hnorth: null,
+    heast: ['K76', 'AQ73', '53', 'A8743'],
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 156,
-    hspades: 'AQJ6',
-    hhearts: '96',
-    hdiamonds: 'AQ9',
-    hclubs: '9853'
+    hnorth: null,
+    heast: ['AQJ6', '96', 'AQ9', '9853'],
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 157,
-    hspades: 'KQ4',
-    hhearts: 'AJ7',
-    hdiamonds: '9762',
-    hclubs: 'KQJ'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['KQ4', 'AJ7', '9762', 'KQJ']
   },
   {
     hid: 158,
-    hspades: 'AKJT74',
-    hhearts: 'KJ4',
-    hdiamonds: '75',
-    hclubs: '63'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['AKJT74', 'KJ4', '75', '63']
   },
   {
     hid: 159,
-    hspades: 'K4',
-    hhearts: '842',
-    hdiamonds: '98753',
-    hclubs: 'A84'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['K4', '842', '98753', 'A84']
   },
   {
     hid: 160,
-    hspades: 'K754',
-    hhearts: '76',
-    hdiamonds: 'A9873',
-    hclubs: '76'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['K754', '76', 'A9873', '76']
   },
   {
     hid: 220,
-    hspades: '87652',
-    hhearts: 'AT54',
-    hdiamonds: 'A3',
-    hclubs: 'AJ'
+    hnorth: null,
+    heast: null,
+    hsouth: ['87652', 'AT54', 'A3', 'AJ'],
+    hwest: null
   },
   {
     hid: 221,
-    hspades: 'Q7',
-    hhearts: 'AQ96',
-    hdiamonds: '982',
-    hclubs: 'AQ63'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['Q7', 'AQ96', '982', 'AQ63']
   },
   {
     hid: 222,
-    hspades: 'Q7',
-    hhearts: 'AQ96',
-    hdiamonds: '982',
-    hclubs: 'AQ63'
+    hnorth: ['Q7', 'AQ96', '982', 'AQ63'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 223,
-    hspades: 'Q7',
-    hhearts: 'AQ96',
-    hdiamonds: '982',
-    hclubs: 'AQ63'
+    hnorth: ['Q7', 'AQ96', '982', 'AQ63'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 224,
-    hspades: 'JT852',
-    hhearts: 'K4',
-    hdiamonds: 'Kt',
-    hclubs: 'AQ86'
+    hnorth: null,
+    heast: null,
+    hsouth: ['JT852', 'K4', 'Kt', 'AQ86'],
+    hwest: null
   },
   {
     hid: 225,
-    hspades: 'A87632',
-    hhearts: 'J3',
-    hdiamonds: 'KQ',
-    hclubs: 'AT9'
+    hnorth: null,
+    heast: null,
+    hsouth: ['A87632', 'J3', 'KQ', 'AT9'],
+    hwest: null
   },
   {
     hid: 226,
-    hspades: 'KJ',
-    hhearts: 'T87',
-    hdiamonds: 'Q87',
-    hclubs: 'QT973'
+    hnorth: null,
+    heast: null,
+    hsouth: ['KJ', 'T87', 'Q87', 'QT973'],
+    hwest: null
   },
   {
     hid: 227,
-    hspades: 'Q43',
-    hhearts: 'AK983',
-    hdiamonds: 'A8',
-    hclubs: '942'
+    hnorth: ['Q43', 'AK983', 'A8', '942'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 228,
-    hspades: 'A7543',
-    hhearts: 'A752',
-    hdiamonds: 'AJ',
-    hclubs: 'QT'
+    hnorth: null,
+    heast: null,
+    hsouth: ['A7543', 'A752', 'AJ', 'QT'],
+    hwest: null
   },
   {
     hid: 229,
-    hspades: 'A4',
-    hhearts: 'KT7632',
-    hdiamonds: '641',
-    hclubs: 'Q8'
+    hnorth: null,
+    heast: null,
+    hsouth: ['A4', 'KT7632', '641', 'Q8'],
+    hwest: null
   },
   {
     hid: 231,
-    hspades: 'A4',
-    hhearts: 'KT7632',
-    hdiamonds: '641',
-    hclubs: 'Q8'
+    hnorth: null,
+    heast: null,
+    hsouth: ['A4', 'KT7632', '641', 'Q8'],
+    hwest: null
   },
   {
     hid: 232,
-    hspades: 'JT7',
-    hhearts: 'AQJT',
-    hdiamonds: 'J74',
-    hclubs: 'KJT'
+    hnorth: ['JT7', 'AQJT', 'J74', 'KJT'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 233,
-    hspades: 'JT7',
-    hhearts: 'AQJT',
-    hdiamonds: 'J74',
-    hclubs: 'KJT'
+    hnorth: null,
+    heast: null,
+    hsouth: ['JT7', 'AQJT', 'J74', 'KJT'],
+    hwest: null
   },
   {
     hid: 234,
-    hspades: 'A9',
-    hhearts: '98542',
-    hdiamonds: 'AKT3',
-    hclubs: 'T8'
+    hnorth: null,
+    heast: null,
+    hsouth: ['A9', '98542', 'AKT3', 'T8'],
+    hwest: null
   },
   {
     hid: 235,
-    hspades: 'T96',
-    hhearts: 'AJ76',
-    hdiamonds: '42',
-    hclubs: 'AKT5'
+    hnorth: ['T96', 'AJ76', '42', 'AKT5'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 236,
-    hspades: 'T96',
-    hhearts: 'AJ76',
-    hdiamonds: '42',
-    hclubs: 'AKT5'
+    hnorth: ['T96', 'AJ76', '42', 'AKT5'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 237,
-    hspades: 'K98',
-    hhearts: 'A7432',
-    hdiamonds: 'T86',
-    hclubs: 'J5'
+    hnorth: null,
+    heast: null,
+    hsouth: ['K98', 'A7432', 'T86', 'J5'],
+    hwest: null
   },
   {
     hid: 238,
-    hspades: 'KJ6',
-    hhearts: 'AJ52',
-    hdiamonds: 'T8752',
-    hclubs: '7'
+    hnorth: null,
+    heast: null,
+    hsouth: ['KJ6', 'AJ52', 'T8752', '7'],
+    hwest: null
   },
   {
     hid: 240,
-    hspades: 'T753',
-    hhearts: '73',
-    hdiamonds: 'AT98',
-    hclubs: 'QJ8'
+    hnorth: null,
+    heast: null,
+    hsouth: ['T753', '73', 'AT98', 'QJ8'],
+    hwest: null
   },
   {
     hid: 242,
-    hspades: 'K985',
-    hhearts: '65',
-    hdiamonds: 'QT865',
-    hclubs: 'Q6'
+    hnorth: ['K985', '65', 'QT865', 'Q6'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 261,
-    hspades: 'KQ92',
-    hhearts: '732',
-    hdiamonds: 'QJ8',
-    hclubs: 'A86'
+    hnorth: null,
+    heast: null,
+    hsouth: ['KQ92', '732', 'QJ8', 'A86'],
+    hwest: null
   },
   {
     hid: 262,
-    hspades: 'AKT3',
-    hhearts: '985',
-    hdiamonds: 'KT6',
-    hclubs: 'KJ5'
+    hnorth: null,
+    heast: null,
+    hsouth: ['AKT3', '985', 'KT6', 'KJ5'],
+    hwest: null
   },
   {
     hid: 263,
-    hspades: 'Q732',
-    hhearts: 'AT6',
-    hdiamonds: 'KQ97',
-    hclubs: 'AJ'
+    hnorth: null,
+    heast: null,
+    hsouth: ['Q732', 'AT6', 'KQ97', 'AJ'],
+    hwest: null
   },
   {
     hid: 264,
-    hspades: 'K54',
-    hhearts: 'K87',
-    hdiamonds: 'AJ953',
-    hclubs: 'K7'
+    hnorth: null,
+    heast: null,
+    hsouth: ['K54', 'K87', 'AJ953', 'K7'],
+    hwest: null
   },
   {
     hid: 265,
-    hspades: 'K54',
-    hhearts: 'K87',
-    hdiamonds: 'AJ953',
-    hclubs: 'K7'
+    hnorth: null,
+    heast: null,
+    hsouth: ['K54', 'K87', 'AJ953', 'K7'],
+    hwest: null
   },
   {
     hid: 266,
-    hspades: 'AT6',
-    hhearts: 'AKT',
-    hdiamonds: 'J72',
-    hclubs: 'KJT3'
+    hnorth: null,
+    heast: null,
+    hsouth: ['AT6', 'AKT', 'J72', 'KJT3'],
+    hwest: null
   },
   {
     hid: 267,
-    hspades: 'AT6',
-    hhearts: 'AKT',
-    hdiamonds: 'J72',
-    hclubs: 'KJT3'
+    hnorth: null,
+    heast: null,
+    hsouth: ['AT6', 'AKT', 'J72', 'KJT3'],
+    hwest: null
   },
   {
     hid: 302,
-    hspades: 'A4',
-    hhearts: 'AKQ94',
-    hdiamonds: 'Q63',
-    hclubs: 'K86'
+    hnorth: ['A4', 'AKQ94', 'Q63', 'K86'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 321,
-    hspades: 'KT764',
-    hhearts: 'AJ742',
-    hdiamonds: 'Q2',
-    hclubs: '3'
+    hnorth: ['KT764', 'AJ742', 'Q2', '3'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   },
   {
     hid: 327,
-    hspades: 'A975',
-    hhearts: 'QT74',
-    hdiamonds: '6',
-    hclubs: 'KT74'
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['A975', 'QT74', '6', 'KT74']
   }
 ]

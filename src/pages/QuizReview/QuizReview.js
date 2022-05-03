@@ -16,7 +16,7 @@ import MyButton from '../../components/controls/MyButton'
 //  Sub Components
 //
 import QuizReviewAnswers from './QuizReviewAnswers'
-import QuizHand from '../QuizHand/QuizHand'
+import QuizHands from '../QuizHands/QuizHands'
 import QuizBidding from '../QuizBidding/QuizBidding'
 //
 //  Common Components
@@ -33,7 +33,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizReview = () => {
   if (g_log1) console.log('Start QuizReview')
@@ -168,9 +168,9 @@ const QuizReview = () => {
         Result ({mark}%) {ansPass} out of {ansCount}
       </Typography>
 
-      <QuizQuestion quizRow={quizRow} quizQuestion={rowIdx + 1} />
-      <QuizHand qid={quizRow.qid} />
       <QuizBidding qid={quizRow.qid} />
+      <QuizHands qid={quizRow.qid} />
+      <QuizQuestion quizRow={quizRow} quizQuestion={rowIdx + 1} />
       <QuizReviewAnswers quizRow={quizRow} AnswerNum={quizAns[rowIdx]} />
 
       <Box sx={{ mt: 2 }}>

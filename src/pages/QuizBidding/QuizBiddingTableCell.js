@@ -72,7 +72,7 @@ const QuizBiddingTableCell = props => {
           {/*  Bid                                                                               */}
           {/* .......................................................................................... */}
           <Grid item>
-            <Typography variant='h6'>{bid}</Typography>
+            <Typography variant='body2'>{bid}</Typography>
           </Grid>
           {/* .......................................................................................... */}
           {/*  Suit Symbol                                                                               */}

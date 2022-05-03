@@ -17,7 +17,7 @@ import QuizReviewAnswer from './QuizReviewAnswer'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizReviewAnswers = props => {
   if (g_log1) console.log('Start QuizReviewAnswers')

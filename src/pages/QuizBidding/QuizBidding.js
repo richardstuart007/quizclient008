@@ -127,7 +127,7 @@ const QuizBidding = ({ qid }) => {
       >
         Bidding
       </Typography>
-      <Card sx={{ maxWidth: 300 }} style={{ backgroundColor: cyan['A100'] }}>
+      <Card sx={{ maxWidth: 400 }} style={{ backgroundColor: cyan['A100'] }}>
         <Table>
           {/* .......................................................................................... */}
           <QuizBiddingTableHeader />
