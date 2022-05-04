@@ -37,7 +37,7 @@ const QuizSettings = () => {
   const snapShot = useSnapshot(ValtioStore)
   const CurrentPage = snapShot.v_Page
   //
-  //  Initial Values
+  //  Initial Values v_ReviewSkipPass
   //
   const initialFValues = {
     z_TestData: snapShot.v_TestData,
@@ -46,7 +46,8 @@ const QuizSettings = () => {
     z_ShowLinearProgress: snapShot.v_ShowLinearProgress,
     z_ShowLinearScore: snapShot.v_ShowLinearScore,
     z_QuestionSort: snapShot.v_QuestionSort,
-    z_ShowQid: snapShot.v_ShowQid
+    z_ShowQid: snapShot.v_ShowQid,
+    z_ReviewSkipPass: snapShot.v_ReviewSkipPass
   }
   //
   //  Saved Values on Submit
@@ -58,7 +59,8 @@ const QuizSettings = () => {
     z_ShowLinearProgress: false,
     z_ShowLinearScore: false,
     z_QuestionSort: false,
-    z_ShowQid: false
+    z_ShowQid: false,
+    z_ReviewSkipPass: false
   }
   //.............................................................................
   //.  Input field validation
@@ -73,6 +75,7 @@ const QuizSettings = () => {
     if ('z_ShowLinearScore' in fieldValues) temp.z_ShowLinearScore = ''
     if ('z_QuestionSort' in fieldValues) temp.z_QuestionSort = ''
     if ('z_ShowQid' in fieldValues) temp.z_ShowQid = ''
+    if ('z_ReviewSkipPass' in fieldValues) temp.z_ReviewSkipPass = ''
 
     setErrors({
       ...temp
@@ -107,6 +110,7 @@ const QuizSettings = () => {
     savedValues.z_ShowLinearScore = values.z_ShowLinearScore
     savedValues.z_QuestionSort = values.z_QuestionSort
     savedValues.z_ShowQid = values.z_ShowQid
+    savedValues.z_ReviewSkipPass = values.z_ReviewSkipPass
 
     //
     //  Update Store
@@ -122,6 +126,7 @@ const QuizSettings = () => {
     ValtioStore.v_ShowLinearScore = savedValues.z_ShowLinearScore
     ValtioStore.v_QuestionSort = savedValues.z_QuestionSort
     ValtioStore.v_ShowQid = savedValues.z_ShowQid
+    ValtioStore.v_ReviewSkipPass = savedValues.z_ReviewSkipPass
   }
   //...................................................................................
   //.  Main Line
@@ -217,6 +222,16 @@ const QuizSettings = () => {
                   value={values.z_ShowQid}
                   onChange={handleInputChange}
                   error={errors.z_ShowQid}
+                />
+              </Grid>
+
+              <Grid item xs={4}>
+                <MyCheckbox
+                  name='z_ReviewSkipPass'
+                  label='Review Pass'
+                  value={values.z_ReviewSkipPass}
+                  onChange={handleInputChange}
+                  error={errors.z_ReviewSkipPass}
                 />
               </Grid>
 

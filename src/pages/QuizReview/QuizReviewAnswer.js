@@ -31,6 +31,8 @@ export default function QuizAnswer(props) {
   if (g_log1) console.log('AnswerNum ', AnswerNum)
   if (g_log1) console.log('FieldNum ', FieldNum)
   //
+  //  Set Colour
+  //
   //  .... Default white
   let backgroundColor = 'white'
   //  .... Correct Answer

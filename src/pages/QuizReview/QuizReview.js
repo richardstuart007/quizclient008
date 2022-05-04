@@ -41,17 +41,24 @@ const QuizReview = () => {
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
-
   //
-  //  Define the State variables
+  //  Counts
   //
-  const [ansPass, setAnsPass] = useState(0)
-  const [ansCount, setAnsCount] = useState(0)
+  const [countPass, setCountPass] = useState(0)
+  const [countAns, setCountAns] = useState(0)
+  const [countReview, setCountReview] = useState(0)
+  //
+  //
+  //
   const [mark, setMark] = useState(0)
   const [quizRow, setQuizRow] = useState(null)
-  const [rowIdx, setRowIdx] = useState(0)
-  const [quizQuest, setQuizQuest] = useState([])
-  const [quizAns, setQuizAns] = useState([])
+  //
+  //  Arrays & Index
+  //
+  const [arrQuest, setArrQuest] = useState([])
+  const [arrAns, setArrAns] = useState([])
+  const [arrAnsNum, setArrAnsNum] = useState([])
+  const [ansIdx, setAnsIdx] = useState(0)
   //...................................................................................
   //.  First time data received
   //...................................................................................
@@ -64,52 +71,75 @@ const QuizReview = () => {
     //
     //  Get store data - Questions
     //
-    let quest = []
+    let ArrQuestions = []
     snapShot.v_Quest.forEach(row => {
       const rowData = { ...row }
-      quest.push(rowData)
+      ArrQuestions.push(rowData)
     })
-    if (g_log1) console.log('quest ', quest)
-    setQuizQuest(quest)
+    if (g_log1) console.log('ArrQuestions ', ArrQuestions)
+    setArrQuest(ArrQuestions)
     //
     //  Get store data - Answers
     //
     let Ans = []
+    let AnsNum = []
     let AnsPass = 0
+    let AnsCount = 0
+    let AnsReview = 0
     snapShot.v_Ans.forEach(id => {
-      Ans.push(id)
+      AnsCount++
+      //
+      //  Only show failed answers ?
+      //
+      const ReviewSkipPass = snapShot.v_ReviewSkipPass
+      if (id !== 1 || !ReviewSkipPass) {
+        Ans.push(id)
+        AnsNum.push(AnsCount)
+        AnsReview++
+      }
       if (id === 1) AnsPass++
     })
+    if (g_log1) console.log('AnsReview ', AnsReview)
+    if (g_log1) console.log('AnsCount ', AnsCount)
+    if (g_log1) console.log('AnsPass ', AnsPass)
     if (g_log1) console.log('Ans ', Ans)
-    const AnsCount = Ans.length
-    setAnsCount(AnsCount)
-    setAnsPass(AnsPass)
-    setQuizAns(Ans)
+    //
+    //  Set State
+    //
+    setCountReview(AnsReview)
+    setCountAns(AnsCount)
+    setCountPass(AnsPass)
+    setArrAns(Ans)
+    setArrAnsNum(AnsNum)
     //
     //  Mark%
     //
     if (AnsCount > 0) setMark(Math.round((100 * AnsPass) / AnsCount))
     //
-    // Start at row 0
+    // Start at Answer Row 0
     //
-    if (g_log1) console.log('quest[0] ', quest[0])
-    setRowIdx(0)
-    setQuizRow(quest[0])
+    const AnsIdx = 0
+    setAnsIdx(AnsIdx)
+    const QuizIdx = AnsNum[AnsIdx]
+    setQuizRow(ArrQuestions[QuizIdx])
   }
   //...................................................................................
   //.  Next Question
   //...................................................................................
   const nextQuestion = () => {
     if (g_log1) console.log('nextQuestion ')
-    if (g_log1) console.log(quizQuest)
+    if (g_log1) console.log('arrQuest ', arrQuest)
+    if (g_log1) console.log('countAns ', countAns)
+    if (g_log1) console.log('ansIdx ', ansIdx)
+    if (g_log1) console.log('countReview ', countReview)
     //
     //  More rows
     //
-    if (g_log1) console.log(rowIdx, ansCount)
-    if (rowIdx + 1 < ansCount) {
-      const RowIdx = rowIdx + 1
-      setRowIdx(RowIdx)
-      setQuizRow(quizQuest[RowIdx])
+    const AnsIdx = ansIdx + 1
+    if (AnsIdx < countReview) {
+      const QuizIdx = arrAnsNum[AnsIdx]
+      setAnsIdx(AnsIdx)
+      setQuizRow(arrQuest[QuizIdx])
     }
   }
   //...................................................................................
@@ -120,10 +150,11 @@ const QuizReview = () => {
     //
     //  More rows
     //
-    if (rowIdx > 0) {
-      const RowIdx = rowIdx - 1
-      setRowIdx(RowIdx)
-      setQuizRow(quizQuest[RowIdx])
+    if (ansIdx > 0) {
+      const AnsIdx = ansIdx - 1
+      const QuizIdx = arrAnsNum[AnsIdx]
+      setAnsIdx(AnsIdx)
+      setQuizRow(arrQuest[QuizIdx])
     }
   }
   //...................................................................................
@@ -144,34 +175,36 @@ const QuizReview = () => {
     return <p style={{ color: 'red' }}>Quiz Row empty</p>
   }
   //
-  //  Deconstruct row
-  //
-  if (g_log1) console.log('quizRow ', quizRow)
-  //
   //  Set Help Article
   //
-  if (g_log1) console.log('quizRow.qhl1 ', quizRow.qhl1)
   ValtioStore.v_Help = quizRow.qhl1
   //
   //  Hide/Show Previous/Next Buttons
   //
   let hidePreviousButton
-  rowIdx + 1 === 1 ? (hidePreviousButton = true) : (hidePreviousButton = false)
+  ansIdx + 1 === 1 ? (hidePreviousButton = true) : (hidePreviousButton = false)
   let hideNextButton
-  rowIdx + 1 === ansCount ? (hideNextButton = true) : (hideNextButton = false)
+  ansIdx + 1 === countReview
+    ? (hideNextButton = true)
+    : (hideNextButton = false)
+
+  if (g_log1) console.log('quizRow ', quizRow)
+  if (g_log1) console.log('ansIdx ', ansIdx)
+  if (g_log1) console.log('arrAnsNum ', arrAnsNum)
+  if (g_log1) console.log('arrAns ', arrAns)
   //...................................................................................
   //.  Render the form
   //...................................................................................
   return (
     <>
       <Typography variant='subtitle1' sx={{ marginTop: '8px' }}>
-        Result ({mark}%) {ansPass} out of {ansCount}
+        Result ({mark}%) {countPass} out of {countAns}
       </Typography>
 
       <QuizBidding qid={quizRow.qid} />
       <QuizHands qid={quizRow.qid} />
-      <QuizQuestion quizRow={quizRow} quizQuestion={rowIdx + 1} />
-      <QuizReviewAnswers quizRow={quizRow} AnswerNum={quizAns[rowIdx]} />
+      <QuizQuestion quizRow={quizRow} quizQuestion={arrAnsNum[ansIdx]} />
+      <QuizReviewAnswers quizRow={quizRow} AnswerNum={arrAns[ansIdx]} />
 
       <Box sx={{ mt: 2 }}>
         {hidePreviousButton ? null : (
