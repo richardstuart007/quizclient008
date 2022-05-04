@@ -116,6 +116,10 @@ const QuizReview = () => {
     //
     if (AnsCount > 0) setMark(Math.round((100 * AnsPass) / AnsCount))
     //
+    //  Nothing to review
+    //
+    if (AnsReview === 0) return
+    //
     // Start at Answer Row 0
     //
     const AnsIdx = 0
@@ -168,11 +172,25 @@ const QuizReview = () => {
     // eslint-disable-next-line
   }, [])
   //
-  //  No data
+  //  No data to review
   //
   if (!quizRow) {
     if (g_log1) console.log('Quiz Row empty')
-    return <p style={{ color: 'red' }}>Quiz Row empty</p>
+    return (
+      <>
+        <Typography variant='subtitle1' sx={{ marginTop: '8px' }}>
+          Result ({mark}%) {countPass} out of {countAns}. No incorrect answers
+          to review.
+        </Typography>
+        <Typography
+          variant='subtitle1'
+          sx={{ marginTop: '8px' }}
+          style={{ color: 'red' }}
+        >
+          WELL DONE !!
+        </Typography>
+      </>
+    )
   }
   //
   //  Set Help Article
@@ -207,15 +225,6 @@ const QuizReview = () => {
       <QuizReviewAnswers quizRow={quizRow} AnswerNum={arrAns[ansIdx]} />
 
       <Box sx={{ mt: 2 }}>
-        {hidePreviousButton ? null : (
-          <MyButton
-            type='submit'
-            text='Previous'
-            color='primary'
-            variant='contained'
-            onClick={() => handlePrevious()}
-          />
-        )}
         {hideNextButton ? null : (
           <MyButton
             type='submit'
@@ -223,6 +232,15 @@ const QuizReview = () => {
             color='primary'
             variant='contained'
             onClick={() => nextQuestion()}
+          />
+        )}
+        {hidePreviousButton ? null : (
+          <MyButton
+            type='submit'
+            text='Previous'
+            color='primary'
+            variant='contained'
+            onClick={() => handlePrevious()}
           />
         )}
       </Box>
