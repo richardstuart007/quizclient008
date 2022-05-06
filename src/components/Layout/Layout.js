@@ -1,7 +1,14 @@
 //
 //  Libraries
 //
-import { Typography, AppBar, Toolbar, Avatar, Grid } from '@mui/material'
+import {
+  Typography,
+  AppBar,
+  Toolbar,
+  Avatar,
+  Grid,
+  CardMedia
+} from '@mui/material'
 import makeStyles from '@mui/styles/makeStyles'
 import { useTheme } from '@mui/material/styles'
 import useMediaQuery from '@mui/material/useMediaQuery'
@@ -22,6 +29,7 @@ import debugSettings from '../../debug/debugSettings'
 //  Components
 //
 import cards from '../../assets/cards.svg'
+import Ukraine from '../../assets/Ukraine.svg'
 //
 //  Style overrides
 //
@@ -39,6 +47,7 @@ const useStyles = makeStyles(theme => {
       marginLeft: theme.spacing(2)
     },
     appBar: {
+      background: 'green',
       width: '100%'
     },
     toolbar: theme.mixins.toolbar,
@@ -102,8 +111,9 @@ export default function Layout({ children }) {
   //...................................................................................
   return (
     <div className={classes.root}>
-      {/* app bar */}
-
+      {/* .......................................................................................... */}
+      {/* app bar                                         */}
+      {/* .......................................................................................... */}
       <AppBar
         position='fixed'
         className={classes.appBar}
@@ -123,13 +133,23 @@ export default function Layout({ children }) {
             {/* .......................................................................................... */}
             <Grid item xs></Grid>
             {/* .......................................................................................... */}
+            <Grid>
+              <CardMedia
+                component='img'
+                sx={{ width: 30, height: 30 }}
+                image={Ukraine}
+                alt=''
+              />
+            </Grid>
+            {/* .......................................................................................... */}
             {ScreenMedium && <QuizNavigation />}
             {/* .......................................................................................... */}
           </Grid>
         </Toolbar>
       </AppBar>
-
-      {/* main content */}
+      {/* .......................................................................................... */}
+      {/* main content                          */}
+      {/* .......................................................................................... */}
       <div className={classes.page}>
         <div className={classes.toolbar}></div>
         {!ScreenMedium && <QuizNavigation />}
