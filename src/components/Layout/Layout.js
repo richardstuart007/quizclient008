@@ -28,8 +28,8 @@ import debugSettings from '../../debug/debugSettings'
 //
 //  Components
 //
-import cards from '../../assets/cards.svg'
-import Ukraine from '../../assets/Ukraine.svg'
+import cards from '../../assets/images/cards.svg'
+import Ukraine from '../../assets/images/Ukraine.svg'
 //
 //  Style overrides
 //

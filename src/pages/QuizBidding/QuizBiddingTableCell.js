@@ -10,10 +10,10 @@ import debugSettings from '../../debug/debugSettings'
 //
 //  Sub Components
 //
-import spade from '../../assets/spade.svg'
-import heart from '../../assets/heart.svg'
-import diamond from '../../assets/diamond.svg'
-import club from '../../assets/club.svg'
+import spade from '../../assets/images/spade.svg'
+import heart from '../../assets/images/heart.svg'
+import diamond from '../../assets/images/diamond.svg'
+import club from '../../assets/images/club.svg'
 //.............................................................................
 //.  Initialisation
 //.............................................................................

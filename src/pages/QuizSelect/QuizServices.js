@@ -6,6 +6,7 @@ export const getOwnerCollection = () => [
 export const getGroup1Collection = () => [
   { id: '', title: 'none' },
   { id: 'Redoubles', title: 'Re-doubles' },
+  { id: 'Play', title: 'Play' },
   // { id: '1NT', title: '1NT' },
   { id: 'Doubles', title: 'Doubles' },
   { id: 'WBF', title: 'WBF' },

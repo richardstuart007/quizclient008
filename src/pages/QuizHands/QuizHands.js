@@ -23,7 +23,7 @@ import QuizHandsTableLine from './QuizHandsTableLine'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
+const g_log1 = debugSettings(true)
 //===================================================================================
 const QuizHands = ({ qid }) => {
   //...................................................................................
@@ -41,7 +41,6 @@ const QuizHands = ({ qid }) => {
   let HandsRowAll = []
   snapShot.v_Hands.forEach(row => {
     const rowData = { ...row }
-    if (g_log1) console.log('rowData ', rowData)
     HandsRowAll.push(rowData)
   })
   if (g_log1) console.log('HandsRowAll ', HandsRowAll)
@@ -64,31 +63,52 @@ const QuizHands = ({ qid }) => {
   //  Build HandObj Array - N/E/S/W
   //
   let HandObjArray = []
-  const handObj = {
-    position: '',
-    hand: []
-  }
+  if (g_log1) console.log('HandsRow', HandsRow)
+
   if (HandsRow.hnorth) {
+    const handObj = {
+      position: '',
+      hand: []
+    }
     handObj.position = 'North'
-    handObj.hand = HandsRow.hnorth
+    handObj.hand = [...HandsRow.hnorth]
+    if (g_log1) console.log('handObj ', handObj)
     HandObjArray.push(handObj)
+    if (g_log1) console.log('HandObjArray ', HandObjArray)
   }
   if (HandsRow.heast) {
+    const handObj = {
+      position: '',
+      hand: []
+    }
     handObj.position = 'East'
-    handObj.hand = HandsRow.heast
+    handObj.hand = [...HandsRow.heast]
+    if (g_log1) console.log('handObj ', handObj)
     HandObjArray.push(handObj)
+    if (g_log1) console.log('HandObjArray ', HandObjArray)
   }
   if (HandsRow.hsouth) {
+    const handObj = {
+      position: '',
+      hand: []
+    }
     handObj.position = 'South'
-    handObj.hand = HandsRow.hsouth
+    handObj.hand = [...HandsRow.hsouth]
+    if (g_log1) console.log('handObj ', handObj)
     HandObjArray.push(handObj)
+    if (g_log1) console.log('HandObjArray ', HandObjArray)
   }
   if (HandsRow.hwest) {
+    const handObj = {
+      position: '',
+      hand: []
+    }
     handObj.position = 'West'
-    handObj.hand = HandsRow.hwest
+    handObj.hand = [...HandsRow.hwest]
+    if (g_log1) console.log('handObj ', handObj)
     HandObjArray.push(handObj)
+    if (g_log1) console.log('HandObjArray ', HandObjArray)
   }
-  if (g_log1) console.log('HandObjArray ', HandObjArray)
 
   //...................................................................................
   //.  Render the form
