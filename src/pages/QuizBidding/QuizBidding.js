@@ -85,6 +85,11 @@ const QuizBidding = ({ qid }) => {
         bidObj.suit = null
         bidsArray.push(bidObj)
         break
+      case ' ':
+        bidObj.bid = null
+        bidObj.suit = null
+        bidsArray.push(bidObj)
+        break
       default:
         if (bid.substr(1, 1) === 'N') {
           bidObj.bid = bid

@@ -813,6 +813,6 @@ exports.BIDDING = [
   },
   {
     bid: 335,
-    bbidding: ['-', '-', '-', '1NT', 'Pass', '3NT']
+    bbidding: [' ', ' ', ' ', '1NT', 'Pass', '3NT']
   }
 ]

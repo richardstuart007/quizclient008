@@ -4,6 +4,10 @@
 import { Avatar, TableCell, TableHead, TableRow } from '@mui/material'
 import makeStyles from '@mui/styles/makeStyles'
 //
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
 //  Sub Components
 //
 import spade from '../../assets/images/spade.svg'
@@ -21,9 +25,13 @@ const useStyles = makeStyles({
 //.............................................................................
 //.  Initialisation
 //.............................................................................
-
+//
+// Debug Settings
+//
+const g_log1 = debugSettings(true)
 //===================================================================================
 const QuizHandsTableHeader = () => {
+  if (g_log1) console.log('spade ', spade)
   //
   //  Styles
   //

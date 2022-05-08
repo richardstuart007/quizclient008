@@ -428,36 +428,36 @@ exports.HANDS = [
   },
   {
     hid: 330,
-    hnorth: ['Q76', '-', '-', '-'],
-    heast: ['K54', '-', '-', '-'],
+    hnorth: ['Q76', ' ', ' ', ' '],
+    heast: ['K54', ' ', ' ', ' '],
     hsouth: null,
     hwest: null
   },
   {
     hid: 331,
-    hnorth: ['J76', '-', '-', '-'],
-    heast: ['K54', '-', '-', '-'],
+    hnorth: ['J76', ' ', ' ', ' '],
+    heast: ['K54', ' ', ' ', ' '],
     hsouth: null,
     hwest: null
   },
   {
     hid: 332,
-    hnorth: ['JT6', '-', '-', '-'],
-    heast: ['K54', '-', '-', '-'],
+    hnorth: ['JT6', ' ', ' ', ' '],
+    heast: ['K54', ' ', ' ', ' '],
     hsouth: null,
     hwest: null
   },
   {
     hid: 333,
-    hnorth: ['QJ92', '-', '-', '-'],
-    heast: ['K54', '-', '-', '-'],
+    hnorth: ['QJ92', ' ', ' ', ' '],
+    heast: ['K54', ' ', ' ', ' '],
     hsouth: null,
     hwest: null
   },
   {
     hid: 334,
-    hnorth: ['QJ92', '-', '-', '-'],
-    heast: ['K54', '-', '-', '-'],
+    hnorth: ['QJ92', ' ', ' ', ' '],
+    heast: ['K54', ' ', ' ', ' '],
     hsouth: null,
     hwest: null
   },

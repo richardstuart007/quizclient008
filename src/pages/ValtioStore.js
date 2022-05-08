@@ -26,7 +26,7 @@ const ValtioStore = proxy({
   v_MaxQuestions: 0,
   v_Help: '',
   v_QuestionSort: true,
-  v_ShowQid: false,
+  v_ShowQid: true,
   v_ReviewSkipPass: true
 })
 
