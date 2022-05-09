@@ -467,5 +467,257 @@ exports.HANDS = [
     heast: null,
     hsouth: null,
     hwest: ['JT94', 'K63', 'JT84', 'J4']
+  },
+  {
+    hid: 336,
+    hnorth: null,
+    heast: null,
+    hsouth: ['65', '843', '7', 'QJT8654'],
+    hwest: null
+  },
+  {
+    hid: 337,
+    hnorth: null,
+    heast: null,
+    hsouth: ['65', '843', '7', 'QJT8654'],
+    hwest: null
+  },
+  {
+    hid: 338,
+    hnorth: null,
+    heast: null,
+    hsouth: ['KQ', '97', 'Q98', 'AQJT96'],
+    hwest: null
+  },
+  {
+    hid: 339,
+    hnorth: null,
+    heast: null,
+    hsouth: ['KQ', '97', 'Q98', 'AQJT96'],
+    hwest: null
+  },
+  {
+    hid: 340,
+    hnorth: ['AQJ4', 'KJ7', 'KQ86', '97'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 341,
+    hnorth: null,
+    heast: null,
+    hsouth: ['65', '843', '7', 'QJT8654'],
+    hwest: null
+  },
+  {
+    hid: 342,
+    hnorth: null,
+    heast: null,
+    hsouth: ['73', 'AJT84', '75', '9753'],
+    hwest: null
+  },
+  {
+    hid: 343,
+    hnorth: null,
+    heast: null,
+    hsouth: ['A7', 'KJT94', 'T963', '42'],
+    hwest: null
+  },
+  {
+    hid: 344,
+    hnorth: null,
+    heast: null,
+    hsouth: ['A7', 'KJT94', 'T963', '42'],
+    hwest: null
+  },
+  {
+    hid: 345,
+    hnorth: null,
+    heast: null,
+    hsouth: ['A4', 'AQJ85', '64', '8654'],
+    hwest: null
+  },
+  {
+    hid: 346,
+    hnorth: null,
+    heast: null,
+    hsouth: ['T8', 'AJ97', 'KQ96', '632'],
+    hwest: null
+  },
+  {
+    hid: 347,
+    hnorth: null,
+    heast: null,
+    hsouth: ['T8', 'AJ97', 'KQ96', '632'],
+    hwest: null
+  },
+  {
+    hid: 348,
+    hnorth: null,
+    heast: null,
+    hsouth: ['T8', 'AJ97', 'KQ96', '632'],
+    hwest: null
+  },
+  {
+    hid: 349,
+    hnorth: null,
+    heast: null,
+    hsouth: ['AQJ8', 'A98', '642', 'Q42'],
+    hwest: null
+  },
+  {
+    hid: 350,
+    hnorth: ['KT96', '73', 'AKT8', 'AJT'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 351,
+    hnorth: null,
+    heast: null,
+    hsouth: ['AQJ8', 'A98', '642', 'Q42'],
+    hwest: null
+  },
+  {
+    hid: 352,
+    hnorth: ['KT96', '73', 'AKT8', 'AJT'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 353,
+    hnorth: null,
+    heast: null,
+    hsouth: ['98', 'AJ95', 'T98', 'KQ75'],
+    hwest: null
+  },
+  {
+    hid: 354,
+    hnorth: ['KQ7', 'KQ8', 'K754', 'AT9'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 355,
+    hnorth: null,
+    heast: null,
+    hsouth: ['A5', 'Q962', 'KJ9', 'J973'],
+    hwest: null
+  },
+  {
+    hid: 356,
+    hnorth: ['K62', 'AKJ7', '64', 'KQ64'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 357,
+    hnorth: null,
+    heast: null,
+    hsouth: ['A5', 'Q962', 'KJ9', 'J973'],
+    hwest: null
+  },
+  {
+    hid: 358,
+    hnorth: ['K62', 'AKJ7', '64', 'KQ64'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 359,
+    hnorth: null,
+    heast: null,
+    hsouth: ['KJ95', '87', 'AQ98', '742'],
+    hwest: null
+  },
+  {
+    hid: 360,
+    hnorth: ['A876', 'AQJ', 'K5', 'J865'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 361,
+    hnorth: null,
+    heast: null,
+    hsouth: ['QT9', 'AJ5', '742', 'KQ64'],
+    hwest: null
+  },
+  {
+    hid: 362,
+    hnorth: ['AK5', 'KT8', 'J3', 'AJT98'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 363,
+    hnorth: null,
+    heast: null,
+    hsouth: ['KQ7', 'K86', 'AJ87', 'T43'],
+    hwest: null
+  },
+  {
+    hid: 364,
+    hnorth: null,
+    heast: null,
+    hsouth: ['KQ7', 'K86', 'AJ87', 'T43'],
+    hwest: null
+  },
+  {
+    hid: 365,
+    hnorth: null,
+    heast: null,
+    hsouth: ['K97', '43', 'AQT7', 'JT96'],
+    hwest: null
+  },
+  {
+    hid: 366,
+    hnorth: ['AQ', 'J52', 'K9865', 'AK8'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 367,
+    hnorth: null,
+    heast: null,
+    hsouth: ['A8', 'QT86', 'QT76', '985'],
+    hwest: null
+  },
+  {
+    hid: 368,
+    hnorth: ['543', 'AK97', 'AJ52', 'AJ'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 369,
+    hnorth: null,
+    heast: null,
+    hsouth: ['QJ52', 'K984', 'Q', 'JT52'],
+    hwest: null
+  },
+  {
+    hid: 370,
+    hnorth: null,
+    heast: null,
+    hsouth: ['4', 'K943', 'A9653', 'J43'],
+    hwest: null
+  },
+  {
+    hid: 371,
+    hnorth: null,
+    heast: null,
+    hsouth: ['4', 'K943', 'A9653', 'J43'],
+    hwest: null
   }
 ]
