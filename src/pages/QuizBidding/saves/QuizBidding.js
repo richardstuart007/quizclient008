@@ -63,68 +63,63 @@ const QuizBidding = ({ qid }) => {
   //
   //  Build Bidding Arrays
   //
-  let Rounds = [...BiddingRow.brounds]
-  if (g_log1) console.log('BiddingRow.brounds ', BiddingRow.brounds)
-  if (g_log1) console.log('Rounds ', Rounds)
-  //
-  //  Process each Round
-  //
-  let roundsbidObjArray = []
-  Rounds.forEach(round => {
-    //
-    //  Process each bid for a round - Create roundBidsArray
-    //
-    let bidObjArray = []
-    round.forEach(bid => {
-      if (g_log1) console.log('bid ', bid)
-      const level = bid.substr(0, 1)
-      if (g_log1) console.log('level ', level)
-      //
-      //  Fill bidObj (bid/suit)
-      //
-      const bidObj = {
-        bid: '',
-        suit: ''
-      }
-      switch (level) {
-        case 'P':
+  let Bidding = BiddingRow.bbidding
+  if (g_log1) console.log('Bidding ', Bidding)
+  let bidsArray = []
+  Bidding.forEach(bid => {
+    if (g_log1) console.log('bid ', bid)
+    const level = bid.substr(0, 1)
+    if (g_log1) console.log('level ', level)
+    const bidObj = {
+      bid: '',
+      suit: ''
+    }
+    switch (level) {
+      case 'P':
+        bidObj.bid = bid
+        bidObj.suit = null
+        bidsArray.push(bidObj)
+        break
+      case 'X':
+        bidObj.bid = bid
+        bidObj.suit = null
+        bidsArray.push(bidObj)
+        break
+      case ' ':
+        bidObj.bid = null
+        bidObj.suit = null
+        bidsArray.push(bidObj)
+        break
+      default:
+        if (bid.substr(1, 1) === 'N') {
           bidObj.bid = bid
           bidObj.suit = null
-          break
-        case 'X':
-          bidObj.bid = bid
-          bidObj.suit = null
-          break
-        case ' ':
-          bidObj.bid = null
-          bidObj.suit = null
-          break
-        case 'n':
-          bidObj.bid = null
-          bidObj.suit = null
-          break
-        default:
-          if (bid.substr(1, 1) === 'N') {
-            bidObj.bid = bid
-            bidObj.suit = null
-          } else {
-            bidObj.bid = level
-            bidObj.suit = bid.substr(1, 1)
-          }
-          break
-      }
-      //
-      //  Load bidObj to bidObjArray
-      //
-      bidObjArray.push(bidObj)
-    })
-    //
-    //  Load to all rounds (bidObj)
-    //
-    if (g_log1) console.log('bidObjArray ', bidObjArray)
-    roundsbidObjArray.push(bidObjArray)
+          bidsArray.push(bidObj)
+        } else {
+          bidObj.bid = level
+          bidObj.suit = bid.substr(1, 1)
+          bidsArray.push(bidObj)
+        }
+        break
+    }
   })
-  if (g_log1) console.log('roundsbidObjArray ', roundsbidObjArray)
+  if (g_log1) console.log('bidsArray ', bidsArray)
+  //
+  //  Array of rounds
+  //
+  let roundsArray = []
+  let roundArray = []
+  let i = 0
+  bidsArray.forEach(bidObj => {
+    i++
+    roundArray.push(bidObj)
+    if (i % 4 === 0) {
+      roundsArray.push(roundArray)
+      roundArray = []
+    }
+  })
+  roundsArray.push(roundArray)
+  if (g_log1) console.log('roundsArray ', roundsArray)
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -143,7 +138,7 @@ const QuizBidding = ({ qid }) => {
           <QuizBiddingTableHeader />
           {/* .......................................................................................... */}
           <TableBody>
-            {roundsbidObjArray.map((innerArray, roundidx) => (
+            {roundsArray.map((innerArray, roundidx) => (
               <>
                 <QuizBiddingTableLine
                   key={roundidx + 1}

@@ -23,7 +23,7 @@ import QuizHandsTableLine from './QuizHandsTableLine'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizHands = ({ qid }) => {
   //...................................................................................
