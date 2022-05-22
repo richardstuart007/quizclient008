@@ -9,11 +9,10 @@ exports.QUESTIONS = [
     qbad1: '1NT',
     qbad2: '1S',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 2,
@@ -25,11 +24,10 @@ exports.QUESTIONS = [
     qbad1: '1H',
     qbad2: '1D',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 3,
@@ -41,11 +39,10 @@ exports.QUESTIONS = [
     qbad1: 'Has long diamonds',
     qbad2: 'Transfer to hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 4,
@@ -57,11 +54,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Minors',
     qbad2: 'Transfer to Diamonds',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 5,
@@ -73,11 +69,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Spades',
     qbad2: 'Invitational Hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 6,
@@ -88,11 +83,10 @@ exports.QUESTIONS = [
     qbad1: 'Smolen 5 Spades, 4 Hearts',
     qbad2: 'Invitational in Hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 7,
@@ -103,11 +97,10 @@ exports.QUESTIONS = [
     qbad1: 'Smolen 5 Hearts 4 Spades',
     qbad2: 'Invitational in Spades',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 8,
@@ -119,11 +112,10 @@ exports.QUESTIONS = [
     qbad1: 'Has 6 spades and 4 hearts',
     qbad2: 'Smolen 5 Spades, 4 Hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 9,
@@ -135,11 +127,10 @@ exports.QUESTIONS = [
     qbad1: 'Has 6 Hearts and 4 Spades',
     qbad2: 'Smolen 4 Spades, 5 Hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 10,
@@ -151,11 +142,10 @@ exports.QUESTIONS = [
     qbad1: 'Garbage stayman, has heart shortage',
     qbad2: 'Garbage stayman, has Spades',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 11,
@@ -167,11 +157,10 @@ exports.QUESTIONS = [
     qbad1: 'Poor hand, to play',
     qbad2: 'Slam interest',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 12,
@@ -183,11 +172,10 @@ exports.QUESTIONS = [
     qbad1: 'Has no honour in Clubs',
     qbad2: 'Forcing to 3NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 13,
@@ -199,11 +187,10 @@ exports.QUESTIONS = [
     qbad1: 'Poor hand, to play in Clubs',
     qbad2: 'Invitational to 3NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 14,
@@ -215,11 +202,10 @@ exports.QUESTIONS = [
     qbad1: 'Has no honour in Diamond',
     qbad2: 'Forcing to 3NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 15,
@@ -230,11 +216,10 @@ exports.QUESTIONS = [
     qbad1: 'Club Shortage',
     qbad2: 'Long clubs, Slam interest',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 16,
@@ -245,11 +230,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Hearts',
     qbad2: 'Long Diamonds, Slam interest',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 17,
@@ -260,11 +244,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Spades',
     qbad2: 'Long Hearts, Slam interest',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 18,
@@ -275,11 +258,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Minors',
     qbad2: 'Long Spades Slam interest',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 19,
@@ -290,11 +272,10 @@ exports.QUESTIONS = [
     qbad1: 'Long Diamonds, pre-emptive',
     qbad2: 'Long Diamonds, Invitational to 5D',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 20,
@@ -305,11 +286,10 @@ exports.QUESTIONS = [
     qbad1: 'Long Hearts pre-emptive, weak',
     qbad2: 'Long Hearts, to Play',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 21,
@@ -320,11 +300,10 @@ exports.QUESTIONS = [
     qbad1: 'Texas Transfer to the minors',
     qbad2: 'Slam interest in Spades',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 22,
@@ -336,11 +315,10 @@ exports.QUESTIONS = [
     qbad1: 'No club support',
     qbad2: 'No 3/4/5 card major',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 23,
@@ -352,11 +330,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Spades',
     qbad2: '5 Hearts, Invitational',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 24,
@@ -368,11 +345,10 @@ exports.QUESTIONS = [
     qbad1: '6 Spades, Invitational',
     qbad2: '5 Spades, Invitational',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 25,
@@ -384,11 +360,10 @@ exports.QUESTIONS = [
     qbad1: 'I do not have diamonds',
     qbad2: 'I have clubs',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 26,
@@ -400,11 +375,10 @@ exports.QUESTIONS = [
     qbad1: 'I have 4 Hearts',
     qbad2: 'I have 4 Spades and maybe 4 Hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 27,
@@ -416,11 +390,10 @@ exports.QUESTIONS = [
     qbad1: 'I have 4 Hearts and maybe 4 Spades',
     qbad2: 'I have 4 Hearts AND 4 Spades',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 28,
@@ -431,11 +404,10 @@ exports.QUESTIONS = [
     qbad1: 'I have EXACTLY one 4 card major',
     qbad2: 'I have AT LEAST one 4 card major',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 29,
@@ -446,11 +418,10 @@ exports.QUESTIONS = [
     qbad1: 'I have 5 spades EXACTLY, less than 3 hearts',
     qbad2: 'I have 5+ Spades, less than 3 hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 30,
@@ -462,11 +433,10 @@ exports.QUESTIONS = [
     qbad1: 'I have long diamonds and long clubs',
     qbad2: 'I have BOTH Majors,  SLAM interest',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 31,
@@ -477,11 +447,10 @@ exports.QUESTIONS = [
     qbad1: 'Clubs invitational ',
     qbad2: 'Splinter in Clubs',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 32,
@@ -492,11 +461,10 @@ exports.QUESTIONS = [
     qbad1: 'Standard Ace Ask',
     qbad2: 'Quantitive Raise to 7NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 33,
@@ -507,11 +475,10 @@ exports.QUESTIONS = [
     qbad1: 'Standard Ace Ask',
     qbad2: 'Quantitive Raise to 6NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 34,
@@ -523,11 +490,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Spades and bid 4 hearts',
     qbad2: 'Puppet Stayman and on 3NT bid 4S',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 35,
@@ -539,11 +505,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Hearts and then bid 4S',
     qbad2: 'Transfer to Spades and bid 4 hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 36,
@@ -555,11 +520,10 @@ exports.QUESTIONS = [
     qbad1: 'Puppet Stayman',
     qbad2: 'Transfer to Hearts and bid 3S',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 37,
@@ -571,11 +535,10 @@ exports.QUESTIONS = [
     qbad1: 'Penalty, has the minors',
     qbad2: 'Stayman, has at least one major',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 38,
@@ -587,11 +550,10 @@ exports.QUESTIONS = [
     qbad1: 'Standard Stayman',
     qbad2: 'Asking for a stopper in Clubs',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 39,
@@ -603,11 +565,10 @@ exports.QUESTIONS = [
     qbad1: 'Invitational,  Diamonds',
     qbad2: 'Asking for a stopper in Diamonds',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 40,
@@ -619,11 +580,10 @@ exports.QUESTIONS = [
     qbad1: 'Invitational, Hearts',
     qbad2: 'Asking for a stopper in Hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 41,
@@ -635,11 +595,10 @@ exports.QUESTIONS = [
     qbad1: 'Invitational, Spades',
     qbad2: 'Asking for a stopper in Spades',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 42,
@@ -651,11 +610,10 @@ exports.QUESTIONS = [
     qbad1: 'To play in Hearts',
     qbad2: 'Slam in Hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 43,
@@ -667,11 +625,10 @@ exports.QUESTIONS = [
     qbad1: 'Both majors, you choose',
     qbad2: 'Strong, slam interest',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 44,
@@ -683,11 +640,10 @@ exports.QUESTIONS = [
     qbad1: 'To play, likes diamonds',
     qbad2: 'Waiting bid',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 45,
@@ -699,11 +655,10 @@ exports.QUESTIONS = [
     qbad1: 'Weak, 2+ hearts',
     qbad2: 'Strong, 2+ hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 46,
@@ -715,11 +670,10 @@ exports.QUESTIONS = [
     qbad1: 'SOS, weak and no heart support',
     qbad2: 'Heart support, take-out of diamonds',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 47,
@@ -730,11 +684,10 @@ exports.QUESTIONS = [
     qbad1: 'Stayman',
     qbad2: 'Helvic Wriggle',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 48,
@@ -745,11 +698,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Hearts',
     qbad2: 'Helvic Wriggle',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 49,
@@ -760,11 +712,10 @@ exports.QUESTIONS = [
     qbad1: 'Stayman',
     qbad2: 'To Play, weak SOS Rescue',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 50,
@@ -775,11 +726,10 @@ exports.QUESTIONS = [
     qbad1: 'Values redouble, penalty orientated',
     qbad2: 'SOS, bid lowest 4 card suit',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 51,
@@ -791,11 +741,10 @@ exports.QUESTIONS = [
     qbad1: 'To play.  Responder has values',
     qbad2: 'SOS, bid lowest 4 card suit',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 52,
@@ -806,11 +755,10 @@ exports.QUESTIONS = [
     qbad1: '5 card Diamonds, to Play',
     qbad2: 'SOS, bid lowest 4 card suit',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 53,
@@ -821,11 +769,10 @@ exports.QUESTIONS = [
     qbad1: 'Clubs to play',
     qbad2: 'Splinter in Clubs',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 54,
@@ -836,11 +783,10 @@ exports.QUESTIONS = [
     qbad1: 'Clubs to play',
     qbad2: 'Splinter in Clubs',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 55,
@@ -851,11 +797,10 @@ exports.QUESTIONS = [
     qbad1: 'To play, Diamonds',
     qbad2: 'Transfer to Hearts.  Invitational',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 56,
@@ -867,11 +812,10 @@ exports.QUESTIONS = [
     qbad1: 'Take out of Clubs',
     qbad2: 'Stayman',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 57,
@@ -883,11 +827,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to hearts',
     qbad2: 'Helvic Wriggle',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 58,
@@ -899,11 +842,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to spades',
     qbad2: 'Hearts and Spades',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 59,
@@ -915,11 +857,10 @@ exports.QUESTIONS = [
     qbad1: 'Invitational to 3NT, stop in clubs',
     qbad2: 'Transfer to Diamonds',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 60,
@@ -931,11 +872,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Spades',
     qbad2: 'Game force in hearts',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 61,
@@ -947,11 +887,10 @@ exports.QUESTIONS = [
     qbad1: 'Invitational to 3NT, stop in clubs',
     qbad2: 'Transfer to Diamonds',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 62,
@@ -963,11 +902,10 @@ exports.QUESTIONS = [
     qbad1: 'Michaels, Hearts and a minor',
     qbad2: 'Asking for a Spade stopper',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 63,
@@ -979,11 +917,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to Spades',
     qbad2: 'Asking for a Heart stopper',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 64,
@@ -995,11 +932,10 @@ exports.QUESTIONS = [
     qbad1: 'Michaels, Hearts and a minor',
     qbad2: 'Showing a Spade stopper',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 65,
@@ -1011,11 +947,10 @@ exports.QUESTIONS = [
     qbad1: 'Has stoppers in Hearts and Spades',
     qbad2: 'To play, long running minor',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 66,
@@ -1028,11 +963,10 @@ exports.QUESTIONS = [
     qbad1: 'Has stoppers in Hearts and Spades',
     qbad2: 'Has a stopper in Spades',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 67,
@@ -1044,11 +978,10 @@ exports.QUESTIONS = [
     qbad1: 'Partner has both majors stopped, invitational.',
     qbad2: 'System on, Transfer to Diamonds',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 68,
@@ -1060,11 +993,10 @@ exports.QUESTIONS = [
     qbad1: 'Invitational to 3NT, both majors stopped',
     qbad2: 'Partner has long Clubs',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 69,
@@ -1076,11 +1008,10 @@ exports.QUESTIONS = [
     qbad1: 'Weak Clubs',
     qbad2: 'Pre-emptive in Clubs',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 70,
@@ -1092,11 +1023,10 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 71,
@@ -1108,11 +1038,10 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: 'Redouble',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 72,
@@ -1124,11 +1053,10 @@ exports.QUESTIONS = [
     qbad1: 'Redouble',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 73,
@@ -1139,11 +1067,10 @@ exports.QUESTIONS = [
     qbad1: '4+ clubs',
     qbad2: 'Heart stopper',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/support_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/support_double.php']
   },
   {
     qid: 74,
@@ -1154,11 +1081,10 @@ exports.QUESTIONS = [
     qbad1: 'Penalty double',
     qbad2: 'Asking for a club stopper',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/support_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/support_double.php']
   },
   {
     qid: 75,
@@ -1169,11 +1095,10 @@ exports.QUESTIONS = [
     qbad1: 'Penalty double',
     qbad2: 'Takeout, has 4 spades',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/support_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/support_double.php']
   },
   {
     qid: 76,
@@ -1184,11 +1109,10 @@ exports.QUESTIONS = [
     qbad1: 'Take out, has clubs and diamonds',
     qbad2: 'Penalty, subsequent doubles are also penalty',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/support_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/support_double.php']
   },
   {
     qid: 77,
@@ -1199,11 +1123,10 @@ exports.QUESTIONS = [
     qbad1: '3 or fewer',
     qbad2: 'Undetermined',
     qbad3: null,
-    qhl1: 'https://www.larryco.com/bridge-articles/support-doubles ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
   },
   {
     qid: 78,
@@ -1214,11 +1137,10 @@ exports.QUESTIONS = [
     qbad1: '3 card support of partners suit',
     qbad2: 'Takeout, has diamonds and hearts',
     qbad3: null,
-    qhl1: 'https://www.larryco.com/bridge-articles/support-doubles ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
   },
   {
     qid: 79,
@@ -1229,11 +1151,10 @@ exports.QUESTIONS = [
     qbad1: '5+ Diamonds, 4 clubs',
     qbad2: 'Penalty, subsequent doubles are also penalty',
     qbad3: null,
-    qhl1: 'https://www.larryco.com/bridge-articles/support-doubles ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
   },
   {
     qid: 80,
@@ -1244,11 +1165,10 @@ exports.QUESTIONS = [
     qbad1: 'Penalty double',
     qbad2: 'Take out',
     qbad3: null,
-    qhl1: 'https://www.larryco.com/bridge-articles/support-doubles ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
   },
   {
     qid: 81,
@@ -1259,11 +1179,10 @@ exports.QUESTIONS = [
     qbad1: 'Penalty, has clubs',
     qbad2: 'Flat 10+ HCP',
     qbad3: null,
-    qhl1: 'https://www.larryco.com/bridge-articles/support-doubles ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
   },
   {
     qid: 82,
@@ -1274,11 +1193,10 @@ exports.QUESTIONS = [
     qbad1: 'At least one 4+ card major and a 3+ card',
     qbad2: 'Shows NO stopper in Diamonds, 6-9 HCP, no 4 card major',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 83,
@@ -1289,11 +1207,10 @@ exports.QUESTIONS = [
     qbad1: 'Support double of Hearts',
     qbad2: 'Has both Minors and 10+ HCP',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 84,
@@ -1304,11 +1221,10 @@ exports.QUESTIONS = [
     qbad1: 'Both Majors, 4+ cards',
     qbad2: '10+ HCP, no diamond support',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 85,
@@ -1319,11 +1235,10 @@ exports.QUESTIONS = [
     qbad1: 'Exactly 3 spades support',
     qbad2: 'Exactly 4 card spades support',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 86,
@@ -1334,11 +1249,10 @@ exports.QUESTIONS = [
     qbad1: 'Pre-empt, 4 card spades and 11-14 HCP',
     qbad2: 'Pre-empt, 3 card spades and 11-14 HCP',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 87,
@@ -1349,11 +1263,10 @@ exports.QUESTIONS = [
     qbad1: 'Pre-empt, 4 card spades and 11-14 HCP',
     qbad2: '4 card spades and 15-16 HCP',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 88,
@@ -1364,11 +1277,10 @@ exports.QUESTIONS = [
     qbad1: '4 card spades and 15-16 HCP',
     qbad2: '4 card spades and 17-18 HCP',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 89,
@@ -1379,11 +1291,10 @@ exports.QUESTIONS = [
     qbad1: 'Weak, <3 hearts',
     qbad2: 'Opener <4 Hearts, 12-14 HCP',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 90,
@@ -1394,11 +1305,10 @@ exports.QUESTIONS = [
     qbad1: 'Opener <3H, Spade stopper, 16+ HCP',
     qbad2: 'Opener <4H, Spade stopper, 15-17 HCP',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 91,
@@ -1409,11 +1319,10 @@ exports.QUESTIONS = [
     qbad1: 'Opener has no spade stopper, 5+ clubs',
     qbad2: 'Opener has 5+ clubs, <4H, <4D',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 92,
@@ -1424,11 +1333,10 @@ exports.QUESTIONS = [
     qbad1: 'Opener has 7C+, 11-14 HCP',
     qbad2: 'Opener has 6C+,  <3H, <3S',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 93,
@@ -1439,11 +1347,10 @@ exports.QUESTIONS = [
     qbad1: 'Exactly 3 spades support',
     qbad2: '16+ HCP, 4S',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 94,
@@ -1454,11 +1361,10 @@ exports.QUESTIONS = [
     qbad1: 'Penalty.  16+ HCP',
     qbad2: 'Take-out.  Has both majors',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/takeout_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/takeout_double.php']
   },
   {
     qid: 95,
@@ -1469,11 +1375,10 @@ exports.QUESTIONS = [
     qbad1: '1S shows no support for Hearts, weak',
     qbad2: '1S shows 4S and 3H, weak',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/takeout_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/takeout_double.php']
   },
   {
     qid: 96,
@@ -1484,11 +1389,12 @@ exports.QUESTIONS = [
     qbad1: 'Penalty double',
     qbad2: '4 Hearts, 3+ of other suots',
     qbad3: null,
-    qhl1: 'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765 ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
+    ]
   },
   {
     qid: 97,
@@ -1499,11 +1405,12 @@ exports.QUESTIONS = [
     qbad1: 'Take Out Double',
     qbad2: 'Lead directing double',
     qbad3: null,
-    qhl1: 'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765 ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
+    ]
   },
   {
     qid: 98,
@@ -1514,11 +1421,12 @@ exports.QUESTIONS = [
     qbad1: 'Take Out Double',
     qbad2: 'Snapdragon Double',
     qbad3: null,
-    qhl1: 'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765 ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
+    ]
   },
   {
     qid: 99,
@@ -1529,11 +1437,12 @@ exports.QUESTIONS = [
     qbad1: 'Penalty Double',
     qbad2: '2 suiter 5/5',
     qbad3: null,
-    qhl1: 'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765 ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
+    ]
   },
   {
     qid: 100,
@@ -1544,11 +1453,12 @@ exports.QUESTIONS = [
     qbad1: 'Takout double',
     qbad2: 'Lead directing double',
     qbad3: null,
-    qhl1: 'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765 ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
+    ]
   },
   {
     qid: 101,
@@ -1559,11 +1469,10 @@ exports.QUESTIONS = [
     qbad1: 'Take Out, Flat hand at least 3 in each suit.  You choose partner',
     qbad2: 'Penalty, 10+ HCP',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/responsive_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/responsive_double.php']
   },
   {
     qid: 102,
@@ -1574,11 +1483,10 @@ exports.QUESTIONS = [
     qbad1: 'Take Out, Flat hand at least 3 in each suit.  You choose partner',
     qbad2: '4 Spades',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/responsive_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/responsive_double.php']
   },
   {
     qid: 103,
@@ -1589,11 +1497,10 @@ exports.QUESTIONS = [
     qbad1: 'X.  Take-out double for the other 3 suits',
     qbad2: 'X.  Responsive double showing the minors',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/responsive_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/responsive_double.php']
   },
   {
     qid: 104,
@@ -1606,11 +1513,10 @@ exports.QUESTIONS = [
     qbad2:
       '10+ points at the 2-level, 12+ points at the 3-level, 14+ points at the 4-level',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/responsive_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/responsive_double.php']
   },
   {
     qid: 105,
@@ -1621,11 +1527,10 @@ exports.QUESTIONS = [
     qbad1: '3 card support of partners suit',
     qbad2: '10+ HCP, flat hand',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/responsive_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/responsive_double.php']
   },
   {
     qid: 106,
@@ -1636,11 +1541,10 @@ exports.QUESTIONS = [
     qbad1: '1C  X  1S  X',
     qbad2: '1C  2S  3C  X',
     qbad3: null,
-    qhl1: 'http://www.bridgeguys.com/doubles/ResponsiveDouble.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
   },
   {
     qid: 107,
@@ -1651,11 +1555,10 @@ exports.QUESTIONS = [
     qbad1: 'Double',
     qbad2: '3D',
     qbad3: null,
-    qhl1: 'http://www.bridgeguys.com/doubles/ResponsiveDouble.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
   },
   {
     qid: 108,
@@ -1666,11 +1569,10 @@ exports.QUESTIONS = [
     qbad1: 'Support double showing 3 spades',
     qbad2: 'Pass, too weak',
     qbad3: null,
-    qhl1: 'http://www.bridgeguys.com/doubles/ResponsiveDouble.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
   },
   {
     qid: 109,
@@ -1681,11 +1583,10 @@ exports.QUESTIONS = [
     qbad1: 'Responsive Double showing BOTH majors',
     qbad2: '2S planning to bid 3/4H next bid',
     qbad3: null,
-    qhl1: 'http://www.bridgeguys.com/doubles/ResponsiveDouble.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
   },
   {
     qid: 110,
@@ -1696,11 +1597,10 @@ exports.QUESTIONS = [
     qbad1: '3H  Always bid the Major first',
     qbad2: '4C  Always bid the longest suit',
     qbad3: null,
-    qhl1: 'http://www.bridgeguys.com/doubles/ResponsiveDouble.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
   },
   {
     qid: 111,
@@ -1711,11 +1611,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '7D',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/lightner_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/lightner_double.php']
   },
   {
     qid: 112,
@@ -1726,11 +1625,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '7C',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/lightner_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/lightner_double.php']
   },
   {
     qid: 113,
@@ -1741,11 +1639,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '7C',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/lightner_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/lightner_double.php']
   },
   {
     qid: 114,
@@ -1756,11 +1653,10 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: 'Double',
     qbad3: null,
-    qhl1: 'http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html']
   },
   {
     qid: 115,
@@ -1771,11 +1667,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: 'Double',
     qbad3: null,
-    qhl1: 'http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html']
   },
   {
     qid: 116,
@@ -1786,11 +1681,10 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: 'http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html']
   },
   {
     qid: 117,
@@ -1801,11 +1695,10 @@ exports.QUESTIONS = [
     qbad1: 'Simple raise, 2 Spades, pre-emptive',
     qbad2: 'Bergen Raise.  3 Spades 6-9 HCP',
     qbad3: null,
-    qhl1: '1M Bergen Raises',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['1M Bergen Raises']
   },
   {
     qid: 118,
@@ -1819,11 +1712,10 @@ exports.QUESTIONS = [
     qbad2:
       'Opener shows 3 or MORE card support of Responders suit after opposition interference',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/support_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/support_double.php']
   },
   {
     qid: 119,
@@ -1835,11 +1727,10 @@ exports.QUESTIONS = [
     qbad1: 'Responder shows EXACTLY 4 cards in the unbid major',
     qbad2: 'Responder shows 10+ HCP and at least 3 cards in the unbid suits',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/negative_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/negative_double.php']
   },
   {
     qid: 120,
@@ -1853,11 +1744,10 @@ exports.QUESTIONS = [
     qbad2:
       'A takeout double is by Opener when there is interference by opposition',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/takeout_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/takeout_double.php']
   },
   {
     qid: 121,
@@ -1871,11 +1761,10 @@ exports.QUESTIONS = [
     qbad2:
       'A Responsive double is used after partner passes to show at least 3 cards in each of the unbid suits',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/responsive_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/responsive_double.php']
   },
   {
     qid: 122,
@@ -1888,11 +1777,10 @@ exports.QUESTIONS = [
     qbad2:
       'A penalty double when the opponents are in Slam asking partner to lead any Ace or King he has',
     qbad3: null,
-    qhl1: 'http://www.bridgebum.com/lightner_double.php ',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://www.bridgebum.com/lightner_double.php']
   },
   {
     qid: 123,
@@ -1904,11 +1792,10 @@ exports.QUESTIONS = [
     qbad1: 'A double promising extra values in pass out seat',
     qbad2: 'A double promising a shortage in overcallers suit and extra values',
     qbad3: null,
-    qhl1: 'http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html']
   },
   {
     qid: 124,
@@ -1921,11 +1808,10 @@ exports.QUESTIONS = [
     qbad2:
       'Lead directing, partner has a strong hand and at least AKJ in clubs',
     qbad3: null,
-    qhl1: 'https://www.larryco.com/bridge-articles/lead-directing-doubles',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.larryco.com/bridge-articles/lead-directing-doubles']
   },
   {
     qid: 125,
@@ -1940,11 +1826,10 @@ exports.QUESTIONS = [
     qbad2:
       'A double to show length in a suit and asking partner to sacrifice on their bid if they have support',
     qbad3: null,
-    qhl1: 'https://www.larryco.com/bridge-articles/lead-directing-doubles',
-    qhl2: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.larryco.com/bridge-articles/lead-directing-doubles']
   },
   {
     qid: 126,
@@ -1956,11 +1841,10 @@ exports.QUESTIONS = [
     qbad1: 'SUPPORT Double, 3 card fit, 6 + HCP',
     qbad2: 'RESCUE re-double (SOS)',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 127,
@@ -1972,11 +1856,10 @@ exports.QUESTIONS = [
     qbad1: 'SNAPDRAGON re-double',
     qbad2: 'RESCUE re-double (SOS)',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 128,
@@ -1988,11 +1871,10 @@ exports.QUESTIONS = [
     qbad1: 'GAME FORCE re-double',
     qbad2: 'TAKE-OUT re-double',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 129,
@@ -2003,11 +1885,10 @@ exports.QUESTIONS = [
     qbad1: 'SUPPORT re-double.  3 card support of partners suit, 1 of a major',
     qbad2: 'RESCUE re-double (SOS)',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 130,
@@ -2018,11 +1899,10 @@ exports.QUESTIONS = [
     qbad1: 'SUPPORT Double, 3 card fit, 6 + HCP',
     qbad2: 'SUPPORT 4 card fit for clubs',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 131,
@@ -2033,11 +1913,10 @@ exports.QUESTIONS = [
     qbad1: 'HELVIC Wriggle',
     qbad2: 'PENALTY double',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 132,
@@ -2048,11 +1927,10 @@ exports.QUESTIONS = [
     qbad1: 'SLAM INVITATION, responder has a big hand',
     qbad2: 'TAKE-OUT responder wants you to bid your best suit',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 133,
@@ -2063,11 +1941,10 @@ exports.QUESTIONS = [
     qbad1: 'TAKE OUT, responder is looking for 3NT',
     qbad2: 'TAKE-OUT responder wants you to bid your best suit',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 134,
@@ -2078,11 +1955,10 @@ exports.QUESTIONS = [
     qbad1: 'TAKE OUT, responder is looking for 3NT',
     qbad2: 'TAKE-OUT responder wants you to bid your best suit',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 135,
@@ -2093,11 +1969,10 @@ exports.QUESTIONS = [
     qbad1: 'TAKE OUT, opener has no stops in clubs',
     qbad2: 'Opener has extra spade length but is weak',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 136,
@@ -2108,11 +1983,10 @@ exports.QUESTIONS = [
     qbad1: 'TRAP PASS - Opener is waiting for responder to double',
     qbad2: 'Opener likes clubs and wishes to defend',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 137,
@@ -2123,11 +1997,10 @@ exports.QUESTIONS = [
     qbad1: 'TAKE OUT.  Responder is two suited in the minors',
     qbad2: 'STOPPER ASK - Responder is looking to play in 3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 138,
@@ -2139,11 +2012,10 @@ exports.QUESTIONS = [
     qbad2:
       'I have NEITHER major, you choose what to do.  I will pass your response.',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 139,
@@ -2155,11 +2027,10 @@ exports.QUESTIONS = [
     qbad1: 'I have 1 stopper',
     qbad2: 'I have 2 stoppers',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 140,
@@ -2171,11 +2042,10 @@ exports.QUESTIONS = [
     qbad1: 'I have exactly 1 stopper',
     qbad2: 'I have exactly 2 stoppers',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 141,
@@ -2186,11 +2056,10 @@ exports.QUESTIONS = [
     qbad1: 'King of Spades',
     qbad2: 'Asking for a stopper to get to 3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5NCyGSLk_y4',
-    qhl2: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
   },
   {
     qid: 142,
@@ -2201,11 +2070,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3C',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 143,
@@ -2216,11 +2084,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '1C',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 144,
@@ -2231,11 +2098,10 @@ exports.QUESTIONS = [
     qbad1: '1D',
     qbad2: '1NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 145,
@@ -2246,11 +2112,10 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: '2NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 146,
@@ -2261,11 +2126,10 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '2NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 147,
@@ -2276,11 +2140,10 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 148,
@@ -2291,11 +2154,10 @@ exports.QUESTIONS = [
     qbad1: '2C',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 149,
@@ -2306,11 +2168,10 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3S',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 150,
@@ -2321,11 +2182,10 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '4C',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 151,
@@ -2336,11 +2196,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '2D',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 152,
@@ -2351,11 +2210,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: 'Double',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 153,
@@ -2366,11 +2224,10 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 154,
@@ -2381,11 +2238,10 @@ exports.QUESTIONS = [
     qbad1: 'Double',
     qbad2: '1NT',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 155,
@@ -2396,11 +2252,10 @@ exports.QUESTIONS = [
     qbad1: '2C',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 156,
@@ -2411,11 +2266,10 @@ exports.QUESTIONS = [
     qbad1: '1NT',
     qbad2: 'Double',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 157,
@@ -2426,11 +2280,10 @@ exports.QUESTIONS = [
     qbad1: '1NT',
     qbad2: '1D',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 158,
@@ -2441,11 +2294,10 @@ exports.QUESTIONS = [
     qbad1: '1S',
     qbad2: '3S',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 159,
@@ -2456,11 +2308,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3S',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 160,
@@ -2471,11 +2322,10 @@ exports.QUESTIONS = [
     qbad1: 'Double',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   },
   {
     qid: 186,
@@ -2487,11 +2337,10 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '2NT',
     qbad3: '2D',
-    qhl1: 'https://www.youtube.com/watch?v=jh6wnhihDj0',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jh6wnhihDj0']
   },
   {
     qid: 187,
@@ -2503,11 +2352,10 @@ exports.QUESTIONS = [
     qbad1: 'Cross Ruff immediately',
     qbad2: 'Draw trumps, then cash Aces',
     qbad3: 'Draw Trumps, then start cross ruffing',
-    qhl1: 'https://www.youtube.com/watch?v=u2L8CGoEIeU',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=u2L8CGoEIeU']
   },
   {
     qid: 188,
@@ -2519,11 +2367,10 @@ exports.QUESTIONS = [
     qbad1: 'Play on clubs',
     qbad2: 'Play on hearts',
     qbad3: 'Play on spades',
-    qhl1: 'https://www.youtube.com/watch?v=jh6wnhihDj0',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jh6wnhihDj0']
   },
   {
     qid: 189,
@@ -2535,11 +2382,10 @@ exports.QUESTIONS = [
     qbad1: 'Lead Clubs',
     qbad2: 'Lead Hearts',
     qbad3: 'Lead Spades',
-    qhl1: 'https://www.youtube.com/watch?v=-1byBDPwLRQ',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=-1byBDPwLRQ']
   },
   {
     qid: 190,
@@ -2551,11 +2397,10 @@ exports.QUESTIONS = [
     qbad1: 'Win in hand, play on Diamonds',
     qbad2: 'Win in hand, play on Spades',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=sSOMuC7aUyQ',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=sSOMuC7aUyQ']
   },
   {
     qid: 191,
@@ -2567,11 +2412,10 @@ exports.QUESTIONS = [
     qbad1: '1C',
     qbad2: '2S showing 5/4',
     qbad3: 'Multi 2D',
-    qhl1: 'https://www.youtube.com/watch?v=stI3glENKv8',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=stI3glENKv8']
   },
   {
     qid: 192,
@@ -2583,11 +2427,10 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: '1NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Y9cqNMjjmsg',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Y9cqNMjjmsg']
   },
   {
     qid: 193,
@@ -2599,11 +2442,10 @@ exports.QUESTIONS = [
     qbad1: 'Lead a Spade',
     qbad2: 'Lead a Diamond',
     qbad3: 'Lead a Club',
-    qhl1: 'https://www.youtube.com/watch?v=JfmsF6tkzQE',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=JfmsF6tkzQE']
   },
   {
     qid: 194,
@@ -2615,11 +2457,10 @@ exports.QUESTIONS = [
     qbad1: 'Lead a Spade',
     qbad2: 'Lead a Diamond',
     qbad3: 'Lead a Club',
-    qhl1: 'https://www.youtube.com/watch?v=td79IzuF9q0',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=td79IzuF9q0']
   },
   {
     qid: 195,
@@ -2631,11 +2472,10 @@ exports.QUESTIONS = [
     qbad1: 'Double',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=cp1bsVaAsRE',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=cp1bsVaAsRE']
   },
   {
     qid: 196,
@@ -2647,11 +2487,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: 'Systematic transfer to Diamonds',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=x9G4xHGRBJk',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=x9G4xHGRBJk']
   },
   {
     qid: 197,
@@ -2663,11 +2502,10 @@ exports.QUESTIONS = [
     qbad1: '2/1 2D Game force',
     qbad2: '3NT',
     qbad3: '4H',
-    qhl1: 'https://www.youtube.com/watch?v=_h8VSIxSZoI',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=_h8VSIxSZoI']
   },
   {
     qid: 198,
@@ -2679,11 +2517,10 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: 'Double, Take Out',
     qbad3: '2NT Lebensohl',
-    qhl1: 'https://www.youtube.com/watch?v=ejKwPcQhogs',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ejKwPcQhogs']
   },
   {
     qid: 199,
@@ -2695,11 +2532,10 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3D',
     qbad3: '3H',
-    qhl1: 'https://www.youtube.com/watch?v=E16WPGPsnzA',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=E16WPGPsnzA']
   },
   {
     qid: 200,
@@ -2711,11 +2547,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '2H',
     qbad3: '4D',
-    qhl1: 'https://www.youtube.com/watch?v=nHG01wsPLg4',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=nHG01wsPLg4']
   },
   {
     qid: 201,
@@ -2727,11 +2562,10 @@ exports.QUESTIONS = [
     qbad1: '1S',
     qbad2: '1NT',
     qbad3: '2H',
-    qhl1: 'https://www.youtube.com/watch?v=jscHL2gmC20',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jscHL2gmC20']
   },
   {
     qid: 202,
@@ -2743,11 +2577,10 @@ exports.QUESTIONS = [
     qbad1: '1S',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=NBxBT3oPaOA',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=NBxBT3oPaOA']
   },
   {
     qid: 203,
@@ -2759,11 +2592,10 @@ exports.QUESTIONS = [
     qbad1: '3S Invitational',
     qbad2: '4S',
     qbad3: '3D forcing',
-    qhl1: 'https://www.youtube.com/watch?v=egdR3HhtDuc',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=egdR3HhtDuc']
   },
   {
     qid: 204,
@@ -2775,11 +2607,10 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '4H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=AcPx7GY80fg',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=AcPx7GY80fg']
   },
   {
     qid: 205,
@@ -2791,11 +2622,10 @@ exports.QUESTIONS = [
     qbad1: 'Double',
     qbad2: '2D',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=nosiNcsP_60',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=nosiNcsP_60']
   },
   {
     qid: 206,
@@ -2807,11 +2637,10 @@ exports.QUESTIONS = [
     qbad1: '1NT',
     qbad2: '2S preemptive',
     qbad3: 'Redouble',
-    qhl1: 'https://www.youtube.com/watch?v=8ZiMBLVtd9c',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=8ZiMBLVtd9c']
   },
   {
     qid: 207,
@@ -2823,11 +2652,10 @@ exports.QUESTIONS = [
     qbad1: 'Double',
     qbad2: '4NT',
     qbad3: 'Pass',
-    qhl1: 'https://www.youtube.com/watch?v=nvwE-WpldQo',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=nvwE-WpldQo']
   },
   {
     qid: 208,
@@ -2839,11 +2667,10 @@ exports.QUESTIONS = [
     qbad1: '4H',
     qbad2: '4NT',
     qbad3: '4C',
-    qhl1: 'https://www.youtube.com/watch?v=egZx18vJVuM',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=egZx18vJVuM']
   },
   {
     qid: 209,
@@ -2855,11 +2682,10 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '4S',
     qbad3: 'Double',
-    qhl1: 'https://www.youtube.com/watch?v=glZnnsR0Wo8',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=glZnnsR0Wo8']
   },
   {
     qid: 210,
@@ -2871,11 +2697,10 @@ exports.QUESTIONS = [
     qbad1: '2S showing 5/4',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=vhH2SMiPN9o',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=vhH2SMiPN9o']
   },
   {
     qid: 211,
@@ -2887,11 +2712,10 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '3D',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=sGx6wogAGAQ',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=sGx6wogAGAQ']
   },
   {
     qid: 212,
@@ -2903,11 +2727,10 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: 'pass',
     qbad3: '4D',
-    qhl1: 'https://www.youtube.com/watch?v=OqxwTi4pkXI',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=OqxwTi4pkXI']
   },
   {
     qid: 213,
@@ -2919,11 +2742,10 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '2NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=zV2Ih7PqsGk',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=zV2Ih7PqsGk']
   },
   {
     qid: 214,
@@ -2935,11 +2757,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=klpb3lHbgOA',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=klpb3lHbgOA']
   },
   {
     qid: 215,
@@ -2950,11 +2771,10 @@ exports.QUESTIONS = [
     qbad1: '1D',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=x6x1fF2fLpY',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=x6x1fF2fLpY']
   },
   {
     qid: 216,
@@ -2965,11 +2785,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: 'Redouble',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=SfQXCUOQTKg',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=SfQXCUOQTKg']
   },
   {
     qid: 217,
@@ -2980,11 +2799,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3C',
     qbad3: 'Double',
-    qhl1: 'https://www.youtube.com/watch?v=06VczJedIb8',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=06VczJedIb8']
   },
   {
     qid: 218,
@@ -2995,11 +2813,10 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=E-UARFd9JmQ',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=E-UARFd9JmQ']
   },
   {
     qid: 219,
@@ -3010,11 +2827,10 @@ exports.QUESTIONS = [
     qbad1: '3S',
     qbad2: '4S',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=zsGeGlYC7v0',
-    qhl2: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=zsGeGlYC7v0']
   },
   {
     qid: 220,
@@ -3025,11 +2841,10 @@ exports.QUESTIONS = [
     qbad1: '2C two way checkback',
     qbad2: '2H showing 5S and 4+H',
     qbad3: '2NT invitational',
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 221,
@@ -3040,11 +2855,10 @@ exports.QUESTIONS = [
     qbad1: 'Signoff in Diamonds',
     qbad2: 'Transfer to Hearts',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 222,
@@ -3055,11 +2869,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass ',
     qbad2: '2H accepting transfer',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 223,
@@ -3070,11 +2883,10 @@ exports.QUESTIONS = [
     qbad1: 'transfer to hearts',
     qbad2: 'sign off in diamonds',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 224,
@@ -3085,11 +2897,10 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3C showing 4+ clubs',
     qbad3: '3NT',
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 225,
@@ -3100,11 +2911,10 @@ exports.QUESTIONS = [
     qbad1: '2D checkback game force',
     qbad2: '2C checkback invitational',
     qbad3: '3S invitational',
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 226,
@@ -3115,11 +2925,10 @@ exports.QUESTIONS = [
     qbad1: '2 way game force checkback',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 227,
@@ -3130,11 +2939,10 @@ exports.QUESTIONS = [
     qbad1: '2H showing 5 hearts',
     qbad2: '3S game invite',
     qbad3: '4S accept invite',
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 228,
@@ -3145,11 +2953,10 @@ exports.QUESTIONS = [
     qbad1: '2H showing 4+ hearts',
     qbad2: '4H asking partner to choose Hearts or Spades',
     qbad3: '3H game force showing 5 Spades and 4 Hearts',
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 229,
@@ -3160,11 +2967,10 @@ exports.QUESTIONS = [
     qbad1: '2D checkback',
     qbad2: '3H invitational',
     qbad3: '2H Invitational',
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 230,
@@ -3175,11 +2981,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass, partner has your clubs',
     qbad2: '3C partner has 5 clubs',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 231,
@@ -3190,11 +2995,10 @@ exports.QUESTIONS = [
     qbad1: '3H invitational',
     qbad2: '2NT Invitational',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 232,
@@ -3205,11 +3009,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass, agree clubs',
     qbad2: '2H show hearts',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 233,
@@ -3220,11 +3023,10 @@ exports.QUESTIONS = [
     qbad1: 'Sign-off in 2S',
     qbad2: '4 Spades and 4 Hearts',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 234,
@@ -3235,11 +3037,10 @@ exports.QUESTIONS = [
     qbad1: '2H show 5 hearts',
     qbad2: '3H Invitational',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 235,
@@ -3250,11 +3051,10 @@ exports.QUESTIONS = [
     qbad1: '5 Spades and 5 Hearts invitational',
     qbad2: '5 Spades and 4 Hearts, 2 level stop',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 236,
@@ -3265,11 +3065,10 @@ exports.QUESTIONS = [
     qbad1: '4S with a double fir Spades and Hearts',
     qbad2: '3H invitational',
     qbad3: '3S Invitational',
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 237,
@@ -3280,11 +3079,10 @@ exports.QUESTIONS = [
     qbad1: '2C and partner will bid 2D and we will bid 2H',
     qbad2: '2D transfer to Hearts',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 238,
@@ -3295,11 +3093,10 @@ exports.QUESTIONS = [
     qbad1: '2D partner will pass',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 239,
@@ -3310,11 +3107,10 @@ exports.QUESTIONS = [
     qbad1: '3S Invitational',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 240,
@@ -3325,11 +3121,10 @@ exports.QUESTIONS = [
     qbad1: '2D signoff',
     qbad2: 'pass',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 241,
@@ -3340,11 +3135,10 @@ exports.QUESTIONS = [
     qbad1: '5 Spades and 4 Hearts invitational',
     qbad2: '5/5 Spades and hearts invitational',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 242,
@@ -3355,11 +3149,10 @@ exports.QUESTIONS = [
     qbad1: '2D signoff',
     qbad2: '2NT Invitational',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 243,
@@ -3371,11 +3164,10 @@ exports.QUESTIONS = [
     qbad1: '2D checkback, game force',
     qbad2: '3S game force',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=5_RD8ycgRT8',
-    qhl2: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
   },
   {
     qid: 244,
@@ -3387,11 +3179,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3C',
     qbad3: '3D',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 245,
@@ -3403,11 +3194,10 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: '3D',
     qbad3: '3H',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 246,
@@ -3419,11 +3209,10 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: '3D',
     qbad3: '3S',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 247,
@@ -3435,11 +3224,10 @@ exports.QUESTIONS = [
     qbad1: '2NT jacoby',
     qbad2: '3NT pudding raise',
     qbad3: '4H',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 248,
@@ -3451,11 +3239,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '2S',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 249,
@@ -3467,11 +3254,10 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: '3H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 250,
@@ -3483,11 +3269,10 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: '2H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 251,
@@ -3499,11 +3284,10 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '4H',
     qbad3: '3NT',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 252,
@@ -3515,11 +3299,10 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '4H',
     qbad3: '3NT',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 253,
@@ -3531,11 +3314,10 @@ exports.QUESTIONS = [
     qbad1: '4H',
     qbad2: '3D',
     qbad3: '3C',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 254,
@@ -3547,11 +3329,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3D',
     qbad3: '3C',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 255,
@@ -3563,11 +3344,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3D',
     qbad3: '3C',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 256,
@@ -3579,11 +3359,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3D',
     qbad3: '3C',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 257,
@@ -3595,11 +3374,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3D',
     qbad3: '3C',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 258,
@@ -3611,11 +3389,10 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: '3H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 259,
@@ -3627,11 +3404,10 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '4H',
     qbad3: '3NT',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 260,
@@ -3643,11 +3419,10 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '4H',
     qbad3: '3NT',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 261,
@@ -3658,11 +3433,10 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: '3S',
     qbad3: '2S',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 262,
@@ -3673,11 +3447,10 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '3S',
     qbad3: '4S',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 263,
@@ -3688,11 +3461,10 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '3S',
     qbad3: '4S',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 264,
@@ -3703,11 +3475,10 @@ exports.QUESTIONS = [
     qbad1: '3NT pudding raise',
     qbad2: '2NT Jocoby',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 265,
@@ -3718,11 +3489,10 @@ exports.QUESTIONS = [
     qbad1: '2NT jacoby',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 266,
@@ -3733,11 +3503,10 @@ exports.QUESTIONS = [
     qbad1: '3NT pudding raise',
     qbad2: '2NT Jocoby',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 267,
@@ -3748,11 +3517,10 @@ exports.QUESTIONS = [
     qbad1: '2NT jacoby',
     qbad2: '2C game force',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 268,
@@ -3763,11 +3531,10 @@ exports.QUESTIONS = [
     qbad1: 'Min, forced to bid 3S',
     qbad2: 'Game force',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 269,
@@ -3778,11 +3545,10 @@ exports.QUESTIONS = [
     qbad1: 'Min, forced to bid 3S',
     qbad2: 'Game force',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 270,
@@ -3793,11 +3559,10 @@ exports.QUESTIONS = [
     qbad1: 'Game try',
     qbad2: 'Game force',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 271,
@@ -3808,11 +3573,10 @@ exports.QUESTIONS = [
     qbad1: 'Fit in clubs',
     qbad2: 'Partner forgot the system',
     qbad3: 'Gerber',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 272,
@@ -3823,11 +3587,10 @@ exports.QUESTIONS = [
     qbad1: 'Partner is 5/5 in spades and clubs',
     qbad2: 'Partner forgot the system',
     qbad3: 'Gerber',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 273,
@@ -3838,11 +3601,10 @@ exports.QUESTIONS = [
     qbad1: 'Club suit 4+',
     qbad2: 'Waiting bid',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 274,
@@ -3853,11 +3615,10 @@ exports.QUESTIONS = [
     qbad1: 'To play',
     qbad2: '15/16-17 may have a shortage',
     qbad3: 'Relay to 4S',
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 275,
@@ -3868,11 +3629,10 @@ exports.QUESTIONS = [
     qbad1: 'To play, partner is minimum',
     qbad2: '18-19 may have a shortage',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 276,
@@ -3883,11 +3643,10 @@ exports.QUESTIONS = [
     qbad1: '11-14/15 may have a shortage',
     qbad2: 'Minimum, to play',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 277,
@@ -3898,11 +3657,10 @@ exports.QUESTIONS = [
     qbad1: '4S',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jMDLsDpEIaY',
-    qhl2: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
   },
   {
     qid: 278,
@@ -3913,11 +3671,10 @@ exports.QUESTIONS = [
     qbad1: 'Ace Ask',
     qbad2: 'Pre-emptive',
     qbad3: '7NT ask',
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 279,
@@ -3928,11 +3685,10 @@ exports.QUESTIONS = [
     qbad1: 'Ace Ask',
     qbad2: 'Pre-emptive',
     qbad3: '7NT ask',
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 280,
@@ -3943,11 +3699,10 @@ exports.QUESTIONS = [
     qbad1: 'Roman Key Card, agreeing Spades',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 281,
@@ -3958,11 +3713,10 @@ exports.QUESTIONS = [
     qbad1: 'Self agreeing hearts as trumps',
     qbad2: 'Looking for NT, asking for a heart stopper',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 282,
@@ -3973,11 +3727,10 @@ exports.QUESTIONS = [
     qbad1: 'Self agreeing Spades as trumps',
     qbad2: 'Looking for NT, asking for a Spade stopper',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 283,
@@ -3988,11 +3741,10 @@ exports.QUESTIONS = [
     qbad1: 'Roman Key Card, agreeing Hearts',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 284,
@@ -4003,11 +3755,10 @@ exports.QUESTIONS = [
     qbad1: 'Roman Key Card, agreeing Hearts',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 285,
@@ -4018,11 +3769,10 @@ exports.QUESTIONS = [
     qbad1: 'Roman Key Card, agreeing Hearts',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 286,
@@ -4033,11 +3783,10 @@ exports.QUESTIONS = [
     qbad1: 'Asking for stop in Spades',
     qbad2: 'Psyche',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 287,
@@ -4048,11 +3797,10 @@ exports.QUESTIONS = [
     qbad1: 'Quantitative 4NT',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=VVu6NUHHsNc',
-    qhl2: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
   },
   {
     qid: 288,
@@ -4063,11 +3811,10 @@ exports.QUESTIONS = [
     qbad1: 'Suit Trial bid',
     qbad2: 'Natural spades',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 289,
@@ -4078,11 +3825,10 @@ exports.QUESTIONS = [
     qbad1: 'Control in Spades',
     qbad2: 'Natural spades',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 290,
@@ -4093,11 +3839,10 @@ exports.QUESTIONS = [
     qbad1: 'Asking for a stop in Spades',
     qbad2: 'Showing 5 Spades',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 291,
@@ -4108,11 +3853,10 @@ exports.QUESTIONS = [
     qbad1: 'Gerber',
     qbad2: '5+ clubs',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 292,
@@ -4123,11 +3867,10 @@ exports.QUESTIONS = [
     qbad1: 'Invitational in Spades',
     qbad2: 'Weak Spades',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 293,
@@ -4138,11 +3881,10 @@ exports.QUESTIONS = [
     qbad1: 'Ace or King',
     qbad2: 'Ace',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 294,
@@ -4153,11 +3895,10 @@ exports.QUESTIONS = [
     qbad1: 'King',
     qbad2: 'Singleton',
     qbad3: 'Ace and King',
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 295,
@@ -4168,11 +3909,10 @@ exports.QUESTIONS = [
     qbad1: 'Asking for a stop in Spades',
     qbad2: 'Cue Raise agreeing Hearts',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 296,
@@ -4183,11 +3923,10 @@ exports.QUESTIONS = [
     qbad1: '4D showing a control in diamonds',
     qbad2: '4D showing Ace of diamonds',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 297,
@@ -4198,11 +3937,10 @@ exports.QUESTIONS = [
     qbad1: 'Gerber',
     qbad2: 'Waiting bid',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 298,
@@ -4213,11 +3951,10 @@ exports.QUESTIONS = [
     qbad1: '1st or 2nd round control in Diamonds',
     qbad2: 'Ace of Diamonds',
     qbad3: 'Natural diamond suit',
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 299,
@@ -4228,11 +3965,10 @@ exports.QUESTIONS = [
     qbad1: 'Waiting bid',
     qbad2: 'Asking partner to bid Roman Keycard',
     qbad3: 'Pass/Correct Hearts or Spades',
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 300,
@@ -4243,11 +3979,10 @@ exports.QUESTIONS = [
     qbad1: 'Splinter in Clubs',
     qbad2: '1st or 2nd round control in Clubs',
     qbad3: 'Gerber',
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 301,
@@ -4258,11 +3993,10 @@ exports.QUESTIONS = [
     qbad1: 'Agreeing hearts.  Control in Clubs.',
     qbad2: 'Gerber',
     qbad3: 'Splinter in Clubs',
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 302,
@@ -4273,11 +4007,10 @@ exports.QUESTIONS = [
     qbad1: '4C Control in clubs AND Spades',
     qbad2: '4NT RKC',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 303,
@@ -4288,11 +4021,10 @@ exports.QUESTIONS = [
     qbad1: '5+ Spades',
     qbad2: 'Ask for a Spade stop',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 304,
@@ -4303,11 +4035,10 @@ exports.QUESTIONS = [
     qbad1: 'Controls in Diamonds AND Clubs',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=Ok-MRjV5ibE',
-    qhl2: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
   },
   {
     qid: 305,
@@ -4318,11 +4049,10 @@ exports.QUESTIONS = [
     qbad1: 'Has Hearts',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 306,
@@ -4333,11 +4063,10 @@ exports.QUESTIONS = [
     qbad1: '18+ stops in hearts',
     qbad2: '5/5 Spades and a minor',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 307,
@@ -4348,11 +4077,10 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 308,
@@ -4363,11 +4091,10 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 309,
@@ -4378,11 +4105,10 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 310,
@@ -4393,11 +4119,10 @@ exports.QUESTIONS = [
     qbad1: 'No',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 311,
@@ -4408,11 +4133,10 @@ exports.QUESTIONS = [
     qbad1: 'No',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 312,
@@ -4423,11 +4147,10 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 313,
@@ -4439,11 +4162,10 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 314,
@@ -4454,11 +4176,10 @@ exports.QUESTIONS = [
     qbad1: 'No',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 315,
@@ -4470,11 +4191,10 @@ exports.QUESTIONS = [
     qbad1: 'Vulnerability',
     qbad2: 'Point Count',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 316,
@@ -4485,11 +4205,10 @@ exports.QUESTIONS = [
     qbad1: 'No',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 317,
@@ -4500,11 +4219,10 @@ exports.QUESTIONS = [
     qbad1: 'Long clubs to play',
     qbad2: 'Mini Gerber',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 318,
@@ -4515,11 +4233,10 @@ exports.QUESTIONS = [
     qbad1: 'To play',
     qbad2: 'Invite to 3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 319,
@@ -4530,11 +4247,10 @@ exports.QUESTIONS = [
     qbad1: 'Diamonds',
     qbad2: 'Clubs',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 320,
@@ -4545,11 +4261,10 @@ exports.QUESTIONS = [
     qbad1: 'Majors',
     qbad2: '18+ stops in diamonds',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 321,
@@ -4560,11 +4275,10 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '2S',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 322,
@@ -4575,11 +4289,10 @@ exports.QUESTIONS = [
     qbad1: 'To play',
     qbad2: 'Looking for 3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 323,
@@ -4590,11 +4303,10 @@ exports.QUESTIONS = [
     qbad1: 'Ask for partners minor',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 324,
@@ -4605,11 +4317,10 @@ exports.QUESTIONS = [
     qbad1: 'Gerber',
     qbad2: 'Confirm Clubs',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 325,
@@ -4620,11 +4331,10 @@ exports.QUESTIONS = [
     qbad1: 'Blackwood in Spades',
     qbad2: 'Quantitive 4NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 326,
@@ -4635,11 +4345,10 @@ exports.QUESTIONS = [
     qbad1: 'Invitational in Spades',
     qbad2: 'Bid your minor',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 327,
@@ -4650,11 +4359,10 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '3H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 328,
@@ -4665,11 +4373,10 @@ exports.QUESTIONS = [
     qbad1: '3S',
     qbad2: '3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 329,
@@ -4680,11 +4387,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=ZNJsZMIUDfo',
-    qhl2: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
   },
   {
     qid: 330,
@@ -4696,11 +4402,12 @@ exports.QUESTIONS = [
     qbad1: 'No',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view',
-    qhl2: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
+    ]
   },
   {
     qid: 331,
@@ -4712,11 +4419,12 @@ exports.QUESTIONS = [
     qbad1: 'No',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view',
-    qhl2: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
+    ]
   },
   {
     qid: 332,
@@ -4728,11 +4436,12 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view',
-    qhl2: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
+    ]
   },
   {
     qid: 333,
@@ -4743,11 +4452,12 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view',
-    qhl2: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
+    ]
   },
   {
     qid: 334,
@@ -4759,11 +4469,12 @@ exports.QUESTIONS = [
     qbad1: 'No',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view',
-    qhl2: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
+    ]
   },
   {
     qid: 335,
@@ -4775,11 +4486,12 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view',
-    qhl2: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null
+    qgroup3: null,
+    qrefs: [
+      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
+    ]
   },
   {
     qid: 336,
@@ -4791,11 +4503,10 @@ exports.QUESTIONS = [
     qbad1: '2NT Lebensohl',
     qbad2: '3D',
     qbad3: 'Pass',
-    qhl1: 'https://www.youtube.com/watch?v=DsNtxFqCKfs',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
   },
   {
     qid: 337,
@@ -4807,11 +4518,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3D',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=DsNtxFqCKfs',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
   },
   {
     qid: 338,
@@ -4823,11 +4533,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to diamonds',
     qbad2: '3NT',
     qbad3: '2NT',
-    qhl1: 'https://www.youtube.com/watch?v=DsNtxFqCKfs',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
   },
   {
     qid: 339,
@@ -4839,11 +4548,10 @@ exports.QUESTIONS = [
     qbad1: 'Transfer to diamonds',
     qbad2: '3NT',
     qbad3: '2NT',
-    qhl1: 'https://www.youtube.com/watch?v=DsNtxFqCKfs',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
   },
   {
     qid: 340,
@@ -4854,11 +4562,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3NT',
     qbad3: '3S',
-    qhl1: 'https://www.youtube.com/watch?v=DsNtxFqCKfs',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
   },
   {
     qid: 341,
@@ -4869,11 +4576,10 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=DsNtxFqCKfs',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
   },
   {
     qid: 342,
@@ -4884,11 +4590,10 @@ exports.QUESTIONS = [
     qbad1: '2NT Lebensohl',
     qbad2: '3H',
     qbad3: 'Pass',
-    qhl1: 'https://www.youtube.com/watch?v=jQpHx96e66A',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jQpHx96e66A']
   },
   {
     qid: 343,
@@ -4899,11 +4604,10 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: '3H',
     qbad3: 'Pass',
-    qhl1: 'https://www.youtube.com/watch?v=jQpHx96e66A',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jQpHx96e66A']
   },
   {
     qid: 344,
@@ -4914,11 +4618,10 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: '3H',
     qbad3: '2NT',
-    qhl1: 'https://www.youtube.com/watch?v=jQpHx96e66A',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jQpHx96e66A']
   },
   {
     qid: 345,
@@ -4929,11 +4632,10 @@ exports.QUESTIONS = [
     qbad1: '2NT Lebensohl',
     qbad2: '2H',
     qbad3: '3NT',
-    qhl1: 'https://www.youtube.com/watch?v=jQpHx96e66A',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jQpHx96e66A']
   },
   {
     qid: 346,
@@ -4944,11 +4646,10 @@ exports.QUESTIONS = [
     qbad1: 'Has a diamond stopper',
     qbad2: 'Ask for a diamond stopper',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 347,
@@ -4959,11 +4660,10 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '3H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 348,
@@ -4974,11 +4674,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '4C',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 349,
@@ -4989,11 +4688,10 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 350,
@@ -5004,11 +4702,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3S',
     qbad3: '3H',
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 351,
@@ -5019,11 +4716,10 @@ exports.QUESTIONS = [
     qbad1: '3S',
     qbad2: '3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 352,
@@ -5034,11 +4730,10 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '4C',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 353,
@@ -5049,11 +4744,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '2NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 354,
@@ -5064,11 +4758,10 @@ exports.QUESTIONS = [
     qbad1: '4C',
     qbad2: '4H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 355,
@@ -5079,11 +4772,10 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '2H',
     qbad3: '3NT',
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 356,
@@ -5094,11 +4786,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 357,
@@ -5109,11 +4800,10 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 358,
@@ -5124,11 +4814,10 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '4H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 359,
@@ -5139,11 +4828,10 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '3S',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 360,
@@ -5154,11 +4842,10 @@ exports.QUESTIONS = [
     qbad1: '4S',
     qbad2: '3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=wLvH7zLbeHc',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
   },
   {
     qid: 361,
@@ -5169,11 +4856,10 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3D',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=3zOO85-nb1M',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
   },
   {
     qid: 362,
@@ -5184,11 +4870,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '4C',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=3zOO85-nb1M',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
   },
   {
     qid: 363,
@@ -5199,11 +4884,10 @@ exports.QUESTIONS = [
     qbad1: 'Double',
     qbad2: 'Pass',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=3zOO85-nb1M',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
   },
   {
     qid: 364,
@@ -5214,11 +4898,10 @@ exports.QUESTIONS = [
     qbad1: '4C',
     qbad2: '3H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=3zOO85-nb1M',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
   },
   {
     qid: 365,
@@ -5229,11 +4912,10 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: 'Double',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=3zOO85-nb1M',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
   },
   {
     qid: 366,
@@ -5244,11 +4926,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=3zOO85-nb1M',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
   },
   {
     qid: 367,
@@ -5259,11 +4940,10 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: null,
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jZ8LxDQUfjQ',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jZ8LxDQUfjQ']
   },
   {
     qid: 368,
@@ -5274,11 +4954,10 @@ exports.QUESTIONS = [
     qbad1: '3S',
     qbad2: '3NT',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jZ8LxDQUfjQ',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jZ8LxDQUfjQ']
   },
   {
     qid: 369,
@@ -5289,11 +4968,10 @@ exports.QUESTIONS = [
     qbad1: '3C Styman',
     qbad2: '3H',
     qbad3: '3D',
-    qhl1: 'https://www.youtube.com/watch?v=jZ8LxDQUfjQ',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jZ8LxDQUfjQ']
   },
   {
     qid: 370,
@@ -5304,11 +4982,10 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3H',
     qbad3: null,
-    qhl1: 'https://www.youtube.com/watch?v=jZ8LxDQUfjQ',
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: ['https://www.youtube.com/watch?v=jZ8LxDQUfjQ']
   },
   {
     qid: 371,
@@ -5319,10 +4996,9 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3S',
     qbad3: null,
-    qhl1: null,
-    qhl2: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null
+    qgroup3: null,
+    qrefs: null
   }
 ]

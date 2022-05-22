@@ -29,7 +29,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
+const g_log1 = debugSettings(true)
 //
 //  Global store variables
 //
@@ -153,8 +153,13 @@ const Quiz = () => {
   //
   //  Set Help Article (for layout button)
   //
-  if (g_log1) console.log('g_quizRow.qhl1 ', g_quizRow.qhl1)
-  ValtioStore.v_Help = g_quizRow.qhl1
+  let help = null
+  if (g_quizRow.qrefs[0]) {
+    if (g_log1) console.log('g_quizRow.qrefs[0] ', g_quizRow.qrefs[0])
+    help = g_quizRow.qrefs[0]
+  }
+  ValtioStore.v_Help = help
+  if (g_log1) console.log('help ', help)
   //...................................................................................
   //.  Render the form
   //...................................................................................

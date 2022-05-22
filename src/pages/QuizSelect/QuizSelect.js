@@ -42,8 +42,7 @@ const { ROWS_MAX } = require('../../services/constants.js')
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
-
+const g_log1 = debugSettings(true)
 //.............................................................................
 //.  Data Input Fields
 //.............................................................................
@@ -142,6 +141,8 @@ const QuizSelect = () => {
     ValtioStore.v_Data = []
     if (g_log1) console.log('clear v_Quest')
     ValtioStore.v_Quest = []
+    if (g_log1) console.log('clear v_Refs')
+    ValtioStore.v_Refs = []
     //
     //  Test mode then filter v_Data to v_Quest, else populate v_Data/v_Quest from server
     //
@@ -279,6 +280,25 @@ const QuizSelect = () => {
     //
     if (g_log1) console.log('update v_Quest', quest)
     ValtioStore.v_Quest = quest
+    //
+    //  Load references
+    //
+    let refs = []
+    quest.forEach(question => {
+      const { qrefs } = question
+      if (g_log1) console.log('qrefs ', qrefs)
+      if (qrefs) {
+        qrefs.forEach(ref => {
+          const found = refs.find(element => element === ref)
+          if (!found) refs.push(ref)
+        })
+      }
+    })
+    //
+    // update ValtioStore - Refs
+    //
+    if (g_log1) console.log('update v_Refs', refs)
+    ValtioStore.v_Refs = refs
     //
     //  Hands and Bidding
     //

@@ -195,7 +195,13 @@ const QuizReview = () => {
   //
   //  Set Help Article
   //
-  ValtioStore.v_Help = quizRow.qhl1
+  let help = null
+  if (quizRow.qrefs[0]) {
+    if (g_log1) console.log('quizRow.qrefs[0] ', quizRow.qrefs[0])
+    help = quizRow.qrefs[0]
+  }
+  ValtioStore.v_Help = help
+  if (g_log1) console.log('help ', help)
   //
   //  Hide/Show Previous/Next Buttons
   //
