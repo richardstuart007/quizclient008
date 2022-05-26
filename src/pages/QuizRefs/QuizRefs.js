@@ -8,7 +8,7 @@ import PreviewIcon from '@mui/icons-material/Preview'
 //
 //  Controls
 //
-import MyActionButton from '../../components/controls/MyActionButton2'
+import MyActionButton from '../../components/controls/MyActionButton'
 import MyButton from '../../components/controls/MyButton'
 import useMyTable from '../../components/controls/useMyTable'
 //
@@ -40,7 +40,7 @@ const headCells = [
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //=====================================================================================
 export default function QuizRefs() {
   if (g_log1) console.log('Start QuizRefs')
@@ -114,6 +114,7 @@ export default function QuizRefs() {
               <TableCell>
                 <MyActionButton
                   startIcon={<PreviewIcon fontSize='small' />}
+                  text='View'
                   color='warning'
                   onClick={() => openHyperlink(row.rlink)}
                 ></MyActionButton>
