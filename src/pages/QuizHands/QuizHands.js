@@ -63,51 +63,59 @@ const QuizHands = ({ qid }) => {
   //  Build HandObj Array - N/E/S/W
   //
   let HandObjArray = []
+  let RowCount = 0
   if (g_log1) console.log('HandsRow', HandsRow)
-
+  //
+  //  North
+  //
   if (HandsRow.hnorth) {
+    RowCount++
     const handObj = {
-      position: '',
+      rowCount: RowCount,
+      position: 'North',
       hand: []
     }
-    handObj.position = 'North'
     handObj.hand = [...HandsRow.hnorth]
-    if (g_log1) console.log('handObj ', handObj)
     HandObjArray.push(handObj)
-    if (g_log1) console.log('HandObjArray ', HandObjArray)
   }
+  //
+  //  East
+  //
   if (HandsRow.heast) {
+    RowCount++
     const handObj = {
-      position: '',
+      rowCount: RowCount,
+      position: 'East',
       hand: []
     }
-    handObj.position = 'East'
     handObj.hand = [...HandsRow.heast]
-    if (g_log1) console.log('handObj ', handObj)
     HandObjArray.push(handObj)
-    if (g_log1) console.log('HandObjArray ', HandObjArray)
   }
+  //
+  //  South
+  //
   if (HandsRow.hsouth) {
+    RowCount++
     const handObj = {
-      position: '',
+      rowCount: RowCount,
+      position: 'South',
       hand: []
     }
-    handObj.position = 'South'
     handObj.hand = [...HandsRow.hsouth]
-    if (g_log1) console.log('handObj ', handObj)
     HandObjArray.push(handObj)
-    if (g_log1) console.log('HandObjArray ', HandObjArray)
   }
+  //
+  //  West
+  //
   if (HandsRow.hwest) {
+    RowCount++
     const handObj = {
-      position: '',
+      rowCount: RowCount,
+      position: 'West',
       hand: []
     }
-    handObj.position = 'West'
     handObj.hand = [...HandsRow.hwest]
-    if (g_log1) console.log('handObj ', handObj)
     HandObjArray.push(handObj)
-    if (g_log1) console.log('HandObjArray ', HandObjArray)
   }
 
   //...................................................................................
@@ -129,12 +137,12 @@ const QuizHands = ({ qid }) => {
           <QuizHandsTableHeader />
           {/* .......................................................................................... */}
           <TableBody>
-            {HandObjArray.map((handObj, handidx) => (
+            {HandObjArray.map(handObj => (
               <>
                 <QuizHandsTableLine
-                  key={handidx + 1}
+                  key={handObj.rowCount}
                   handObj={handObj}
-                  handidx={handidx + 1}
+                  handidx={handObj.rowCount}
                 />
               </>
             ))}

@@ -3,7 +3,6 @@
 //
 import { useSnapshot } from 'valtio'
 import { useState } from 'react'
-import { Formik, Form } from 'formik'
 import { Container, Grid, Typography } from '@mui/material'
 //
 //  Debug Settings
@@ -34,7 +33,6 @@ import randomSort from '../../services/randomSort'
 //
 //  Constants
 //
-const { ROWS_DEFAULT } = require('../../services/constants.js')
 const { ROWS_MAX } = require('../../services/constants.js')
 //..............................................................................
 //.  Initialisation
@@ -42,7 +40,7 @@ const { ROWS_MAX } = require('../../services/constants.js')
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //.............................................................................
 //.  Data Input Fields
 //.............................................................................
@@ -54,7 +52,7 @@ const initialFValues = {
   qgroup1: '',
   qgroup2: '',
   qgroup3: '',
-  MaxQuestions: ROWS_DEFAULT
+  MaxQuestions: 0
 }
 //
 //  Saved Values on Submit
@@ -66,6 +64,10 @@ const savedValues = {
   qgroup3: '',
   MaxQuestions: 0
 }
+//
+//  References to display
+//
+let Page
 //===================================================================================
 const QuizSelect = () => {
   //
@@ -84,6 +86,7 @@ const QuizSelect = () => {
   initialFValues.qgroup1 = snapShot.v_Group1
   initialFValues.qgroup2 = snapShot.v_Group2
   initialFValues.qgroup3 = snapShot.v_Group3
+  initialFValues.MaxQuestions = snapShot.v_MaxQuestions
   const disabled = !snapShot.v_AllowSelection
   //
   // Form Message
@@ -116,7 +119,7 @@ const QuizSelect = () => {
   //
   //  Validate
   //
-  const onSubmitForm = e => {
+  const SubmitForm = e => {
     if (validate()) {
       updateSelection()
     }
@@ -212,7 +215,7 @@ const QuizSelect = () => {
   const updateStore = () => {
     if (g_log1) console.log('snapShot.v_Quest', snapShot.v_Quest)
     ValtioStore.v_PagePrevious = CurrentPage
-    ValtioStore.v_Page = 'Quiz'
+    ValtioStore.v_Page = Page
     ValtioStore.v_Reset = true
     ValtioStore.v_Owner = savedValues.qowner
     ValtioStore.v_Group1 = savedValues.qgroup1
@@ -295,6 +298,12 @@ const QuizSelect = () => {
       }
     })
     //
+    //  Sort the Refs
+    //
+    if (g_log1) console.log('refs ', refs)
+    refs.sort((a, b) => (a > b ? 1 : -1))
+    if (g_log1) console.log('refs ', refs)
+    //
     // update ValtioStore - Refs
     //
     if (g_log1) console.log('update v_Refs', refs)
@@ -306,6 +315,8 @@ const QuizSelect = () => {
     ValtioStore.v_Hands = HANDS
     const { BIDDING } = require('./DataBidding.js')
     ValtioStore.v_Bidding = BIDDING
+    const { LINKS } = require('./DataLinks.js')
+    ValtioStore.v_Links = LINKS
     //
     //  Update other store values
     //
@@ -329,88 +340,94 @@ const QuizSelect = () => {
     <>
       <Grid container>
         <Container>
-          <Formik
-            initialValues={initialFValues}
-            onSubmit={onSubmitForm}
-            enableReinitialize
-          >
-            <Form>
-              <QForm>
-                <Grid container spacing={2}>
-                  {/*.................................................................................................*/}
-                  <Grid item xs={12}>
-                    <MySelect
-                      name='qowner'
-                      label='Owner'
-                      value={values.qowner}
-                      onChange={handleInputChange}
-                      options={QuizServices.getOwnerCollection()}
-                      error={errors.qowner}
-                      disabled={disabled}
-                    />
-                  </Grid>
+          <QForm>
+            <Grid container spacing={2}>
+              {/*.................................................................................................*/}
+              <Grid item xs={12}>
+                <MySelect
+                  name='qowner'
+                  label='Owner'
+                  value={values.qowner}
+                  onChange={handleInputChange}
+                  options={QuizServices.getOwnerCollection()}
+                  error={errors.qowner}
+                  disabled={disabled}
+                />
+              </Grid>
 
-                  {/*.................................................................................................*/}
+              {/*.................................................................................................*/}
 
-                  <Grid item xs={12}>
-                    <MySelect
-                      name='qgroup1'
-                      label='Group1'
-                      value={values.qgroup1}
-                      onChange={handleInputChange}
-                      options={QuizServices.getGroup1Collection()}
-                      error={errors.qgroup1}
-                      disabled={disabled}
-                    />
-                  </Grid>
-                  <Grid item xs={12}>
-                    <MySelect
-                      name='qgroup2'
-                      label='Group2'
-                      value={values.qgroup2}
-                      onChange={handleInputChange}
-                      options={QuizServices.getGroup2Collection()}
-                      disabled={disabled}
-                    />
-                  </Grid>
-                  <Grid item xs={12}>
-                    <MySelect
-                      name='qgroup3'
-                      label='Group3'
-                      value={values.qgroup3}
-                      onChange={handleInputChange}
-                      options={QuizServices.getGroup3Collection()}
-                      disabled={disabled}
-                    />
-                  </Grid>
+              <Grid item xs={12}>
+                <MySelect
+                  name='qgroup1'
+                  label='Group1'
+                  value={values.qgroup1}
+                  onChange={handleInputChange}
+                  options={QuizServices.getGroup1Collection()}
+                  error={errors.qgroup1}
+                  disabled={disabled}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <MySelect
+                  name='qgroup2'
+                  label='Group2'
+                  value={values.qgroup2}
+                  onChange={handleInputChange}
+                  options={QuizServices.getGroup2Collection()}
+                  disabled={disabled}
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <MySelect
+                  name='qgroup3'
+                  label='Group3'
+                  value={values.qgroup3}
+                  onChange={handleInputChange}
+                  options={QuizServices.getGroup3Collection()}
+                  disabled={disabled}
+                />
+              </Grid>
 
-                  {/*.................................................................................................*/}
+              {/*.................................................................................................*/}
 
-                  <Grid item xs={12}>
-                    <MyInput
-                      name='MaxQuestions'
-                      label='MaxQuestions'
-                      value={values.MaxQuestions}
-                      onChange={handleInputChange}
-                      error={errors.MaxQuestions}
-                    />
-                  </Grid>
-                  {/*.................................................................................................*/}
-                  <Grid item xs={12}>
-                    <Typography style={{ color: 'red' }}>
-                      {form_message}
-                    </Typography>
-                  </Grid>
+              <Grid item xs={12}>
+                <MyInput
+                  name='MaxQuestions'
+                  label='MaxQuestions'
+                  value={values.MaxQuestions}
+                  onChange={handleInputChange}
+                  error={errors.MaxQuestions}
+                />
+              </Grid>
+              {/*.................................................................................................*/}
+              <Grid item xs={12}>
+                <Typography style={{ color: 'red' }}>{form_message}</Typography>
+              </Grid>
 
-                  {/*.................................................................................................*/}
-                  <Grid item xs={12}>
-                    <MyButton type='submit' text='Start Quiz' value='Submit' />
-                  </Grid>
-                  {/*.................................................................................................*/}
-                </Grid>
-              </QForm>
-            </Form>
-          </Formik>
+              {/*.................................................................................................*/}
+              <Grid item xs={6}>
+                <MyButton
+                  text='Start Quiz'
+                  onClick={() => {
+                    Page = 'Quiz'
+                    SubmitForm()
+                  }}
+                />
+              </Grid>
+
+              <Grid item xs={6}>
+                <MyButton
+                  text='References'
+                  onClick={() => {
+                    Page = 'QuizRefs'
+                    SubmitForm()
+                  }}
+                />
+              </Grid>
+              {/*.................................................................................................*/}
+            </Grid>
+          </QForm>
         </Container>
       </Grid>
       <QuizInfo />

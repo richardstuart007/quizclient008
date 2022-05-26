@@ -69,6 +69,7 @@ const QuizBidding = ({ qid }) => {
   //
   //  Process each Round
   //
+  let RoundCount = 0
   let roundsbidObjArray = []
   Rounds.forEach(round => {
     //
@@ -119,10 +120,20 @@ const QuizBidding = ({ qid }) => {
       bidObjArray.push(bidObj)
     })
     //
-    //  Load to all rounds (bidObj)
+    //  Prefix bidObj with round number
     //
     if (g_log1) console.log('bidObjArray ', bidObjArray)
-    roundsbidObjArray.push(bidObjArray)
+    const objTemp = {
+      roundCount: 0,
+      innerArray: []
+    }
+    RoundCount++
+    objTemp.roundCount = RoundCount
+    objTemp.innerArray = bidObjArray
+    //
+    //  Load to all rounds (bidObj)
+    //
+    roundsbidObjArray.push(objTemp)
   })
   if (g_log1) console.log('roundsbidObjArray ', roundsbidObjArray)
   //...................................................................................
@@ -143,12 +154,11 @@ const QuizBidding = ({ qid }) => {
           <QuizBiddingTableHeader />
           {/* .......................................................................................... */}
           <TableBody>
-            {roundsbidObjArray.map((innerArray, roundidx) => (
+            {roundsbidObjArray.map(objTemp => (
               <>
                 <QuizBiddingTableLine
-                  key={roundidx + 1}
-                  round={innerArray}
-                  roundidx={roundidx + 1}
+                  key={objTemp.roundCount}
+                  round={objTemp.innerArray}
                 />
               </>
             ))}

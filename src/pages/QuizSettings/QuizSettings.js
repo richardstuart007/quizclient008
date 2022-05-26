@@ -2,7 +2,6 @@
 //  Libraries
 //
 import { useSnapshot } from 'valtio'
-import { Formik, Form } from 'formik'
 import { Container, Grid } from '@mui/material'
 //
 //  Debug Settings
@@ -36,6 +35,7 @@ const QuizSettings = () => {
   //
   const snapShot = useSnapshot(ValtioStore)
   const CurrentPage = snapShot.v_Page
+  const PagePrevious = snapShot.v_PagePrevious
   //
   //  Initial Values v_ReviewSkipPass
   //
@@ -89,7 +89,7 @@ const QuizSettings = () => {
   //
   //  Validate
   //
-  const onSubmitForm = e => {
+  const SubmitForm = e => {
     if (g_log1) console.log('validate ', validate())
     if (validate()) {
       updateSelection()
@@ -111,15 +111,12 @@ const QuizSettings = () => {
     savedValues.z_QuestionSort = values.z_QuestionSort
     savedValues.z_ShowQid = values.z_ShowQid
     savedValues.z_ReviewSkipPass = values.z_ReviewSkipPass
-
     //
     //  Update Store
     //
     if (g_log1) console.log('Update Store: z_TestData ', savedValues.z_TestData)
     if (g_log1) console.log('Update Store: z_ShowInfo ', savedValues.z_ShowInfo)
     ValtioStore.v_PagePrevious = CurrentPage
-    ValtioStore.v_Page = 'QuizSelect'
-    ValtioStore.v_TestData = savedValues.z_TestData
     ValtioStore.v_HideParams = savedValues.z_HideParams
     ValtioStore.v_ShowInfo = savedValues.z_ShowInfo
     ValtioStore.v_ShowLinearProgress = savedValues.z_ShowLinearProgress
@@ -127,6 +124,23 @@ const QuizSettings = () => {
     ValtioStore.v_QuestionSort = savedValues.z_QuestionSort
     ValtioStore.v_ShowQid = savedValues.z_ShowQid
     ValtioStore.v_ReviewSkipPass = savedValues.z_ReviewSkipPass
+    ValtioStore.v_TestData = savedValues.z_TestData
+    //
+    //  NO Switch to/from Static data - return to previous
+    //
+    if (initialFValues.z_TestData === savedValues.z_TestData) {
+      ValtioStore.v_Page = PagePrevious
+    }
+    //
+    //  Switch to/from Static data
+    //
+    else {
+      if (savedValues.z_TestData === false) {
+        ValtioStore.v_Page = 'QuizSignin'
+      } else {
+        ValtioStore.v_Page = 'QuizSelect'
+      }
+    }
   }
   //...................................................................................
   //.  Main Line
@@ -146,102 +160,99 @@ const QuizSettings = () => {
   return (
     <Grid container>
       <Container>
-        <Formik
-          initialValues={initialFValues}
-          onSubmit={onSubmitForm}
-          enableReinitialize
-        >
-          <Form>
-            <QForm>
-              {/*.................................................................................................*/}
+        <QForm>
+          {/*.................................................................................................*/}
 
-              <Grid item xs={4}>
-                <MyCheckbox
-                  name='z_TestData'
-                  label='Static Data'
-                  value={values.z_TestData}
-                  onChange={handleInputChange}
-                  error={errors.z_TestData}
-                />
-              </Grid>
+          <Grid item xs={4}>
+            <MyCheckbox
+              name='z_TestData'
+              label='Static Data'
+              value={values.z_TestData}
+              onChange={handleInputChange}
+              error={errors.z_TestData}
+            />
+          </Grid>
 
-              <Grid item xs={4}>
-                <MyCheckbox
-                  name='z_HideParams'
-                  label='Hide Params'
-                  value={values.z_HideParams}
-                  onChange={handleInputChange}
-                  error={errors.z_HideParams}
-                />
-              </Grid>
+          <Grid item xs={4}>
+            <MyCheckbox
+              name='z_HideParams'
+              label='Hide Params'
+              value={values.z_HideParams}
+              onChange={handleInputChange}
+              error={errors.z_HideParams}
+            />
+          </Grid>
 
-              <Grid item xs={4}>
-                <MyCheckbox
-                  name='z_ShowInfo'
-                  label='Show Info'
-                  value={values.z_ShowInfo}
-                  onChange={handleInputChange}
-                  error={errors.z_ShowInfo}
-                />
-              </Grid>
+          <Grid item xs={4}>
+            <MyCheckbox
+              name='z_ShowInfo'
+              label='Show Info'
+              value={values.z_ShowInfo}
+              onChange={handleInputChange}
+              error={errors.z_ShowInfo}
+            />
+          </Grid>
 
-              <Grid item xs={4}>
-                <MyCheckbox
-                  name='z_ShowLinearProgress'
-                  label='Show Linear Progress'
-                  value={values.z_ShowLinearProgress}
-                  onChange={handleInputChange}
-                  error={errors.z_ShowLinearProgress}
-                />
-              </Grid>
+          <Grid item xs={4}>
+            <MyCheckbox
+              name='z_ShowLinearProgress'
+              label='Show Linear Progress'
+              value={values.z_ShowLinearProgress}
+              onChange={handleInputChange}
+              error={errors.z_ShowLinearProgress}
+            />
+          </Grid>
 
-              <Grid item xs={4}>
-                <MyCheckbox
-                  name='z_ShowLinearScore'
-                  label='Show Linear Score'
-                  value={values.z_ShowLinearScore}
-                  onChange={handleInputChange}
-                  error={errors.z_ShowLinearScore}
-                />
-              </Grid>
+          <Grid item xs={4}>
+            <MyCheckbox
+              name='z_ShowLinearScore'
+              label='Show Linear Score'
+              value={values.z_ShowLinearScore}
+              onChange={handleInputChange}
+              error={errors.z_ShowLinearScore}
+            />
+          </Grid>
 
-              <Grid item xs={4}>
-                <MyCheckbox
-                  name='z_QuestionSort'
-                  label='Sort Questions'
-                  value={values.z_QuestionSort}
-                  onChange={handleInputChange}
-                  error={errors.z_QuestionSort}
-                />
-              </Grid>
+          <Grid item xs={4}>
+            <MyCheckbox
+              name='z_QuestionSort'
+              label='Sort Questions'
+              value={values.z_QuestionSort}
+              onChange={handleInputChange}
+              error={errors.z_QuestionSort}
+            />
+          </Grid>
 
-              <Grid item xs={4}>
-                <MyCheckbox
-                  name='z_ShowQid'
-                  label='Show Qid'
-                  value={values.z_ShowQid}
-                  onChange={handleInputChange}
-                  error={errors.z_ShowQid}
-                />
-              </Grid>
+          <Grid item xs={4}>
+            <MyCheckbox
+              name='z_ShowQid'
+              label='Show Qid'
+              value={values.z_ShowQid}
+              onChange={handleInputChange}
+              error={errors.z_ShowQid}
+            />
+          </Grid>
 
-              <Grid item xs={4}>
-                <MyCheckbox
-                  name='z_ReviewSkipPass'
-                  label='Review Pass'
-                  value={values.z_ReviewSkipPass}
-                  onChange={handleInputChange}
-                  error={errors.z_ReviewSkipPass}
-                />
-              </Grid>
+          <Grid item xs={4}>
+            <MyCheckbox
+              name='z_ReviewSkipPass'
+              label='Review Pass'
+              value={values.z_ReviewSkipPass}
+              onChange={handleInputChange}
+              error={errors.z_ReviewSkipPass}
+            />
+          </Grid>
 
-              {/*.................................................................................................*/}
-              <Grid item xs={12}>
-                <MyButton type='submit' text='Update' value='Submit' />
-              </Grid>
-            </QForm>
-          </Form>
-        </Formik>
+          {/*.................................................................................................*/}
+          <Grid item xs={12}>
+            <MyButton
+              type='submit'
+              text='Update'
+              value='Submit'
+              onClick={() => SubmitForm()}
+            />
+          </Grid>
+        </QForm>
       </Container>
     </Grid>
   )

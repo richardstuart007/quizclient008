@@ -15,6 +15,7 @@ import QuizSignin from './QuizSignin/QuizSignin'
 import QuizSelect from './QuizSelect/QuizSelect'
 import Quiz from './Quiz/Quiz'
 import QuizReview from './QuizReview/QuizReview'
+import QuizRefs from './QuizRefs/QuizRefs'
 //
 //  Utilities
 //
@@ -128,6 +129,8 @@ function QuizControl() {
       return <QuizSignin />
     case 'QuizSelect':
       return <QuizSelect />
+    case 'QuizRefs':
+      return <QuizRefs />
     case 'Quiz':
       return <Quiz />
     case 'QuizReview':

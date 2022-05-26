@@ -1070,7 +1070,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/support_double.php']
+    qrefs: ['DoubleSupportBridgeBum']
   },
   {
     qid: 74,
@@ -1084,7 +1084,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/support_double.php']
+    qrefs: ['DoubleSupportBridgeBum']
   },
   {
     qid: 75,
@@ -1098,7 +1098,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/support_double.php']
+    qrefs: ['DoubleSupportBridgeBum']
   },
   {
     qid: 76,
@@ -1112,7 +1112,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/support_double.php']
+    qrefs: ['DoubleSupportBridgeBum']
   },
   {
     qid: 77,
@@ -1126,7 +1126,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
+    qrefs: ['DoubleSupportLarryCohen']
   },
   {
     qid: 78,
@@ -1140,7 +1140,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
+    qrefs: ['DoubleSupportLarryCohen']
   },
   {
     qid: 79,
@@ -1154,7 +1154,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
+    qrefs: ['DoubleSupportLarryCohen']
   },
   {
     qid: 80,
@@ -1168,7 +1168,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
+    qrefs: ['DoubleSupportLarryCohen']
   },
   {
     qid: 81,
@@ -1182,7 +1182,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.larryco.com/bridge-articles/support-doubles']
+    qrefs: ['DoubleSupportLarryCohen']
   },
   {
     qid: 82,
@@ -1196,7 +1196,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 83,
@@ -1210,7 +1210,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 84,
@@ -1224,7 +1224,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 85,
@@ -1238,7 +1238,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 86,
@@ -1252,7 +1252,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 87,
@@ -1266,7 +1266,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 88,
@@ -1280,7 +1280,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 89,
@@ -1294,7 +1294,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 90,
@@ -1308,7 +1308,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 91,
@@ -1322,7 +1322,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 92,
@@ -1336,7 +1336,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 93,
@@ -1350,7 +1350,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleNegativeBridgeBum']
   },
   {
     qid: 94,
@@ -1364,7 +1364,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/takeout_double.php']
+    qrefs: ['DoubleTakeoutBridgeBum']
   },
   {
     qid: 95,
@@ -1378,7 +1378,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/takeout_double.php']
+    qrefs: ['DoubleTakeoutBridgeBum']
   },
   {
     qid: 96,
@@ -1392,9 +1392,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: [
-      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
-    ]
+    qrefs: ['DoubleAndrewRobson']
   },
   {
     qid: 97,
@@ -1408,9 +1406,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: [
-      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
-    ]
+    qrefs: ['DoubleAndrewRobson']
   },
   {
     qid: 98,
@@ -1424,9 +1420,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: [
-      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
-    ]
+    qrefs: ['DoubleAndrewRobson']
   },
   {
     qid: 99,
@@ -1440,9 +1434,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: [
-      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
-    ]
+    qrefs: ['DoubleAndrewRobson']
   },
   {
     qid: 100,
@@ -1456,9 +1448,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: [
-      'https://www.andrewrobson.co.uk/article/tips_for_intermediates/1765'
-    ]
+    qrefs: ['DoubleAndrewRobson']
   },
   {
     qid: 101,
@@ -1472,7 +1462,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/responsive_double.php']
+    qrefs: ['DoubleResponsiveBridgebum']
   },
   {
     qid: 102,
@@ -1486,7 +1476,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/responsive_double.php']
+    qrefs: ['DoubleResponsiveBridgebum']
   },
   {
     qid: 103,
@@ -1500,7 +1490,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/responsive_double.php']
+    qrefs: ['DoubleResponsiveBridgebum']
   },
   {
     qid: 104,
@@ -1516,7 +1506,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/responsive_double.php']
+    qrefs: ['DoubleResponsiveBridgebum']
   },
   {
     qid: 105,
@@ -1530,7 +1520,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/responsive_double.php']
+    qrefs: ['DoubleResponsiveBridgebum']
   },
   {
     qid: 106,
@@ -1544,7 +1534,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
+    qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
     qid: 107,
@@ -1558,7 +1548,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
+    qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
     qid: 108,
@@ -1572,7 +1562,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
+    qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
     qid: 109,
@@ -1586,7 +1576,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
+    qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
     qid: 110,
@@ -1600,7 +1590,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgeguys.com/doubles/ResponsiveDouble.html']
+    qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
     qid: 111,
@@ -1614,7 +1604,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/lightner_double.php']
+    qrefs: ['DoubleLightnerBridgebum']
   },
   {
     qid: 112,
@@ -1628,7 +1618,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/lightner_double.php']
+    qrefs: ['DoubleLightnerBridgebum']
   },
   {
     qid: 113,
@@ -1642,7 +1632,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/lightner_double.php']
+    qrefs: ['DoubleLightnerBridgebum']
   },
   {
     qid: 114,
@@ -1656,7 +1646,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html']
+    qrefs: ['DoubleReopening']
   },
   {
     qid: 115,
@@ -1670,7 +1660,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html']
+    qrefs: ['DoubleReopening']
   },
   {
     qid: 116,
@@ -1684,7 +1674,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html']
+    qrefs: ['DoubleReopening']
   },
   {
     qid: 117,
@@ -1698,7 +1688,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['1M Bergen Raises']
+    qrefs: null
   },
   {
     qid: 118,
@@ -1715,7 +1705,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/support_double.php']
+    qrefs: ['DoubleSupportBridgebum']
   },
   {
     qid: 119,
@@ -1730,7 +1720,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/negative_double.php']
+    qrefs: ['DoubleSupportBridgebum']
   },
   {
     qid: 120,
@@ -1747,7 +1737,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/takeout_double.php']
+    qrefs: ['DoubleSupportBridgebum']
   },
   {
     qid: 121,
@@ -1764,7 +1754,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/responsive_double.php']
+    qrefs: ['DoubleSupportBridgebum']
   },
   {
     qid: 122,
@@ -1780,7 +1770,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://www.bridgebum.com/lightner_double.php']
+    qrefs: ['DoubleSupportBridgebum']
   },
   {
     qid: 123,
@@ -1795,7 +1785,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['http://bridgemedley.blogspot.com/2012/12/reopening-doubles.html']
+    qrefs: ['DoubleSupportBridgebum']
   },
   {
     qid: 124,
@@ -1811,7 +1801,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.larryco.com/bridge-articles/lead-directing-doubles']
+    qrefs: ['DoubleLeadDirecting']
   },
   {
     qid: 125,
@@ -1829,7 +1819,7 @@ exports.QUESTIONS = [
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.larryco.com/bridge-articles/lead-directing-doubles']
+    qrefs: ['DoubleLeadDirecting']
   },
   {
     qid: 126,
@@ -1844,7 +1834,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 127,
@@ -1859,7 +1849,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 128,
@@ -1874,7 +1864,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 129,
@@ -1888,7 +1878,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 130,
@@ -1902,7 +1892,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 131,
@@ -1916,7 +1906,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 132,
@@ -1930,7 +1920,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 133,
@@ -1944,7 +1934,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 134,
@@ -1958,7 +1948,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 135,
@@ -1972,7 +1962,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 136,
@@ -1986,7 +1976,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 137,
@@ -2000,7 +1990,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 138,
@@ -2015,7 +2005,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 139,
@@ -2030,7 +2020,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 140,
@@ -2045,7 +2035,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 141,
@@ -2059,7 +2049,7 @@ exports.QUESTIONS = [
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5NCyGSLk_y4']
+    qrefs: ['RedoublesPeteHollands']
   },
   {
     qid: 142,
@@ -2340,7 +2330,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jh6wnhihDj0']
+    qrefs: ['WBF01']
   },
   {
     qid: 187,
@@ -2355,7 +2345,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=u2L8CGoEIeU']
+    qrefs: ['WBF02']
   },
   {
     qid: 188,
@@ -2370,7 +2360,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jh6wnhihDj0']
+    qrefs: ['WBF03']
   },
   {
     qid: 189,
@@ -2385,7 +2375,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=-1byBDPwLRQ']
+    qrefs: ['WBF04']
   },
   {
     qid: 190,
@@ -2400,7 +2390,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=sSOMuC7aUyQ']
+    qrefs: ['WBF05']
   },
   {
     qid: 191,
@@ -2415,7 +2405,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=stI3glENKv8']
+    qrefs: ['WBF06']
   },
   {
     qid: 192,
@@ -2430,7 +2420,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Y9cqNMjjmsg']
+    qrefs: ['WBF07']
   },
   {
     qid: 193,
@@ -2445,7 +2435,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=JfmsF6tkzQE']
+    qrefs: ['WBF08']
   },
   {
     qid: 194,
@@ -2460,7 +2450,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=td79IzuF9q0']
+    qrefs: ['WBF09']
   },
   {
     qid: 195,
@@ -2475,7 +2465,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=cp1bsVaAsRE']
+    qrefs: ['WBF10']
   },
   {
     qid: 196,
@@ -2490,7 +2480,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=x9G4xHGRBJk']
+    qrefs: ['WBF11']
   },
   {
     qid: 197,
@@ -2505,7 +2495,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=_h8VSIxSZoI']
+    qrefs: ['WBF12']
   },
   {
     qid: 198,
@@ -2520,7 +2510,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ejKwPcQhogs']
+    qrefs: ['WBF13']
   },
   {
     qid: 199,
@@ -2535,7 +2525,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=E16WPGPsnzA']
+    qrefs: ['WBF14']
   },
   {
     qid: 200,
@@ -2550,7 +2540,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=nHG01wsPLg4']
+    qrefs: ['WBF15']
   },
   {
     qid: 201,
@@ -2565,7 +2555,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jscHL2gmC20']
+    qrefs: ['WBF16']
   },
   {
     qid: 202,
@@ -2580,7 +2570,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=NBxBT3oPaOA']
+    qrefs: ['WBF17']
   },
   {
     qid: 203,
@@ -2595,7 +2585,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=egdR3HhtDuc']
+    qrefs: ['WBF18']
   },
   {
     qid: 204,
@@ -2610,7 +2600,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=AcPx7GY80fg']
+    qrefs: ['WBF19']
   },
   {
     qid: 205,
@@ -2625,7 +2615,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=nosiNcsP_60']
+    qrefs: ['WBF20']
   },
   {
     qid: 206,
@@ -2640,7 +2630,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=8ZiMBLVtd9c']
+    qrefs: ['WBF21']
   },
   {
     qid: 207,
@@ -2655,7 +2645,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=nvwE-WpldQo']
+    qrefs: ['WBF22']
   },
   {
     qid: 208,
@@ -2670,7 +2660,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=egZx18vJVuM']
+    qrefs: ['WBF23']
   },
   {
     qid: 209,
@@ -2685,7 +2675,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=glZnnsR0Wo8']
+    qrefs: ['WBF24']
   },
   {
     qid: 210,
@@ -2700,7 +2690,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=vhH2SMiPN9o']
+    qrefs: ['WBF25']
   },
   {
     qid: 211,
@@ -2715,7 +2705,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=sGx6wogAGAQ']
+    qrefs: ['WBF26']
   },
   {
     qid: 212,
@@ -2730,7 +2720,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=OqxwTi4pkXI']
+    qrefs: ['WBF27']
   },
   {
     qid: 213,
@@ -2745,7 +2735,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=zV2Ih7PqsGk']
+    qrefs: ['WBF28']
   },
   {
     qid: 214,
@@ -2760,7 +2750,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=klpb3lHbgOA']
+    qrefs: ['WBF29']
   },
   {
     qid: 215,
@@ -2774,7 +2764,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=x6x1fF2fLpY']
+    qrefs: ['WBF30']
   },
   {
     qid: 216,
@@ -2788,7 +2778,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=SfQXCUOQTKg']
+    qrefs: ['WBF31']
   },
   {
     qid: 217,
@@ -2802,7 +2792,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=06VczJedIb8']
+    qrefs: ['WBF32']
   },
   {
     qid: 218,
@@ -2816,7 +2806,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=E-UARFd9JmQ']
+    qrefs: ['WBF33']
   },
   {
     qid: 219,
@@ -2830,7 +2820,7 @@ exports.QUESTIONS = [
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=zsGeGlYC7v0']
+    qrefs: ['WBF34']
   },
   {
     qid: 220,
@@ -2844,7 +2834,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 221,
@@ -2858,7 +2848,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 222,
@@ -2872,7 +2862,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 223,
@@ -2886,7 +2876,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 224,
@@ -2900,7 +2890,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 225,
@@ -2914,7 +2904,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 226,
@@ -2928,7 +2918,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 227,
@@ -2942,7 +2932,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 228,
@@ -2956,7 +2946,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 229,
@@ -2970,7 +2960,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 230,
@@ -2984,7 +2974,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 231,
@@ -2998,7 +2988,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 232,
@@ -3012,7 +3002,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 233,
@@ -3026,7 +3016,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 234,
@@ -3040,7 +3030,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 235,
@@ -3054,7 +3044,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 236,
@@ -3068,7 +3058,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 237,
@@ -3082,7 +3072,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 238,
@@ -3096,7 +3086,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 239,
@@ -3110,7 +3100,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 240,
@@ -3124,7 +3114,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 241,
@@ -3138,7 +3128,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 242,
@@ -3152,7 +3142,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 243,
@@ -3167,7 +3157,7 @@ exports.QUESTIONS = [
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=5_RD8ycgRT8']
+    qrefs: ['2WayCheckBack']
   },
   {
     qid: 244,
@@ -3182,7 +3172,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 245,
@@ -3197,7 +3187,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 246,
@@ -3212,7 +3202,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 247,
@@ -3227,7 +3217,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 248,
@@ -3242,7 +3232,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 249,
@@ -3257,7 +3247,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 250,
@@ -3272,7 +3262,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 251,
@@ -3287,7 +3277,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 252,
@@ -3302,7 +3292,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 253,
@@ -3317,7 +3307,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 254,
@@ -3332,7 +3322,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 255,
@@ -3347,7 +3337,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 256,
@@ -3362,7 +3352,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 257,
@@ -3377,7 +3367,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 258,
@@ -3392,7 +3382,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 259,
@@ -3407,7 +3397,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 260,
@@ -3422,7 +3412,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 261,
@@ -3436,7 +3426,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 262,
@@ -3450,7 +3440,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 263,
@@ -3464,7 +3454,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 264,
@@ -3478,7 +3468,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 265,
@@ -3492,7 +3482,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 266,
@@ -3506,7 +3496,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 267,
@@ -3520,7 +3510,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 268,
@@ -3534,7 +3524,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 269,
@@ -3548,7 +3538,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 270,
@@ -3562,7 +3552,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 271,
@@ -3576,7 +3566,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 272,
@@ -3590,7 +3580,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 273,
@@ -3604,7 +3594,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 274,
@@ -3618,7 +3608,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 275,
@@ -3632,7 +3622,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 276,
@@ -3646,7 +3636,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 277,
@@ -3660,7 +3650,7 @@ exports.QUESTIONS = [
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jMDLsDpEIaY']
+    qrefs: ['BergenRaises']
   },
   {
     qid: 278,
@@ -3674,7 +3664,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 279,
@@ -3688,7 +3678,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 280,
@@ -3702,7 +3692,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 281,
@@ -3716,7 +3706,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 282,
@@ -3730,7 +3720,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 283,
@@ -3744,7 +3734,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 284,
@@ -3758,7 +3748,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 285,
@@ -3772,7 +3762,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 286,
@@ -3786,7 +3776,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 287,
@@ -3800,7 +3790,7 @@ exports.QUESTIONS = [
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=VVu6NUHHsNc']
+    qrefs: ['Quantative4NT']
   },
   {
     qid: 288,
@@ -3814,7 +3804,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 289,
@@ -3828,7 +3818,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 290,
@@ -3842,7 +3832,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 291,
@@ -3856,7 +3846,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 292,
@@ -3870,7 +3860,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 293,
@@ -3884,7 +3874,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 294,
@@ -3898,7 +3888,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 295,
@@ -3912,7 +3902,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 296,
@@ -3926,7 +3916,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 297,
@@ -3940,7 +3930,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 298,
@@ -3954,7 +3944,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 299,
@@ -3968,7 +3958,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 300,
@@ -3982,7 +3972,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 301,
@@ -3996,7 +3986,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 302,
@@ -4010,7 +4000,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 303,
@@ -4024,7 +4014,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 304,
@@ -4038,7 +4028,7 @@ exports.QUESTIONS = [
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=Ok-MRjV5ibE']
+    qrefs: ['Cue1st2ndControls']
   },
   {
     qid: 305,
@@ -4052,7 +4042,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 306,
@@ -4066,7 +4056,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 307,
@@ -4080,7 +4070,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 308,
@@ -4094,7 +4084,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 309,
@@ -4108,7 +4098,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 310,
@@ -4122,7 +4112,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 311,
@@ -4136,7 +4126,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 312,
@@ -4150,7 +4140,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 313,
@@ -4165,7 +4155,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 314,
@@ -4179,7 +4169,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 315,
@@ -4194,7 +4184,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 316,
@@ -4208,7 +4198,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 317,
@@ -4222,7 +4212,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 318,
@@ -4236,7 +4226,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 319,
@@ -4250,7 +4240,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 320,
@@ -4264,7 +4254,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 321,
@@ -4278,7 +4268,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 322,
@@ -4292,7 +4282,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 323,
@@ -4306,7 +4296,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 324,
@@ -4320,7 +4310,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 325,
@@ -4334,7 +4324,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 326,
@@ -4348,7 +4338,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 327,
@@ -4362,7 +4352,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 328,
@@ -4376,7 +4366,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 329,
@@ -4390,7 +4380,7 @@ exports.QUESTIONS = [
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=ZNJsZMIUDfo']
+    qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
     qid: 330,
@@ -4405,9 +4395,7 @@ exports.QUESTIONS = [
     qgroup1: 'Play',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: [
-      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
-    ]
+    qrefs: ['PlayEBU']
   },
   {
     qid: 331,
@@ -4422,9 +4410,7 @@ exports.QUESTIONS = [
     qgroup1: 'Play',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: [
-      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
-    ]
+    qrefs: ['PlayEBU']
   },
   {
     qid: 332,
@@ -4439,9 +4425,7 @@ exports.QUESTIONS = [
     qgroup1: 'Play',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: [
-      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
-    ]
+    qrefs: ['PlayEBU']
   },
   {
     qid: 333,
@@ -4455,9 +4439,7 @@ exports.QUESTIONS = [
     qgroup1: 'Play',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: [
-      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
-    ]
+    qrefs: ['PlayEBU']
   },
   {
     qid: 334,
@@ -4472,9 +4454,7 @@ exports.QUESTIONS = [
     qgroup1: 'Play',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: [
-      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
-    ]
+    qrefs: ['PlayEBU']
   },
   {
     qid: 335,
@@ -4489,9 +4469,7 @@ exports.QUESTIONS = [
     qgroup1: 'Play',
     qgroup2: 'Play',
     qgroup3: null,
-    qrefs: [
-      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view'
-    ]
+    qrefs: ['PlayEBU']
   },
   {
     qid: 336,
@@ -4506,7 +4484,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
+    qrefs: ['LebensohlMarkHugger01']
   },
   {
     qid: 337,
@@ -4521,7 +4499,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
+    qrefs: ['LebensohlMarkHugger01']
   },
   {
     qid: 338,
@@ -4536,7 +4514,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
+    qrefs: ['LebensohlMarkHugger01']
   },
   {
     qid: 339,
@@ -4551,7 +4529,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
+    qrefs: ['LebensohlMarkHugger01']
   },
   {
     qid: 340,
@@ -4565,7 +4543,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
+    qrefs: ['LebensohlMarkHugger01']
   },
   {
     qid: 341,
@@ -4579,7 +4557,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=DsNtxFqCKfs']
+    qrefs: ['LebensohlMarkHugger01']
   },
   {
     qid: 342,
@@ -4593,7 +4571,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jQpHx96e66A']
+    qrefs: ['LebensohlMarkHugger02']
   },
   {
     qid: 343,
@@ -4607,7 +4585,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jQpHx96e66A']
+    qrefs: ['LebensohlMarkHugger02']
   },
   {
     qid: 344,
@@ -4621,7 +4599,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jQpHx96e66A']
+    qrefs: ['LebensohlMarkHugger02']
   },
   {
     qid: 345,
@@ -4635,7 +4613,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jQpHx96e66A']
+    qrefs: ['LebensohlMarkHugger02']
   },
   {
     qid: 346,
@@ -4649,7 +4627,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 347,
@@ -4663,7 +4641,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 348,
@@ -4677,7 +4655,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 349,
@@ -4691,7 +4669,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 350,
@@ -4705,7 +4683,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 351,
@@ -4719,7 +4697,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 352,
@@ -4733,7 +4711,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 353,
@@ -4747,7 +4725,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 354,
@@ -4761,7 +4739,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 355,
@@ -4775,7 +4753,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 356,
@@ -4789,7 +4767,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 357,
@@ -4803,7 +4781,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 358,
@@ -4817,7 +4795,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 359,
@@ -4831,7 +4809,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 360,
@@ -4845,7 +4823,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=wLvH7zLbeHc']
+    qrefs: ['LebensohlMarkHugger03']
   },
   {
     qid: 361,
@@ -4859,7 +4837,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
+    qrefs: ['LebensohlMarkHugger04']
   },
   {
     qid: 362,
@@ -4873,7 +4851,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
+    qrefs: ['LebensohlMarkHugger04']
   },
   {
     qid: 363,
@@ -4887,7 +4865,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
+    qrefs: ['LebensohlMarkHugger04']
   },
   {
     qid: 364,
@@ -4901,7 +4879,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
+    qrefs: ['LebensohlMarkHugger04']
   },
   {
     qid: 365,
@@ -4915,7 +4893,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
+    qrefs: ['LebensohlMarkHugger04']
   },
   {
     qid: 366,
@@ -4929,7 +4907,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=3zOO85-nb1M']
+    qrefs: ['LebensohlMarkHugger04']
   },
   {
     qid: 367,
@@ -4943,7 +4921,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jZ8LxDQUfjQ']
+    qrefs: ['LebensohlMarkHugger05']
   },
   {
     qid: 368,
@@ -4957,7 +4935,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jZ8LxDQUfjQ']
+    qrefs: ['LebensohlMarkHugger05']
   },
   {
     qid: 369,
@@ -4971,7 +4949,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jZ8LxDQUfjQ']
+    qrefs: ['LebensohlMarkHugger05']
   },
   {
     qid: 370,
@@ -4985,7 +4963,7 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: ['https://www.youtube.com/watch?v=jZ8LxDQUfjQ']
+    qrefs: ['LebensohlMarkHugger05']
   },
   {
     qid: 371,

@@ -29,7 +29,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //
 //  Global store variables
 //
@@ -87,7 +87,8 @@ const Quiz = () => {
     //
     // Reset Answers
     //
-    ValtioStore.v_ResetAns = []
+    ValtioStore.v_Help = ''
+    ValtioStore.v_Ans = []
     setAnsPass(0)
     setAnsCount(0)
   }

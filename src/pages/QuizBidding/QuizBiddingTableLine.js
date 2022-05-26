@@ -22,9 +22,8 @@ const QuizBiddingTableLine = props => {
   //
   //  Destructure props
   //
-  const { round, roundidx } = props
+  const { round } = props
   if (g_log1) console.log('round ', round)
-  if (g_log1) console.log('roundidx ', roundidx)
   //
   //  round into Object
   //

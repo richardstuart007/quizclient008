@@ -10,6 +10,7 @@ import RefreshIcon from '@mui/icons-material/Refresh'
 import ScoreboardIcon from '@mui/icons-material/Scoreboard'
 import HelpIcon from '@mui/icons-material/Help'
 import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications'
+import MenuBookIcon from '@mui/icons-material/MenuBook'
 //
 //  Libraries
 //
@@ -51,40 +52,80 @@ export default function QuizNavigation() {
   //
   //  Show Refresh Button ?
   //
-  let showButtonRefresh = true
-  if (CurrentPage === 'QuizSelect') showButtonRefresh = false
+  let showButtonRefresh = false
+  if (
+    CurrentPage === 'QuizRefs' ||
+    CurrentPage === 'Quiz' ||
+    CurrentPage === 'QuizReview'
+  )
+    showButtonRefresh = true
   //
   //  Show Review Button ?
   //
   if (g_log1) console.log('snapShot.v_Ans ', snapShot.v_Ans)
-  let showButtonReview
-  snapShot.v_Ans.length > 0
-    ? (showButtonReview = true)
-    : (showButtonReview = false)
-  if (CurrentPage === 'QuizReview') showButtonReview = false
+  let showButtonReview = false
+  if (CurrentPage === 'Quiz' && snapShot.v_Ans.length > 0)
+    showButtonReview = true
   //
   //  Show Help Button ?
   //
+  let showButtonHelp = false
   const helpHyperlink = snapShot.v_Help
-  if (g_log1) console.log('helpHyperlink ', helpHyperlink)
-  let showButtonHelp
-  helpHyperlink && helpHyperlink.length > 0
-    ? (showButtonHelp = true)
-    : (showButtonHelp = false)
+  if (
+    (CurrentPage === 'Quiz' || CurrentPage === 'QuizReview') &&
+    helpHyperlink &&
+    helpHyperlink.length > 0
+  )
+    showButtonHelp = true
+  //
+  //  Show Book Button ?
+  //
+  let showMenuBook = false
+  const Refs = snapShot.v_Refs
+  if (
+    (CurrentPage === 'Quiz' || CurrentPage === 'QuizReview') &&
+    Refs[0] &&
+    Refs.length > 0
+  )
+    showMenuBook = true
   //
   //  Show Settings Button ?
   //
-  let showButtonSettings = true
-  if (CurrentPage === 'QuizSettings') showButtonSettings = false
-  if (CurrentPage === 'Quiz') showButtonSettings = false
-  if (CurrentPage === 'QuizReview') showButtonSettings = false
+  let showButtonSettings = false
+  if (
+    CurrentPage === 'Quiz' ||
+    CurrentPage === 'QuizReview' ||
+    CurrentPage === 'QuizRefs' ||
+    CurrentPage === 'QuizSignin' ||
+    CurrentPage === 'QuizRegister' ||
+    CurrentPage === 'QuizSelect'
+  )
+    showButtonSettings = true
   //...................................................................................
   //
   //  Hyperlink open
   //
-  const openHyperlink = hyperlink => () => {
-    if (g_log1) console.log('hyperlink ', hyperlink)
-    window.open(hyperlink, '_blank')
+  const openHyperlink = linkRef => () => {
+    if (g_log1) console.log('linkRef ', linkRef)
+    //
+    //  Find reference link
+    //
+    const links = snapShot.v_Links
+    const linkelement = links.find(link => link.rref === linkRef)
+    //
+    //  Reference found
+    //
+    if (linkelement) {
+      if (g_log1) console.log('linkelement ', linkelement)
+      //
+      //  Link value
+      //
+      const hyperlink = linkelement.rlink
+      if (hyperlink) {
+        if (g_log1) console.log('hyperlink ', hyperlink)
+        window.open(hyperlink, '_blank')
+      }
+    }
   }
   //...................................................................................
   //.  Render the component
@@ -116,6 +157,18 @@ export default function QuizNavigation() {
         ) : null}
 
         {/* .......................................................................................... */}
+        {showMenuBook ? (
+          <MyActionButton
+            startIcon={<MenuBookIcon fontSize='small' />}
+            color='warning'
+            onClick={() => {
+              ValtioStore.v_PagePrevious = CurrentPage
+              ValtioStore.v_Page = 'QuizRefs'
+            }}
+            text='References'
+          ></MyActionButton>
+        ) : null}
+        {/* .......................................................................................... */}
         {showButtonRefresh ? (
           <MyActionButton
             startIcon={<RefreshIcon fontSize='small' />}
@@ -126,7 +179,7 @@ export default function QuizNavigation() {
               ValtioStore.v_Help = ''
               ValtioStore.v_Ans = []
             }}
-            text='Refresh'
+            text='Selection'
           ></MyActionButton>
         ) : null}
         {/* .......................................................................................... */}

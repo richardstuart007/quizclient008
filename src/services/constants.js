@@ -1,5 +1,4 @@
 exports.SQL_TABLE = 'questions'
-exports.ROWS_DEFAULT = 10
 exports.ROWS_MAX = 100
 
 exports.URL_BASE = 'http://localhost:10008'
