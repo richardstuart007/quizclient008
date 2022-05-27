@@ -33,7 +33,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
+const g_log1 = debugSettings(true)
 //===================================================================================
 const QuizReview = () => {
   if (g_log1) console.log('Start QuizReview')
@@ -68,6 +68,7 @@ const QuizReview = () => {
     //  Initialise global variables
     //
     if (g_log1) console.log('Initialise global variables')
+    if (g_log1) console.log('snapShot.v_Ans ', snapShot.v_Ans)
     //
     //  Get store data - Questions
     //
@@ -85,16 +86,18 @@ const QuizReview = () => {
     let AnsNum = []
     let AnsPass = 0
     let AnsCount = 0
+    let AnsQuestIdx = -1
     let AnsReview = 0
     snapShot.v_Ans.forEach(id => {
       AnsCount++
+      AnsQuestIdx++
       //
       //  Only show failed answers ?
       //
       const ReviewSkipPass = snapShot.v_ReviewSkipPass
       if (id !== 1 || !ReviewSkipPass) {
         Ans.push(id)
-        AnsNum.push(AnsCount)
+        AnsNum.push(AnsQuestIdx)
         AnsReview++
       }
       if (id === 1) AnsPass++
@@ -227,7 +230,7 @@ const QuizReview = () => {
 
       <QuizBidding qid={quizRow.qid} />
       <QuizHands qid={quizRow.qid} />
-      <QuizQuestion quizRow={quizRow} quizQuestion={arrAnsNum[ansIdx]} />
+      <QuizQuestion quizRow={quizRow} quizQuestion={arrAnsNum[ansIdx] + 1} />
       <QuizReviewAnswers quizRow={quizRow} AnswerNum={arrAns[ansIdx]} />
 
       <Box sx={{ mt: 2 }}>

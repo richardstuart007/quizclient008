@@ -1,8 +1,8 @@
 //
 //  Libraries
 //
-import { Typography, Card } from '@mui/material'
-import { cyan, teal } from 'material-ui-colors'
+import { Typography } from '@mui/material'
+import { teal } from 'material-ui-colors'
 import { useSnapshot } from 'valtio'
 //
 //  Debug Settings
@@ -59,6 +59,10 @@ const QuizQuestion = params => {
   //
   let QuestionString = `Question ${quizQuestion}`
   if (ShowQid) QuestionString = QuestionString.concat(`        (ID:${qid})`)
+  //
+  //  Uppercase the question
+  //
+  const qdetailUpper = qdetail.toUpperCase()
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -89,13 +93,11 @@ const QuizQuestion = params => {
       {/* .......................................................................................... */}
       {/* Normal Text */}
       {/* .......................................................................................... */}
-      <Card style={{ backgroundColor: cyan['A100'] }}>
-        {!hyperLink && (
-          <Typography variant='body2' style={{ color: 'blue' }} gutterBottom>
-            {qdetail}
-          </Typography>
-        )}
-      </Card>
+      {!hyperLink && (
+        <Typography variant='body2' style={{ color: 'blue' }} gutterBottom>
+          {qdetailUpper}
+        </Typography>
+      )}
       {/* .......................................................................................... */}
     </>
   )

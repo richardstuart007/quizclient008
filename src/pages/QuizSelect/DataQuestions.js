@@ -4977,6 +4977,6 @@ exports.QUESTIONS = [
     qgroup1: 'Lebensohl',
     qgroup2: null,
     qgroup3: null,
-    qrefs: null
+    qrefs: ['LebensohlMarkHugger05']
   }
 ]

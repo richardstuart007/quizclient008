@@ -155,12 +155,15 @@ const Quiz = () => {
   //  Set Help Article (for layout button)
   //
   let help = null
-  if (g_quizRow.qrefs[0]) {
+  if (g_quizRow.qrefs) {
     if (g_log1) console.log('g_quizRow.qrefs[0] ', g_quizRow.qrefs[0])
     help = g_quizRow.qrefs[0]
   }
   ValtioStore.v_Help = help
   if (g_log1) console.log('help ', help)
+
+  if (g_log1) console.log('g_quizRow ', g_quizRow)
+  if (g_log1) console.log('g_quizRow.qid ', g_quizRow.qid)
   //...................................................................................
   //.  Render the form
   //...................................................................................

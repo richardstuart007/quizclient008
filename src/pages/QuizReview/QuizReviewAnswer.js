@@ -1,13 +1,7 @@
 //
 //  Libraries
 //
-import {
-  Card,
-  CardContent,
-  CardActionArea,
-  Typography,
-  Box
-} from '@mui/material'
+import { Card, CardContent, CardActionArea, Typography } from '@mui/material'
 import { green, red } from 'material-ui-colors'
 //
 //  Debug Settings
@@ -42,17 +36,19 @@ export default function QuizAnswer(props) {
   //.............................................................................
   return (
     <>
-      <Box sx={{ m: 2 }}>
-        <Card elevation={1} style={{ backgroundColor: backgroundColor }}>
-          <CardActionArea>
-            <CardContent sx={{ padding: '4px' }}>
-              <Typography variant='body2' color='textSecondary'>
-                {answer}
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-        </Card>
-      </Box>
+      <Card
+        elevation={1}
+        sx={{ mt: 2 }}
+        style={{ backgroundColor: backgroundColor }}
+      >
+        <CardActionArea>
+          <CardContent sx={{ padding: '4px' }}>
+            <Typography variant='body2' color='textSecondary'>
+              {answer}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
     </>
   )
 }

@@ -1,13 +1,7 @@
 //
 //  Libraries
 //
-import {
-  Card,
-  CardContent,
-  Typography,
-  CardActionArea,
-  Box
-} from '@mui/material'
+import { Card, CardContent, Typography, CardActionArea } from '@mui/material'
 import makeStyles from '@mui/styles/makeStyles'
 //
 // Styles
@@ -31,20 +25,22 @@ export default function QuizPanelCard({ answer, handleSelect }) {
   //.............................................................................
   return (
     <>
-      <Box sx={{ m: 2 }}>
-        <Card elevation={1} className={`${classes.cardHover} ${classes.root}`}>
-          <CardActionArea>
-            <CardContent
-              onClick={() => handleSelect(answer.id)}
-              sx={{ padding: '4px' }}
-            >
-              <Typography variant='body2' color='textSecondary'>
-                {answer.details}
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-        </Card>
-      </Box>
+      <Card
+        elevation={1}
+        sx={{ mt: 2 }}
+        className={`${classes.cardHover} ${classes.root}`}
+      >
+        <CardActionArea>
+          <CardContent
+            onClick={() => handleSelect(answer.id)}
+            sx={{ padding: '4px' }}
+          >
+            <Typography variant='body2' color='textSecondary'>
+              {answer.details}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Card>
     </>
   )
 }

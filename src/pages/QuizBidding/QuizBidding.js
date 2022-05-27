@@ -78,8 +78,6 @@ const QuizBidding = ({ qid }) => {
     let bidObjArray = []
     round.forEach(bid => {
       if (g_log1) console.log('bid ', bid)
-      const level = bid.substr(0, 1)
-      if (g_log1) console.log('level ', level)
       //
       //  Fill bidObj (bid/suit)
       //
@@ -87,28 +85,42 @@ const QuizBidding = ({ qid }) => {
         bid: '',
         suit: ''
       }
+      const level = bid.substr(0, 1)
+      if (g_log1) console.log('level ', level)
       switch (level) {
+        // Pass
         case 'P':
           bidObj.bid = bid
           bidObj.suit = null
           break
+        // Question
+        case '?':
+          bidObj.bid = bid
+          bidObj.suit = null
+          break
+        // Double
         case 'X':
           bidObj.bid = bid
           bidObj.suit = null
           break
+        //  Nothing
         case ' ':
           bidObj.bid = null
           bidObj.suit = null
           break
+        //  Nothing
         case 'n':
           bidObj.bid = null
           bidObj.suit = null
           break
         default:
+          //  No Trump
           if (bid.substr(1, 1) === 'N') {
             bidObj.bid = bid
             bidObj.suit = null
-          } else {
+          }
+          //  Suit
+          else {
             bidObj.bid = level
             bidObj.suit = bid.substr(1, 1)
           }

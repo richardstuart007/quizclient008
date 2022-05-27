@@ -1,8 +1,8 @@
 //
 //  Libraries
 //
-import { Typography, Card } from '@mui/material'
-import { cyan, teal } from 'material-ui-colors'
+import { Typography } from '@mui/material'
+import { teal } from 'material-ui-colors'
 //
 //  Debug Settings
 //
@@ -66,15 +66,9 @@ const QuizPanel = ({ quizRow, handleSelect }) => {
       >
         Click to select YOUR answer
       </Typography>
-      <Card style={{ backgroundColor: cyan['A100'] }}>
-        {Answers.map((answer, key) => (
-          <QuizPanelCard
-            key={key}
-            answer={answer}
-            handleSelect={handleSelect}
-          />
-        ))}
-      </Card>
+      {Answers.map((answer, key) => (
+        <QuizPanelCard key={key} answer={answer} handleSelect={handleSelect} />
+      ))}
     </>
   )
 }

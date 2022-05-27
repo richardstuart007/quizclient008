@@ -1,8 +1,8 @@
 //
 //  Libraries
 //
-import { Typography, Card } from '@mui/material'
-import { cyan, teal } from 'material-ui-colors'
+import { Typography } from '@mui/material'
+import { teal } from 'material-ui-colors'
 //
 //  Debug Settings
 //
@@ -51,16 +51,15 @@ const QuizReviewAnswers = props => {
       >
         If incorrect your answer will show in Red. Correct answer in Green.
       </Typography>
-      <Card style={{ backgroundColor: cyan['A100'] }}>
-        {Answers.map((answer, key) => (
-          <QuizReviewAnswer
-            key={key}
-            answer={answer}
-            AnswerNum={AnswerNum}
-            FieldNum={key + 1}
-          />
-        ))}
-      </Card>
+
+      {Answers.map((answer, key) => (
+        <QuizReviewAnswer
+          key={key}
+          answer={answer}
+          AnswerNum={AnswerNum}
+          FieldNum={key + 1}
+        />
+      ))}
     </>
   )
 }

@@ -28,7 +28,12 @@ const QuizHandsTableLine = props => {
   const { position, hand } = handObj
   if (g_log1) console.log('position ', position)
   if (g_log1) console.log('hand ', hand)
-
+  //
+  //  Strip 'n' and replace with null
+  //
+  for (let i = 0; i < 4; i++) {
+    if (hand[i] === 'n') hand[i] = null
+  }
   //...................................................................................
   //.  Render the form
   //...................................................................................
