@@ -33,7 +33,7 @@ import { ValtioStore } from '../ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizReview = () => {
   if (g_log1) console.log('Start QuizReview')
