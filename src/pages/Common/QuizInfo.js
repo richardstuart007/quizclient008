@@ -35,7 +35,7 @@ const QuizInfo = () => {
   const group2 = snapShot.v_Group2
   const group3 = snapShot.v_Group3
   let DataSource
-  snapShot.v_TestData === true
+  snapShot.v_StaticData === true
     ? (DataSource = 'Static')
     : (DataSource = 'Server')
   //

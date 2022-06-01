@@ -73,7 +73,7 @@ const QuizReview = () => {
     //  Get store data - Questions
     //
     let ArrQuestions = []
-    snapShot.v_Quest.forEach(row => {
+    snapShot.v_QFilterSort.forEach(row => {
       const rowData = { ...row }
       ArrQuestions.push(rowData)
     })

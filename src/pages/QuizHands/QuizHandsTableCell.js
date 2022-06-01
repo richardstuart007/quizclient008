@@ -23,8 +23,9 @@ const QuizHandsTableCell = props => {
   //
   //  Destructure props
   //
-  const { cell } = props
+  const { cell, cellValue } = props
   if (g_log1) console.log('cell ', cell)
+  if (g_log1) console.log('cellValue ', cellValue)
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -33,7 +34,7 @@ const QuizHandsTableCell = props => {
       {/* .......................................................................................... */}
       {/*  Suit                                                                               */}
       {/* .......................................................................................... */}
-      <TableCell align='left' sx={{ padding: '0px' }}>
+      <TableCell key={cell} align='left' sx={{ padding: '0px' }}>
         <Grid
           container
           direction='row'
@@ -41,7 +42,7 @@ const QuizHandsTableCell = props => {
           alignItems='center'
         >
           <Grid item>
-            <Typography variant='body2'>{cell}</Typography>
+            <Typography variant='body2'>{cellValue}</Typography>
           </Grid>
 
           {/* .......................................................................................... */}

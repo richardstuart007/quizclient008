@@ -44,25 +44,34 @@ const g_log1 = debugSettings()
 //=====================================================================================
 export default function QuizRefs() {
   if (g_log1) console.log('Start QuizRefs')
-
+  //.............................................................................
+  //.  Valtio snapShot unpack
+  //.............................................................................
+  const vUnpack = valtioField => {
+    const valtioValue = JSON.parse(JSON.stringify(valtioField))
+    return valtioValue
+  }
   //
   //  Define the ValtioStore
   //
   const snapShot = useSnapshot(ValtioStore)
-  const Refs = snapShot.v_Refs
+
+  const Refs = vUnpack(snapShot.v_QRefs)
   if (g_log1) console.log('Refs ', Refs)
+
   const CurrentPage = snapShot.v_Page
   const PagePrevious = snapShot.v_PagePrevious
   //
   //  Find reference link
   //
-  const links = snapShot.v_Links
+  const reflinks = vUnpack(snapShot.v_RefLinks)
+  if (g_log1) console.log('reflinks ', reflinks)
   //
   //  build records from Refs & Links
   //
   let records = []
   Refs.forEach(ref => {
-    const linkelement = links.find(link => link.rref === ref)
+    const linkelement = reflinks.find(reflink => reflink.rref === ref)
     if (linkelement) {
       const rowData = { ...linkelement }
       records.push(rowData)

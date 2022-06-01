@@ -29,9 +29,10 @@ const QuizBiddingTableCell = props => {
   //
   //  Destructure props
   //
-  const { bid, suit } = props
+  const { bid, suit, cell } = props
   if (g_log1) console.log('bid ', bid)
   if (g_log1) console.log('suit ', suit)
+  if (g_log1) console.log('cell ', cell)
   //
   //  Source svg
   //
@@ -61,7 +62,7 @@ const QuizBiddingTableCell = props => {
       {/* .......................................................................................... */}
       {/*  Bid & Suit                                                                               */}
       {/* .......................................................................................... */}
-      <TableCell align='left' sx={{ padding: '0px' }}>
+      <TableCell key={cell} align='left' sx={{ padding: '0px' }}>
         <Grid
           container
           direction='row'

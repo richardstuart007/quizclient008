@@ -56,7 +56,8 @@ export default function QuizNavigation() {
   if (
     CurrentPage === 'QuizRefs' ||
     CurrentPage === 'Quiz' ||
-    CurrentPage === 'QuizReview'
+    CurrentPage === 'QuizReview' ||
+    (CurrentPage === 'QuizSelect' && !snapShot.v_StaticData)
   )
     showButtonRefresh = true
   //
@@ -81,7 +82,7 @@ export default function QuizNavigation() {
   //  Show Book Button ?
   //
   let showMenuBook = false
-  const Refs = snapShot.v_Refs
+  const Refs = snapShot.v_QRefs
   if (
     (CurrentPage === 'Quiz' || CurrentPage === 'QuizReview') &&
     Refs[0] &&
@@ -98,6 +99,7 @@ export default function QuizNavigation() {
     CurrentPage === 'QuizRefs' ||
     CurrentPage === 'QuizSignin' ||
     CurrentPage === 'QuizRegister' ||
+    CurrentPage === 'QuizServerData' ||
     CurrentPage === 'QuizSelect'
   )
     showButtonSettings = true
@@ -110,7 +112,7 @@ export default function QuizNavigation() {
     //
     //  Find reference link
     //
-    const links = snapShot.v_Links
+    const links = snapShot.v_RefLinks
     const linkelement = links.find(link => link.rref === linkRef)
     //
     //  Reference found
@@ -175,11 +177,9 @@ export default function QuizNavigation() {
             color='warning'
             onClick={() => {
               ValtioStore.v_PagePrevious = CurrentPage
-              ValtioStore.v_Page = 'QuizSelect'
-              ValtioStore.v_Help = ''
-              ValtioStore.v_Ans = []
+              ValtioStore.v_Page = 'QuizRestart'
             }}
-            text='Selection'
+            text='Refresh'
           ></MyActionButton>
         ) : null}
         {/* .......................................................................................... */}
@@ -190,7 +190,6 @@ export default function QuizNavigation() {
             onClick={() => {
               ValtioStore.v_PagePrevious = CurrentPage
               ValtioStore.v_Page = 'QuizSettings'
-              ValtioStore.v_Help = ''
             }}
             text='Settings'
           ></MyActionButton>

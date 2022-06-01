@@ -4,6 +4,10 @@
 import { TableCell, TableHead, TableRow } from '@mui/material'
 import makeStyles from '@mui/styles/makeStyles'
 //
+//  Debug Settings
+//
+import debugSettings from '../../debug/debugSettings'
+//
 // Styles
 //
 const useStyles = makeStyles({
@@ -14,7 +18,10 @@ const useStyles = makeStyles({
 //.............................................................................
 //.  Initialisation
 //.............................................................................
-
+//
+// Debug Settings
+//
+const g_log1 = debugSettings()
 //===================================================================================
 const QuizBiddingTableHeader = () => {
   //
@@ -24,6 +31,7 @@ const QuizBiddingTableHeader = () => {
   //...................................................................................
   //.  Main Line
   //...................................................................................
+  if (g_log1) console.log('Start QuizBiddingTableHeader')
 
   //...................................................................................
   //.  Render the form
@@ -31,8 +39,10 @@ const QuizBiddingTableHeader = () => {
   return (
     <>
       <TableHead>
-        <TableRow>
+        <TableRow key={'TableHeader'}>
+          {/* .......................................................................................... */}
           <TableCell
+            key='North'
             sx={{ padding: '0px' }}
             align='left'
             style={{ width: 60 }}
@@ -40,7 +50,9 @@ const QuizBiddingTableHeader = () => {
           >
             North
           </TableCell>
+          {/* .......................................................................................... */}
           <TableCell
+            key='East'
             sx={{ padding: '0px' }}
             align='left'
             style={{ width: 60 }}
@@ -48,7 +60,9 @@ const QuizBiddingTableHeader = () => {
           >
             East
           </TableCell>
+          {/* .......................................................................................... */}
           <TableCell
+            key='South'
             sx={{ padding: '0px' }}
             align='left'
             style={{ width: 60 }}
@@ -56,7 +70,9 @@ const QuizBiddingTableHeader = () => {
           >
             South
           </TableCell>
+          {/* .......................................................................................... */}
           <TableCell
+            key='West'
             sx={{ padding: '0px' }}
             align='left'
             style={{ width: 60 }}
@@ -64,6 +80,7 @@ const QuizBiddingTableHeader = () => {
           >
             West
           </TableCell>
+          {/* .......................................................................................... */}
         </TableRow>
       </TableHead>
     </>

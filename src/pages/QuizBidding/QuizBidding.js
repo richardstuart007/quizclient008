@@ -41,7 +41,6 @@ const QuizBidding = ({ qid }) => {
   let BiddingRowAll = []
   snapShot.v_Bidding.forEach(row => {
     const rowData = { ...row }
-    if (g_log1) console.log('rowData ', rowData)
     BiddingRowAll.push(rowData)
   })
   if (g_log1) console.log('BiddingRowAll ', BiddingRowAll)
@@ -136,11 +135,11 @@ const QuizBidding = ({ qid }) => {
     //
     if (g_log1) console.log('bidObjArray ', bidObjArray)
     const objTemp = {
-      roundCount: 0,
+      roundCount: '',
       innerArray: []
     }
     RoundCount++
-    objTemp.roundCount = RoundCount
+    objTemp.roundCount = 'Round' + RoundCount.toString()
     objTemp.innerArray = bidObjArray
     //
     //  Load to all rounds (bidObj)
@@ -167,12 +166,11 @@ const QuizBidding = ({ qid }) => {
           {/* .......................................................................................... */}
           <TableBody>
             {roundsbidObjArray.map(objTemp => (
-              <>
-                <QuizBiddingTableLine
-                  key={objTemp.roundCount}
-                  round={objTemp.innerArray}
-                />
-              </>
+              <QuizBiddingTableLine
+                key={objTemp.roundCount}
+                roundCount={objTemp.roundCount}
+                round={objTemp.innerArray}
+              />
             ))}
           </TableBody>
           {/* .......................................................................................... */}

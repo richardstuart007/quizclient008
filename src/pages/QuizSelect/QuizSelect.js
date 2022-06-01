@@ -9,11 +9,6 @@ import { Container, Grid, Typography } from '@mui/material'
 //
 import debugSettings from '../../debug/debugSettings'
 //
-//  Sub Components
-//
-import QuizSelectGetData from './QuizSelectGetData'
-import * as QuizServices from './QuizServices'
-//
 //  Common Sub Components
 //
 import { useQForm, QForm } from '../useQForm'
@@ -21,7 +16,6 @@ import QuizInfo from '../Common/QuizInfo'
 //
 //  Controls
 //
-import MyQueryPromise from '../../components/controls/MyQueryPromise'
 import MyButton from '../../components/controls/MyButton'
 import MyInput from '../../components/controls/MyInput'
 import MySelect from '../../components/controls/MySelect'
@@ -34,6 +28,8 @@ import randomSort from '../../services/randomSort'
 //  Constants
 //
 const { ROWS_MAX } = require('../../services/constants.js')
+//
+let g_staticData = null
 //..............................................................................
 //.  Initialisation
 //.............................................................................
@@ -67,31 +63,54 @@ const savedValues = {
 //
 //  References to display
 //
-let Page
+let g_Page
 //===================================================================================
 const QuizSelect = () => {
-  //
-  //  Define the ValtioStore
-  //
-  const snapShot = useSnapshot(ValtioStore)
-  const CurrentPage = snapShot.v_Page
   //
   //  Set Debug State
   //
   if (g_log1) console.log('Start QuizSelect')
+  //.............................................................................
+  //.  Valtio snapShot unpack
+  //.............................................................................
+  const vUnpack = valtioField => {
+    const valtioValue = JSON.parse(JSON.stringify(valtioField))
+    return valtioValue
+  }
+  //.............................................................................
   //
-  //  Set initial state
+  //  Define the ValtioStore
   //
-  initialFValues.qowner = snapShot.v_Owner
-  initialFValues.qgroup1 = snapShot.v_Group1
-  initialFValues.qgroup2 = snapShot.v_Group2
-  initialFValues.qgroup3 = snapShot.v_Group3
-  initialFValues.MaxQuestions = snapShot.v_MaxQuestions
-  const disabled = !snapShot.v_AllowSelection
+  const snapShot = useSnapshot(ValtioStore)
+  const CurrentPage = vUnpack(snapShot.v_Page)
+  //
+  //  Get Data from the Store
+  //
+  const Questions = vUnpack(snapShot.v_Questions)
+  const OwnerOptions = vUnpack(snapShot.v_OwnerOptions)
+  const Group1Options = vUnpack(snapShot.v_Group1Options)
+  const Group2Options = vUnpack(snapShot.v_Group2Options)
+  const Group3Options = vUnpack(snapShot.v_Group3Options)
+  if (g_log1) console.log('Questions ', Questions)
+  if (g_log1) console.log('OwnerOptions ', OwnerOptions)
+  if (g_log1) console.log('Group1Options ', Group1Options)
+  if (g_log1) console.log('Group2Options ', Group2Options)
+  if (g_log1) console.log('Group3Options ', Group3Options)
+
+  //
+  //  Set Selection from any previous values
+  //
+  initialFValues.qowner = vUnpack(snapShot.v_Owner)
+  initialFValues.qgroup1 = vUnpack(snapShot.v_Group1)
+  initialFValues.qgroup2 = vUnpack(snapShot.v_Group2)
+  initialFValues.qgroup3 = vUnpack(snapShot.v_Group3)
+  initialFValues.MaxQuestions = vUnpack(snapShot.v_MaxQuestions)
+  const disabled = !vUnpack(snapShot.v_AllowSelection)
   //
   // Form Message
   //
   const [form_message, setForm_message] = useState('')
+
   //.............................................................................
   //.  Input field validation
   //.............................................................................
@@ -129,7 +148,7 @@ const QuizSelect = () => {
   //...................................................................................
   const updateSelection = () => {
     //
-    //  Save data
+    //  Save selection
     //
     if (g_log1) console.log(values)
     savedValues.qowner = values.qowner
@@ -137,85 +156,16 @@ const QuizSelect = () => {
     savedValues.qgroup2 = values.qgroup2
     savedValues.qgroup3 = values.qgroup3
     savedValues.MaxQuestions = values.MaxQuestions
+
     //
-    // Clear the store
+    //  Filter and sort the Questions
     //
-    if (g_log1) console.log('clear v_Data')
-    ValtioStore.v_Data = []
-    if (g_log1) console.log('clear v_Quest')
-    ValtioStore.v_Quest = []
-    if (g_log1) console.log('clear v_Refs')
-    ValtioStore.v_Refs = []
+    QuestionsFilterSort()
     //
-    //  Test mode then filter v_Data to v_Quest, else populate v_Data/v_Quest from server
+    //  Update store
     //
-    if (g_log1) console.log(snapShot.v_TestData)
-    snapShot.v_TestData ? testData() : getServerData()
-  }
-  //...................................................................................
-  //.  Get Data from server
-  //...................................................................................
-  const getServerData = () => {
-    //
-    //  Process promise
-    //
-    if (g_log1) console.log('getServerData')
-    var myPromise = MyQueryPromise(QuizSelectGetData(savedValues))
-    //
-    //  Initial status
-    //
-    if (g_log1) console.log('Initial pending:', myPromise.isPending()) //true
-    if (g_log1) console.log('Initial fulfilled:', myPromise.isFulfilled()) //false
-    if (g_log1) console.log('Initial rejected:', myPromise.isRejected()) //false
-    //
-    //  Resolve Status
-    //
-    myPromise.then(function (data) {
-      if (g_log1) console.log('data ', data)
-      if (g_log1) console.log('myPromise ', myPromise)
-      if (g_log1) console.log('Final fulfilled:', myPromise.isFulfilled()) //true
-      if (g_log1) console.log('Final rejected:', myPromise.isRejected()) //false
-      if (g_log1) console.log('Final pending:', myPromise.isPending()) //false
-      //
-      //  No data
-      //
-      if (!data) {
-        setForm_message('No data found')
-      }
-      //
-      //  Next Step - update store
-      //
-      else {
-        //
-        // update ValtioStore - Data
-        //
-        if (g_log1) console.log('update v_Data', data)
-        ValtioStore.v_Data = data
-        //
-        // Sort Data
-        //
-        let sortedData = []
-        const QuestionSort = snapShot.v_QuestionSort
-        QuestionSort ? (sortedData = randomSort(data)) : (sortedData = data)
-        //
-        // update ValtioStore - Questions
-        //
-        if (g_log1) console.log('update v_Quest', sortedData)
-        ValtioStore.v_Quest = sortedData
-        //
-        //  Update other store values
-        //
-        updateStore()
-      }
-    })
-  }
-  //...................................................................................
-  //.  Update Store
-  //...................................................................................
-  const updateStore = () => {
-    if (g_log1) console.log('snapShot.v_Quest', snapShot.v_Quest)
     ValtioStore.v_PagePrevious = CurrentPage
-    ValtioStore.v_Page = Page
+    ValtioStore.v_Page = g_Page
     ValtioStore.v_Reset = true
     ValtioStore.v_Owner = savedValues.qowner
     ValtioStore.v_Group1 = savedValues.qgroup1
@@ -224,47 +174,80 @@ const QuizSelect = () => {
     ValtioStore.v_MaxQuestions = savedValues.MaxQuestions
   }
   //...................................................................................
-  //.  Filter v_Data into v_Quest
+  //.  Filter v_Questions into v_QFilterSort
   //...................................................................................
-  const testData = () => {
-    if (g_log1) console.log('testData')
+  const QuestionsFilterSort = () => {
+    if (g_log1) console.log('QuestionsFilterSort')
     //
-    //  Get unfiltered data
+    // Clear the store
     //
-    const { QUESTIONS } = require('./DataQuestions.js')
-    const data = QUESTIONS
-    if (g_log1) console.log('Data ', data)
+    if (g_log1) console.log('clear v_QFilter')
+    ValtioStore.v_QFilter = []
+    if (g_log1) console.log('clear v_QFilterSort')
+    ValtioStore.v_QFilterSort = []
+    if (g_log1) console.log('clear v_QRefs')
+    ValtioStore.v_QRefs = []
+    // ----------------------------------------------------------------------------------
     //
     //  Filter
     //
-    const filteredData = data.filter(question => {
-      if (savedValues.qowner && question.qowner !== savedValues.qowner)
+    if (g_log1) console.log('savedValues ', savedValues)
+    const filteredData = Questions.filter(question => {
+      if (
+        savedValues.qowner &&
+        savedValues.qowner !== 'All' &&
+        question.qowner !== savedValues.qowner
+      ) {
+        if (g_log1) console.log('question.qowner ', question.qowner)
         return false
-      if (savedValues.qgroup1 && question.qgroup1 !== savedValues.qgroup1)
+      }
+      if (
+        savedValues.qgroup1 &&
+        savedValues.qgroup1 !== 'All' &&
+        question.qgroup1 !== savedValues.qgroup1
+      ) {
+        if (g_log1) console.log('question.qgroup1 ', question.qgroup1)
         return false
-      if (savedValues.qgroup2 && question.qgroup2 !== savedValues.qgroup2)
+      }
+      if (
+        savedValues.qgroup2 &&
+        savedValues.qgroup2 !== 'All' &&
+        question.qgroup2 !== savedValues.qgroup2
+      ) {
+        if (g_log1) console.log('question.qgroup2 ', question.qgroup2)
         return false
-      if (savedValues.qgroup3 && question.qgroup3 !== savedValues.qgroup3)
+      }
+      if (
+        savedValues.qgroup3 &&
+        savedValues.qgroup3 !== 'All' &&
+        question.qgroup3 !== savedValues.qgroup3
+      ) {
+        if (g_log1) console.log('question.qgroup3 ', question.qgroup3)
         return false
+      }
+      //
+      //  Selected
+      //
       return question
     })
     //
-    //  No data
+    //  No Questions
     //
     if (g_log1) console.log('filteredData ', filteredData)
     if (filteredData.length === 0) {
-      setForm_message('QuizSelect: No data found')
+      setForm_message('QuizSelect: No Questions found')
       return
     }
     //
-    //  Save filtered data
+    //  Save filtered Questions
     //
-    ValtioStore.v_Data = filteredData
+    ValtioStore.v_QFilter = filteredData
+    // ----------------------------------------------------------------------------------
     //
     // Sort Data
     //
     let sortedData = []
-    const QuestionSort = snapShot.v_QuestionSort
+    const QuestionSort = vUnpack(snapShot.v_QFilterSortionSort)
     QuestionSort
       ? (sortedData = randomSort(filteredData))
       : (sortedData = filteredData)
@@ -281,8 +264,9 @@ const QuizSelect = () => {
     //
     // update ValtioStore - Questions
     //
-    if (g_log1) console.log('update v_Quest', quest)
-    ValtioStore.v_Quest = quest
+    if (g_log1) console.log('update v_QFilterSort', quest)
+    ValtioStore.v_QFilterSort = quest
+    // ----------------------------------------------------------------------------------
     //
     //  Load references
     //
@@ -306,25 +290,18 @@ const QuizSelect = () => {
     //
     // update ValtioStore - Refs
     //
-    if (g_log1) console.log('update v_Refs', refs)
-    ValtioStore.v_Refs = refs
-    //
-    //  Hands and Bidding
-    //
-    const { HANDS } = require('./DataHands.js')
-    ValtioStore.v_Hands = HANDS
-    const { BIDDING } = require('./DataBidding.js')
-    ValtioStore.v_Bidding = BIDDING
-    const { LINKS } = require('./DataLinks.js')
-    ValtioStore.v_Links = LINKS
-    //
-    //  Update other store values
-    //
-    updateStore()
+    if (g_log1) console.log('update v_QRefs', refs)
+    ValtioStore.v_QRefs = refs
   }
   //...................................................................................
   //.  Main Line
   //...................................................................................
+  //
+  //  Load the data array from the store - if static/server status changes (or first time)
+  //
+  if (g_staticData !== snapShot.v_StaticData) {
+    g_staticData = vUnpack(snapShot.v_StaticData)
+  }
   //
   //  Interface to Form
   //
@@ -333,6 +310,7 @@ const QuizSelect = () => {
     true,
     validate
   )
+
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -349,7 +327,7 @@ const QuizSelect = () => {
                   label='Owner'
                   value={values.qowner}
                   onChange={handleInputChange}
-                  options={QuizServices.getOwnerCollection()}
+                  options={OwnerOptions}
                   error={errors.qowner}
                   disabled={disabled}
                 />
@@ -363,7 +341,7 @@ const QuizSelect = () => {
                   label='Group1'
                   value={values.qgroup1}
                   onChange={handleInputChange}
-                  options={QuizServices.getGroup1Collection()}
+                  options={Group1Options}
                   error={errors.qgroup1}
                   disabled={disabled}
                 />
@@ -374,7 +352,7 @@ const QuizSelect = () => {
                   label='Group2'
                   value={values.qgroup2}
                   onChange={handleInputChange}
-                  options={QuizServices.getGroup2Collection()}
+                  options={Group2Options}
                   disabled={disabled}
                 />
               </Grid>
@@ -384,14 +362,14 @@ const QuizSelect = () => {
                   label='Group3'
                   value={values.qgroup3}
                   onChange={handleInputChange}
-                  options={QuizServices.getGroup3Collection()}
+                  options={Group3Options}
                   disabled={disabled}
                 />
               </Grid>
 
               {/*.................................................................................................*/}
 
-              <Grid item xs={12}>
+              <Grid item xs={2}>
                 <MyInput
                   name='MaxQuestions'
                   label='MaxQuestions'
@@ -406,21 +384,21 @@ const QuizSelect = () => {
               </Grid>
 
               {/*.................................................................................................*/}
-              <Grid item xs={6}>
+              <Grid item xs={2}>
                 <MyButton
                   text='Start Quiz'
                   onClick={() => {
-                    Page = 'Quiz'
+                    g_Page = 'Quiz'
                     SubmitForm()
                   }}
                 />
               </Grid>
 
-              <Grid item xs={6}>
+              <Grid item xs={2}>
                 <MyButton
                   text='References'
                   onClick={() => {
-                    Page = 'QuizRefs'
+                    g_Page = 'QuizRefs'
                     SubmitForm()
                   }}
                 />

@@ -86,15 +86,20 @@ export default function Layout({ children }) {
     case 'QuizSettings':
       title = 'Settings'
       break
-
     case 'QuizRegister':
       title = 'Register'
       break
     case 'QuizSignin':
       title = 'Sign In'
       break
+    case 'QuizServerData':
+      title = 'Get Server Data'
+      break
     case 'QuizSelect':
       title = 'Question Selection'
+      break
+    case 'QuizRefs':
+      title = 'References'
       break
     case 'Quiz':
       title = 'Quiz'
@@ -103,7 +108,7 @@ export default function Layout({ children }) {
       title = 'Quiz Review'
       break
     default:
-      title = ''
+      title = CurrentPage
       break
   }
   //...................................................................................

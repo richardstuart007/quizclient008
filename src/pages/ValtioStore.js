@@ -10,22 +10,38 @@ const ValtioStore = proxy({
   v_ShowLinearProgress: true,
   v_ShowLinearScore: true,
   v_AllowSelection: true,
-  v_QuestionSort: true,
+  v_QFilterSortionSort: true,
   v_ShowQid: true,
   v_ReviewSkipPass: true,
-  v_TestData: true,
   //
-  //  Current State Variables
+  //  Static data or Server Data
   //
-  v_Page: 'QuizSelect',
+  v_StaticData: true,
+  //
+  //  Navigation State Variables
+  //
+  v_Page: 'QuizRestart',
   v_PagePrevious: '',
-
   //
   //  Signon Information
   //
   v_Email: '',
   v_Name: '',
   v_SignedIn: false,
+  //
+  //  Data - All Options
+  //
+  v_OwnerOptions: [],
+  v_Group1Options: [],
+  v_Group2Options: [],
+  v_Group3Options: [],
+  //
+  //  Data - All
+  //
+  v_Questions: [],
+  v_Hands: [],
+  v_Bidding: [],
+  v_RefLinks: [],
   //
   //  Data Selection Parameters
   //
@@ -35,14 +51,11 @@ const ValtioStore = proxy({
   v_Group3: '',
   v_MaxQuestions: 10,
   //
-  //  Data Selection Results
+  //  Data - Selected
   //
-  v_Data: [],
-  v_Quest: [],
-  v_Hands: [],
-  v_Bidding: [],
-  v_Links: [],
-  v_Refs: [],
+  v_QFilter: [],
+  v_QFilterSort: [],
+  v_QRefs: [],
   //
   //  Quiz State Variables
   //

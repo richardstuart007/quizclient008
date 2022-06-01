@@ -88,7 +88,7 @@ function QuizSignin() {
         if (user.id) {
           setForm_message(`Signin successful with ID(${user.id})`)
           ValtioStore.v_PagePrevious = CurrentPage
-          ValtioStore.v_Page = 'QuizSelect'
+          ValtioStore.v_Page = 'QuizRestart'
           ValtioStore.v_Email = email
           ValtioStore.v_Name = user.name
           ValtioStore.v_SignedIn = true

@@ -22,8 +22,9 @@ const QuizBiddingTableLine = props => {
   //
   //  Destructure props
   //
-  const { round } = props
+  const { round, roundCount } = props
   if (g_log1) console.log('round ', round)
+  if (g_log1) console.log('roundCount ', roundCount)
   //
   //  round into Object
   //
@@ -58,11 +59,31 @@ const QuizBiddingTableLine = props => {
   //.  Render the form
   //...................................................................................
   return (
-    <TableRow>
-      <QuizBiddingTableCell bid={roundBid.north} suit={roundSuit.north} />
-      <QuizBiddingTableCell bid={roundBid.east} suit={roundSuit.east} />
-      <QuizBiddingTableCell bid={roundBid.south} suit={roundSuit.south} />
-      <QuizBiddingTableCell bid={roundBid.west} suit={roundSuit.west} />
+    <TableRow key={roundCount}>
+      <QuizBiddingTableCell
+        key='north'
+        cell='north'
+        bid={roundBid.north}
+        suit={roundSuit.north}
+      />
+      <QuizBiddingTableCell
+        key='east'
+        cell='east'
+        bid={roundBid.east}
+        suit={roundSuit.east}
+      />
+      <QuizBiddingTableCell
+        key='south'
+        cell='south'
+        bid={roundBid.south}
+        suit={roundSuit.south}
+      />
+      <QuizBiddingTableCell
+        key='west'
+        cell='west'
+        bid={roundBid.west}
+        suit={roundSuit.west}
+      />
     </TableRow>
   )
 }

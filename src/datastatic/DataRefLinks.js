@@ -1,4 +1,4 @@
-exports.LINKS = [
+exports.REFLINKS = [
   {
     rid: 1,
     rref: '2WayCheckBack',

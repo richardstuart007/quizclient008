@@ -22,9 +22,10 @@ const QuizHandsTableLine = props => {
   //
   //  Destructure props
   //
-  const { handObj, handidx } = props
+  const { handObj, rowCount } = props
   if (g_log1) console.log('handObj ', handObj)
-  if (g_log1) console.log('handidx ', handidx)
+  if (g_log1) console.log('rowCount ', rowCount)
+
   const { position, hand } = handObj
   if (g_log1) console.log('position ', position)
   if (g_log1) console.log('hand ', hand)
@@ -38,12 +39,12 @@ const QuizHandsTableLine = props => {
   //.  Render the form
   //...................................................................................
   return (
-    <TableRow>
-      <QuizHandsTableCell cell={position} />
-      <QuizHandsTableCell cell={hand[0]} />
-      <QuizHandsTableCell cell={hand[1]} />
-      <QuizHandsTableCell cell={hand[2]} />
-      <QuizHandsTableCell cell={hand[3]} />
+    <TableRow key={rowCount}>
+      <QuizHandsTableCell cell='position' cellValue={position} />
+      <QuizHandsTableCell cell='spades' cellValue={hand[0]} />
+      <QuizHandsTableCell cell='hearts' cellValue={hand[1]} />
+      <QuizHandsTableCell cell='diamonds' cellValue={hand[2]} />
+      <QuizHandsTableCell cell='clubs' cellValue={hand[3]} />
     </TableRow>
   )
 }

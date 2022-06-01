@@ -71,7 +71,7 @@ const QuizHands = ({ qid }) => {
   if (HandsRow.hnorth) {
     RowCount++
     const handObj = {
-      rowCount: RowCount,
+      rowCount: 'RowCount' + RowCount.toString(),
       position: 'North',
       hand: []
     }
@@ -84,7 +84,7 @@ const QuizHands = ({ qid }) => {
   if (HandsRow.heast) {
     RowCount++
     const handObj = {
-      rowCount: RowCount,
+      rowCount: 'RowCount' + RowCount.toString(),
       position: 'East',
       hand: []
     }
@@ -97,7 +97,7 @@ const QuizHands = ({ qid }) => {
   if (HandsRow.hsouth) {
     RowCount++
     const handObj = {
-      rowCount: RowCount,
+      rowCount: 'RowCount' + RowCount.toString(),
       position: 'South',
       hand: []
     }
@@ -110,14 +110,14 @@ const QuizHands = ({ qid }) => {
   if (HandsRow.hwest) {
     RowCount++
     const handObj = {
-      rowCount: RowCount,
+      rowCount: 'RowCount' + RowCount.toString(),
       position: 'West',
       hand: []
     }
     handObj.hand = [...HandsRow.hwest]
     HandObjArray.push(handObj)
   }
-
+  if (g_log1) console.log('HandObjArray ', HandObjArray)
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -138,13 +138,11 @@ const QuizHands = ({ qid }) => {
           {/* .......................................................................................... */}
           <TableBody>
             {HandObjArray.map(handObj => (
-              <>
-                <QuizHandsTableLine
-                  key={handObj.rowCount}
-                  handObj={handObj}
-                  handidx={handObj.rowCount}
-                />
-              </>
+              <QuizHandsTableLine
+                key={handObj.rowCount}
+                handObj={handObj}
+                rowCount={handObj.rowCount}
+              />
             ))}
           </TableBody>
           {/* .......................................................................................... */}

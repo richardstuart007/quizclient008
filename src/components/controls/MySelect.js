@@ -29,7 +29,8 @@ export default function MySelect(props) {
     options,
     ...other
   } = props
-
+  if (g_log1) console.log('props ', props)
+  if (g_log1) console.log('options ', options)
   return (
     <FormControl variant='outlined' {...(error && { error: true })} {...other}>
       <InputLabel>{label}</InputLabel>

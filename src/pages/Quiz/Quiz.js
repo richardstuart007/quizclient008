@@ -67,9 +67,9 @@ const Quiz = () => {
     //
     //  Get store data & copy to State
     //
-    if (g_log1) console.log('snapShot.v_Quest ', snapShot.v_Quest)
+    if (g_log1) console.log('snapShot.v_QFilterSort ', snapShot.v_QFilterSort)
     let quest = []
-    snapShot.v_Quest.forEach(row => {
+    snapShot.v_QFilterSort.forEach(row => {
       const rowData = { ...row }
       if (g_log1) console.log('rowData ', rowData)
       quest.push(rowData)
