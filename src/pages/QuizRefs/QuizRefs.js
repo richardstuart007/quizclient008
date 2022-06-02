@@ -115,9 +115,7 @@ export default function QuizRefs() {
           {recordsAfterPagingAndSorting().map(row => (
             <TableRow key={row.rid}>
               <TableCell>{row.rid}</TableCell>
-              {/* <TableCell>{row.rref}</TableCell> */}
               <TableCell>{row.rdesc}</TableCell>
-              {/* <TableCell>{row.rlink}</TableCell> */}
               <TableCell>{row.rwho}</TableCell>
               <TableCell>{row.rtype}</TableCell>
               <TableCell>
@@ -134,7 +132,7 @@ export default function QuizRefs() {
       </TblContainer>
       <TblPagination />
 
-      <Grid container spacing={2}>
+      <Grid container spacing={1}>
         <Grid item xs={6}>
           <MyButton
             text='Go Back'

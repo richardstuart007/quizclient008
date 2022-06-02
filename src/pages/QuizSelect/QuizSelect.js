@@ -11,7 +11,7 @@ import debugSettings from '../../debug/debugSettings'
 //
 //  Common Sub Components
 //
-import { useQForm, QForm } from '../useQForm'
+
 import QuizInfo from '../Common/QuizInfo'
 //
 //  Controls
@@ -19,6 +19,7 @@ import QuizInfo from '../Common/QuizInfo'
 import MyButton from '../../components/controls/MyButton'
 import MyInput from '../../components/controls/MyInput'
 import MySelect from '../../components/controls/MySelect'
+import { useQForm, QForm } from '../../components/controls/useQForm'
 //
 //  Utilities
 //
@@ -369,7 +370,7 @@ const QuizSelect = () => {
 
               {/*.................................................................................................*/}
 
-              <Grid item xs={2}>
+              <Grid item xs={6}>
                 <MyInput
                   name='MaxQuestions'
                   label='MaxQuestions'
@@ -384,7 +385,7 @@ const QuizSelect = () => {
               </Grid>
 
               {/*.................................................................................................*/}
-              <Grid item xs={2}>
+              <Grid item xs={6}>
                 <MyButton
                   text='Start Quiz'
                   onClick={() => {
@@ -394,7 +395,7 @@ const QuizSelect = () => {
                 />
               </Grid>
 
-              <Grid item xs={2}>
+              <Grid item xs={6}>
                 <MyButton
                   text='References'
                   onClick={() => {

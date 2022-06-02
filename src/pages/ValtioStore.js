@@ -49,7 +49,7 @@ const ValtioStore = proxy({
   v_Group1: '',
   v_Group2: '',
   v_Group3: '',
-  v_MaxQuestions: 10,
+  v_MaxQuestions: 20,
   //
   //  Data - Selected
   //

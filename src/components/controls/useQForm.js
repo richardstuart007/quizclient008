@@ -2,7 +2,7 @@
 //  Libraries
 //
 import { useState } from 'react'
-import makeStyles from '@mui/styles/makeStyles';
+import makeStyles from '@mui/styles/makeStyles'
 //===================================================================================
 export function useQForm(initialFValues, validateOnChange = false, validate) {
   //
@@ -39,7 +39,7 @@ export function useQForm(initialFValues, validateOnChange = false, validate) {
 const useStyles = makeStyles(theme => ({
   root: {
     '& .MuiFormControl-root': {
-      width: '80%',
+      width: '95%',
       margin: theme.spacing(1)
     }
   }
