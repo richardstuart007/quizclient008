@@ -167,7 +167,7 @@ export default function QuizNavigation() {
               ValtioStore.v_PagePrevious = CurrentPage
               ValtioStore.v_Page = 'QuizRefs'
             }}
-            text='References'
+            text='Learn'
           ></MyActionButton>
         ) : null}
         {/* .......................................................................................... */}

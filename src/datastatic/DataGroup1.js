@@ -24,6 +24,10 @@ exports.GROUP1 = [
     g1title: 'Michaels Cue Bid'
   },
   {
+    g1id: 'NZBStayman',
+    g1title: 'NZB Stayman'
+  },
+  {
     g1id: 'Play',
     g1title: 'Play'
   },

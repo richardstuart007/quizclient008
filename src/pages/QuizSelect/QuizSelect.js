@@ -397,7 +397,7 @@ const QuizSelect = () => {
 
               <Grid item xs={6}>
                 <MyButton
-                  text='References'
+                  text='Learn'
                   onClick={() => {
                     g_Page = 'QuizRefs'
                     SubmitForm()

@@ -719,5 +719,124 @@ exports.HANDS = [
     heast: null,
     hsouth: ['4', 'K943', 'A9653', 'J43'],
     hwest: null
+  },
+  {
+    hid: 372,
+    hnorth: ['AQ72', 'K6', 'AJ62', '752'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 373,
+    hnorth: ['AQ74', 'K632', 'AJ6', '75'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 374,
+    hnorth: ['K74', 'Q83', 'AJ62', 'Q92'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 375,
+    hnorth: ['AQ74', 'J63', 'KQJ4', 'T2'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 377,
+    hnorth: ['AQ74', 'K6', 'AJ62', '752'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 378,
+    hnorth: ['AQ74', 'K632', 'AJ6', '75'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 379,
+    hnorth: ['K74', 'Q83', 'AJ62', 'Q92'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 380,
+    hnorth: ['AQ74', 'J63', 'KQJ4', 'T2'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 381,
+    hnorth: ['A8432', 'J632', '83', '76'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 382,
+    hnorth: ['K874', '92', 'AQ83', 'Q76'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 383,
+    hnorth: ['K874', '92', 'AQ83', 'Q92'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 384,
+    hnorth: ['A6', 'KJ73', 'A842', 'J76'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 385,
+    hnorth: ['AQ63', '84', 'K73', 'T964'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 386,
+    hnorth: ['863', 'Q4', '973', 'KQ762'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
+    hid: 387,
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['AQ63', '84', 'K73', 'T964']
+  },
+  {
+    hid: 388,
+    hnorth: null,
+    heast: null,
+    hsouth: null,
+    hwest: ['963', 'T2', '954', 'QJT85']
+  },
+  {
+    hid: 400,
+    hnorth: ['AKQJT', 'n', 'n', 'KJ'],
+    heast: ['n', '96', '5432', 'T'],
+    hsouth: ['532', '53', 'KQJ', 'Q9'],
+    hwest: null
   }
 ]
