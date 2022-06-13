@@ -70,14 +70,17 @@ export default function QuizNavigation() {
   //
   //  Show Help Button ?
   //
-  let showButtonHelp = false
   const helpHyperlink = snapShot.v_Help
-  if (
-    (CurrentPage === 'Quiz' || CurrentPage === 'QuizReview') &&
-    helpHyperlink &&
-    helpHyperlink.length > 0
-  )
-    showButtonHelp = true
+  let showButtonHelp = snapShot.v_ShowButtonHelp
+  if (showButtonHelp) {
+    showButtonHelp = false
+    if (
+      (CurrentPage === 'Quiz' || CurrentPage === 'QuizReview') &&
+      helpHyperlink &&
+      helpHyperlink.length > 0
+    )
+      showButtonHelp = true
+  }
   //
   //  Show Book Button ?
   //
@@ -92,17 +95,20 @@ export default function QuizNavigation() {
   //
   //  Show Settings Button ?
   //
-  let showButtonSettings = false
-  if (
-    CurrentPage === 'Quiz' ||
-    CurrentPage === 'QuizReview' ||
-    CurrentPage === 'QuizRefs' ||
-    CurrentPage === 'QuizSignin' ||
-    CurrentPage === 'QuizRegister' ||
-    CurrentPage === 'QuizServerData' ||
-    CurrentPage === 'QuizSelect'
-  )
-    showButtonSettings = true
+  let showButtonSettings = snapShot.v_ShowButtonSettings
+  if (showButtonSettings) {
+    showButtonSettings = false
+    if (
+      CurrentPage === 'Quiz' ||
+      CurrentPage === 'QuizReview' ||
+      CurrentPage === 'QuizRefs' ||
+      CurrentPage === 'QuizSignin' ||
+      CurrentPage === 'QuizRegister' ||
+      CurrentPage === 'QuizServerData' ||
+      CurrentPage === 'QuizSelect'
+    )
+      showButtonSettings = true
+  }
   //...................................................................................
   //
   //  Hyperlink open

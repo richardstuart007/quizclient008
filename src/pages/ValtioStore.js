@@ -9,10 +9,19 @@ const ValtioStore = proxy({
   v_ShowInfo: false,
   v_ShowLinearProgress: true,
   v_ShowLinearScore: true,
-  v_AllowSelection: true,
   v_QFilterSortionSort: true,
   v_ShowQid: true,
   v_ReviewSkipPass: true,
+  v_AllowSelection: true,
+  //
+  //  Show Selection
+  //
+  v_ShowButtonHelp: false,
+  v_ShowButtonSettings: false,
+  v_ShowSelectionOwner: false,
+  v_ShowSelectionGroup1: true,
+  v_ShowSelectionGroup2: false,
+  v_ShowSelectionGroup3: false,
   //
   //  Static data or Server Data
   //

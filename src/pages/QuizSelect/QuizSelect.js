@@ -107,6 +107,11 @@ const QuizSelect = () => {
   initialFValues.qgroup3 = vUnpack(snapShot.v_Group3)
   initialFValues.MaxQuestions = vUnpack(snapShot.v_MaxQuestions)
   const disabled = !vUnpack(snapShot.v_AllowSelection)
+
+  const showOwner = vUnpack(snapShot.v_ShowSelectionOwner)
+  const showGroup1 = vUnpack(snapShot.v_ShowSelectionGroup1)
+  const showGroup2 = vUnpack(snapShot.v_ShowSelectionGroup2)
+  const showGroup3 = vUnpack(snapShot.v_ShowSelectionGroup3)
   //
   // Form Message
   //
@@ -322,52 +327,60 @@ const QuizSelect = () => {
           <QForm>
             <Grid container spacing={2}>
               {/*.................................................................................................*/}
-              <Grid item xs={12}>
-                <MySelect
-                  name='qowner'
-                  label='Owner'
-                  value={values.qowner}
-                  onChange={handleInputChange}
-                  options={OwnerOptions}
-                  error={errors.qowner}
-                  disabled={disabled}
-                />
-              </Grid>
+              {showOwner ? (
+                <Grid item xs={12}>
+                  <MySelect
+                    name='qowner'
+                    label='Owner'
+                    value={values.qowner}
+                    onChange={handleInputChange}
+                    options={OwnerOptions}
+                    error={errors.qowner}
+                    disabled={disabled}
+                  />
+                </Grid>
+              ) : null}
 
               {/*.................................................................................................*/}
+              {showGroup1 ? (
+                <Grid item xs={12}>
+                  <MySelect
+                    name='qgroup1'
+                    label='Group1'
+                    value={values.qgroup1}
+                    onChange={handleInputChange}
+                    options={Group1Options}
+                    error={errors.qgroup1}
+                    disabled={disabled}
+                  />
+                </Grid>
+              ) : null}
 
-              <Grid item xs={12}>
-                <MySelect
-                  name='qgroup1'
-                  label='Group1'
-                  value={values.qgroup1}
-                  onChange={handleInputChange}
-                  options={Group1Options}
-                  error={errors.qgroup1}
-                  disabled={disabled}
-                />
-              </Grid>
-              <Grid item xs={12}>
-                <MySelect
-                  name='qgroup2'
-                  label='Group2'
-                  value={values.qgroup2}
-                  onChange={handleInputChange}
-                  options={Group2Options}
-                  disabled={disabled}
-                />
-              </Grid>
-              <Grid item xs={12}>
-                <MySelect
-                  name='qgroup3'
-                  label='Group3'
-                  value={values.qgroup3}
-                  onChange={handleInputChange}
-                  options={Group3Options}
-                  disabled={disabled}
-                />
-              </Grid>
+              {showGroup2 ? (
+                <Grid item xs={12}>
+                  <MySelect
+                    name='qgroup2'
+                    label='Group2'
+                    value={values.qgroup2}
+                    onChange={handleInputChange}
+                    options={Group2Options}
+                    disabled={disabled}
+                  />
+                </Grid>
+              ) : null}
 
+              {showGroup3 ? (
+                <Grid item xs={12}>
+                  <MySelect
+                    name='qgroup3'
+                    label='Group3'
+                    value={values.qgroup3}
+                    onChange={handleInputChange}
+                    options={Group3Options}
+                    disabled={disabled}
+                  />
+                </Grid>
+              ) : null}
               {/*.................................................................................................*/}
 
               <Grid item xs={6}>
