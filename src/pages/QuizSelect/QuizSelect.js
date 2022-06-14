@@ -253,7 +253,7 @@ const QuizSelect = () => {
     // Sort Data
     //
     let sortedData = []
-    const QuestionSort = vUnpack(snapShot.v_QFilterSortionSort)
+    const QuestionSort = vUnpack(snapShot.v_RandomSort)
     QuestionSort
       ? (sortedData = randomSort(filteredData))
       : (sortedData = filteredData)

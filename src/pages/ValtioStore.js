@@ -4,18 +4,14 @@ const ValtioStore = proxy({
   //
   // Settings
   //
-  v_Params: null,
   v_HideParams: false,
+  v_RandomSort: true,
+  v_ReviewSkipPass: true,
+  v_AllowSelection: true,
+  v_ShowQid: true,
   v_ShowInfo: false,
   v_ShowLinearProgress: true,
   v_ShowLinearScore: true,
-  v_QFilterSortionSort: true,
-  v_ShowQid: true,
-  v_ReviewSkipPass: true,
-  v_AllowSelection: true,
-  //
-  //  Show Selection
-  //
   v_ShowButtonHelp: false,
   v_ShowButtonSettings: false,
   v_ShowSelectionOwner: false,
@@ -29,6 +25,7 @@ const ValtioStore = proxy({
   //
   //  Navigation State Variables
   //
+  v_Params: null,
   v_Page: 'QuizRestart',
   v_PagePrevious: '',
   //

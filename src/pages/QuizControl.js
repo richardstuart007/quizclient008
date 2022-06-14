@@ -32,6 +32,100 @@ const g_log1 = debugSettings()
 //===================================================================================
 function QuizControl() {
   if (g_log1) console.log('Start QuizControl')
+  //.............................................................................
+  //.  Unpack Parameters
+  //.............................................................................
+  const UnpackParams = () => {
+    if (g_log1) console.log('Get Parameters')
+    ValtioStore.v_Params = false
+    //
+    //  Get Query string of Parameters
+    //
+    const queryString = window.location.search
+    if (g_log1) console.log('queryString ', queryString)
+    if (!queryString) return
+    //
+    //  Extract the parameters
+    //
+    if (g_log1) console.log('Has Parameters')
+    //
+    //  Update the Store
+    //
+    ValtioStore.v_Params = true
+
+    const urlParams = new URLSearchParams(queryString)
+    if (g_log1) console.log('urlParams ', urlParams)
+    //..............................
+    //  Dev Mode
+    //..............................
+    //
+    //  Override defaults
+    //
+    const devmode = urlParams.get('devmode')
+    if (devmode) {
+      if (devmode === 'true') {
+        ValtioStore.v_ShowButtonHelp = true
+        ValtioStore.v_ShowButtonSettings = true
+        ValtioStore.v_ShowSelectionOwner = true
+        ValtioStore.v_ShowSelectionGroup1 = true
+        ValtioStore.v_ShowSelectionGroup2 = true
+        ValtioStore.v_ShowSelectionGroup3 = true
+      }
+    }
+    //..............................
+    //  Data Source
+    //..............................
+    //
+    //  old parameter
+    const vptestdata = urlParams.get('testdata')
+    if (vptestdata) {
+      vptestdata === 'true'
+        ? (ValtioStore.v_StaticData = true)
+        : (ValtioStore.v_StaticData = false)
+    }
+    //
+    //  new parameter
+    const vpStaticData = urlParams.get('staticdata')
+    if (vpStaticData) {
+      vpStaticData === 'true'
+        ? (ValtioStore.v_StaticData = true)
+        : (ValtioStore.v_StaticData = false)
+    }
+    //..............................
+    //  Selection
+    //..............................
+    const vpAllowSelection = urlParams.get('allowselection')
+    if (g_log1) console.log('vpAllowSelection ', vpAllowSelection)
+    if (vpAllowSelection) {
+      vpAllowSelection === 'true'
+        ? (ValtioStore.v_AllowSelection = true)
+        : (ValtioStore.v_AllowSelection = false)
+    }
+
+    const vpOwner = urlParams.get('owner')
+    if (vpOwner) ValtioStore.v_Owner = vpOwner
+    if (g_log1) console.log('vpOwner ', vpOwner)
+
+    const vpGroup1 = urlParams.get('group1')
+    if (vpGroup1) ValtioStore.v_Group1 = vpGroup1
+    if (g_log1) console.log('vpGroup1 ', vpGroup1)
+
+    const vpGroup2 = urlParams.get('group2')
+    if (vpGroup2) ValtioStore.v_Group2 = vpGroup2
+
+    const vpGroup3 = urlParams.get('group3')
+    if (vpGroup3) ValtioStore.v_Group3 = vpGroup3
+    //..............................
+    //  Remove Parameters
+    //..............................
+    const HideParams = snapShot.v_HideParams
+    if (HideParams) {
+      if (g_log1) console.log('Hide Parameters')
+      // eslint-disable-next-line
+      history.replaceState({}, null, 'Params')
+    }
+  }
+  //.............................................................................
   //
   //  Define the ValtioStore
   //
@@ -41,70 +135,7 @@ function QuizControl() {
   //
   const Params = snapShot.v_Params
   if (Params === null) {
-    if (g_log1) console.log('Get Parameters')
-    ValtioStore.v_Params = false
-    const queryString = window.location.search
-    if (g_log1) console.log('queryString ', queryString)
-    const urlParams = new URLSearchParams(queryString)
-    //
-    //  Extract the parameters
-    //
-    if (urlParams.has('testdata')) {
-      if (g_log1) console.log('Has Parameters')
-      const vpStaticData = urlParams.get('testdata')
-      const vpAllowSelection = urlParams.get('allowselection')
-      const vpPage = urlParams.get('page')
-      const vpEmail = urlParams.get('email')
-      const vpName = urlParams.get('name')
-      const vpOwner = urlParams.get('owner')
-      const vpGroup1 = urlParams.get('group1')
-      const vpGroup2 = urlParams.get('group2')
-      const vpGroup3 = urlParams.get('group3')
-      const vpShowLinearProgress = urlParams.get('ShowLinearProgress')
-      const vpShowLinearScore = urlParams.get('ShowLinearScore')
-      if (g_log1) console.log('vpStaticData ', vpStaticData)
-      if (g_log1) console.log('vpAllowSelection ', vpAllowSelection)
-      if (g_log1) console.log('vppage ', vpPage)
-      if (g_log1) console.log('vpemail ', vpEmail)
-      if (g_log1) console.log('vpname ', vpName)
-      if (g_log1) console.log('vpowner ', vpOwner)
-      if (g_log1) console.log('vpgroup1 ', vpGroup1)
-      if (g_log1) console.log('vpgroup2 ', vpGroup2)
-      if (g_log1) console.log('vpgroup3 ', vpGroup3)
-      //
-      //  Update the Store
-      //
-      ValtioStore.v_Params = true
-      vpStaticData === 'true'
-        ? (ValtioStore.v_StaticData = true)
-        : (ValtioStore.v_StaticData = false)
-      vpAllowSelection === 'true'
-        ? (ValtioStore.v_AllowSelection = true)
-        : (ValtioStore.v_AllowSelection = false)
-      ValtioStore.v_Page = vpPage
-      ValtioStore.v_Email = vpEmail
-      ValtioStore.v_Name = vpName
-      ValtioStore.v_Owner = vpOwner
-      ValtioStore.v_Group1 = vpGroup1
-      ValtioStore.v_Group2 = vpGroup2
-      ValtioStore.v_Group3 = vpGroup3
-      vpShowLinearProgress === 'false'
-        ? (ValtioStore.v_ShowLinearProgress = false)
-        : (ValtioStore.v_ShowLinearProgress = true)
-      vpShowLinearScore === 'false'
-        ? (ValtioStore.v_ShowLinearScore = false)
-        : (ValtioStore.v_ShowLinearScore = true)
-      if (g_log1) console.log('snapShot.v_Page ', snapShot.v_Page)
-      //
-      //  Remove Parameters
-      //
-      const HideParams = snapShot.v_HideParams
-      if (HideParams) {
-        if (g_log1) console.log('Hide Parameters')
-        // eslint-disable-next-line
-        history.replaceState({}, null, 'Params')
-      }
-    }
+    UnpackParams()
   }
   //
   //  Retrieve the Current Page

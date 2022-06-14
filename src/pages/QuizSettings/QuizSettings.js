@@ -42,7 +42,7 @@ const QuizSettings = () => {
     z_ShowInfo: snapShot.v_ShowInfo,
     z_ShowLinearProgress: snapShot.v_ShowLinearProgress,
     z_ShowLinearScore: snapShot.v_ShowLinearScore,
-    z_QuestionSort: snapShot.v_QFilterSortionSort,
+    z_QuestionSort: snapShot.v_RandomSort,
     z_ShowQid: snapShot.v_ShowQid,
     z_ReviewSkipPass: snapShot.v_ReviewSkipPass
   }
@@ -119,7 +119,7 @@ const QuizSettings = () => {
     ValtioStore.v_ShowInfo = savedValues.z_ShowInfo
     ValtioStore.v_ShowLinearProgress = savedValues.z_ShowLinearProgress
     ValtioStore.v_ShowLinearScore = savedValues.z_ShowLinearScore
-    ValtioStore.v_QFilterSortionSort = savedValues.z_QuestionSort
+    ValtioStore.v_RandomSort = savedValues.z_QuestionSort
     ValtioStore.v_ShowQid = savedValues.z_ShowQid
     ValtioStore.v_ReviewSkipPass = savedValues.z_ReviewSkipPass
     ValtioStore.v_StaticData = savedValues.z_StaticData
