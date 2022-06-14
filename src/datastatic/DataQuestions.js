@@ -11,7 +11,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -26,7 +26,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -41,7 +41,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -56,7 +56,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -71,7 +71,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -85,7 +85,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -99,7 +99,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -114,7 +114,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -129,7 +129,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -144,7 +144,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -159,7 +159,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -174,7 +174,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -189,7 +189,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -204,7 +204,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -218,7 +218,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -232,7 +232,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -246,7 +246,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -260,7 +260,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -274,7 +274,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -288,7 +288,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -302,7 +302,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -317,7 +317,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -332,7 +332,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -347,7 +347,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -362,7 +362,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -377,7 +377,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -392,7 +392,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -406,7 +406,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -420,7 +420,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -435,7 +435,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -449,7 +449,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -463,7 +463,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -477,7 +477,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -492,7 +492,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -507,7 +507,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -522,7 +522,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -537,7 +537,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -552,7 +552,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -567,7 +567,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -582,7 +582,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -597,7 +597,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -612,7 +612,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -627,7 +627,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -642,7 +642,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -657,7 +657,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -672,7 +672,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -686,7 +686,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -700,7 +700,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -714,7 +714,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -728,7 +728,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -743,7 +743,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -757,7 +757,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -771,7 +771,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -785,7 +785,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -799,7 +799,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -814,7 +814,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -829,7 +829,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -844,7 +844,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -859,7 +859,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -874,7 +874,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -889,7 +889,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -904,7 +904,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -919,7 +919,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -934,7 +934,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -949,7 +949,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -965,7 +965,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -980,7 +980,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -995,7 +995,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -1010,7 +1010,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -1025,7 +1025,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -1040,7 +1040,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -1055,7 +1055,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: '1NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -1069,7 +1069,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgeBum']
   },
   {
@@ -1083,7 +1083,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgeBum']
   },
   {
@@ -1097,7 +1097,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgeBum']
   },
   {
@@ -1111,7 +1111,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgeBum']
   },
   {
@@ -1125,7 +1125,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportLarryCohen']
   },
   {
@@ -1139,7 +1139,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportLarryCohen']
   },
   {
@@ -1153,7 +1153,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportLarryCohen']
   },
   {
@@ -1167,7 +1167,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportLarryCohen']
   },
   {
@@ -1181,7 +1181,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportLarryCohen']
   },
   {
@@ -1195,7 +1195,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1209,7 +1209,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1223,7 +1223,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1237,7 +1237,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1251,7 +1251,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1265,7 +1265,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1279,7 +1279,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1293,7 +1293,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1307,7 +1307,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1321,7 +1321,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1335,7 +1335,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1349,7 +1349,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleNegativeBridgeBum']
   },
   {
@@ -1363,7 +1363,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleTakeoutBridgeBum']
   },
   {
@@ -1377,7 +1377,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleTakeoutBridgeBum']
   },
   {
@@ -1391,7 +1391,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleAndrewRobson']
   },
   {
@@ -1405,7 +1405,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleAndrewRobson']
   },
   {
@@ -1419,7 +1419,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleAndrewRobson']
   },
   {
@@ -1433,7 +1433,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleAndrewRobson']
   },
   {
@@ -1447,7 +1447,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleAndrewRobson']
   },
   {
@@ -1461,7 +1461,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgebum']
   },
   {
@@ -1475,7 +1475,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgebum']
   },
   {
@@ -1489,7 +1489,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgebum']
   },
   {
@@ -1505,7 +1505,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgebum']
   },
   {
@@ -1519,7 +1519,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgebum']
   },
   {
@@ -1533,7 +1533,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
@@ -1547,7 +1547,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
@@ -1561,7 +1561,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
@@ -1575,7 +1575,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
@@ -1589,7 +1589,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleResponsiveBridgeguys']
   },
   {
@@ -1603,7 +1603,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleLightnerBridgebum']
   },
   {
@@ -1617,7 +1617,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleLightnerBridgebum']
   },
   {
@@ -1631,7 +1631,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleLightnerBridgebum']
   },
   {
@@ -1645,7 +1645,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleReopening']
   },
   {
@@ -1659,7 +1659,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleReopening']
   },
   {
@@ -1673,7 +1673,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleReopening']
   },
   {
@@ -1687,7 +1687,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -1704,7 +1704,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgebum']
   },
   {
@@ -1719,7 +1719,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgebum']
   },
   {
@@ -1736,7 +1736,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgebum']
   },
   {
@@ -1753,7 +1753,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgebum']
   },
   {
@@ -1769,7 +1769,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgebum']
   },
   {
@@ -1784,7 +1784,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleSupportBridgebum']
   },
   {
@@ -1800,7 +1800,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleLeadDirecting']
   },
   {
@@ -1818,7 +1818,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Doubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['DoubleLeadDirecting']
   },
   {
@@ -1833,7 +1833,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1848,7 +1848,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1863,7 +1863,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1877,7 +1877,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1891,7 +1891,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1905,7 +1905,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1919,7 +1919,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1933,7 +1933,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1947,7 +1947,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1961,7 +1961,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1975,7 +1975,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -1989,7 +1989,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -2004,7 +2004,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -2019,7 +2019,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -2034,7 +2034,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -2048,7 +2048,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Redoubles',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['RedoublesPeteHollands']
   },
   {
@@ -2062,7 +2062,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2076,7 +2076,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2090,7 +2090,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2104,7 +2104,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2118,7 +2118,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2132,7 +2132,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2146,7 +2146,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2160,7 +2160,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2174,7 +2174,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2188,7 +2188,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2202,7 +2202,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2216,7 +2216,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2230,7 +2230,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2244,7 +2244,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2258,7 +2258,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2272,7 +2272,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2286,7 +2286,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2300,7 +2300,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2314,7 +2314,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Points Schmoints',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: null
   },
   {
@@ -2329,7 +2329,7 @@ exports.QUESTIONS = [
     qbad3: '2D',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF01']
   },
   {
@@ -2344,7 +2344,7 @@ exports.QUESTIONS = [
     qbad3: 'Draw Trumps, then start cross ruffing',
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF02']
   },
   {
@@ -2359,7 +2359,7 @@ exports.QUESTIONS = [
     qbad3: 'Play on spades',
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF03']
   },
   {
@@ -2374,7 +2374,7 @@ exports.QUESTIONS = [
     qbad3: 'Lead Spades',
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF04']
   },
   {
@@ -2389,7 +2389,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF05']
   },
   {
@@ -2404,7 +2404,7 @@ exports.QUESTIONS = [
     qbad3: 'Multi 2D',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF06']
   },
   {
@@ -2419,7 +2419,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF07']
   },
   {
@@ -2434,7 +2434,7 @@ exports.QUESTIONS = [
     qbad3: 'Lead a Club',
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF08']
   },
   {
@@ -2449,7 +2449,7 @@ exports.QUESTIONS = [
     qbad3: 'Lead a Club',
     qgroup1: 'WBF',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF09']
   },
   {
@@ -2464,7 +2464,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF10']
   },
   {
@@ -2479,7 +2479,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF11']
   },
   {
@@ -2494,7 +2494,7 @@ exports.QUESTIONS = [
     qbad3: '4H',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF12']
   },
   {
@@ -2509,7 +2509,7 @@ exports.QUESTIONS = [
     qbad3: '2NT Lebensohl',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF13']
   },
   {
@@ -2524,7 +2524,7 @@ exports.QUESTIONS = [
     qbad3: '3H',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF14']
   },
   {
@@ -2539,7 +2539,7 @@ exports.QUESTIONS = [
     qbad3: '4D',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF15']
   },
   {
@@ -2554,7 +2554,7 @@ exports.QUESTIONS = [
     qbad3: '2H',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF16']
   },
   {
@@ -2569,7 +2569,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF17']
   },
   {
@@ -2584,7 +2584,7 @@ exports.QUESTIONS = [
     qbad3: '3D forcing',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF18']
   },
   {
@@ -2599,7 +2599,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF19']
   },
   {
@@ -2614,7 +2614,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF20']
   },
   {
@@ -2629,7 +2629,7 @@ exports.QUESTIONS = [
     qbad3: 'Redouble',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF21']
   },
   {
@@ -2644,7 +2644,7 @@ exports.QUESTIONS = [
     qbad3: 'Pass',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF22']
   },
   {
@@ -2659,7 +2659,7 @@ exports.QUESTIONS = [
     qbad3: '4C',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF23']
   },
   {
@@ -2674,7 +2674,7 @@ exports.QUESTIONS = [
     qbad3: 'Double',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF24']
   },
   {
@@ -2689,7 +2689,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF25']
   },
   {
@@ -2704,7 +2704,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF26']
   },
   {
@@ -2719,7 +2719,7 @@ exports.QUESTIONS = [
     qbad3: '4D',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF27']
   },
   {
@@ -2734,7 +2734,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF28']
   },
   {
@@ -2749,7 +2749,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF29']
   },
   {
@@ -2763,7 +2763,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF30']
   },
   {
@@ -2777,7 +2777,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF31']
   },
   {
@@ -2791,7 +2791,7 @@ exports.QUESTIONS = [
     qbad3: 'Double',
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF32']
   },
   {
@@ -2805,7 +2805,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF33']
   },
   {
@@ -2819,7 +2819,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'WBF',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['WBF34']
   },
   {
@@ -2833,7 +2833,7 @@ exports.QUESTIONS = [
     qbad3: '2NT invitational',
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2847,7 +2847,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2861,7 +2861,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2875,7 +2875,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2889,7 +2889,7 @@ exports.QUESTIONS = [
     qbad3: '3NT',
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2903,7 +2903,7 @@ exports.QUESTIONS = [
     qbad3: '3S invitational',
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2917,7 +2917,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2931,7 +2931,7 @@ exports.QUESTIONS = [
     qbad3: '4S accept invite',
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2945,7 +2945,7 @@ exports.QUESTIONS = [
     qbad3: '3H game force showing 5 Spades and 4 Hearts',
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2959,7 +2959,7 @@ exports.QUESTIONS = [
     qbad3: '2H Invitational',
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2973,7 +2973,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -2987,7 +2987,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3001,7 +3001,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3015,7 +3015,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3029,7 +3029,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3043,7 +3043,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3057,7 +3057,7 @@ exports.QUESTIONS = [
     qbad3: '3S Invitational',
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3071,7 +3071,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3085,7 +3085,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3099,7 +3099,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3113,7 +3113,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3127,7 +3127,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3141,7 +3141,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3156,7 +3156,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'TwoWayCheckback',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['2WayCheckBack']
   },
   {
@@ -3171,7 +3171,7 @@ exports.QUESTIONS = [
     qbad3: '3D',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3186,7 +3186,7 @@ exports.QUESTIONS = [
     qbad3: '3H',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3201,7 +3201,7 @@ exports.QUESTIONS = [
     qbad3: '3S',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3216,7 +3216,7 @@ exports.QUESTIONS = [
     qbad3: '4H',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3231,7 +3231,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3246,7 +3246,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3261,7 +3261,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3276,7 +3276,7 @@ exports.QUESTIONS = [
     qbad3: '3NT',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3291,7 +3291,7 @@ exports.QUESTIONS = [
     qbad3: '3NT',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3306,7 +3306,7 @@ exports.QUESTIONS = [
     qbad3: '3C',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3321,7 +3321,7 @@ exports.QUESTIONS = [
     qbad3: '3C',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3336,7 +3336,7 @@ exports.QUESTIONS = [
     qbad3: '3C',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3351,7 +3351,7 @@ exports.QUESTIONS = [
     qbad3: '3C',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3366,7 +3366,7 @@ exports.QUESTIONS = [
     qbad3: '3C',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3381,7 +3381,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3396,7 +3396,7 @@ exports.QUESTIONS = [
     qbad3: '3NT',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3411,7 +3411,7 @@ exports.QUESTIONS = [
     qbad3: '3NT',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3425,7 +3425,7 @@ exports.QUESTIONS = [
     qbad3: '2S',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3439,7 +3439,7 @@ exports.QUESTIONS = [
     qbad3: '4S',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3453,7 +3453,7 @@ exports.QUESTIONS = [
     qbad3: '4S',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3467,7 +3467,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3481,7 +3481,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3495,7 +3495,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3509,7 +3509,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3523,7 +3523,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3537,7 +3537,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3551,7 +3551,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3565,7 +3565,7 @@ exports.QUESTIONS = [
     qbad3: 'Gerber',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3579,7 +3579,7 @@ exports.QUESTIONS = [
     qbad3: 'Gerber',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3593,7 +3593,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3607,7 +3607,7 @@ exports.QUESTIONS = [
     qbad3: 'Relay to 4S',
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3621,7 +3621,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3635,7 +3635,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3649,7 +3649,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'BergenRaises',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['BergenRaises']
   },
   {
@@ -3663,7 +3663,7 @@ exports.QUESTIONS = [
     qbad3: '7NT ask',
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3677,7 +3677,7 @@ exports.QUESTIONS = [
     qbad3: '7NT ask',
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3691,7 +3691,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3705,7 +3705,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3719,7 +3719,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3733,7 +3733,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3747,7 +3747,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3761,7 +3761,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3775,7 +3775,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3789,7 +3789,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Quantitative4NT',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Quantative4NT']
   },
   {
@@ -3803,7 +3803,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3817,7 +3817,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3831,7 +3831,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3845,7 +3845,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3859,7 +3859,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3873,7 +3873,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3887,7 +3887,7 @@ exports.QUESTIONS = [
     qbad3: 'Ace and King',
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3901,7 +3901,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3915,7 +3915,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3929,7 +3929,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3943,7 +3943,7 @@ exports.QUESTIONS = [
     qbad3: 'Natural diamond suit',
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3957,7 +3957,7 @@ exports.QUESTIONS = [
     qbad3: 'Pass/Correct Hearts or Spades',
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3971,7 +3971,7 @@ exports.QUESTIONS = [
     qbad3: 'Gerber',
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3985,7 +3985,7 @@ exports.QUESTIONS = [
     qbad3: 'Splinter in Clubs',
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -3999,7 +3999,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -4013,7 +4013,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -4027,7 +4027,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Cue1st2ndControls',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['Cue1st2ndControls']
   },
   {
@@ -4041,7 +4041,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4055,7 +4055,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4069,7 +4069,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4083,7 +4083,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4097,7 +4097,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4111,7 +4111,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4125,7 +4125,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4139,7 +4139,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4154,7 +4154,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4168,7 +4168,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4183,7 +4183,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4197,7 +4197,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4211,7 +4211,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4225,7 +4225,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4239,7 +4239,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4253,7 +4253,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4267,7 +4267,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4281,7 +4281,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4295,7 +4295,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4309,7 +4309,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4323,7 +4323,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4337,7 +4337,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4351,7 +4351,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4365,7 +4365,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4379,7 +4379,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'MichaelsCueBid',
     qgroup2: 'Bidding',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['MichaelsCueBidPeteHollands']
   },
   {
@@ -4394,7 +4394,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['PlayEBU']
   },
   {
@@ -4409,7 +4409,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['PlayEBU']
   },
   {
@@ -4424,7 +4424,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['PlayEBU']
   },
   {
@@ -4438,7 +4438,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['PlayEBU']
   },
   {
@@ -4453,7 +4453,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['PlayEBU']
   },
   {
@@ -4468,7 +4468,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Play',
     qgroup2: 'Play',
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['PlayEBU']
   },
   {
@@ -4483,7 +4483,7 @@ exports.QUESTIONS = [
     qbad3: 'Pass',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
   {
@@ -4498,7 +4498,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
   {
@@ -4513,7 +4513,7 @@ exports.QUESTIONS = [
     qbad3: '2NT',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
   {
@@ -4528,7 +4528,7 @@ exports.QUESTIONS = [
     qbad3: '2NT',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
   {
@@ -4542,7 +4542,7 @@ exports.QUESTIONS = [
     qbad3: '3S',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
   {
@@ -4556,7 +4556,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
   {
@@ -4570,7 +4570,7 @@ exports.QUESTIONS = [
     qbad3: 'Pass',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger02']
   },
   {
@@ -4584,7 +4584,7 @@ exports.QUESTIONS = [
     qbad3: 'Pass',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger02']
   },
   {
@@ -4598,7 +4598,7 @@ exports.QUESTIONS = [
     qbad3: '2NT',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger02']
   },
   {
@@ -4612,7 +4612,7 @@ exports.QUESTIONS = [
     qbad3: '3NT',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger02']
   },
   {
@@ -4626,7 +4626,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4640,7 +4640,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4654,7 +4654,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4668,7 +4668,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4682,7 +4682,7 @@ exports.QUESTIONS = [
     qbad3: '3H',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4696,7 +4696,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4710,7 +4710,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4724,7 +4724,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4738,7 +4738,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4752,7 +4752,7 @@ exports.QUESTIONS = [
     qbad3: '3NT',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4766,7 +4766,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4780,7 +4780,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4794,7 +4794,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4808,7 +4808,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4822,7 +4822,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
   {
@@ -4836,7 +4836,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
   {
@@ -4850,7 +4850,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
   {
@@ -4864,7 +4864,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
   {
@@ -4878,7 +4878,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
   {
@@ -4892,7 +4892,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
   {
@@ -4906,7 +4906,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
   {
@@ -4920,7 +4920,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
   {
@@ -4934,7 +4934,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
   {
@@ -4948,7 +4948,7 @@ exports.QUESTIONS = [
     qbad3: '3D',
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
   {
@@ -4962,7 +4962,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
   {
@@ -4976,7 +4976,7 @@ exports.QUESTIONS = [
     qbad3: null,
     qgroup1: 'Lebensohl',
     qgroup2: null,
-    qgroup3: null,
+    qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
   {
@@ -4989,8 +4989,8 @@ exports.QUESTIONS = [
     qbad2: 'Pass',
     qbad3: '2NT',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5003,8 +5003,8 @@ exports.QUESTIONS = [
     qbad2: 'Pass',
     qbad3: '2NT',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5017,8 +5017,8 @@ exports.QUESTIONS = [
     qbad2: 'Pass',
     qbad3: '2NT',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5031,8 +5031,8 @@ exports.QUESTIONS = [
     qbad2: '2D',
     qbad3: '2NT',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5045,8 +5045,8 @@ exports.QUESTIONS = [
     qbad2: '3S',
     qbad3: '3D',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5059,8 +5059,8 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: 'Pass',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5073,8 +5073,8 @@ exports.QUESTIONS = [
     qbad2: '3D',
     qbad3: '',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5087,8 +5087,8 @@ exports.QUESTIONS = [
     qbad2: 'Pass',
     qbad3: '',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5101,8 +5101,8 @@ exports.QUESTIONS = [
     qbad2: '2H',
     qbad3: '',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5115,8 +5115,8 @@ exports.QUESTIONS = [
     qbad2: '2NT',
     qbad3: '3NT',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5129,8 +5129,8 @@ exports.QUESTIONS = [
     qbad2: '3D',
     qbad3: '3NT',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5143,8 +5143,8 @@ exports.QUESTIONS = [
     qbad2: '3D',
     qbad3: 'Pass',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5157,8 +5157,8 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: '',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5171,8 +5171,8 @@ exports.QUESTIONS = [
     qbad2: '3C',
     qbad3: '',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5185,8 +5185,8 @@ exports.QUESTIONS = [
     qbad2: '2S',
     qbad3: '',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
@@ -5199,9 +5199,37 @@ exports.QUESTIONS = [
     qbad2: '3C',
     qbad3: '',
     qgroup1: 'NZBStayman',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
+  },
+  {
+    qid: 389,
+    qowner: 'Richard',
+    qkey: 'Test01',
+    qdetail: 'Testing',
+    qcorrect: 't',
+    qbad1: 't',
+    qbad2: '',
+    qbad3: '',
+    qgroup1: 'Redoubles',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['ref1']
+  },
+  {
+    qid: 390,
+    qowner: 'Richard',
+    qkey: 'Test02',
+    qdetail: 'Testing 02',
+    qcorrect: 't',
+    qbad1: 't',
+    qbad2: '',
+    qbad3: '',
+    qgroup1: 'Redoubles',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['ref1']
   },
   {
     qid: 400,
@@ -5213,8 +5241,8 @@ exports.QUESTIONS = [
     qbad2: '',
     qbad3: '',
     qgroup1: 'Redoubles',
-    qgroup2: '',
-    qgroup3: '',
+    qgroup2: 'None',
+    qgroup3: 'None',
     qrefs: ['ref1']
   }
 ]

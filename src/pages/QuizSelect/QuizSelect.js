@@ -45,7 +45,7 @@ const g_log1 = debugSettings()
 //  Initial Values
 //
 const initialFValues = {
-  qowner: 'public',
+  qowner: '',
   qgroup1: '',
   qgroup2: '',
   qgroup3: '',

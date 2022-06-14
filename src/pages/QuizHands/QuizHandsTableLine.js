@@ -33,7 +33,7 @@ const QuizHandsTableLine = props => {
   //  Strip 'n' and replace with null
   //
   for (let i = 0; i < 4; i++) {
-    if (hand[i] === 'n') hand[i] = null
+    if (hand[i] === 'n' || hand[i] === 'N') hand[i] = null
   }
   //...................................................................................
   //.  Render the form

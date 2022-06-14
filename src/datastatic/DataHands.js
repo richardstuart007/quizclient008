@@ -833,10 +833,24 @@ exports.HANDS = [
     hwest: ['963', 'T2', '954', 'QJT85']
   },
   {
+    hid: 389,
+    hnorth: ['AKQ', 'n', 'n', 'n'],
+    heast: null,
+    hsouth: null,
+    hwest: ['JT9', 'n', 'n', 'n']
+  },
+  {
+    hid: 390,
+    hnorth: ['Q', 'n', 'n', 'n'],
+    heast: null,
+    hsouth: null,
+    hwest: null
+  },
+  {
     hid: 400,
-    hnorth: ['AKQJT', 'n', 'n', 'KJ'],
+    hnorth: ['AKT7', 'n', 'n', 'KJ'],
     heast: ['n', '96', '5432', 'T'],
-    hsouth: ['532', '53', 'KQJ', 'Q9'],
+    hsouth: ['532', '53', 'KQ8', 'Q9'],
     hwest: null
   }
 ]

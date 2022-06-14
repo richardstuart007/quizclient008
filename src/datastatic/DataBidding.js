@@ -2,181 +2,181 @@ exports.BIDDING = [
   {
     bid: 1,
     brounds: [
-      ['1C', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2D', 'Pass', '2S', 'n']
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2D', 'PASS', '2S', 'N']
     ]
   },
   {
     bid: 73,
     brounds: [
-      ['1D', 'Pass', '1H', '1S'],
-      ['X', 'n', 'n', 'n']
+      ['1D', 'PASS', '1H', '1S'],
+      ['X', 'N', 'N', 'N']
     ]
   },
   {
     bid: 74,
     brounds: [
       ['1D', '1H', '1S', '2C'],
-      ['X', 'n', 'n', 'n']
+      ['X', 'N', 'N', 'N']
     ]
   },
   {
     bid: 75,
     brounds: [
       ['1C', '1D', '1H', '2D'],
-      ['X', 'n', 'n', 'n']
+      ['X', 'N', 'N', 'N']
     ]
   },
   {
     bid: 76,
     brounds: [
-      ['1H', 'Pass', '1S', 'X'],
-      ['XX', 'n', 'n', 'n']
+      ['1H', 'PASS', '1S', 'X'],
+      ['XX', 'N', 'N', 'N']
     ]
   },
   {
     bid: 77,
     brounds: [
-      ['1D', 'Pass', '1H', '1S'],
-      ['2C', 'n', 'n', 'n']
+      ['1D', 'PASS', '1H', '1S'],
+      ['2C', 'N', 'N', 'N']
     ]
   },
   {
     bid: 78,
     brounds: [
-      ['1D', 'Pass', '1S', '3C'],
-      ['X', 'n', 'n', 'n']
+      ['1D', 'PASS', '1S', '3C'],
+      ['X', 'N', 'N', 'N']
     ]
   },
   {
     bid: 79,
     brounds: [
-      ['1D', 'Pass', '1S', '2H'],
-      ['X', 'n', 'n', 'n']
+      ['1D', 'PASS', '1S', '2H'],
+      ['X', 'N', 'N', 'N']
     ]
   },
   {
     bid: 80,
     brounds: [
-      ['1D', 'Pass', '1S', '3C'],
-      ['Pass', 'X', 'n', 'n']
+      ['1D', 'PASS', '1S', '3C'],
+      ['PASS', 'X', 'N', 'N']
     ]
   },
   {
     bid: 81,
     brounds: [
       ['1D', '1H', '1S', '2C'],
-      ['X', 'n', 'n', 'n']
+      ['X', 'N', 'N', 'N']
     ]
   },
   {
     bid: 82,
-    brounds: [['1C', '1D', 'X', 'n']]
+    brounds: [['1C', '1D', 'X', 'N']]
   },
   {
     bid: 83,
-    brounds: [['1H', '1S', 'X', 'n']]
+    brounds: [['1H', '1S', 'X', 'N']]
   },
   {
     bid: 84,
-    brounds: [['1D', '2C', 'X', 'n']]
+    brounds: [['1D', '2C', 'X', 'N']]
   },
   {
     bid: 85,
     brounds: [
-      ['1D', '1H', 'X', 'Pass'],
-      ['1S', 'n', 'n', 'n']
+      ['1D', '1H', 'X', 'PASS'],
+      ['1S', 'N', 'N', 'N']
     ]
   },
   {
     bid: 86,
     brounds: [
-      ['1D', '1H', 'X', 'Pass'],
-      ['2S', 'n', 'n', 'n']
+      ['1D', '1H', 'X', 'PASS'],
+      ['2S', 'N', 'N', 'N']
     ]
   },
   {
     bid: 87,
     brounds: [
-      ['1D', '1H', 'X', 'Pass'],
-      ['3S', 'n', 'n', 'n']
+      ['1D', '1H', 'X', 'PASS'],
+      ['3S', 'N', 'N', 'N']
     ]
   },
   {
     bid: 88,
     brounds: [
-      ['1D', '1H', 'X', 'Pass'],
-      ['4S', 'n', 'n', 'n']
+      ['1D', '1H', 'X', 'PASS'],
+      ['4S', 'N', 'N', 'N']
     ]
   },
   {
     bid: 89,
     brounds: [
-      ['1D', '1S', 'X', 'Pass'],
-      ['1NT', 'n', 'n', 'n']
+      ['1D', '1S', 'X', 'PASS'],
+      ['1NT', 'N', 'N', 'N']
     ]
   },
   {
     bid: 90,
     brounds: [
-      ['1D', '1S', 'X', 'Pass'],
-      ['2NT', 'n', 'n', 'n']
+      ['1D', '1S', 'X', 'PASS'],
+      ['2NT', 'N', 'N', 'N']
     ]
   },
   {
     bid: 91,
     brounds: [
-      ['1C', '1S', 'X', 'Pass'],
-      ['2C', 'n', 'n', 'n']
+      ['1C', '1S', 'X', 'PASS'],
+      ['2C', 'N', 'N', 'N']
     ]
   },
   {
     bid: 92,
     brounds: [
-      ['1C', '1S', 'X', 'Pass'],
-      ['3C', 'n', 'n', 'n']
+      ['1C', '1S', 'X', 'PASS'],
+      ['3C', 'N', 'N', 'N']
     ]
   },
   {
     bid: 93,
     brounds: [
-      ['1D', '1H', 'X', 'Pass'],
-      ['2H', 'n', 'n', 'n']
+      ['1D', '1H', 'X', 'PASS'],
+      ['2H', 'N', 'N', 'N']
     ]
   },
   {
     bid: 94,
-    brounds: [['1D', 'Pass', '1NT', 'X']]
+    brounds: [['1D', 'PASS', '1NT', 'X']]
   },
   {
     bid: 95,
     brounds: [
-      ['1C', 'Pass', 'Pass', 'X'],
-      ['Pass', '1H', 'Pass', '1S']
+      ['1C', 'PASS', 'PASS', 'X'],
+      ['PASS', '1H', 'PASS', '1S']
     ]
   },
   {
     bid: 96,
     brounds: [
-      ['1S', 'Pass', '2S', 'Pass'],
-      ['X', 'n', 'n', 'n']
+      ['1S', 'PASS', '2S', 'PASS'],
+      ['X', 'N', 'N', 'N']
     ]
   },
   {
     bid: 97,
     brounds: [
-      ['1S', 'Pass', '2S', 'Pass'],
-      ['3S', 'Pass', '4S', 'X']
+      ['1S', 'PASS', '2S', 'PASS'],
+      ['3S', 'PASS', '4S', 'X']
     ]
   },
   {
     bid: 98,
-    brounds: [['1NT', 'X', 'n', 'n']]
+    brounds: [['1NT', 'X', 'N', 'N']]
   },
   {
     bid: 99,
-    brounds: [['1H', 'Pass', '1NT', 'X']]
+    brounds: [['1H', 'PASS', '1NT', 'X']]
   },
   {
     bid: 100,
@@ -192,7 +192,7 @@ exports.BIDDING = [
   },
   {
     bid: 103,
-    brounds: [['1H', 'X', '2H', 'n']]
+    brounds: [['1H', 'X', '2H', 'N']]
   },
   {
     bid: 105,
@@ -200,57 +200,57 @@ exports.BIDDING = [
   },
   {
     bid: 107,
-    brounds: [['1D', 'X', '2D', 'n']]
+    brounds: [['1D', 'X', '2D', 'N']]
   },
   {
     bid: 108,
-    brounds: [['1H', 'X', '2H', 'n']]
+    brounds: [['1H', 'X', '2H', 'N']]
   },
   {
     bid: 109,
-    brounds: [['1D', 'X', '2D', 'n']]
+    brounds: [['1D', 'X', '2D', 'N']]
   },
   {
     bid: 110,
-    brounds: [['Pass', '1D', '1D', '3D']]
+    brounds: [['PASS', '1D', '1D', '3D']]
   },
   {
     bid: 111,
     brounds: [
-      ['1H', 'Pass', '2C', 'Pass'],
-      ['3H', 'Pass', '6H', 'n']
+      ['1H', 'PASS', '2C', 'PASS'],
+      ['3H', 'PASS', '6H', 'N']
     ]
   },
   {
     bid: 112,
     brounds: [
       ['1S', '3C', '3S', '5C'],
-      ['6S', 'Pass', 'Pass', 'n']
+      ['6S', 'PASS', 'PASS', 'N']
     ]
   },
   {
     bid: 113,
     brounds: [
-      ['1D', 'Pass', '3D', 'Pass'],
-      ['4NT', 'Pass', '5D', 'Pass'],
-      ['6D', 'n', 'n', 'n']
+      ['1D', 'PASS', '3D', 'PASS'],
+      ['4NT', 'PASS', '5D', 'PASS'],
+      ['6D', 'N', 'N', 'N']
     ]
   },
   {
     bid: 114,
-    brounds: [['1H', '2D', 'n', 'n']]
+    brounds: [['1H', '2D', 'N', 'N']]
   },
   {
     bid: 115,
-    brounds: [['1H', '2D', 'Pass', 'Pass']]
+    brounds: [['1H', '2D', 'PASS', 'PASS']]
   },
   {
     bid: 116,
-    brounds: [['1H', '2D', 'n', 'n']]
+    brounds: [['1H', '2D', 'N', 'N']]
   },
   {
     bid: 117,
-    brounds: [['1S', 'X', '2S', 'n']]
+    brounds: [['1S', 'X', '2S', 'N']]
   },
   {
     bid: 124,
@@ -258,716 +258,716 @@ exports.BIDDING = [
   },
   {
     bid: 126,
-    brounds: [['1C', 'X', 'XX', 'n']]
+    brounds: [['1C', 'X', 'XX', 'N']]
   },
   {
     bid: 127,
-    brounds: [['1H', 'X', 'XX', 'n']]
+    brounds: [['1H', 'X', 'XX', 'N']]
   },
   {
     bid: 128,
     brounds: [
-      ['1C', 'Pass', '1H', 'X'],
-      ['XX', 'n', 'n', 'n']
+      ['1C', 'PASS', '1H', 'X'],
+      ['XX', 'N', 'N', 'N']
     ]
   },
   {
     bid: 129,
     brounds: [
       ['1C', '1S', '2H', 'X'],
-      ['XX', 'n', 'n', 'n']
+      ['XX', 'N', 'N', 'N']
     ]
   },
   {
     bid: 130,
     brounds: [
-      ['1C', 'Pass', 'Pass', 'X'],
-      ['Pass', 'Pass', 'XX', 'n']
+      ['1C', 'PASS', 'PASS', 'X'],
+      ['PASS', 'PASS', 'XX', 'N']
     ]
   },
   {
     bid: 131,
     brounds: [
-      ['1NT', 'Pass', 'Pass', 'X'],
-      ['Pass', 'Pass', 'XX', 'n']
+      ['1NT', 'PASS', 'PASS', 'X'],
+      ['PASS', 'PASS', 'XX', 'N']
     ]
   },
   {
     bid: 132,
-    brounds: [['4S', 'X', 'XX', 'n']]
+    brounds: [['4S', 'X', 'XX', 'N']]
   },
   {
     bid: 133,
-    brounds: [['2S', 'X', 'XX', 'n']]
+    brounds: [['2S', 'X', 'XX', 'N']]
   },
   {
     bid: 134,
     brounds: [
       ['2S', 'X', '2NT', '3H'],
-      ['Pass', 'Pass', 'X', 'n']
+      ['PASS', 'PASS', 'X', 'N']
     ]
   },
   {
     bid: 135,
     brounds: [
       ['2S', 'X', 'XX', '3C'],
-      ['X', 'n', 'n', 'n']
+      ['X', 'N', 'N', 'N']
     ]
   },
   {
     bid: 136,
     brounds: [
       ['2S', 'X', 'XX', '3C'],
-      ['Pass', 'n', 'n', 'n']
+      ['PASS', 'N', 'N', 'N']
     ]
   },
   {
     bid: 137,
     brounds: [
       ['2S', 'X', 'XX', '3H'],
-      ['Pass', 'Pass', 'X', 'n']
+      ['PASS', 'PASS', 'X', 'N']
     ]
   },
   {
     bid: 138,
     brounds: [
-      ['1NT', 'Pass', '2C', 'X'],
-      ['XX', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'X'],
+      ['XX', 'N', 'N', 'N']
     ]
   },
   {
     bid: 141,
     brounds: [
-      ['1H', 'Pass', '3D', 'Pass'],
-      ['3S', 'X', 'Pass', 'Pass'],
-      ['XX', 'n', 'n', 'n']
+      ['1H', 'PASS', '3D', 'PASS'],
+      ['3S', 'X', 'PASS', 'PASS'],
+      ['XX', 'N', 'N', 'N']
     ]
   },
   {
     bid: 145,
     brounds: [
-      ['1H', 'Pass', '1S', 'Pass'],
-      ['2C', 'Pass', 'n', 'n']
+      ['1H', 'PASS', '1S', 'PASS'],
+      ['2C', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 146,
     brounds: [
-      ['1H', 'Pass', '1S', 'Pass'],
-      ['2C', 'Pass', 'n', 'n']
+      ['1H', 'PASS', '1S', 'PASS'],
+      ['2C', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 147,
-    brounds: [['1S', 'X', 'n', 'n']]
+    brounds: [['1S', 'X', 'N', 'N']]
   },
   {
     bid: 148,
-    brounds: [['1S', 'X', 'n', 'n']]
+    brounds: [['1S', 'X', 'N', 'N']]
   },
   {
     bid: 149,
-    brounds: [['1S', 'X', 'n', 'n']]
+    brounds: [['1S', 'X', 'N', 'N']]
   },
   {
     bid: 150,
-    brounds: [['1NT', 'Pass', 'n', 'n']]
+    brounds: [['1NT', 'PASS', 'N', 'N']]
   },
   {
     bid: 151,
-    brounds: [['1NT', 'Pass', 'n', 'n']]
+    brounds: [['1NT', 'PASS', 'N', 'N']]
   },
   {
     bid: 152,
-    brounds: [['1H', '1NT', 'n', 'n']]
+    brounds: [['1H', '1NT', 'N', 'N']]
   },
   {
     bid: 153,
-    brounds: [['1H', '1NT', 'n', 'n']]
+    brounds: [['1H', '1NT', 'N', 'N']]
   },
   {
     bid: 154,
-    brounds: [['1D', 'n', 'n', 'n']]
+    brounds: [['1D', 'N', 'N', 'N']]
   },
   {
     bid: 155,
-    brounds: [['1D', 'n', 'n', 'n']]
+    brounds: [['1D', 'N', 'N', 'N']]
   },
   {
     bid: 156,
-    brounds: [['1D', 'n', 'n', 'n']]
+    brounds: [['1D', 'N', 'N', 'N']]
   },
   {
     bid: 157,
-    brounds: [['1C', 'Pass', 'Pass', 'n']]
+    brounds: [['1C', 'PASS', 'PASS', 'N']]
   },
   {
     bid: 158,
-    brounds: [['1C', 'Pass', 'Pass', 'n']]
+    brounds: [['1C', 'PASS', 'PASS', 'N']]
   },
   {
     bid: 159,
-    brounds: [['1H', '2S', '3S', 'n']]
+    brounds: [['1H', '2S', '3S', 'N']]
   },
   {
     bid: 160,
-    brounds: [['1H', '2S', '3S', 'n']]
+    brounds: [['1H', '2S', '3S', 'N']]
   },
   {
     bid: 220,
     brounds: [
-      ['1C', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 221,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2D', 'Pass']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2D', 'PASS']
     ]
   },
   {
     bid: 222,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2D', 'Pass']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2D', 'PASS']
     ]
   },
   {
     bid: 223,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2D', 'Pass'],
-      ['2H', 'Pass', '3D', 'Pass']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2D', 'PASS'],
+      ['2H', 'PASS', '3D', 'PASS']
     ]
   },
   {
     bid: 224,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2D', 'Pass'],
-      ['2H', 'Pass', 'n', 'n']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2D', 'PASS'],
+      ['2H', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 225,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 226,
     brounds: [
-      ['1S', 'Pass', '1NT', 'Pass'],
-      ['2D', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '1NT', 'PASS'],
+      ['2D', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 227,
     brounds: [
-      ['1H', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2D', 'Pass']
+      ['1H', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2D', 'PASS']
     ]
   },
   {
     bid: 228,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 229,
     brounds: [
-      ['1D', 'Pass', '1H', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1D', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 230,
     brounds: [
-      ['1C', 'Pass', '1H', 'Pass'],
-      ['1NT', 'Pass', '2C', 'Pass']
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS']
     ]
   },
   {
     bid: 231,
     brounds: [
-      ['1D', 'Pass', '1H', 'Pass'],
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2D', 'Pass', 'n', 'n']
+      ['1D', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2D', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 232,
     brounds: [
-      ['1C', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2C', 'Pass']
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS']
     ]
   },
   {
     bid: 233,
     brounds: [
-      ['1C', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2D', 'Pass', '2S', 'Pass']
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2D', 'PASS', '2S', 'PASS']
     ]
   },
   {
     bid: 234,
     brounds: [
-      ['1C', 'Pass', '1H', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 235,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2D', 'Pass', '2H', 'Pass']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2D', 'PASS', '2H', 'PASS']
     ]
   },
   {
     bid: 236,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2D', 'Pass', '2H', 'Pass']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2D', 'PASS', '2H', 'PASS']
     ]
   },
   {
     bid: 237,
     brounds: [
-      ['1C', 'Pass', '1H', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 238,
     brounds: [
-      ['1C', 'Pass', '1H', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 239,
     brounds: [
-      ['1C', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2S', 'Pass']
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2S', 'PASS']
     ]
   },
   {
     bid: 240,
     brounds: [
-      ['1D', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 241,
     brounds: [
-      ['1C', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', '2H', 'Pass']
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2H', 'PASS']
     ]
   },
   {
     bid: 242,
     brounds: [
-      ['1C', 'Pass', '1S', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 243,
     brounds: [
-      ['1C', 'Pass', '1D', 'Pass'],
-      ['1NT', 'Pass', 'n', 'n']
+      ['1C', 'PASS', '1D', 'PASS'],
+      ['1NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 244,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 245,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 246,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 247,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 248,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 249,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 250,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 251,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 252,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 253,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 254,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 255,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 256,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 257,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 258,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 259,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 260,
-    brounds: [['1H', 'Pass', 'n', 'n']]
+    brounds: [['1H', 'PASS', 'N', 'N']]
   },
   {
     bid: 261,
-    brounds: [['1S', 'Pass', 'n', 'n']]
+    brounds: [['1S', 'PASS', 'N', 'N']]
   },
   {
     bid: 262,
-    brounds: [['1S', 'Pass', 'n', 'n']]
+    brounds: [['1S', 'PASS', 'N', 'N']]
   },
   {
     bid: 263,
-    brounds: [['1S', 'Pass', 'n', 'n']]
+    brounds: [['1S', 'PASS', 'N', 'N']]
   },
   {
     bid: 264,
-    brounds: [['1S', 'Pass', 'n', 'n']]
+    brounds: [['1S', 'PASS', 'N', 'N']]
   },
   {
     bid: 265,
-    brounds: [['1S', 'Pass', 'n', 'n']]
+    brounds: [['1S', 'PASS', 'N', 'N']]
   },
   {
     bid: 266,
-    brounds: [['1S', 'Pass', 'n', 'n']]
+    brounds: [['1S', 'PASS', 'N', 'N']]
   },
   {
     bid: 267,
-    brounds: [['1S', 'Pass', 'n', 'n']]
+    brounds: [['1S', 'PASS', 'N', 'N']]
   },
   {
     bid: 268,
     brounds: [
-      ['1S', 'Pass', '3C', 'Pass'],
-      ['3D', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '3C', 'PASS'],
+      ['3D', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 269,
     brounds: [
-      ['1S', 'Pass', '3C', 'Pass'],
-      ['3H', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '3C', 'PASS'],
+      ['3H', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 270,
     brounds: [
-      ['1S', 'Pass', '3C', 'Pass'],
-      ['3S', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '3C', 'PASS'],
+      ['3S', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 271,
     brounds: [
-      ['1S', 'Pass', '3C', 'Pass'],
-      ['4C', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '3C', 'PASS'],
+      ['4C', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 272,
     brounds: [
-      ['1S', 'Pass', '3D', 'Pass'],
-      ['4C', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '3D', 'PASS'],
+      ['4C', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 273,
     brounds: [
-      ['1S', 'Pass', '2NT', 'Pass'],
-      ['3C', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '2NT', 'PASS'],
+      ['3C', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 274,
     brounds: [
-      ['1S', 'Pass', '2NT', 'Pass'],
-      ['3NT', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '2NT', 'PASS'],
+      ['3NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 275,
     brounds: [
-      ['1S', 'Pass', '2NT', 'Pass'],
-      ['3S', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '2NT', 'PASS'],
+      ['3S', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 276,
     brounds: [
-      ['1S', 'Pass', '2NT', 'Pass'],
-      ['4S', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '2NT', 'PASS'],
+      ['4S', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 277,
     brounds: [
-      ['1S', 'Pass', '2C', 'Pass'],
-      ['2NT', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '2C', 'PASS'],
+      ['2NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 278,
-    brounds: [['1NT', 'Pass', '4NT', 'Pass']]
+    brounds: [['1NT', 'PASS', '4NT', 'PASS']]
   },
   {
     bid: 279,
-    brounds: [['2NT', 'Pass', '4NT', 'Pass']]
+    brounds: [['2NT', 'PASS', '4NT', 'PASS']]
   },
   {
     bid: 280,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2S', 'Pass', '4NT', 'Pass']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2S', 'PASS', '4NT', 'PASS']
     ]
   },
   {
     bid: 281,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2S', 'Pass', '3H', 'Pass']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2S', 'PASS', '3H', 'PASS']
     ]
   },
   {
     bid: 282,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2H', 'Pass', '3S', 'Pass']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2H', 'PASS', '3S', 'PASS']
     ]
   },
   {
     bid: 283,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2H', 'Pass', '4NT', 'Pass']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2H', 'PASS', '4NT', 'PASS']
     ]
   },
   {
     bid: 284,
     brounds: [
-      ['1NT', 'Pass', '2D', 'Pass'],
-      ['2H', 'Pass', '4NT', 'Pass']
+      ['1NT', 'PASS', '2D', 'PASS'],
+      ['2H', 'PASS', '4NT', 'PASS']
     ]
   },
   {
     bid: 285,
     brounds: [
-      ['1S', 'Pass', '2H', 'Pass'],
-      ['4NT', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '2H', 'PASS'],
+      ['4NT', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 286,
     brounds: [
-      ['1S', 'Pass', '2H', 'Pass'],
-      ['2S', 'Pass', 'n', 'n']
+      ['1S', 'PASS', '2H', 'PASS'],
+      ['2S', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 287,
     brounds: [
-      ['4H', '4S', 'Pass', '4NT'],
-      ['Pass', 'n', 'n', 'n']
+      ['4H', '4S', 'PASS', '4NT'],
+      ['PASS', 'N', 'N', 'N']
     ]
   },
   {
     bid: 288,
     brounds: [
-      ['1H', 'Pass', '3H', 'Pass'],
-      ['3S', 'Pass', 'n', 'n']
+      ['1H', 'PASS', '3H', 'PASS'],
+      ['3S', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 289,
     brounds: [
-      ['1H', 'Pass', '2H', 'Pass'],
-      ['2S', 'Pass', 'n', 'n']
+      ['1H', 'PASS', '2H', 'PASS'],
+      ['2S', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 290,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2S', 'Pass', '3S', 'Pass']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2H', 'PASS', '3S', 'N']
     ]
   },
   {
     bid: 291,
     brounds: [
-      ['1H', 'Pass', '3NT', 'Pass'],
-      ['4C', 'Pass', 'n', 'n']
+      ['1H', 'PASS', '3NT', 'PASS'],
+      ['4C', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 292,
     brounds: [
-      ['2C', 'Pass', '2D', 'Pass'],
-      ['2S', 'Pass', '3S', 'Pass']
+      ['2C', 'PASS', '2D', 'PASS'],
+      ['2S', 'PASS', '3S', 'PASS']
     ]
   },
   {
     bid: 295,
-    brounds: [['1H', '2S', '3S', 'n']]
+    brounds: [['1H', '2S', '3S', 'N']]
   },
   {
     bid: 296,
-    brounds: [['1H', '2S', '3S', 'n']]
+    brounds: [['1H', '2S', '3S', 'N']]
   },
   {
     bid: 297,
     brounds: [
-      ['1H', 'Pass', '3D', 'Pass'],
-      ['3S', 'Pass', '4C', 'Pass']
+      ['1H', 'PASS', '3D', 'PASS'],
+      ['3S', 'PASS', '4C', 'PASS']
     ]
   },
   {
     bid: 298,
     brounds: [
-      ['1H', 'Pass', '3D', 'Pass'],
-      ['3S', 'Pass', '4D', 'Pass']
+      ['1H', 'PASS', '3D', 'PASS'],
+      ['3S', 'PASS', '4D', 'PASS']
     ]
   },
   {
     bid: 299,
     brounds: [
-      ['1H', 'Pass', '3D', 'Pass'],
-      ['3S', 'Pass', '4C', 'Pass'],
-      ['4H', 'Pass', 'n', 'n']
+      ['1H', 'PASS', '3D', 'PASS'],
+      ['3S', 'PASS', '4C', 'PASS'],
+      ['4H', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 300,
     brounds: [
-      ['1H', 'Pass', '3D', 'Pass'],
-      ['4C', 'Pass', 'n', 'n']
+      ['1H', 'PASS', '3D', 'PASS'],
+      ['4C', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 301,
-    brounds: [['1H', '2S', '4C', 'n']]
+    brounds: [['1H', '2S', '4C', 'N']]
   },
   {
     bid: 302,
-    brounds: [['1H', 'Pass', '3NT', 'Pass']]
+    brounds: [['1H', 'PASS', '3NT', 'PASS']]
   },
   {
     bid: 303,
     brounds: [
-      ['2C', 'Pass', '2D', 'Passs'],
-      ['2NT', 'Pass', '3C', 'Pass'],
-      ['3H', 'Pass', '3S', 'Pass']
+      ['2C', 'PASS', '2D', 'PASSs'],
+      ['2NT', 'PASS', '3C', 'PASS'],
+      ['3H', 'PASS', '3S', 'PASS']
     ]
   },
   {
     bid: 304,
     brounds: [
-      ['2C', 'Pass', '2D', 'Pass'],
-      ['2S', 'Pass', '3S', 'Pass'],
-      ['4D', 'Pass', 'n', 'n']
+      ['2C', 'PASS', '2D', 'PASS'],
+      ['2S', 'PASS', '3S', 'PASS'],
+      ['4D', 'PASS', 'N', 'N']
     ]
   },
   {
     bid: 305,
-    brounds: [['1H', '2H', 'n', 'n']]
+    brounds: [['1H', '2H', 'N', 'N']]
   },
   {
     bid: 306,
-    brounds: [['1H', '2NT', 'n', 'n']]
+    brounds: [['1H', '2NT', 'N', 'N']]
   },
   {
     bid: 307,
-    brounds: [['1C', '1S', 'Pass', '2C']]
+    brounds: [['1C', '1S', 'PASS', '2C']]
   },
   {
     bid: 308,
-    brounds: [['2D', '3D', 'n', 'n']]
+    brounds: [['2D', '3D', 'N', 'N']]
   },
   {
     bid: 309,
-    brounds: [['1C', '2C', 'n', 'n']]
+    brounds: [['1C', '2C', 'N', 'N']]
   },
   {
     bid: 310,
-    brounds: [['1C', '2C', 'n', 'n']]
+    brounds: [['1C', '2C', 'N', 'N']]
   },
   {
     bid: 311,
-    brounds: [['1C', 'Pass', '1H', '2H']]
+    brounds: [['1C', 'PASS', '1H', '2H']]
   },
   {
     bid: 316,
-    brounds: [['1D', '2D', 'n', 'n']]
+    brounds: [['1D', '2D', 'N', 'N']]
   },
   {
     bid: 317,
-    brounds: [['1S', '2S', 'Pass', '3C']]
+    brounds: [['1S', '2S', 'PASS', '3C']]
   },
   {
     bid: 318,
-    brounds: [['1S', '2S', 'Pass', '2NT']]
+    brounds: [['1S', '2S', 'PASS', '2NT']]
   },
   {
     bid: 319,
-    brounds: [['1S', '2S', 'Pass', '3D']]
+    brounds: [['1S', '2S', 'PASS', '3D']]
   },
   {
     bid: 320,
-    brounds: [['1D', '2NT', 'n', 'n']]
+    brounds: [['1D', '2NT', 'N', 'N']]
   },
   {
     bid: 321,
-    brounds: [['1C', '2C', 'Pass', '2H']]
+    brounds: [['1C', '2C', 'PASS', '2H']]
   },
   {
     bid: 322,
-    brounds: [['1H', '2H', 'Pass', '2NT']]
+    brounds: [['1H', '2H', 'PASS', '2NT']]
   },
   {
     bid: 323,
@@ -983,332 +983,356 @@ exports.BIDDING = [
   },
   {
     bid: 326,
-    brounds: [['1H', '2H', 'Pass', '3S']]
+    brounds: [['1H', '2H', 'PASS', '3S']]
   },
   {
     bid: 327,
-    brounds: [['1S', '2S', 'Pass', 'n']]
+    brounds: [['1S', '2S', 'PASS', 'N']]
   },
   {
     bid: 328,
     brounds: [
-      ['1D', '2D', 'Pass', '3D'],
-      ['Pass', 'n', 'n', 'n']
+      ['1D', '2D', 'PASS', '3D'],
+      ['PASS', 'N', 'N', 'N']
     ]
   },
   {
     bid: 329,
     brounds: [
-      ['1D', '2D', 'Pass', '3D'],
-      ['Pass', 'n', 'n', 'n']
+      ['1D', '2D', 'PASS', '3D'],
+      ['PASS', 'N', 'N', 'N']
     ]
   },
   {
     bid: 335,
     brounds: [
-      ['n', 'n', 'n', '1NT'],
-      ['Pass', '3NT', 'n', 'n']
+      ['n', 'N', 'N', '1NT'],
+      ['PASS', '3NT', 'N', 'N']
     ]
   },
   {
     bid: 336,
-    brounds: [['1NT', 'Pass', '?', 'n']]
+    brounds: [['1NT', 'PASS', '?', 'N']]
   },
   {
     bid: 337,
-    brounds: [['1NT', '2H', '?', 'n']]
+    brounds: [['1NT', '2H', '?', 'N']]
   },
   {
     bid: 338,
-    brounds: [['1NT', 'Pass', '?', 'n']]
+    brounds: [['1NT', 'PASS', '?', 'N']]
   },
   {
     bid: 339,
-    brounds: [['1NT', '2H', '?', 'n']]
+    brounds: [['1NT', '2H', '?', 'N']]
   },
   {
     bid: 340,
     brounds: [
-      ['1NT', '2H', '2NT', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2H', '2NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 341,
     brounds: [
-      ['1NT', '2H', '2NT', 'Pass'],
-      ['3C', 'Pass', '?', 'n']
+      ['1NT', '2H', '2NT', 'PASS'],
+      ['3C', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 342,
-    brounds: [['1NT', '2D', '?', 'n']]
+    brounds: [['1NT', '2D', '?', 'N']]
   },
   {
     bid: 343,
-    brounds: [['1NT', '2D', '?', 'n']]
+    brounds: [['1NT', '2D', '?', 'N']]
   },
   {
     bid: 344,
-    brounds: [['1NT', 'Pass', '?', 'n']]
+    brounds: [['1NT', 'PASS', '?', 'N']]
   },
   {
     bid: 345,
-    brounds: [['1NT', '2D', '?', 'n']]
+    brounds: [['1NT', '2D', '?', 'N']]
   },
   {
     bid: 346,
-    brounds: [['1NT', '2D', '3D', 'n']]
+    brounds: [['1NT', '2D', '3D', 'N']]
   },
   {
     bid: 347,
     brounds: [
-      ['1NT', '2D', '3D', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2D', '3D', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 348,
     brounds: [
-      ['1NT', '2D', '3D', 'Pass'],
-      ['3S', 'Pass', '?', 'n']
+      ['1NT', '2D', '3D', 'PASS'],
+      ['3S', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 349,
-    brounds: [['1NT', '2H', '?', 'n']]
+    brounds: [['1NT', '2H', '?', 'N']]
   },
   {
     bid: 350,
     brounds: [
-      ['1NT', '2H', '2NT', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2H', '2NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 351,
     brounds: [
-      ['1NT', '2H', '2NT', 'Pass'],
-      ['3C', 'Pass', '?', 'n']
+      ['1NT', '2H', '2NT', 'PASS'],
+      ['3C', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 352,
     brounds: [
-      ['1NT', '2H', '2NT', 'Pass'],
-      ['3C', 'Pass', '3H', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2H', '2NT', 'PASS'],
+      ['3C', 'PASS', '3H', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 353,
-    brounds: [['1NT', '2S', '?', 'n']]
+    brounds: [['1NT', '2S', '?', 'N']]
   },
   {
     bid: 354,
     brounds: [
-      ['1NT', '2S', '3S', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2S', '3S', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 355,
-    brounds: [['1NT', '2D', '?', 'n']]
+    brounds: [['1NT', '2D', '?', 'N']]
   },
   {
     bid: 356,
     brounds: [
-      ['1NT', '2D', '2NT', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2D', '2NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 357,
     brounds: [
-      ['1NT', '2D', '2NT', 'Pass'],
-      ['3C', 'Pass', '?', 'n']
+      ['1NT', '2D', '2NT', 'PASS'],
+      ['3C', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 358,
     brounds: [
-      ['1NT', '2D', '2NT', 'Pass'],
-      ['3C', 'Pass', '3D', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2D', '2NT', 'PASS'],
+      ['3C', 'PASS', '3D', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 359,
-    brounds: [['1NT', '2H', '?', 'n']]
+    brounds: [['1NT', '2H', '?', 'N']]
   },
   {
     bid: 360,
     brounds: [
-      ['1NT', '2H', '3H', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2H', '3H', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 361,
-    brounds: [['1NT', '2D', '?', 'n']]
+    brounds: [['1NT', '2D', '?', 'N']]
   },
   {
     bid: 362,
     brounds: [
-      ['1NT', '2D', '3NT', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2D', '3NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 363,
-    brounds: [['1NT', '2H', '?', 'n']]
+    brounds: [['1NT', '2H', '?', 'N']]
   },
   {
     bid: 364,
     brounds: [
-      ['1NT', '2H', '2NT', 'Pass'],
-      ['3C', 'Pass', '?', 'n']
+      ['1NT', '2H', '2NT', 'PASS'],
+      ['3C', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 365,
-    brounds: [['1NT', '2H', '?', 'n']]
+    brounds: [['1NT', '2H', '?', 'N']]
   },
   {
     bid: 366,
     brounds: [
-      ['1NT', '2H', '3NT', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2H', '3NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 367,
-    brounds: [['1NT', '2S', '?', 'n']]
+    brounds: [['1NT', '2S', '?', 'N']]
   },
   {
     bid: 368,
     brounds: [
-      ['1NT', '2S', 'X', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', '2S', 'X', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 369,
-    brounds: [['1NT', '2D', '?', 'n']]
+    brounds: [['1NT', '2D', '?', 'N']]
   },
   {
     bid: 370,
-    brounds: [['1NT', '2S', '?', 'n']]
+    brounds: [['1NT', '2S', '?', 'N']]
   },
   {
     bid: 371,
     brounds: [
-      ['1NT', '2S', 'X', 'Pass'],
-      ['3H', 'Pass', '?', 'n']
+      ['1NT', '2S', 'X', 'PASS'],
+      ['3H', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 372,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 373,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 374,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 375,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 377,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2S', 'Pass', '2NT', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2S', 'PASS', '2NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 378,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2H', 'Pass', '2NT', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2H', 'PASS', '2NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 379,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2D', 'Pass', '2NT', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2D', 'PASS', '2NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 380,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2S', 'Pass', '3S', 'Pass'],
-      ['?', 'n', 'n', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2S', 'PASS', '3S', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   },
   {
     bid: 381,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2D', 'Pass', '?', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2D', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 382,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2H', 'Pass', '?', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2H', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 383,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2S', 'Pass', '?', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2S', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 384,
     brounds: [
-      ['1NT', 'Pass', '2C', 'Pass'],
-      ['2D', 'Pass', '?', 'n']
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['2D', 'PASS', '?', 'N']
     ]
   },
   {
     bid: 385,
-    brounds: [['2NT', 'Pass', '?', 'n']]
+    brounds: [['2NT', 'PASS', '?', 'N']]
   },
   {
     bid: 386,
-    brounds: [['2NT', 'Pass', '?', 'n']]
+    brounds: [['2NT', 'PASS', '?', 'N']]
   },
   {
     bid: 387,
-    brounds: [['1D', '1NT', 'Pass', '?']]
+    brounds: [['1D', '1NT', 'PASS', '?']]
   },
   {
     bid: 388,
-    brounds: [['1D', '1NT', 'Pass', '?']]
+    brounds: [['1D', '1NT', 'PASS', '?']]
+  },
+  {
+    bid: 389,
+    brounds: [
+      ['1C', '1D', '1H', '1S'],
+      ['2C', '2D', '2H', '2S'],
+      ['PASS', 'PASS', 'PASS', 'PASS']
+    ]
+  },
+  {
+    bid: 390,
+    brounds: [
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['2H', 'PASS', '3S', 'PASS'],
+      ['PASS', '4D', 'PASS', '5D']
+    ]
+  },
+  {
+    bid: 400,
+    brounds: [
+      ['1H', '1S', '1NT', 'PASS'],
+      ['2S', '3S', '3NT', 'N'],
+      ['4S', 'N', 'N', 'N']
+    ]
   }
 ]

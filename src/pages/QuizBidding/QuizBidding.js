@@ -112,6 +112,11 @@ const QuizBidding = ({ qid }) => {
           bidObj.bid = null
           bidObj.suit = null
           break
+        //  Nothing
+        case 'N':
+          bidObj.bid = null
+          bidObj.suit = null
+          break
         default:
           //  No Trump
           if (bid.substr(1, 1) === 'N') {
