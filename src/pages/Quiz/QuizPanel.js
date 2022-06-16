@@ -64,7 +64,7 @@ const QuizPanel = ({ quizRow, handleSelect }) => {
         style={{ color: teal['A700'] }}
         sx={{ marginTop: '8px' }}
       >
-        Click to select YOUR answer
+        CLICK on your answer below
       </Typography>
       {Answers.map((answer, key) => (
         <QuizPanelCard key={key} answer={answer} handleSelect={handleSelect} />

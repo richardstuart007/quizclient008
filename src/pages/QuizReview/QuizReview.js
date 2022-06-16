@@ -228,9 +228,9 @@ const QuizReview = () => {
         Result ({mark}%) {countPass} out of {countAns}
       </Typography>
 
+      <QuizQuestion quizRow={quizRow} quizQuestion={arrAnsNum[ansIdx] + 1} />
       <QuizBidding qid={quizRow.qid} />
       <QuizHands qid={quizRow.qid} />
-      <QuizQuestion quizRow={quizRow} quizQuestion={arrAnsNum[ansIdx] + 1} />
       <QuizReviewAnswers quizRow={quizRow} AnswerNum={arrAns[ansIdx]} />
 
       <Box sx={{ mt: 2 }}>

@@ -1,7 +1,15 @@
 exports.GROUP1 = [
   {
+    g1id: 'All',
+    g1title: 'All'
+  },
+  {
     g1id: 'NZBStayman',
     g1title: 'NZB Stayman'
+  },
+  {
+    g1id: 'NZBTransfers',
+    g1title: 'NZB Transfers'
   },
   {
     g1id: 'BergenRaises',
@@ -11,10 +19,6 @@ exports.GROUP1 = [
     g1id: 'Cue1st2ndControls',
     g1title: 'Cue 1st and 2nd Controls'
   },
-  // {
-  //   g1id: 'Doubles',
-  //   g1title: 'Doubles'
-  // },
   {
     g1id: 'Lebensohl',
     g1title: 'Lebensohl'
@@ -27,10 +31,6 @@ exports.GROUP1 = [
     g1id: 'Play',
     g1title: 'Play'
   },
-  // {
-  //   g1id: 'Points Schmoints',
-  //   g1title: 'Points Schmoints'
-  // },
   {
     g1id: 'Quantitative4NT',
     g1title: 'Quantitative 4NT'
@@ -42,9 +42,17 @@ exports.GROUP1 = [
   {
     g1id: 'TwoWayCheckback',
     g1title: 'Two Way Checkback'
+  },
+  {
+    g1id: 'WBF',
+    g1title: '*Del* World Bridge Federation'
+  },
+  {
+    g1id: 'Doubles',
+    g1title: '*Del* Doubles'
+  },
+  {
+    g1id: 'Points Schmoints',
+    g1title: '*Del* Points Schmoints'
   }
-  // {
-  //   g1id: 'WBF',
-  //   g1title: 'World Bridge Federation'
-  // }
 ]

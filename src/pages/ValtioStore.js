@@ -52,15 +52,16 @@ const ValtioStore = proxy({
   //  Data Selection Parameters
   //
   v_Owner: 'public',
-  v_Group1: '',
-  v_Group2: '',
-  v_Group3: '',
+  v_Group1: 'All',
+  v_Group2: 'All',
+  v_Group3: 'All',
   v_MaxQuestions: 20,
   //
   //  Data - Selected
   //
   v_QFilter: [],
   v_QFilterSort: [],
+  v_QCount: 0,
   v_QRefs: [],
   //
   //  Quiz State Variables

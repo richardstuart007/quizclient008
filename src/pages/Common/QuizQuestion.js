@@ -41,7 +41,7 @@ const QuizQuestion = params => {
   //  Deconstruct row
   //
   if (g_log1) console.log('quizRow ', quizRow)
-  const { qid, qdetail } = quizRow
+  const { qid, qkey, qdetail } = quizRow
   let hyperLink
   qdetail.substring(0, 8) === 'https://'
     ? (hyperLink = true)
@@ -57,8 +57,10 @@ const QuizQuestion = params => {
   //
   //  Question string (with ID ?)
   //
-  let QuestionString = `Question ${quizQuestion}`
-  if (ShowQid) QuestionString = QuestionString.concat(`        (ID:${qid})`)
+  const QCount = snapShot.v_QCount
+  let QuestionString = `Question ${quizQuestion}/${QCount}`
+  if (ShowQid)
+    QuestionString = QuestionString.concat(`        (KEY: ${qkey} ID: ${qid})`)
   //
   //  Uppercase the question
   //
@@ -94,7 +96,12 @@ const QuizQuestion = params => {
       {/* Normal Text */}
       {/* .......................................................................................... */}
       {!hyperLink && (
-        <Typography variant='body2' style={{ color: 'blue' }} gutterBottom>
+        <Typography
+          variant='body2'
+          style={{ color: 'blue' }}
+          sx={{ marginTop: '8px' }}
+          gutterBottom
+        >
           {qdetailUpper}
         </Typography>
       )}

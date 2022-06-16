@@ -191,6 +191,7 @@ const QuizSelect = () => {
     ValtioStore.v_QFilter = []
     if (g_log1) console.log('clear v_QFilterSort')
     ValtioStore.v_QFilterSort = []
+    ValtioStore.v_QCount = 0
     if (g_log1) console.log('clear v_QRefs')
     ValtioStore.v_QRefs = []
     // ----------------------------------------------------------------------------------
@@ -272,6 +273,7 @@ const QuizSelect = () => {
     //
     if (g_log1) console.log('update v_QFilterSort', quest)
     ValtioStore.v_QFilterSort = quest
+    ValtioStore.v_QCount = quest.length
     // ----------------------------------------------------------------------------------
     //
     //  Load references

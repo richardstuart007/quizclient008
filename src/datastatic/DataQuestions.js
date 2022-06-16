@@ -1,1066 +1,7 @@
 exports.QUESTIONS = [
   {
-    qid: 1,
-    qowner: 'Richard',
-    qkey: '1NT01',
-    qdetail:
-      'After the following biddding.   AKJx, AQxxx, Kx xx what is the opening bid ?  Think about your rebid.',
-    qcorrect: '1H',
-    qbad1: '1NT',
-    qbad2: '1S',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 2,
-    qowner: 'Richard',
-    qkey: '1NT02',
-    qdetail:
-      'After the following biddding.   AKx, AQxxx, KJx xx what is the opening bid ?  Think about your rebid.',
-    qcorrect: '1NT',
-    qbad1: '1H',
-    qbad2: '1D',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 3,
-    qowner: 'Richard',
-    qkey: '1NT03',
-    qdetail:
-      'After the following biddding.   1NT  P  2C  P,  2D  Pass.  What is your bid ?',
-    qcorrect: 'Garbage Stayman',
-    qbad1: 'Has long diamonds',
-    qbad2: 'Transfer to hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 4,
-    qowner: 'Richard',
-    qkey: '1NT04',
-    qdetail:
-      'After the following biddding.   1NT  P  2C  P, 2D  P  2NT.  What is your bid ?',
-    qcorrect: 'Range Finder',
-    qbad1: 'Transfer to Minors',
-    qbad2: 'Transfer to Diamonds',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 5,
-    qowner: 'Richard',
-    qkey: '1NT05',
-    qdetail:
-      'After the following biddding.   1NT  P  2C  P, 2D  P  3H.  What is your bid ?',
-    qcorrect: 'Smolen 5 Spades, 4 Hearts',
-    qbad1: 'Transfer to Spades',
-    qbad2: 'Invitational Hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 6,
-    qowner: 'Richard',
-    qkey: '1NT06',
-    qdetail: 'After the following biddding.   1NT  P  3H.  What is your bid ?',
-    qcorrect: 'Game force shortage in hearts',
-    qbad1: 'Smolen 5 Spades, 4 Hearts',
-    qbad2: 'Invitational in Hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 7,
-    qowner: 'Richard',
-    qkey: '1NT07',
-    qdetail: 'After the following biddding.   1NT  P  3S.  What is your bid ?',
-    qcorrect: 'Game force shortage in Spades',
-    qbad1: 'Smolen 5 Hearts 4 Spades',
-    qbad2: 'Invitational in Spades',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 8,
-    qowner: 'Richard',
-    qkey: '1NT08',
-    qdetail:
-      'After the following biddding.   1NT  P  2C  P,  2H  P  3S.  What is your bid ?',
-    qcorrect: 'Confirming Hearts,  Start Cue bidding controls',
-    qbad1: 'Has 6 spades and 4 hearts',
-    qbad2: 'Smolen 5 Spades, 4 Hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 9,
-    qowner: 'Richard',
-    qkey: '1NT09',
-    qdetail:
-      'After the following biddding.   1NT  P  2C  P,  2S  P  3H.  What is your bid ?',
-    qcorrect: 'Confirming Spades  Start Cue bidding controls',
-    qbad1: 'Has 6 Hearts and 4 Spades',
-    qbad2: 'Smolen 4 Spades, 5 Hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 10,
-    qowner: 'Richard',
-    qkey: '1NT10',
-    qdetail:
-      'After the following biddding.   1NT  P  2D  P,  2H  P  2S.  What is your bid ?',
-    qcorrect: 'Showing 5 Hearts and 4 Spades invitational',
-    qbad1: 'Garbage stayman, has heart shortage',
-    qbad2: 'Garbage stayman, has Spades',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 11,
-    qowner: 'Richard',
-    qkey: '1NT11',
-    qdetail:
-      'After the following biddding.   1NT  P  2S P, 2NT.  What is your bid ?',
-    qcorrect: '3+ card Club support with honour',
-    qbad1: 'Poor hand, to play',
-    qbad2: 'Slam interest',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 12,
-    qowner: 'Richard',
-    qkey: '1NT12',
-    qdetail:
-      'After the following biddding.   1NT  P  2S P, 3C.  What is your bid ?',
-    qcorrect: 'Does not have 3+ card Club support with honour',
-    qbad1: 'Has no honour in Clubs',
-    qbad2: 'Forcing to 3NT',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 13,
-    qowner: 'Richard',
-    qkey: '1NT13',
-    qdetail:
-      'After the following biddding.   1NT  P  2NT P, 3C.  What is your bid ?',
-    qcorrect: '3+ card Diamond support with honour',
-    qbad1: 'Poor hand, to play in Clubs',
-    qbad2: 'Invitational to 3NT',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 14,
-    qowner: 'Richard',
-    qkey: '1NT14',
-    qdetail:
-      'After the following biddding.   1NT  P  2S P, 3D.  What is your bid ?',
-    qcorrect: 'Does not have 3+ card Diamond support with honour',
-    qbad1: 'Has no honour in Diamond',
-    qbad2: 'Forcing to 3NT',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 15,
-    qowner: 'Richard',
-    qkey: '1NT15',
-    qdetail: 'After the following biddding.   1NT  P  3C.  What is your bid ?',
-    qcorrect: 'Puppet Stayman',
-    qbad1: 'Club Shortage',
-    qbad2: 'Long clubs, Slam interest',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 16,
-    qowner: 'Richard',
-    qkey: '1NT16',
-    qdetail: 'After the following biddding.   1NT  P  3D.  What is your bid ?',
-    qcorrect: 'Shortage in Diamonds, Game force',
-    qbad1: 'Transfer to Hearts',
-    qbad2: 'Long Diamonds, Slam interest',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 17,
-    qowner: 'Richard',
-    qkey: '1NT17',
-    qdetail: 'After the following biddding.   1NT  P  3H.  What is your bid ?',
-    qcorrect: 'Shortage in Hearts Game force',
-    qbad1: 'Transfer to Spades',
-    qbad2: 'Long Hearts, Slam interest',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 18,
-    qowner: 'Richard',
-    qkey: '1NT18',
-    qdetail: 'After the following biddding.   1NT  P  3S.  What is your bid ?',
-    qcorrect: 'Shortage in Spades, Game force',
-    qbad1: 'Transfer to Minors',
-    qbad2: 'Long Spades Slam interest',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 19,
-    qowner: 'Richard',
-    qkey: '1NT19',
-    qdetail: 'After the following biddding.   1NT   P  4D.  What is your bid ?',
-    qcorrect: 'Texas Transfer to Hearts',
-    qbad1: 'Long Diamonds, pre-emptive',
-    qbad2: 'Long Diamonds, Invitational to 5D',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 20,
-    qowner: 'Richard',
-    qkey: '1NT20',
-    qdetail: 'After the following biddding.   1NT   P  4H.  What is your bid ?',
-    qcorrect: 'Texas Transfer to Spades',
-    qbad1: 'Long Hearts pre-emptive, weak',
-    qbad2: 'Long Hearts, to Play',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 21,
-    qowner: 'Richard',
-    qkey: '1NT21',
-    qdetail: 'After the following biddding.   1NT  P  4S.  What is your bid ?',
-    qcorrect: 'To Play, no slam interest',
-    qbad1: 'Texas Transfer to the minors',
-    qbad2: 'Slam interest in Spades',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 22,
-    qowner: 'Richard',
-    qkey: '1NT30',
-    qdetail:
-      'After the following biddding.   1NT P 3C P, 3NT.  What is your bid ?',
-    qcorrect: 'No 4 or 5 card Major',
-    qbad1: 'No club support',
-    qbad2: 'No 3/4/5 card major',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 23,
-    qowner: 'Richard',
-    qkey: '1NT31',
-    qdetail:
-      'After the following biddding.   1NT  P  3C P, 3H.  What is your bid ?',
-    qcorrect: '5 Hearts, Game Force',
-    qbad1: 'Transfer to Spades',
-    qbad2: '5 Hearts, Invitational',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 24,
-    qowner: 'Richard',
-    qkey: '1NT32',
-    qdetail:
-      'After the following biddding.   1NT  P  3C P, 3S.  What is your bid ?',
-    qcorrect: '5 Spades, Game Force',
-    qbad1: '6 Spades, Invitational',
-    qbad2: '5 Spades, Invitational',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 25,
-    qowner: 'Richard',
-    qkey: '1NT33',
-    qdetail:
-      'After the following biddding.   1NT P 3C P, 3D P 3NT.  What is your bid ?',
-    qcorrect: 'I have a 3 card Major, but no 4 card major',
-    qbad1: 'I do not have diamonds',
-    qbad2: 'I have clubs',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 26,
-    qowner: 'Richard',
-    qkey: '1NT34',
-    qdetail:
-      'After the following biddding.   1NT  P  3C  P,  3D  P 3H.  What is your bid ?',
-    qcorrect: 'I have 4 Spades, but not 4 hearts',
-    qbad1: 'I have 4 Hearts',
-    qbad2: 'I have 4 Spades and maybe 4 Hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 27,
-    qowner: 'Richard',
-    qkey: '1NT35',
-    qdetail:
-      'After the following biddding.   1NT  P  3C  P,  3D  P 3S.  What is your bid ?',
-    qcorrect: 'I have 4 Hearts, but not 4 Spades',
-    qbad1: 'I have 4 Hearts and maybe 4 Spades',
-    qbad2: 'I have 4 Hearts AND 4 Spades',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 28,
-    qowner: 'Richard',
-    qkey: '1NT36',
-    qdetail: 'After the following biddding.   1NT  P  3C.  What is your bid ?',
-    qcorrect: 'I have AT LEAST one 3+ Card major',
-    qbad1: 'I have EXACTLY one 4 card major',
-    qbad2: 'I have AT LEAST one 4 card major',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 29,
-    qowner: 'Richard',
-    qkey: '1NT37',
-    qdetail: 'After the following biddding.   1NT   P  3S.  What is your bid ?',
-    qcorrect: 'I have exactly 5 Spades and 4 Hearts',
-    qbad1: 'I have 5 spades EXACTLY, less than 3 hearts',
-    qbad2: 'I have 5+ Spades, less than 3 hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 30,
-    qowner: 'Richard',
-    qkey: '1NT38',
-    qdetail:
-      'After the following biddding.   1NT  P  3C  P, 3D  P  4D.  What is your bid ?',
-    qcorrect: 'I have BOTH majors',
-    qbad1: 'I have long diamonds and long clubs',
-    qbad2: 'I have BOTH Majors,  SLAM interest',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 31,
-    qowner: 'Richard',
-    qkey: '1NT39',
-    qdetail: 'After the following biddding.   1NT  P  4C.  What is your bid ?',
-    qcorrect: 'Gerber CRO',
-    qbad1: 'Clubs invitational ',
-    qbad2: 'Splinter in Clubs',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 32,
-    qowner: 'Richard',
-    qkey: '1NT40',
-    qdetail: 'After the following biddding.   1NT  P  4NT.  What is your bid ?',
-    qcorrect: 'Quantitive Raise to 6NT',
-    qbad1: 'Standard Ace Ask',
-    qbad2: 'Quantitive Raise to 7NT',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 33,
-    qowner: 'Richard',
-    qkey: '1NT41',
-    qdetail: 'After the following biddding.   1NT  P  5NT.  What is your bid ?',
-    qcorrect: 'Quantitive Raise to 7NT',
-    qbad1: 'Standard Ace Ask',
-    qbad2: 'Quantitive Raise to 6NT',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 34,
-    qowner: 'Richard',
-    qkey: '1NT42',
-    qdetail:
-      'How do you bid after your partner shows 20-22 arriving at 2NT, if you hold 5 Spades and 4 Hearts ?',
-    qcorrect: 'Bid 3S showing exacty 5 Spades and 4 Hearts',
-    qbad1: 'Transfer to Spades and bid 4 hearts',
-    qbad2: 'Puppet Stayman and on 3NT bid 4S',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 35,
-    qowner: 'Richard',
-    qkey: '1NT43',
-    qdetail:
-      'How do you bid after your partner shows 20-22 arriving at 2NT, if you hold 5 Hearts and 4 Spades ?',
-    qcorrect: 'Bid 3D transfer to Hearts and then 3S',
-    qbad1: 'Transfer to Hearts and then bid 4S',
-    qbad2: 'Transfer to Spades and bid 4 hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 36,
-    qowner: 'Richard',
-    qkey: '1NT44',
-    qdetail:
-      'How do you bid after your partner shows 20-22 arriving at 2NT, if you hold 5 Hearts and 5 Spades ?',
-    qcorrect: 'Transfer to Spades and bid 4 Hearts',
-    qbad1: 'Puppet Stayman',
-    qbad2: 'Transfer to Hearts and bid 3S',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 37,
-    qowner: 'Richard',
-    qkey: '1NT46',
-    qdetail:
-      'Where 2NT shows 5/5 in the minors.   1NT  2NT X.  What does this bidding sequence mean ?',
-    qcorrect: 'Take out, at least 4/4 in both Majors and points for game',
-    qbad1: 'Penalty, has the minors',
-    qbad2: 'Stayman, has at least one major',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 38,
-    qowner: 'Richard',
-    qkey: '1NT47',
-    qdetail:
-      'Where 2NT shows 5/5 in the minors.   1NT  2NT 3C.  What does this bidding sequence mean ?',
-    qcorrect: 'Puppet Stayman',
-    qbad1: 'Standard Stayman',
-    qbad2: 'Asking for a stopper in Clubs',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 39,
-    qowner: 'Richard',
-    qkey: '1NT48',
-    qdetail:
-      'Where 2NT shows 5/5 in the minors.   1NT  2NT 3D.  What does this bidding sequence mean ?',
-    qcorrect: 'Transfer to Hearts',
-    qbad1: 'Invitational,  Diamonds',
-    qbad2: 'Asking for a stopper in Diamonds',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 40,
-    qowner: 'Richard',
-    qkey: '1NT49',
-    qdetail:
-      'Where 2NT shows 5/5 in the minors.   1NT  2NT 3H.  What does this bidding sequence mean ?',
-    qcorrect: 'Transfer to Spades',
-    qbad1: 'Invitational, Hearts',
-    qbad2: 'Asking for a stopper in Hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 41,
-    qowner: 'Richard',
-    qkey: '1NT50',
-    qdetail:
-      'Where 2NT shows 5/5 in the minors.   1NT  2NT 3S.  What does this bidding sequence mean ?',
-    qcorrect: 'Exactly 5/4 in Spades and Hearts',
-    qbad1: 'Invitational, Spades',
-    qbad2: 'Asking for a stopper in Spades',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 42,
-    qowner: 'Richard',
-    qkey: '1NT51',
-    qdetail:
-      'Where 2NT shows 5/5 in the minors.   1NT  2NT 3H P, 3S P 4H.  What does this bidding sequence mean ?',
-    qcorrect: 'Has 5/5 in the majors, you choose',
-    qbad1: 'To play in Hearts',
-    qbad2: 'Slam in Hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 43,
-    qowner: 'Richard',
-    qkey: '1NT52',
-    qdetail:
-      'Where 2NT shows 5/5 in the minors.   1NT  2NT 3NT.  What does this bidding sequence mean ?',
-    qcorrect: 'To Play',
-    qbad1: 'Both majors, you choose',
-    qbad2: 'Strong, slam interest',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 44,
-    qowner: 'Richard',
-    qkey: '1NT53',
-    qdetail:
-      'After the following biddding.   1NT  P  2D  X,  P.  What is your bid ?',
-    qcorrect: 'Exactly 2 hearts',
-    qbad1: 'To play, likes diamonds',
-    qbad2: 'Waiting bid',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 45,
-    qowner: 'Richard',
-    qkey: '1NT54',
-    qdetail:
-      'After the following biddding.   1NT  P  2D  X,  2H.  What is your bid ?',
-    qcorrect: '3+ hearts',
-    qbad1: 'Weak, 2+ hearts',
-    qbad2: 'Strong, 2+ hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 46,
-    qowner: 'Richard',
-    qkey: '1NT55',
-    qdetail:
-      'After the following biddding.   1NT  P  2D  X,  XX.  What is your bid ?',
-    qcorrect: 'To play in 2D',
-    qbad1: 'SOS, weak and no heart support',
-    qbad2: 'Heart support, take-out of diamonds',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 47,
-    qowner: 'Richard',
-    qkey: '1NT56',
-    qdetail: 'After the following biddding.   1D 1NT P 2C.  What is your bid ?',
-    qcorrect: 'To Play, weak SOS Rescue',
-    qbad1: 'Stayman',
-    qbad2: 'Helvic Wriggle',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 48,
-    qowner: 'Richard',
-    qkey: '1NT57',
-    qdetail: 'After the following biddding.   1D 1NT P 2D.  What is your bid ?',
-    qcorrect: 'To Play, weak SOS Rescue',
-    qbad1: 'Transfer to Hearts',
-    qbad2: 'Helvic Wriggle',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 49,
-    qowner: 'Richard',
-    qkey: '1NT58',
-    qdetail: 'After the following biddding.   1D 1NT X 2C.  What is your bid ?',
-    qcorrect: 'Helvic Wriggle',
-    qbad1: 'Stayman',
-    qbad2: 'To Play, weak SOS Rescue',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 50,
-    qowner: 'Richard',
-    qkey: '1NT59',
-    qdetail: 'After the following biddding.   1D 1NT X XX.  What is your bid ?',
-    qcorrect: 'Helvic Wriggle, partner must bid 2C',
-    qbad1: 'Values redouble, penalty orientated',
-    qbad2: 'SOS, bid lowest 4 card suit',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 51,
-    qowner: 'Richard',
-    qkey: '1NT60',
-    qdetail:
-      'After the following biddding.   1D 1NT X Pass.  What is your bid ?',
-    qcorrect: 'Helvic Wriggle, partner must re-double',
-    qbad1: 'To play.  Responder has values',
-    qbad2: 'SOS, bid lowest 4 card suit',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 52,
-    qowner: 'Richard',
-    qkey: '1NT61',
-    qdetail: 'After the following biddding.   1D 1NT X 2D.  What is your bid ?',
-    qcorrect: 'Helvic Wriggle, shows Diamonds and Hearts',
-    qbad1: '5 card Diamonds, to Play',
-    qbad2: 'SOS, bid lowest 4 card suit',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 53,
-    qowner: 'Richard',
-    qkey: '1NT62',
-    qdetail: 'After the following biddding.   1D 1NT P 3C.  What is your bid ?',
-    qcorrect: 'Puppet Stayman.  Game force.',
-    qbad1: 'Clubs to play',
-    qbad2: 'Splinter in Clubs',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 54,
-    qowner: 'Richard',
-    qkey: '1NT63',
-    qdetail: 'After the following biddding.   1D 1NT X 3C.  What is your bid ?',
-    qcorrect: 'Puppet Stayman.  Game force.',
-    qbad1: 'Clubs to play',
-    qbad2: 'Splinter in Clubs',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 55,
-    qowner: 'Richard',
-    qkey: '1NT64',
-    qdetail: 'After the following biddding.   1D 1NT X 3D.  What is your bid ?',
-    qcorrect: 'Transfer to Hearts.  Game force.',
-    qbad1: 'To play, Diamonds',
-    qbad2: 'Transfer to Hearts.  Invitational',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 56,
-    qowner: 'Richard',
-    qkey: '1NT65',
-    qdetail:
-      'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds X..  What does this bidding sequence mean ?',
-    qcorrect: 'Penalty.  Partner has good clubs and 8+ HCP',
-    qbad1: 'Take out of Clubs',
-    qbad2: 'Stayman',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 57,
-    qowner: 'Richard',
-    qkey: '1NT66',
-    qdetail:
-      'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds 2D..  What does this bidding sequence mean ?',
-    qcorrect: 'Weak diamonds',
-    qbad1: 'Transfer to hearts',
-    qbad2: 'Helvic Wriggle',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 58,
-    qowner: 'Richard',
-    qkey: '1NT67',
-    qdetail:
-      'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds 2H..  What does this bidding sequence mean ?',
-    qcorrect: 'Weak Hearts',
-    qbad1: 'Transfer to spades',
-    qbad2: 'Hearts and Spades',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 59,
-    qowner: 'Richard',
-    qkey: '1NT68',
-    qdetail:
-      'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds 2NT.  What does this bidding sequence mean ?',
-    qcorrect: 'Lebensohl.  Partner must bid 3C',
-    qbad1: 'Invitational to 3NT, stop in clubs',
-    qbad2: 'Transfer to Diamonds',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 60,
-    qowner: 'Richard',
-    qkey: '1NT69',
-    qdetail:
-      'Opposition bid 2C (Clubs and another) over our 1NT.  Partner responds 3H.  What does this bidding sequence mean ?',
-    qcorrect: 'Invitational in hearts',
-    qbad1: 'Transfer to Spades',
-    qbad2: 'Game force in hearts',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 61,
-    qowner: 'Richard',
-    qkey: '1NT70',
-    qdetail:
-      'Opposition bid 2C (6 card suit) over our 1NT.  Partner responds 2NT.  What does this bidding sequence mean ?',
-    qcorrect: 'Lebensohl.  Partner must bid 3C',
-    qbad1: 'Invitational to 3NT, stop in clubs',
-    qbad2: 'Transfer to Diamonds',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 62,
-    qowner: 'Richard',
-    qkey: '1NT71',
-    qdetail:
-      'After the following biddding.   1NT  2S (natural) 3S.  What does this bidding sequence mean ?',
-    qcorrect: '4 card hearts, NO spade stopper',
-    qbad1: 'Michaels, Hearts and a minor',
-    qbad2: 'Asking for a Spade stopper',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 63,
-    qowner: 'Richard',
-    qkey: '1NT72',
-    qdetail:
-      'After the following biddding.   1NT  2S (natural)  2NT  P,  3C  P  3H.  What does this bidding sequence mean ?',
-    qcorrect: 'Weak Hearts',
-    qbad1: 'Transfer to Spades',
-    qbad2: 'Asking for a Heart stopper',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 64,
-    qowner: 'Richard',
-    qkey: '1NT73',
-    qdetail:
-      'After the following biddding.   1NT  2S (natural)  2NT  P,  3C  P  3S.  What does this bidding sequence mean ?',
-    qcorrect: '4 card hearts, WITH spade stopper',
-    qbad1: 'Michaels, Hearts and a minor',
-    qbad2: 'Showing a Spade stopper',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 65,
-    qowner: 'Richard',
-    qkey: '1NT74',
-    qdetail:
-      'After the following biddding.   1NT  2S (natural)  2NT  P,  3C  P  3NT.  What does this bidding sequence mean ?',
-    qcorrect: 'Game values.  <4 Hearts.  No spade stopper',
-    qbad1: 'Has stoppers in Hearts and Spades',
-    qbad2: 'To play, long running minor',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 66,
-    qowner: 'Richard',
-    qkey: '1NT75',
-    qdetail:
-      'After the following biddding.   1NT  2S  3NT.  What does this bidding sequence mean ?',
-    qcorrect:
-      'Game values.  <4 Hearts.  To play, maybe a partial stopper in Spades',
-    qbad1: 'Has stoppers in Hearts and Spades',
-    qbad2: 'Has a stopper in Spades',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 67,
-    qowner: 'Richard',
-    qkey: '1NT76',
-    qdetail:
-      'Opposition bid 2C (Clubs stayman) over our 1NT.  Partner responds 2NT.  What does this bidding sequence mean ?',
-    qcorrect: 'Lebensohl.  Partner must bid 3C',
-    qbad1: 'Partner has both majors stopped, invitational.',
-    qbad2: 'System on, Transfer to Diamonds',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 68,
-    qowner: 'Richard',
-    qkey: '1NT77',
-    qdetail:
-      'Opposition bid 2C (Clubs stayman) over our 1NT.  Partner responds X.  What does this bidding sequence mean ?',
-    qcorrect: 'Penalty, Values Double',
-    qbad1: 'Invitational to 3NT, both majors stopped',
-    qbad2: 'Partner has long Clubs',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 69,
-    qowner: 'Richard',
-    qkey: '1NT78',
-    qdetail:
-      'Opposition bid 2C (Clubs stayman) over our 1NT.  1NT  2C  3C.  What does this bidding sequence mean ?',
-    qcorrect: 'Strong clubs.  Invitational',
-    qbad1: 'Weak Clubs',
-    qbad2: 'Pre-emptive in Clubs',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 70,
-    qowner: 'Richard',
-    qkey: '1NT79',
-    qdetail:
-      'After 1NT  P  2D  X, what would you bid holding the following KQx,xx,KQJTx,AQx ?',
-    qcorrect: 'Redouble',
-    qbad1: '2H',
-    qbad2: 'Pass',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 71,
-    qowner: 'Richard',
-    qkey: '1NT80',
-    qdetail:
-      'After 1NT  P  2D  X, what would you bid holding the following KQJx,Ax,Jxxx,AQx ?',
-    qcorrect: 'Pass',
-    qbad1: '2H',
-    qbad2: 'Redouble',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
-    qid: 72,
-    qowner: 'Richard',
-    qkey: '1NT81',
-    qdetail:
-      'After 1NT  P  2D  X, what would you bid holding the following KQx,Qxx,KJTx,AQx ?',
-    qcorrect: '2H',
-    qbad1: 'Redouble',
-    qbad2: 'Pass',
-    qbad3: null,
-    qgroup1: '1NT',
-    qgroup2: 'Bidding',
-    qgroup3: 'None',
-    qrefs: null
-  },
-  {
     qid: 73,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double01',
     qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
@@ -1074,7 +15,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 74,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double02',
     qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
@@ -1088,7 +29,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 75,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double03',
     qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
@@ -1102,7 +43,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 76,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double04',
     qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
@@ -1116,7 +57,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 77,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double05',
     qdetail: 'How many hearts does opener have ?',
     qcorrect: 'Less than 3 hearts',
@@ -1130,7 +71,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 78,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double06',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Penalty Double',
@@ -1144,7 +85,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 79,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double07',
     qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
@@ -1158,7 +99,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 80,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double08',
     qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit & extra values',
@@ -1172,7 +113,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 81,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double09',
     qdetail: 'What does the double mean ?',
     qcorrect: '3 card support of partners suit',
@@ -1186,7 +127,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 82,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double10',
     qdetail: 'What does the double mean ?',
     qcorrect: '4H+, 4S+, 6+ points',
@@ -1200,7 +141,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 83,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double11',
     qdetail: 'What does the double mean ?',
     qcorrect: '4C+, 4D+, 6+ points',
@@ -1214,7 +155,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 84,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double12',
     qdetail: 'What does the double mean ?',
     qcorrect: 'At least one 4 card major',
@@ -1228,7 +169,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 85,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double13',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 4S (sometimes 3), 11-14 HCP',
@@ -1242,7 +183,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 86,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double14',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 4S, 15-16 HCP',
@@ -1256,7 +197,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 87,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double15',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 4S, 17-18 HCP',
@@ -1270,7 +211,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 88,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double16',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 4S, 19-21 HCP',
@@ -1284,7 +225,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 89,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double17',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Opener <4H, Spade stopper, 12-14 HCP',
@@ -1298,7 +239,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 90,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double18',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Opener <4H, Spade stopper, 18-19 HCP',
@@ -1312,7 +253,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 91,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double19',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 6C+, 11-15 HCP',
@@ -1326,7 +267,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 92,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double20',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Opener 6C+, 16-19 HCP',
@@ -1340,7 +281,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 93,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double21',
     qdetail: 'What does the double mean ?',
     qcorrect: '16+ HCP, 3S',
@@ -1354,7 +295,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 94,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double22',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Take-out.  Asks partner to bid Clubs, Hearts or Spades',
@@ -1368,7 +309,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 95,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double23',
     qdetail: 'What does the double mean ?',
     qcorrect: '1S shows 5S+,  16+ HCP',
@@ -1382,7 +323,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 96,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double24',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Takout double',
@@ -1396,7 +337,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 97,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double25',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Penalty Double',
@@ -1410,7 +351,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 98,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double26',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Penalty Double',
@@ -1424,7 +365,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 99,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double27',
     qdetail: 'What does the double mean ?',
     qcorrect: 'Takout double',
@@ -1438,7 +379,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 100,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double28',
     qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Penalty Double',
@@ -1452,7 +393,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 101,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double29',
     qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Responsive Double.  Showing 4+ in the Majors',
@@ -1466,7 +407,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 102,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double30',
     qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Responsive Double.  Showing 4+ in the Minors',
@@ -1480,7 +421,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 103,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double31',
     qdetail: 'What do you bid ?',
     qcorrect: '2S .  Support partner',
@@ -1494,7 +435,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 104,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double32',
     qdetail: 'How many HCP are required for a responsive double ? ',
     qcorrect:
@@ -1510,7 +451,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 105,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double33',
     qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Denying heart support but promising both minors',
@@ -1524,7 +465,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 106,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double34',
     qdetail: 'Which is a responsive Double ?',
     qcorrect: '1H  X  2H  X',
@@ -1538,7 +479,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 107,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double35',
     qdetail: 'What should you bid ?',
     qcorrect: '2H',
@@ -1552,7 +493,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 108,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double36',
     qdetail: 'What should you bid ?',
     qcorrect: 'Responsive double showing the minors',
@@ -1566,7 +507,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 109,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double37',
     qdetail: 'What should you bid ?',
     qcorrect: '3D Cue bid showing BOTH Majors',
@@ -1580,7 +521,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 110,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double38',
     qdetail: 'What should you bid ?',
     qcorrect: 'Double showing the other two suits',
@@ -1594,7 +535,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 111,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double39',
     qdetail: 'What should you bid ?',
     qcorrect: 'Double',
@@ -1608,7 +549,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 112,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double40',
     qdetail: 'What should you bid ?',
     qcorrect: 'Double',
@@ -1622,7 +563,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 113,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double41',
     qdetail: 'What should you bid ?',
     qcorrect: 'Double',
@@ -1636,7 +577,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 114,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double51',
     qdetail: 'What should you bid ?',
     qcorrect: 'Pass',
@@ -1650,7 +591,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 115,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double52',
     qdetail: 'What should you bid ?',
     qcorrect: '2H',
@@ -1664,7 +605,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 116,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double53',
     qdetail: 'What should you bid ?',
     qcorrect: 'Double',
@@ -1678,7 +619,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 117,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double54',
     qdetail: 'What does this bidding sequence mean ?',
     qcorrect: 'Simple raise, can be pre-emptive 3-9 HCP',
@@ -1692,7 +633,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 118,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double55',
     qdetail: 'What is a Support Double ?',
     qcorrect:
@@ -1709,7 +650,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 119,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double56',
     qdetail: 'What is a Negative Double ?',
     qcorrect:
@@ -1724,7 +665,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 120,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double57',
     qdetail: 'What is a Takeout Double?',
     qcorrect:
@@ -1741,7 +682,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 121,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double58',
     qdetail: 'What is a Responsive Double?',
     qcorrect:
@@ -1758,7 +699,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 122,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double59',
     qdetail: 'A Lightner Double is ?',
     qcorrect:
@@ -1774,7 +715,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 123,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double62',
     qdetail: 'What is a Reopening Double ?',
     qcorrect:
@@ -1789,7 +730,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 124,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double63',
     qdetail: 'What does the double mean ?',
     qcorrect:
@@ -1805,7 +746,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 125,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'Double64',
     qdetail:
       'A Lead directing double is ?.  What does this bidding sequence mean ?',
@@ -2053,7 +994,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 142,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS01',
     qdetail: 'What do you bid ?',
     qcorrect: '1C',
@@ -2067,7 +1008,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 143,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS02',
     qdetail: 'What do you bid ?',
     qcorrect: '3C',
@@ -2081,7 +1022,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 144,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS03',
     qdetail: 'What do you bid ?',
     qcorrect: '1C',
@@ -2095,7 +1036,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 145,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS04',
     qdetail: 'What do you bid ?',
     qcorrect: '2H',
@@ -2109,7 +1050,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 146,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS05',
     qdetail: 'What do you bid ?',
     qcorrect: '2D',
@@ -2123,7 +1064,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 147,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS06',
     qdetail: 'What do you bid ?',
     qcorrect: '3S',
@@ -2137,7 +1078,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 148,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS07',
     qdetail: 'What do you bid ?',
     qcorrect: 'Redouble',
@@ -2151,7 +1092,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 149,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS08',
     qdetail: 'What do you bid ?',
     qcorrect: '3D',
@@ -2165,7 +1106,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 150,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS09',
     qdetail: 'What do you bid ?',
     qcorrect: '3NT',
@@ -2179,7 +1120,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 151,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS10',
     qdetail: 'What do you bid ?',
     qcorrect: '2C',
@@ -2193,7 +1134,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 152,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS11',
     qdetail: 'What do you bid ?',
     qcorrect: '2D',
@@ -2207,7 +1148,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 153,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS12',
     qdetail: 'What do you bid ?',
     qcorrect: 'Double',
@@ -2221,7 +1162,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 154,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS13',
     qdetail: 'What do you bid ?',
     qcorrect: '1H',
@@ -2235,7 +1176,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 155,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS14',
     qdetail: 'What do you bid ?',
     qcorrect: 'Double',
@@ -2249,7 +1190,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 156,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS15',
     qdetail: 'What do you bid ?',
     qcorrect: '1S',
@@ -2263,7 +1204,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 157,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS16',
     qdetail: 'What do you bid ?',
     qcorrect: 'Double',
@@ -2277,7 +1218,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 158,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS17',
     qdetail: 'What do you bid ?',
     qcorrect: '2S',
@@ -2291,7 +1232,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 159,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS18',
     qdetail: 'What do you bid ?',
     qcorrect: 'Double',
@@ -2305,7 +1246,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 160,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'PS19',
     qdetail: 'What do you bid ?',
     qcorrect: '4S',
@@ -2319,7 +1260,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 186,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF01',
     qdetail:
       'https://www.youtube.com/watch?v=XFTnsOm2Xq4&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=76',
@@ -2334,7 +1275,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 187,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF02',
     qdetail:
       'https://www.youtube.com/watch?v=TsZvW9-Imtc&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=74',
@@ -2349,7 +1290,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 188,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF03',
     qdetail:
       'https://www.youtube.com/watch?v=_6U0h2afJHE&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=72',
@@ -2364,7 +1305,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 189,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF04',
     qdetail:
       'https://www.youtube.com/watch?v=8ruVr0EoL2A&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=70',
@@ -2379,7 +1320,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 190,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF05',
     qdetail:
       'https://www.youtube.com/watch?v=pdWfV9Hae1c&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=69',
@@ -2394,7 +1335,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 191,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF06',
     qdetail:
       'https://www.youtube.com/watch?v=qhV62zvJV3M&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=66',
@@ -2409,7 +1350,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 192,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF07',
     qdetail:
       'https://www.youtube.com/watch?v=rZKQJnbvRmg&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=64',
@@ -2424,7 +1365,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 193,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF08',
     qdetail:
       'https://www.youtube.com/watch?v=8DCJYS8aiQM&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=60',
@@ -2439,7 +1380,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 194,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF09',
     qdetail:
       'https://www.youtube.com/watch?v=eypluyv2jLY&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=59',
@@ -2454,7 +1395,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 195,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF10',
     qdetail:
       'https://www.youtube.com/watch?v=LNh-xtt2KRw&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=62',
@@ -2469,7 +1410,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 196,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF11',
     qdetail:
       'https://www.youtube.com/watch?v=SW_6JrllmKc&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=53',
@@ -2484,7 +1425,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 197,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF12',
     qdetail:
       'https://www.youtube.com/watch?v=26wCX47i6u8&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=51',
@@ -2499,7 +1440,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 198,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF13',
     qdetail:
       'https://www.youtube.com/watch?v=NgFRjCCjCMo&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=50',
@@ -2514,7 +1455,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 199,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF14',
     qdetail:
       'https://www.youtube.com/watch?v=7saKaHoh1Fc&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=48',
@@ -2529,7 +1470,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 200,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF15',
     qdetail:
       'https://www.youtube.com/watch?v=WCGBZNWoY7o&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=44',
@@ -2544,7 +1485,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 201,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF16',
     qdetail:
       'https://www.youtube.com/watch?v=gs161tAhc4A&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=41',
@@ -2559,7 +1500,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 202,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF17',
     qdetail:
       'https://www.youtube.com/watch?v=TVlYY8rzLM0&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=40',
@@ -2574,7 +1515,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 203,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF18',
     qdetail:
       'https://www.youtube.com/watch?v=PnpUJxh5YY8&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=38',
@@ -2589,7 +1530,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 204,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF19',
     qdetail:
       'https://www.youtube.com/watch?v=thq3P6caT7o&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=36',
@@ -2604,7 +1545,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 205,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF20',
     qdetail:
       'https://www.youtube.com/watch?v=Qo6LIWMTGeo&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=34',
@@ -2619,7 +1560,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 206,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF21',
     qdetail:
       'https://www.youtube.com/watch?v=StJtgZm_kSM&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=32',
@@ -2634,7 +1575,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 207,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF22',
     qdetail:
       'https://www.youtube.com/watch?v=heFisuDLo44&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=30',
@@ -2649,7 +1590,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 208,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF23',
     qdetail:
       'https://www.youtube.com/watch?v=KAmzSaqvvWE&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=28',
@@ -2664,7 +1605,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 209,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF24',
     qdetail:
       'https://www.youtube.com/watch?v=MbfwoU_6WQU&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=27',
@@ -2679,7 +1620,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 210,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF25',
     qdetail:
       'https://www.youtube.com/watch?v=4F3Hs-64CZM&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=25',
@@ -2694,7 +1635,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 211,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF26',
     qdetail:
       'https://www.youtube.com/watch?v=Nx0UTV1ymQU&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=23',
@@ -2709,7 +1650,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 212,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF27',
     qdetail:
       'https://www.youtube.com/watch?v=haWwQvOxbA0&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=20',
@@ -2724,7 +1665,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 213,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF28',
     qdetail:
       'https://www.youtube.com/watch?v=DDA2u5B_jNg&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=14',
@@ -2739,7 +1680,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 214,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF29',
     qdetail:
       'https://www.youtube.com/watch?v=Pm-6EiBFaSo&list=PLpTZMBT2rnfEfJSu9rop3cxuTbIKL5wVj&index=18',
@@ -2754,7 +1695,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 215,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF30',
     qdetail: 'https://www.youtube.com/watch?v=71mwnR0BC18',
     qcorrect: '1NT 15-17',
@@ -2768,7 +1709,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 216,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF31',
     qdetail: 'https://www.youtube.com/watch?v=AFj_ArhyNWw',
     qcorrect: '2C',
@@ -2782,7 +1723,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 217,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF32',
     qdetail: 'https://www.youtube.com/watch?v=S1dC5I_zO50',
     qcorrect: '2S',
@@ -2796,7 +1737,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 218,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF33',
     qdetail: 'https://www.youtube.com/watch?v=m6-erhM0XeA',
     qcorrect: '3H',
@@ -2810,7 +1751,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 219,
-    qowner: 'public',
+    qowner: 'Richard',
     qkey: 'WBF34',
     qdetail: 'https://www.youtube.com/watch?v=HtlNh_3qxt0',
     qcorrect: '2D',
@@ -4482,7 +3423,7 @@ exports.QUESTIONS = [
     qbad2: '3D',
     qbad3: 'Pass',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
@@ -4497,7 +3438,7 @@ exports.QUESTIONS = [
     qbad2: '3D',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
@@ -4512,7 +3453,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: '2NT',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
@@ -4527,7 +3468,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: '2NT',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
@@ -4541,7 +3482,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: '3S',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
@@ -4555,7 +3496,7 @@ exports.QUESTIONS = [
     qbad2: null,
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger01']
   },
@@ -4569,7 +3510,7 @@ exports.QUESTIONS = [
     qbad2: '3H',
     qbad3: 'Pass',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger02']
   },
@@ -4583,7 +3524,7 @@ exports.QUESTIONS = [
     qbad2: '3H',
     qbad3: 'Pass',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger02']
   },
@@ -4597,7 +3538,7 @@ exports.QUESTIONS = [
     qbad2: '3H',
     qbad3: '2NT',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger02']
   },
@@ -4611,7 +3552,7 @@ exports.QUESTIONS = [
     qbad2: '2H',
     qbad3: '3NT',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger02']
   },
@@ -4625,7 +3566,7 @@ exports.QUESTIONS = [
     qbad2: 'Ask for a diamond stopper',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4639,7 +3580,7 @@ exports.QUESTIONS = [
     qbad2: '3H',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4653,7 +3594,7 @@ exports.QUESTIONS = [
     qbad2: '4C',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4667,7 +3608,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4681,7 +3622,7 @@ exports.QUESTIONS = [
     qbad2: '3S',
     qbad3: '3H',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4695,7 +3636,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4709,7 +3650,7 @@ exports.QUESTIONS = [
     qbad2: '4C',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4723,7 +3664,7 @@ exports.QUESTIONS = [
     qbad2: '2NT',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4737,7 +3678,7 @@ exports.QUESTIONS = [
     qbad2: '4H',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4751,7 +3692,7 @@ exports.QUESTIONS = [
     qbad2: '2H',
     qbad3: '3NT',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4765,7 +3706,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4779,7 +3720,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4793,7 +3734,7 @@ exports.QUESTIONS = [
     qbad2: '4H',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4807,7 +3748,7 @@ exports.QUESTIONS = [
     qbad2: '3S',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4821,7 +3762,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger03']
   },
@@ -4835,7 +3776,7 @@ exports.QUESTIONS = [
     qbad2: '3D',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
@@ -4849,7 +3790,7 @@ exports.QUESTIONS = [
     qbad2: '4C',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
@@ -4863,7 +3804,7 @@ exports.QUESTIONS = [
     qbad2: 'Pass',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
@@ -4877,7 +3818,7 @@ exports.QUESTIONS = [
     qbad2: '3H',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
@@ -4891,7 +3832,7 @@ exports.QUESTIONS = [
     qbad2: 'Double',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
@@ -4905,7 +3846,7 @@ exports.QUESTIONS = [
     qbad2: null,
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger04']
   },
@@ -4919,7 +3860,7 @@ exports.QUESTIONS = [
     qbad2: null,
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
@@ -4933,7 +3874,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
@@ -4947,7 +3888,7 @@ exports.QUESTIONS = [
     qbad2: '3H',
     qbad3: '3D',
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
@@ -4961,7 +3902,7 @@ exports.QUESTIONS = [
     qbad2: '3H',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
@@ -4975,7 +3916,7 @@ exports.QUESTIONS = [
     qbad2: '3S',
     qbad3: null,
     qgroup1: 'Lebensohl',
-    qgroup2: null,
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['LebensohlMarkHugger05']
   },
@@ -4989,7 +3930,7 @@ exports.QUESTIONS = [
     qbad2: 'Pass',
     qbad3: '2NT',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5003,7 +3944,7 @@ exports.QUESTIONS = [
     qbad2: 'Pass',
     qbad3: '2NT',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5017,7 +3958,7 @@ exports.QUESTIONS = [
     qbad2: 'Pass',
     qbad3: '2NT',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5031,7 +3972,7 @@ exports.QUESTIONS = [
     qbad2: '2D',
     qbad3: '2NT',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5045,7 +3986,7 @@ exports.QUESTIONS = [
     qbad2: '3S',
     qbad3: '3D',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5059,7 +4000,7 @@ exports.QUESTIONS = [
     qbad2: '3NT',
     qbad3: 'Pass',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5071,9 +4012,9 @@ exports.QUESTIONS = [
     qcorrect: 'Pass',
     qbad1: '3NT',
     qbad2: '3D',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5085,9 +4026,9 @@ exports.QUESTIONS = [
     qcorrect: '4S',
     qbad1: '3NT',
     qbad2: 'Pass',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5099,9 +4040,9 @@ exports.QUESTIONS = [
     qcorrect: '2S',
     qbad1: '3S',
     qbad2: '2H',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5115,7 +4056,7 @@ exports.QUESTIONS = [
     qbad2: '2NT',
     qbad3: '3NT',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5129,7 +4070,7 @@ exports.QUESTIONS = [
     qbad2: '3D',
     qbad3: '3NT',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5143,7 +4084,7 @@ exports.QUESTIONS = [
     qbad2: '3D',
     qbad3: 'Pass',
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5155,9 +4096,9 @@ exports.QUESTIONS = [
     qcorrect: '3C',
     qbad1: 'Pass',
     qbad2: '3NT',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5169,9 +4110,9 @@ exports.QUESTIONS = [
     qcorrect: '3NT',
     qbad1: 'Pass',
     qbad2: '3C',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5183,9 +4124,9 @@ exports.QUESTIONS = [
     qcorrect: '2C',
     qbad1: 'Pass',
     qbad2: '2S',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
@@ -5197,52 +4138,206 @@ exports.QUESTIONS = [
     qcorrect: 'Pass',
     qbad1: '2C',
     qbad2: '3C',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBStayman',
-    qgroup2: 'None',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman']
   },
   {
-    qid: 389,
+    qid: 400,
     qowner: 'Richard',
     qkey: 'Test01',
-    qdetail: 'Testing',
-    qcorrect: 't',
-    qbad1: 't',
-    qbad2: '',
-    qbad3: '',
-    qgroup1: 'Redoubles',
-    qgroup2: 'None',
-    qgroup3: 'None',
-    qrefs: ['ref1']
+    qdetail: 'What does the double mean ?',
+    qcorrect: '3 card support of partners suit',
+    qbad1: '4+ clubs',
+    qbad2: 'Heart stopper',
+    qbad3: 'Bad Bad Bad',
+    qgroup1: 'Doubles',
+    qgroup2: 'Bidding',
+    qgroup3: 'All',
+    qrefs: ['LebensohlMarkHugger01', 'LebensohlMarkHugger02']
   },
   {
-    qid: 390,
-    qowner: 'Richard',
-    qkey: 'Test02',
-    qdetail: 'Testing 02',
-    qcorrect: 't',
-    qbad1: 't',
-    qbad2: '',
-    qbad3: '',
-    qgroup1: 'Redoubles',
-    qgroup2: 'None',
-    qgroup3: 'None',
-    qrefs: ['ref1']
-  },
-  {
-    qid: 400,
+    qid: 401,
     qowner: 'public',
-    qkey: 'test',
-    qdetail: 't1 copy 1',
-    qcorrect: 't',
-    qbad1: 't',
-    qbad2: '',
+    qkey: 'NZBTransfer01',
+    qdetail: 'Your partner opens 1NT. What is your response ?',
+    qcorrect: '2H',
+    qbad1: 'Pass',
+    qbad2: '2S',
     qbad3: '',
-    qgroup1: 'Redoubles',
-    qgroup2: 'None',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['ref1']
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 402,
+    qowner: 'public',
+    qkey: 'NZBTransfer02',
+    qdetail: 'Your partner opens 1NT. What is your response ?',
+    qcorrect: '2D',
+    qbad1: '2H',
+    qbad2: '3D',
+    qbad3: '3NT',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 403,
+    qowner: 'public',
+    qkey: 'NZBTransfer03',
+    qdetail: 'Your partner opens 1NT. What is your response ?',
+    qcorrect: '2NT',
+    qbad1: '3C',
+    qbad2: 'Pass',
+    qbad3: '',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 404,
+    qowner: 'public',
+    qkey: 'NZBTransfer04',
+    qdetail: 'Your partner opens 1NT. What is your response ?',
+    qcorrect: '2H',
+    qbad1: '3S',
+    qbad2: 'Pass',
+    qbad3: '',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 405,
+    qowner: 'public',
+    qkey: 'NZBTransfer05',
+    qdetail: 'Your partner opens 1NT. What is your response ?',
+    qcorrect: '2D',
+    qbad1: '2H',
+    qbad2: '3H',
+    qbad3: '3D',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 406,
+    qowner: 'public',
+    qkey: 'NZBTransfer06',
+    qdetail: 'What is your next bid with the following hand ?',
+    qcorrect: 'Pass',
+    qbad1: '2NT',
+    qbad2: '3S',
+    qbad3: '',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 407,
+    qowner: 'public',
+    qkey: 'NZBTransfer07',
+    qdetail: 'What is your next bid with the following hand ?',
+    qcorrect: '3D',
+    qbad1: '3H',
+    qbad2: '2NT',
+    qbad3: '3NT',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 408,
+    qowner: 'public',
+    qkey: 'NZBTransfer08',
+    qdetail: 'What is your next bid with the following hand ?',
+    qcorrect: 'Pass',
+    qbad1: '5C',
+    qbad2: '3NT',
+    qbad3: '4C',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 409,
+    qowner: 'public',
+    qkey: 'NZBTransfer09',
+    qdetail: 'What is your next bid with the following hand ?',
+    qcorrect: '3S',
+    qbad1: '4S',
+    qbad2: '3NT',
+    qbad3: '',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 410,
+    qowner: 'public',
+    qkey: 'NZBTransfer10',
+    qdetail: 'What is your next bid with the following hand ?',
+    qcorrect: '2NT',
+    qbad1: '3H',
+    qbad2: '3NT',
+    qbad3: '4H',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 411,
+    qowner: 'public',
+    qkey: 'NZBTransfer11',
+    qdetail: 'What is your next bid with the following hand ?',
+    qcorrect: '4H',
+    qbad1: '3NT',
+    qbad2: '3H',
+    qbad3: 'Pass',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 412,
+    qowner: 'public',
+    qkey: 'NZBTransfer12',
+    qdetail: 'What is your next bid with the following hand ?',
+    qcorrect: '3H',
+    qbad1: '4H',
+    qbad2: '3NT',
+    qbad3: '3C',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 413,
+    qowner: 'public',
+    qkey: 'NZBTransfer13',
+    qdetail: 'What is your next bid with the following hand ?',
+    qcorrect: '3NT',
+    qbad1: '2NT',
+    qbad2: '3S',
+    qbad3: '3H',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeTransfers', 'None']
   }
 ]

@@ -169,9 +169,10 @@ const Quiz = () => {
   //...................................................................................
   return (
     <>
+      <QuizQuestion quizRow={g_quizRow} quizQuestion={g_Idx + 1} />
       <QuizBidding qid={g_quizRow.qid} />
       <QuizHands qid={g_quizRow.qid} />
-      <QuizQuestion quizRow={g_quizRow} quizQuestion={g_Idx + 1} />
+
       <QuizPanel
         key={g_quizRow.qid}
         quizRow={g_quizRow}

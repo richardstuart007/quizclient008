@@ -456,5 +456,14 @@ exports.REFLINKS = [
       'https://www.nzbridge.co.nz/user/inline/2160/NZB%20Improver%2001%20-%20Quiz%20Answers.pdf',
     rwho: 'NZB',
     rtype: 'webdoc'
+  },
+  {
+    rid: 58,
+    rref: 'NZBridgeTransfers',
+    rdesc: 'NZ Bridge Transfers',
+    rlink:
+      'https://www.nzbridge.co.nz/user/inline/3291/NZB%20Intermediate%2001%20-%20Quiz%20%26%20Answers.pdf',
+    rwho: 'NZB',
+    rtype: 'webdoc'
   }
 ]
