@@ -32,20 +32,29 @@ async function getTable(props) {
     sqlTable,
     sqlAction,
     sqlWhere,
-    sqlOrderByRaw
+    sqlOrderByRaw,
+    sqlString
   ) => {
     try {
       //
       //  Setup actions
       //
       const method = 'post'
-      const body = {
-        sqlClient: sqlClient,
-        sqlTable: sqlTable,
-        sqlAction: sqlAction,
-        sqlWhere: sqlWhere,
-        sqlOrderByRaw: sqlOrderByRaw
-      }
+      let body
+      sqlAction === 'SELECT'
+        ? (body = {
+            sqlClient: sqlClient,
+            sqlTable: sqlTable,
+            sqlAction: sqlAction,
+            sqlWhere: sqlWhere,
+            sqlOrderByRaw: sqlOrderByRaw
+          })
+        : (body = {
+            sqlClient: sqlClient,
+            sqlAction: sqlAction,
+            sqlString: sqlString
+          })
+
       const URL = URL_BASE + URL_TABLES
       if (g_log1) console.log('URL ', URL)
       //
@@ -82,7 +91,8 @@ async function getTable(props) {
     sqlTable,
     sqlAction = 'SELECT',
     sqlWhere = '',
-    sqlOrderByRaw = ''
+    sqlOrderByRaw = '',
+    sqlString = ''
   } = props
   if (g_log1) console.log('sqlCaller ', sqlCaller)
   if (g_log1) console.log('sqlTable ', sqlTable)
@@ -91,6 +101,7 @@ async function getTable(props) {
   if (g_log1) console.log('sqlOrderByRaw ', sqlOrderByRaw)
   let sqlClient = `${functionName}/${sqlCaller}`
   if (g_log1) console.log('sqlClient ', sqlClient)
+  if (g_log1) console.log('sqlString ', sqlString)
   //
   // Fetch the data
   //
@@ -99,7 +110,8 @@ async function getTable(props) {
     sqlTable,
     sqlAction,
     sqlWhere,
-    sqlOrderByRaw
+    sqlOrderByRaw,
+    sqlString
   )
   //
   // Return promise

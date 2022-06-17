@@ -152,13 +152,19 @@ function QuizControl() {
     if (snapShot.v_StaticData === false) {
       if (g_log1) console.log(`Override Page: ${CurrentPage} to QuizServerData`)
       ValtioStore.v_Page = 'QuizServerData'
+      ValtioStore.v_DataLoad = true
       CurrentPage = 'QuizServerData'
     }
     //
-    //  Load Static data to Store
+    //  Load Static data to Store (Once only)
     //
     else {
-      QuizStaticData()
+      if (g_log1) console.log('snapShot.v_DataLoad ', snapShot.v_DataLoad)
+      if (snapShot.v_DataLoad) {
+        ValtioStore.v_DataLoad = false
+        if (g_log1) console.log('call QuizStaticData ')
+        QuizStaticData()
+      }
       if (g_log1) console.log(`Override Page: ${CurrentPage} to QuizSelect`)
       ValtioStore.v_Page = 'QuizSelect'
       CurrentPage = 'QuizSelect'

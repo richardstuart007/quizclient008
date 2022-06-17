@@ -29,7 +29,12 @@ const QuizStaticData = () => {
     //
     //  Options
     //
-    let OwnerOptions = []
+    let OwnerOptions = [
+      {
+        id: 'All',
+        title: 'All'
+      }
+    ]
     data.forEach(item => {
       const itemObj = {
         id: item.oid,
@@ -58,27 +63,31 @@ const QuizStaticData = () => {
     LoadOptionsOwner(OWNER)
   }
   //...................................................................................
-  //.  Load Static - Group1
+  //.  Load Static - Group1 for OWNER
   //...................................................................................
-  const LoadStaticGroup1 = () => {
-    if (g_log1) console.log('Load Static Group1 ')
+  const LoadStaticGroup1Owner = () => {
+    if (g_log1) console.log('Load Static Group1 Owner')
     //
-    //  Group1
+    //  Options
     //
-    const { GROUP1 } = require('./DataGroup1.js')
-    //
-    //  Options - Group1
-    //
-    let Group1Options = []
-    GROUP1.forEach(item => {
-      const itemObj = {
-        id: item.g1id,
-        title: item.g1title
+    const { GROUP1OWNER } = require('./DataGroup1Owner.js')
+    let Group1OptionsOwner = [
+      {
+        qowner: 'All',
+        qgroup1: 'All',
+        g1title: 'All'
       }
-      Group1Options.push(itemObj)
+    ]
+    GROUP1OWNER.forEach(item => {
+      const itemObj = {
+        qowner: item.qowner,
+        qgroup1: item.qgroup1,
+        g1title: item.g1title
+      }
+      Group1OptionsOwner.push(itemObj)
     })
-    ValtioStore.v_Group1Options = Group1Options
-    if (g_log1) console.log('Group1Options ', Group1Options)
+    ValtioStore.v_Group1OptionsOwner = Group1OptionsOwner
+    if (g_log1) console.log('v_Group1OptionsOwner ', Group1OptionsOwner)
   }
   //...................................................................................
   //.  Load Static - Group2
@@ -86,13 +95,15 @@ const QuizStaticData = () => {
   const LoadStaticGroup2 = () => {
     if (g_log1) console.log('Load Static Group2 ')
     //
-    //  Group2
+    //  Options
     //
     const { GROUP2 } = require('./DataGroup2.js')
-    //
-    //  Options - Group2
-    //
-    let Group2Options = []
+    let Group2Options = [
+      {
+        id: 'All',
+        title: 'All'
+      }
+    ]
     GROUP2.forEach(item => {
       const itemObj = {
         id: item.g2id,
@@ -109,13 +120,15 @@ const QuizStaticData = () => {
   const LoadStaticGroup3 = () => {
     if (g_log1) console.log('Load Static Group3 ')
     //
-    //  Group3
+    //  Options
     //
     const { GROUP3 } = require('./DataGroup3.js')
-    //
-    //  Options - Group3
-    //
-    let Group3Options = []
+    let Group3Options = [
+      {
+        id: 'All',
+        title: 'All'
+      }
+    ]
     GROUP3.forEach(item => {
       const itemObj = {
         id: item.g3id,
@@ -136,7 +149,7 @@ const QuizStaticData = () => {
   //
   //  Groups
   //
-  LoadStaticGroup1()
+  LoadStaticGroup1Owner()
   LoadStaticGroup2()
   LoadStaticGroup3()
   //

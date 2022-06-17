@@ -28,6 +28,7 @@ const ValtioStore = proxy({
   v_Params: null,
   v_Page: 'QuizRestart',
   v_PagePrevious: '',
+  v_DataLoad: true,
   //
   //  Signon Information
   //
@@ -38,7 +39,7 @@ const ValtioStore = proxy({
   //  Data - All Options
   //
   v_OwnerOptions: [],
-  v_Group1Options: [],
+  v_Group1OptionsOwner: [],
   v_Group2Options: [],
   v_Group3Options: [],
   //
@@ -63,6 +64,7 @@ const ValtioStore = proxy({
   v_QFilterSort: [],
   v_QCount: 0,
   v_QRefs: [],
+  v_QRefsCount: 0,
   //
   //  Quiz State Variables
   //

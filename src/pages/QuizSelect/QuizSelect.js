@@ -31,13 +31,41 @@ import randomSort from '../../services/randomSort'
 const { ROWS_MAX } = require('../../services/constants.js')
 //
 let g_staticData = null
+let g_DataLoad = null
+//
+//  Define State of store values
+//
+let g_CurrentPage
+let g_Questions
+let g_OwnerOptions
+let g_Group1OptionsOwner
+let g_Group2Options
+let g_Group3Options
+let g_disabled
+let g_showOwner
+let g_showGroup1
+let g_showGroup2
+let g_showGroup3
+let g_Group1OptionsSubset
+let g_RandomSort
+//
+//  Global workfields
+//
+let g_QFilter = []
+let g_QFilterSort = []
+let g_QCount = 0
+let g_QRefsCount = 0
 //..............................................................................
 //.  Initialisation
 //.............................................................................
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
+const debugLog = debugSettings()
+const debugFunStartSetting = false
+const debugFunEndSetting = false
+const debugModule = 'QuizSelect'
+let debugStack = []
 //.............................................................................
 //.  Data Input Fields
 //.............................................................................
@@ -64,68 +92,122 @@ const savedValues = {
 //
 //  References to display
 //
-let g_Page
+let g_PageNew
 //===================================================================================
 const QuizSelect = () => {
-  //
-  //  Set Debug State
-  //
-  if (g_log1) console.log('Start QuizSelect')
   //.............................................................................
-  //.  Valtio snapShot unpack
+  //.  Debug Logging
+  //.............................................................................
+  const debugLogging = (objtext, obj) => {
+    if (debugLog) {
+      //
+      //  Object passed
+      //
+      let JSONobj = ''
+      if (obj) {
+        JSONobj = JSON.parse(JSON.stringify(obj))
+      }
+      //
+      //  Output values
+      //
+      console.log('VALUES: Stack ', debugStack, objtext, JSONobj)
+    }
+  }
+  //.............................................................................
+  //.  function start
+  //.............................................................................
+  const debugFunStart = funname => {
+    debugStack.push(funname)
+    if (debugFunStartSetting)
+      console.log('Stack: debugFunStart ==> ', funname, debugStack)
+  }
+  //.............................................................................
+  //.  function End
+  //.............................................................................
+  const debugFunEnd = () => {
+    if (debugStack.length > 1) {
+      const funname = debugStack.pop()
+      if (debugFunEndSetting)
+        console.log('Stack: debugFunEnd <==== ', funname, debugStack)
+    }
+  }
+  //.............................................................................
+  //.  Valtio unpack
   //.............................................................................
   const vUnpack = valtioField => {
     const valtioValue = JSON.parse(JSON.stringify(valtioField))
     return valtioValue
   }
   //.............................................................................
-  //
-  //  Define the ValtioStore
-  //
-  const snapShot = useSnapshot(ValtioStore)
-  const CurrentPage = vUnpack(snapShot.v_Page)
-  //
-  //  Get Data from the Store
-  //
-  const Questions = vUnpack(snapShot.v_Questions)
-  const OwnerOptions = vUnpack(snapShot.v_OwnerOptions)
-  const Group1Options = vUnpack(snapShot.v_Group1Options)
-  const Group2Options = vUnpack(snapShot.v_Group2Options)
-  const Group3Options = vUnpack(snapShot.v_Group3Options)
-  if (g_log1) console.log('Questions ', Questions)
-  if (g_log1) console.log('OwnerOptions ', OwnerOptions)
-  if (g_log1) console.log('Group1Options ', Group1Options)
-  if (g_log1) console.log('Group2Options ', Group2Options)
-  if (g_log1) console.log('Group3Options ', Group3Options)
-
-  //
-  //  Set Selection from any previous values
-  //
-  initialFValues.qowner = vUnpack(snapShot.v_Owner)
-  initialFValues.qgroup1 = vUnpack(snapShot.v_Group1)
-  initialFValues.qgroup2 = vUnpack(snapShot.v_Group2)
-  initialFValues.qgroup3 = vUnpack(snapShot.v_Group3)
-  initialFValues.MaxQuestions = vUnpack(snapShot.v_MaxQuestions)
-  const disabled = !vUnpack(snapShot.v_AllowSelection)
-
-  const showOwner = vUnpack(snapShot.v_ShowSelectionOwner)
-  const showGroup1 = vUnpack(snapShot.v_ShowSelectionGroup1)
-  const showGroup2 = vUnpack(snapShot.v_ShowSelectionGroup2)
-  const showGroup3 = vUnpack(snapShot.v_ShowSelectionGroup3)
-  //
-  // Form Message
-  //
-  const [form_message, setForm_message] = useState('')
-
+  //.  Load Group1 Options
+  //.............................................................................
+  const loadGroup1Options = (owner, group1) => {
+    debugFunStart('loadGroup1Options')
+    let options
+    //
+    //  Select out Owner
+    //
+    debugLogging('owner ', owner)
+    //
+    //  Select out Owner
+    //
+    options = [
+      {
+        id: 'All',
+        title: 'All'
+      }
+    ]
+    debugLogging('g_Group1OptionsOwner ', g_Group1OptionsOwner)
+    g_Group1OptionsOwner.forEach(item => {
+      if (item.qowner === owner || owner === 'All') {
+        //
+        //  Do not add duplicates
+        //
+        const duplicate = options.some(option => option['id'] === item.qgroup1)
+        if (!duplicate) {
+          const itemObj = {
+            id: item.qgroup1,
+            title: item.g1title
+          }
+          debugLogging('itemObj ', itemObj)
+          options.push(itemObj)
+        }
+      }
+    })
+    //
+    //  If current group1 is not in valid value, force All (how ?)
+    //
+    debugLogging('group1 ', group1)
+    debugLogging('options ', options)
+    const valid = options.some(option => option['id'] === group1)
+    if (!valid) {
+      setValues({
+        ...values,
+        qowner: owner,
+        qgroup1: 'All'
+      })
+      debugLogging('Force QGROUP1 to ALL, invalid group ')
+    }
+    debugLogging('options ', options)
+    debugFunEnd()
+    return options
+  }
   //.............................................................................
   //.  Input field validation
   //.............................................................................
   const validate = (fieldValues = values) => {
-    if (g_log1) console.log('fieldValues ', fieldValues)
+    debugFunStart('validate')
+    debugLogging('fieldValues ', fieldValues)
     let temp = { ...errors }
-    if ('qowner' in fieldValues)
+    if ('qowner' in fieldValues) {
       temp.qowner =
         fieldValues.qowner.length !== 0 ? '' : 'This field is required.'
+      g_Group1OptionsSubset = loadGroup1Options(
+        fieldValues.qowner,
+        values.qgroup1
+      )
+      debugLogging('g_Group1OptionsSubset ', g_Group1OptionsSubset)
+    }
     if ('MaxQuestions' in fieldValues)
       temp.MaxQuestions =
         parseInt(fieldValues.MaxQuestions) > 0 &&
@@ -137,6 +219,8 @@ const QuizSelect = () => {
     })
 
     if (fieldValues === values) return Object.values(temp).every(x => x === '')
+
+    debugFunEnd()
   }
   //...................................................................................
   //.  Form Submit
@@ -145,67 +229,82 @@ const QuizSelect = () => {
   //  Validate
   //
   const SubmitForm = e => {
+    debugFunStart('SubmitForm')
     if (validate()) {
       updateSelection()
     }
+    debugFunEnd()
   }
   //...................................................................................
   //.  Update Selection
   //...................................................................................
   const updateSelection = () => {
+    debugFunStart('updateSelection')
     //
     //  Save selection
     //
-    if (g_log1) console.log(values)
+    debugLogging(values)
     savedValues.qowner = values.qowner
     savedValues.qgroup1 = values.qgroup1
     savedValues.qgroup2 = values.qgroup2
     savedValues.qgroup3 = values.qgroup3
     savedValues.MaxQuestions = values.MaxQuestions
-
     //
     //  Filter and sort the Questions
     //
     QuestionsFilterSort()
     //
+    //  No questions
+    //
+    debugLogging('g_QCount ', g_QCount)
+    if (g_QCount === 0) {
+      setForm_message('QuizSelect: No Questions found')
+      debugLogging('QuizSelect: No Questions found')
+      debugFunEnd()
+      return
+    }
+    //
+    //  No Refs
+    //
+    debugLogging('g_QRefsCount ', g_QRefsCount)
+    if (g_PageNew === 'QuizRefs') {
+      if (g_QRefsCount === 0) {
+        setForm_message('QuizSelect: No Learning Material found')
+        debugFunEnd()
+        return
+      }
+    }
+    //
     //  Update store
     //
-    ValtioStore.v_PagePrevious = CurrentPage
-    ValtioStore.v_Page = g_Page
+    ValtioStore.v_PagePrevious = g_CurrentPage
+    ValtioStore.v_Page = g_PageNew
     ValtioStore.v_Reset = true
     ValtioStore.v_Owner = savedValues.qowner
     ValtioStore.v_Group1 = savedValues.qgroup1
     ValtioStore.v_Group2 = savedValues.qgroup2
     ValtioStore.v_Group3 = savedValues.qgroup3
     ValtioStore.v_MaxQuestions = savedValues.MaxQuestions
+
+    debugFunEnd()
   }
   //...................................................................................
-  //.  Filter v_Questions into v_QFilterSort
+  //.  Load filtered
   //...................................................................................
-  const QuestionsFilterSort = () => {
-    if (g_log1) console.log('QuestionsFilterSort')
-    //
-    // Clear the store
-    //
-    if (g_log1) console.log('clear v_QFilter')
-    ValtioStore.v_QFilter = []
-    if (g_log1) console.log('clear v_QFilterSort')
-    ValtioStore.v_QFilterSort = []
-    ValtioStore.v_QCount = 0
-    if (g_log1) console.log('clear v_QRefs')
-    ValtioStore.v_QRefs = []
-    // ----------------------------------------------------------------------------------
+  const loadQFilter = () => {
+    debugFunStart('loadQFilter')
+    debugLogging('g_Questions ', g_Questions)
+    debugLogging('savedValues ', savedValues)
     //
     //  Filter
     //
-    if (g_log1) console.log('savedValues ', savedValues)
-    const filteredData = Questions.filter(question => {
+    const filteredData = g_Questions.filter(question => {
       if (
         savedValues.qowner &&
         savedValues.qowner !== 'All' &&
         question.qowner !== savedValues.qowner
       ) {
-        if (g_log1) console.log('question.qowner ', question.qowner)
+        // debugLogging('rejected owner ', question)
         return false
       }
       if (
@@ -213,7 +312,7 @@ const QuizSelect = () => {
         savedValues.qgroup1 !== 'All' &&
         question.qgroup1 !== savedValues.qgroup1
       ) {
-        if (g_log1) console.log('question.qgroup1 ', question.qgroup1)
+        // debugLogging('rejected Group1', question)
         return false
       }
       if (
@@ -221,7 +320,7 @@ const QuizSelect = () => {
         savedValues.qgroup2 !== 'All' &&
         question.qgroup2 !== savedValues.qgroup2
       ) {
-        if (g_log1) console.log('question.qgroup2 ', question.qgroup2)
+        // debugLogging('rejected Group2', question)
         return false
       }
       if (
@@ -229,96 +328,236 @@ const QuizSelect = () => {
         savedValues.qgroup3 !== 'All' &&
         question.qgroup3 !== savedValues.qgroup3
       ) {
-        if (g_log1) console.log('question.qgroup3 ', question.qgroup3)
+        // debugLogging('rejected Group3', question)
         return false
       }
       //
       //  Selected
       //
+      debugLogging('question selected ', question)
       return question
     })
+    debugLogging('filteredData ', filteredData)
     //
     //  No Questions
     //
-    if (g_log1) console.log('filteredData ', filteredData)
     if (filteredData.length === 0) {
       setForm_message('QuizSelect: No Questions found')
+      debugLogging('QuizSelect: No Questions found')
+      debugFunEnd()
       return
     }
     //
     //  Save filtered Questions
     //
     ValtioStore.v_QFilter = filteredData
-    // ----------------------------------------------------------------------------------
+    g_QFilter = filteredData
+    debugLogging('g_QFilter ', g_QFilter)
+
+    debugFunEnd()
+  }
+  //...................................................................................
+  //.  Load filtered sorted
+  //...................................................................................
+  const loadQFilterSort = () => {
+    debugFunStart('loadQFilterSort')
+
+    const filteredData = g_QFilter
+    debugLogging('filteredData ', filteredData)
+
+    if (filteredData) {
+      let sortedData = []
+
+      g_RandomSort
+        ? (sortedData = randomSort(filteredData))
+        : (sortedData = filteredData)
+      debugLogging('sortedData ', sortedData)
+      //
+      //  Apply max number
+      //
+      let quest = []
+      let i = 0
+      do {
+        if (i < sortedData.length) quest.push(sortedData[i])
+        i++
+      } while (i < savedValues.MaxQuestions)
+      //
+      // update ValtioStore - Questions
+      //
+      debugLogging('update v_QFilterSort', quest)
+      ValtioStore.v_QFilterSort = quest
+      g_QFilterSort = quest
+
+      ValtioStore.v_QCount = quest.length
+      g_QCount = quest.length
+    }
+
+    debugFunEnd()
+  }
+  //...................................................................................
+  //.  Load references
+  //...................................................................................
+  const loadQrefs = () => {
+    debugFunStart('loadQrefs')
+
+    const quest = g_QFilterSort
+    debugLogging('quest ', quest)
+
+    if (quest) {
+      let refs = []
+      quest.forEach(question => {
+        const { qrefs } = question
+        debugLogging('qrefs ', qrefs)
+        if (qrefs) {
+          qrefs.forEach(ref => {
+            //
+            //  ignore None
+            //
+            if (ref !== 'None') {
+              const found = refs.find(element => element === ref)
+              if (!found) refs.push(ref)
+            }
+          })
+        }
+      })
+      //
+      //  Sort the Refs
+      //
+      debugLogging('refs ', refs)
+      refs.sort((a, b) => (a > b ? 1 : -1))
+      debugLogging('refs ', refs)
+      //
+      // update ValtioStore - Refs
+      //
+      debugLogging('update v_QRefs', refs)
+      ValtioStore.v_QRefs = refs
+      g_QRefsCount = refs.length
+      ValtioStore.QRefsCount = g_QRefsCount
+    }
+    debugFunEnd()
+  }
+  //...................................................................................
+  //.  Filter v_Questions into v_QFilterSort
+  //...................................................................................
+  const QuestionsFilterSort = () => {
+    debugFunStart('QuestionsFilterSort')
+    //
+    // Clear the store
+    //
+    ValtioStore.v_QFilter = []
+    ValtioStore.v_QFilterSort = []
+    ValtioStore.v_QCount = 0
+    ValtioStore.v_QRefs = []
+    ValtioStore.QRefsCount = 0
+    //
+    //  Clear Global workfields
+    //
+    g_QFilter = []
+    g_QFilterSort = []
+    g_QCount = 0
+    g_QRefsCount = 0
     //
     // Sort Data
     //
-    let sortedData = []
-    const QuestionSort = vUnpack(snapShot.v_RandomSort)
-    QuestionSort
-      ? (sortedData = randomSort(filteredData))
-      : (sortedData = filteredData)
-    if (g_log1) console.log('sortedData ', sortedData)
+    loadQFilter()
+    if (g_QFilter.length === 0) {
+      debugFunEnd()
+      return
+    }
     //
-    //  Apply max number
+    // Sort Data
     //
-    let quest = []
-    let i = 0
-    do {
-      if (i < sortedData.length) quest.push(sortedData[i])
-      i++
-    } while (i < savedValues.MaxQuestions)
-    //
-    // update ValtioStore - Questions
-    //
-    if (g_log1) console.log('update v_QFilterSort', quest)
-    ValtioStore.v_QFilterSort = quest
-    ValtioStore.v_QCount = quest.length
-    // ----------------------------------------------------------------------------------
+    loadQFilterSort()
+    if (g_QCount === 0) {
+      debugFunEnd()
+      return
+    }
     //
     //  Load references
     //
-    let refs = []
-    quest.forEach(question => {
-      const { qrefs } = question
-      if (g_log1) console.log('qrefs ', qrefs)
-      if (qrefs) {
-        qrefs.forEach(ref => {
-          const found = refs.find(element => element === ref)
-          if (!found) refs.push(ref)
-        })
-      }
-    })
+    loadQrefs()
+
+    debugFunEnd()
+  }
+  //...................................................................................
+  //.  Initial Load
+  //...................................................................................
+  const InitialLoad = () => {
+    debugFunStart('InitialLoad')
     //
-    //  Sort the Refs
+    //  Get Data from the Store
     //
-    if (g_log1) console.log('refs ', refs)
-    refs.sort((a, b) => (a > b ? 1 : -1))
-    if (g_log1) console.log('refs ', refs)
+    g_CurrentPage = vUnpack(snapShot.v_Page)
+    g_Questions = vUnpack(snapShot.v_Questions)
+    g_OwnerOptions = vUnpack(snapShot.v_OwnerOptions)
+    g_Group1OptionsOwner = vUnpack(snapShot.v_Group1OptionsOwner)
+    g_Group2Options = vUnpack(snapShot.v_Group2Options)
+    g_Group3Options = vUnpack(snapShot.v_Group3Options)
+    debugLogging('g_Questions ', g_Questions)
+    debugLogging('g_OwnerOptions ', g_OwnerOptions)
+    debugLogging('g_Group1OptionsOwner ', g_Group1OptionsOwner)
+    debugLogging('g_Group2Options ', g_Group2Options)
+    debugLogging('g_Group3Options ', g_Group3Options)
     //
-    // update ValtioStore - Refs
+    //  Load setup values
     //
-    if (g_log1) console.log('update v_QRefs', refs)
-    ValtioStore.v_QRefs = refs
+    g_disabled = !vUnpack(snapShot.v_AllowSelection)
+    g_showOwner = vUnpack(snapShot.v_ShowSelectionOwner)
+    g_showGroup1 = vUnpack(snapShot.v_ShowSelectionGroup1)
+    g_showGroup2 = vUnpack(snapShot.v_ShowSelectionGroup2)
+    g_showGroup3 = vUnpack(snapShot.v_ShowSelectionGroup3)
+    g_RandomSort = vUnpack(snapShot.v_RandomSort)
+    //
+    //  Set Group1 Options
+    //
+    g_Group1OptionsSubset = loadGroup1Options(
+      initialFValues.qowner,
+      initialFValues.qgroup1
+    )
+    debugLogging('g_Group1OptionsSubset ', g_Group1OptionsSubset)
+
+    debugFunEnd()
   }
   //...................................................................................
   //.  Main Line
   //...................................................................................
+  debugStack = []
+  debugFunStart(debugModule)
+  debugLogging('g_Questions ', g_Questions)
+  //
+  //  Define the ValtioStore
+  //
+  const snapShot = useSnapshot(ValtioStore)
+  //
+  // Form Message
+  //
+  const [form_message, setForm_message] = useState('')
+  //
+  //  Set Selection from any previous values / or valtio defaults
+  //
+  initialFValues.qowner = vUnpack(snapShot.v_Owner)
+  initialFValues.qgroup1 = vUnpack(snapShot.v_Group1)
+  initialFValues.qgroup2 = vUnpack(snapShot.v_Group2)
+  initialFValues.qgroup3 = vUnpack(snapShot.v_Group3)
+  initialFValues.MaxQuestions = vUnpack(snapShot.v_MaxQuestions)
   //
   //  Load the data array from the store - if static/server status changes (or first time)
   //
-  if (g_staticData !== snapShot.v_StaticData) {
+  g_DataLoad = vUnpack(snapShot.v_DataLoad)
+  if (g_DataLoad || g_staticData !== snapShot.v_StaticData) {
+    g_DataLoad = false
+    ValtioStore.v_DataLoad = false
     g_staticData = vUnpack(snapShot.v_StaticData)
+    InitialLoad()
   }
   //
   //  Interface to Form
   //
-  const { values, errors, setErrors, handleInputChange } = useQForm(
+  const { values, setValues, errors, setErrors, handleInputChange } = useQForm(
     initialFValues,
     true,
     validate
   )
-
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -329,57 +568,57 @@ const QuizSelect = () => {
           <QForm>
             <Grid container spacing={2}>
               {/*.................................................................................................*/}
-              {showOwner ? (
+              {g_showOwner ? (
                 <Grid item xs={12}>
                   <MySelect
                     name='qowner'
                     label='Owner'
                     value={values.qowner}
                     onChange={handleInputChange}
-                    options={OwnerOptions}
+                    options={g_OwnerOptions}
                     error={errors.qowner}
-                    disabled={disabled}
+                    disabled={g_disabled}
                   />
                 </Grid>
               ) : null}
 
               {/*.................................................................................................*/}
-              {showGroup1 ? (
+              {g_showGroup1 ? (
                 <Grid item xs={12}>
                   <MySelect
                     name='qgroup1'
                     label='Group1'
                     value={values.qgroup1}
                     onChange={handleInputChange}
-                    options={Group1Options}
+                    options={g_Group1OptionsSubset}
                     error={errors.qgroup1}
-                    disabled={disabled}
+                    disabled={g_disabled}
                   />
                 </Grid>
               ) : null}
 
-              {showGroup2 ? (
+              {g_showGroup2 ? (
                 <Grid item xs={12}>
                   <MySelect
                     name='qgroup2'
                     label='Group2'
                     value={values.qgroup2}
                     onChange={handleInputChange}
-                    options={Group2Options}
-                    disabled={disabled}
+                    options={g_Group2Options}
+                    disabled={g_disabled}
                   />
                 </Grid>
               ) : null}
 
-              {showGroup3 ? (
+              {g_showGroup3 ? (
                 <Grid item xs={12}>
                   <MySelect
                     name='qgroup3'
                     label='Group3'
                     value={values.qgroup3}
                     onChange={handleInputChange}
-                    options={Group3Options}
-                    disabled={disabled}
+                    options={g_Group3Options}
+                    disabled={g_disabled}
                   />
                 </Grid>
               ) : null}
@@ -404,7 +643,7 @@ const QuizSelect = () => {
                 <MyButton
                   text='Start Quiz'
                   onClick={() => {
-                    g_Page = 'Quiz'
+                    g_PageNew = 'Quiz'
                     SubmitForm()
                   }}
                 />
@@ -414,7 +653,7 @@ const QuizSelect = () => {
                 <MyButton
                   text='Learn'
                   onClick={() => {
-                    g_Page = 'QuizRefs'
+                    g_PageNew = 'QuizRefs'
                     SubmitForm()
                   }}
                 />

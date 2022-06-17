@@ -77,6 +77,7 @@ export default function QuizNavigation() {
     if (
       (CurrentPage === 'Quiz' || CurrentPage === 'QuizReview') &&
       helpHyperlink &&
+      helpHyperlink !== 'None' &&
       helpHyperlink.length > 0
     )
       showButtonHelp = true

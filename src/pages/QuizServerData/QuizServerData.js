@@ -52,8 +52,9 @@ let records = [
   { id: 4, table: 'Hands', status: 'Pending', count: 0 },
   { id: 5, table: 'RefLinks', status: 'Pending', count: 0 },
   { id: 6, table: 'Group1', status: 'Pending', count: 0 },
-  { id: 7, table: 'Group2', status: 'Pending', count: 0 },
-  { id: 8, table: 'Group3', status: 'Pending', count: 0 }
+  { id: 7, table: 'Group1Owner', status: 'Pending', count: 0 },
+  { id: 8, table: 'Group2', status: 'Pending', count: 0 },
+  { id: 9, table: 'Group3', status: 'Pending', count: 0 }
 ]
 //
 //  Global variables
@@ -96,7 +97,12 @@ const QuizServerData = () => {
     //
     //  Options
     //
-    let OwnerOptions = []
+    let OwnerOptions = [
+      {
+        id: 'All',
+        title: 'All'
+      }
+    ]
     data.forEach(item => {
       const itemObj = {
         id: item.oid,
@@ -189,7 +195,6 @@ const QuizServerData = () => {
     const idx = 1
     let count = 0
     let status = 'Pending'
-
     //
     //  Process promise
     //
@@ -258,7 +263,6 @@ const QuizServerData = () => {
     const idx = 2
     let count = 0
     let status = 'Pending'
-
     //
     //  Process promise
     //
@@ -293,7 +297,6 @@ const QuizServerData = () => {
         status = NODATA
         records[idx].status = status
       }
-
       //
       //  Next Step - update store
       //
@@ -467,7 +470,6 @@ const QuizServerData = () => {
     const idx = 5
     let count = 0
     let status = 'Pending'
-
     //
     //  Process promise
     //
@@ -496,6 +498,15 @@ const QuizServerData = () => {
         records[idx].status = status
       }
       //
+      //  Default value
+      //
+      let Group1Options = [
+        {
+          id: 'All',
+          title: 'All'
+        }
+      ]
+      //
       //  No data
       //
       if (!data) {
@@ -511,12 +522,8 @@ const QuizServerData = () => {
         //
         count = data.length
         records[idx].count = count
-
         if (g_log1) console.log('countGroup1 count', count)
-        //
-        // update ValtioStore
-        //
-        let Group1Options = []
+
         data.forEach(item => {
           const itemObj = {
             id: item.g1id,
@@ -524,8 +531,77 @@ const QuizServerData = () => {
           }
           Group1Options.push(itemObj)
         })
-        ValtioStore.v_Group1Options = Group1Options
-        if (g_log1) console.log('Group1Options ', Group1Options)
+      }
+      //
+      //  Update Store
+      //
+      ValtioStore.v_Group1Options = Group1Options
+      if (g_log1) console.log('Group1Options ', Group1Options)
+      //
+      //  Update Status
+      //
+      updateFetchStatus()
+    })
+  }
+  //...................................................................................
+  //.  Load Server - Group1Owner
+  //...................................................................................
+  const LoadServerGroup1Owner = () => {
+    if (g_log1) console.log('LoadServerGroup1Owner')
+    //
+    //  Initial values
+    //
+    const idx = 6
+    let count = 0
+    let status = 'Pending'
+    //
+    //  Process promise
+    //
+    const getTableparams = {
+      sqlCaller: functionName,
+      sqlAction: 'SELECTSQL',
+      sqlString:
+        'qowner, qgroup1, g1title from questions join group1 on qgroup1 = g1id group by qowner, qgroup1 ,g1title order by qowner, qgroup1'
+    }
+    const myPromiseGroup1Owner = MyQueryPromise(getTable(getTableparams))
+    //
+    //  Resolve Status
+    //
+    myPromiseGroup1Owner.then(function (data) {
+      if (g_log1) console.log('myPromiseGroup1Owner data ', data)
+      //
+      //  Update Status
+      //
+      if (myPromiseGroup1Owner.isFulfilled()) {
+        status = FULFILLED
+        records[idx].status = status
+      }
+      if (myPromiseGroup1Owner.isRejected()) {
+        status = REJECTED
+        records[idx].status = status
+      }
+      //
+      //  No data
+      //
+      if (!data) {
+        status = NODATA
+        records[idx].status = status
+      }
+      //
+      //  Next Step - update store
+      //
+      else {
+        //
+        // Update the count
+        //
+        count = data.length
+        records[idx].count = count
+        if (g_log1) console.log('countGroup1Owner count', count)
+        //
+        // update ValtioStore - Data
+        //
+        if (g_log1) console.log('update Group1OptionsOwner', data)
+        ValtioStore.v_Group1OptionsOwner = data
       }
       //
       //  Update Status
@@ -541,10 +617,9 @@ const QuizServerData = () => {
     //
     //  Initial values
     //
-    const idx = 6
+    const idx = 7
     let count = 0
     let status = 'Pending'
-
     //
     //  Process promise
     //
@@ -573,6 +648,15 @@ const QuizServerData = () => {
         records[idx].status = status
       }
       //
+      //  Default value
+      //
+      let Group2Options = [
+        {
+          id: 'All',
+          title: 'All'
+        }
+      ]
+      //
       //  No data
       //
       if (!data) {
@@ -590,10 +674,7 @@ const QuizServerData = () => {
         records[idx].count = count
 
         if (g_log1) console.log('countGroup2 count', count)
-        //
-        // update ValtioStore
-        //
-        let Group2Options = []
+
         data.forEach(item => {
           const itemObj = {
             id: item.g2id,
@@ -601,9 +682,12 @@ const QuizServerData = () => {
           }
           Group2Options.push(itemObj)
         })
-        ValtioStore.v_Group2Options = Group2Options
-        if (g_log1) console.log('Group2Options ', Group2Options)
       }
+      //
+      //  Update Store
+      //
+      ValtioStore.v_Group2Options = Group2Options
+      if (g_log1) console.log('Group2Options ', Group2Options)
       //
       //  Update Status
       //
@@ -618,7 +702,7 @@ const QuizServerData = () => {
     //
     //  Initial values
     //
-    const idx = 7
+    const idx = 8
     let count = 0
     let status = 'Pending'
     //
@@ -650,6 +734,15 @@ const QuizServerData = () => {
         records[idx].status = status
       }
       //
+      //  Default value
+      //
+      let Group3Options = [
+        {
+          id: 'All',
+          title: 'All'
+        }
+      ]
+      //
       //  No data
       //
       if (!data) {
@@ -666,10 +759,7 @@ const QuizServerData = () => {
         count = data.length
         records[idx].count = count
         if (g_log1) console.log('countGroup3 count', count)
-        //
-        // update ValtioStore
-        //
-        let Group3Options = []
+
         data.forEach(item => {
           const itemObj = {
             id: item.g3id,
@@ -677,9 +767,13 @@ const QuizServerData = () => {
           }
           Group3Options.push(itemObj)
         })
-        ValtioStore.v_Group3Options = Group3Options
-        if (g_log1) console.log('Group3Options ', Group3Options)
       }
+      //
+      //  Update Store
+      //
+
+      ValtioStore.v_Group3Options = Group3Options
+      if (g_log1) console.log('Group3Options ', Group3Options)
       //
       //  Update Status
       //
@@ -696,6 +790,7 @@ const QuizServerData = () => {
     LoadServerReflinks()
     LoadServerOwner()
     LoadServerGroup1()
+    LoadServerGroup1Owner()
     LoadServerGroup2()
     LoadServerGroup3()
   }

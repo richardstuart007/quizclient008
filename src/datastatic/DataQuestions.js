@@ -4148,15 +4148,15 @@ exports.QUESTIONS = [
     qid: 400,
     qowner: 'Richard',
     qkey: 'Test01',
-    qdetail: 'What does the double mean ?',
+    qdetail: 'Test',
     qcorrect: '3 card support of partners suit',
     qbad1: '4+ clubs',
     qbad2: 'Heart stopper',
     qbad3: 'Bad Bad Bad',
-    qgroup1: 'Doubles',
-    qgroup2: 'Bidding',
-    qgroup3: 'All',
-    qrefs: ['LebensohlMarkHugger01', 'LebensohlMarkHugger02']
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['BergenRaises', 'None']
   },
   {
     qid: 401,
@@ -4339,5 +4339,19 @@ exports.QUESTIONS = [
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'None']
+  },
+  {
+    qid: 414,
+    qowner: 'Richard',
+    qkey: 'test01',
+    qdetail: 'Test',
+    qcorrect: 'x',
+    qbad1: 'x',
+    qbad2: '',
+    qbad3: '',
+    qgroup1: 'Play',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['None', 'None']
   }
 ]
