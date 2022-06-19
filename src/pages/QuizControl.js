@@ -29,7 +29,7 @@ import { ValtioStore } from './ValtioStore'
 //
 // Debug Settings
 //
-const g_log1 = debugSettings(true)
+const g_log1 = debugSettings()
 //
 //  Global Variables
 //

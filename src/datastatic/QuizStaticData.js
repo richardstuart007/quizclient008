@@ -19,7 +19,7 @@ import BuildOptionsGroup3 from '../services/BuildOptionsGroup3'
 //
 // Debug Settings
 //
-const debugLog = debugSettings(true)
+const debugLog = debugSettings()
 const debugFunStartSetting = false
 const debugFunEndSetting = false
 const debugModule = 'QuizStaticData'
