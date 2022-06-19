@@ -46,7 +46,23 @@ const QuizSplash = () => {
           As this is a development version it may be upgraded and cause it to
           fail. If this happens then contact me via email.
         </Typography>
+
+        <Typography variant='h6' sx={{ marginTop: '8px' }}>
+          Technical.....URL Parameters:
+        </Typography>
         <Typography variant='subtitle2' sx={{ marginTop: '8px' }}>
+          &AllowSelection=false Stops the selection values from changing
+        </Typography>
+
+        <Typography variant='subtitle2' sx={{ marginTop: '8px' }}>
+          &Owner=NZBridge sets Owner default
+        </Typography>
+
+        <Typography variant='subtitsubtitle2le2' sx={{ marginTop: '8px' }}>
+          &Group1=NZTransfers Sets Group1 default
+        </Typography>
+
+        <Typography variant='h6' sx={{ marginTop: '8px' }}>
           Email: richardstuart007@hotmail.com
         </Typography>
 
