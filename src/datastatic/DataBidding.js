@@ -1384,5 +1384,104 @@ exports.BIDDING = [
       ['1NT', 'PASS', '2S', 'PASS'],
       ['?', 'N', 'N', 'N']
     ]
+  },
+  {
+    bid: 415,
+    brounds: [
+      ['1D', 'PASS', '1H', 'PASS'],
+      ['3H', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 416,
+    brounds: [
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['2H', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 417,
+    brounds: [
+      ['1H', 'PASS', '2C', 'PASS'],
+      ['2NT', 'PASS', '3S', 'PASS'],
+      ['4S', 'PASS', '4NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 418,
+    brounds: [
+      ['1D', 'PASS', '1H', 'PASS'],
+      ['3D', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 419,
+    brounds: [
+      ['1C', 'PASS', '1S', 'PASS'],
+      ['3S', 'PASS', '4NT', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 420,
+    brounds: [
+      ['1H', 'PASS', '2C', 'PASS'],
+      ['3H', 'PASS', '4NT', 'PASS'],
+      ['5H', 'PASS', '5NT', 'PASS'],
+      ['6H', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 421,
+    brounds: [
+      ['1S', 'PASS', '4NT', 'PASS'],
+      ['5D', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 422,
+    brounds: [
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['2S', 'PASS', '4S', 'PASS'],
+      ['4NT', 'PASS', '5H', 'PASS'],
+      ['5NT', 'PASS', '6C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 423,
+    brounds: [
+      ['2C', 'PASS', '2D', 'PASS'],
+      ['2S', 'PASS', '3S', 'PASS'],
+      ['4NT', 'PASS', '5S', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+
+  {
+    bid: 424,
+    brounds: [
+      ['2C', 'PASS', '3C', 'PASS'],
+      ['3S', 'PASS', '4C', 'PASS'],
+      ['4NT', 'PASS', '5S', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 425,
+    brounds: [
+      ['2C', 'PASS', '3C', 'PASS'],
+      ['3S', 'PASS', '4C', 'PASS'],
+      ['4NT', 'PASS', '5H', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 426,
+    brounds: [
+      ['2D', 'PASS', '4NT', 'PASS'],
+      ['5C', 'PASS', '?', 'N']
+    ]
   }
 ]

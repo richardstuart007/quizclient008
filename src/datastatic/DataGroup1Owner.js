@@ -1,6 +1,11 @@
 exports.GROUP1OWNER = [
   {
     qowner: 'NZBridge',
+    qgroup1: 'NZBBlackwood',
+    g1title: 'NZB Blackwood'
+  },
+  {
+    qowner: 'NZBridge',
     qgroup1: 'NZBStayman',
     g1title: 'NZB Stayman'
   },
