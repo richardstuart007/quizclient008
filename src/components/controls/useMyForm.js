@@ -6,7 +6,7 @@ import makeStyles from '@mui/styles/makeStyles'
 //
 //  Debug Settings
 //
-import debugSettings from '../debug/debugSettings'
+import debugSettings from '../../debug/debugSettings'
 //
 // Debug Settings
 //

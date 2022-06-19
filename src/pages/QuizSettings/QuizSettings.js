@@ -12,7 +12,7 @@ import debugSettings from '../../debug/debugSettings'
 //
 import MyCheckbox from '../../components/controls/MyCheckbox'
 import MyButton from '../../components/controls/MyButton'
-import { useQForm, QForm } from '../../components/controls/useQForm'
+import { useMyForm, MyForm } from '../../components/controls/useMyForm'
 //
 //  Utilities
 //
@@ -146,7 +146,7 @@ const QuizSettings = () => {
   //
   //  Interface to Form
   //
-  const { values, errors, setErrors, handleInputChange } = useQForm(
+  const { values, errors, setErrors, handleInputChange } = useMyForm(
     initialFValues,
     true,
     validate
@@ -158,7 +158,7 @@ const QuizSettings = () => {
   return (
     <Grid container>
       <Container>
-        <QForm>
+        <MyForm>
           {/*.................................................................................................*/}
 
           <Grid item xs={4}>
@@ -250,7 +250,7 @@ const QuizSettings = () => {
               onClick={() => SubmitForm()}
             />
           </Grid>
-        </QForm>
+        </MyForm>
       </Container>
     </Grid>
   )

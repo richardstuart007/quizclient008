@@ -11,7 +11,6 @@ import debugSettings from '../../debug/debugSettings'
 //
 //  Common Sub Components
 //
-
 import QuizInfo from '../Common/QuizInfo'
 //
 //  Controls
@@ -19,7 +18,7 @@ import QuizInfo from '../Common/QuizInfo'
 import MyButton from '../../components/controls/MyButton'
 import MyInput from '../../components/controls/MyInput'
 import MySelect from '../../components/controls/MySelect'
-import { useQForm, QForm } from '../../components/controls/useQForm'
+import { useMyForm, MyForm } from '../../components/controls/useMyForm'
 //
 //  Utilities
 //
@@ -141,22 +140,15 @@ const QuizSelect = () => {
   //.............................................................................
   //.  Load Group1 Options
   //.............................................................................
-  const loadGroup1Options = (owner, group1) => {
+  const loadGroup1Options = (InitialLoad, owner, group1) => {
     debugFunStart('loadGroup1Options')
-    let options
+    let options = []
     //
     //  Select out Owner
     //
     debugLogging('owner ', owner)
-    //
-    //  Select out Owner
-    //
-    options = [
-      {
-        id: 'All',
-        title: 'All'
-      }
-    ]
+    debugLogging('group1 ', group1)
+
     debugLogging('g_Group1OptionsOwner ', g_Group1OptionsOwner)
     g_Group1OptionsOwner.forEach(item => {
       if (item.qowner === owner || owner === 'All') {
@@ -175,18 +167,27 @@ const QuizSelect = () => {
       }
     })
     //
-    //  If current group1 is not in valid value, force All (how ?)
+    //  If current group1 is not in valid value, force first
     //
-    debugLogging('group1 ', group1)
     debugLogging('options ', options)
     const valid = options.some(option => option['id'] === group1)
     if (!valid) {
-      setValues({
-        ...values,
-        qowner: owner,
-        qgroup1: 'All'
-      })
-      debugLogging('Force QGROUP1 to ALL, invalid group ')
+      const firstOption = options[0]
+      debugLogging('firstOption ', firstOption)
+      //
+      //  Initial Load
+      //
+      if (InitialLoad) {
+        initialFValues.qgroup1 = firstOption
+        debugLogging('initialFValues.qgroup1 to first, invalid group ')
+      } else {
+        setValues({
+          ...values,
+          qowner: owner,
+          qgroup1: firstOption
+        })
+        debugLogging('values.qgroup1 to first, invalid group ')
+      }
     }
     debugLogging('options ', options)
     debugFunEnd()
@@ -203,6 +204,7 @@ const QuizSelect = () => {
       temp.qowner =
         fieldValues.qowner.length !== 0 ? '' : 'This field is required.'
       g_Group1OptionsSubset = loadGroup1Options(
+        false,
         fieldValues.qowner,
         values.qgroup1
       )
@@ -511,6 +513,7 @@ const QuizSelect = () => {
     //  Set Group1 Options
     //
     g_Group1OptionsSubset = loadGroup1Options(
+      true,
       initialFValues.qowner,
       initialFValues.qgroup1
     )
@@ -553,7 +556,7 @@ const QuizSelect = () => {
   //
   //  Interface to Form
   //
-  const { values, setValues, errors, setErrors, handleInputChange } = useQForm(
+  const { values, setValues, errors, setErrors, handleInputChange } = useMyForm(
     initialFValues,
     true,
     validate
@@ -565,7 +568,7 @@ const QuizSelect = () => {
     <>
       <Grid container>
         <Container>
-          <QForm>
+          <MyForm>
             <Grid container spacing={2}>
               {/*.................................................................................................*/}
               {g_showOwner ? (
@@ -660,7 +663,7 @@ const QuizSelect = () => {
               </Grid>
               {/*.................................................................................................*/}
             </Grid>
-          </QForm>
+          </MyForm>
         </Container>
       </Grid>
       <QuizInfo />

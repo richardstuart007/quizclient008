@@ -3922,7 +3922,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 372,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman01',
     qdetail: 'What is your bid ?',
     qcorrect: '2S',
@@ -3936,7 +3936,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 373,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman02',
     qdetail: 'What is your bid ?',
     qcorrect: '2H',
@@ -3950,7 +3950,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 374,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman03',
     qdetail: 'What is your bid ?',
     qcorrect: '2D',
@@ -3964,7 +3964,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 375,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman04',
     qdetail: 'What is your bid ?',
     qcorrect: '2S',
@@ -3978,7 +3978,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 377,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman05',
     qdetail: "What is your re-bid after partner's response ?",
     qcorrect: '3NT',
@@ -3992,7 +3992,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 378,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman06',
     qdetail: "What is your re-bid after partner's response ?",
     qcorrect: '4S',
@@ -4006,7 +4006,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 379,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman07',
     qdetail: "What is your re-bid after partner's response ?",
     qcorrect: 'Pass',
@@ -4020,7 +4020,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 380,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman08',
     qdetail: "What is your re-bid after partner's response ?",
     qcorrect: '4S',
@@ -4034,7 +4034,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 381,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman09',
     qdetail: "What is your re-bid after partner's response ?",
     qcorrect: '2S',
@@ -4048,7 +4048,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 382,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman10',
     qdetail: "What is your re-bid after partner's response ?",
     qcorrect: '2NT',
@@ -4062,7 +4062,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 383,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman11',
     qdetail: "What is your re-bid after partner's response ?",
     qcorrect: '3S',
@@ -4076,7 +4076,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 384,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman12',
     qdetail: "What is your re-bid after partner's response ?",
     qcorrect: '3NT',
@@ -4090,7 +4090,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 385,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman13',
     qdetail: 'What is your bid ?',
     qcorrect: '3C',
@@ -4104,7 +4104,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 386,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman14',
     qdetail: 'What is your bid ?',
     qcorrect: '3NT',
@@ -4118,7 +4118,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 387,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman15',
     qdetail: 'What is your response to partners 1NT overcall ?',
     qcorrect: '2C',
@@ -4132,7 +4132,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 388,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBStayman16',
     qdetail: 'What is your response to partners 1NT overcall ?',
     qcorrect: 'Pass',
@@ -4160,13 +4160,13 @@ exports.QUESTIONS = [
   },
   {
     qid: 401,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer01',
     qdetail: 'Your partner opens 1NT. What is your response ?',
     qcorrect: '2H',
     qbad1: 'Pass',
     qbad2: '2S',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
@@ -4174,7 +4174,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 402,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer02',
     qdetail: 'Your partner opens 1NT. What is your response ?',
     qcorrect: '2D',
@@ -4188,13 +4188,13 @@ exports.QUESTIONS = [
   },
   {
     qid: 403,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer03',
     qdetail: 'Your partner opens 1NT. What is your response ?',
     qcorrect: '2NT',
     qbad1: '3C',
     qbad2: 'Pass',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
@@ -4202,13 +4202,13 @@ exports.QUESTIONS = [
   },
   {
     qid: 404,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer04',
     qdetail: 'Your partner opens 1NT. What is your response ?',
     qcorrect: '2H',
     qbad1: '3S',
     qbad2: 'Pass',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
@@ -4216,7 +4216,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 405,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer05',
     qdetail: 'Your partner opens 1NT. What is your response ?',
     qcorrect: '2D',
@@ -4230,13 +4230,13 @@ exports.QUESTIONS = [
   },
   {
     qid: 406,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer06',
     qdetail: 'What is your next bid with the following hand ?',
     qcorrect: 'Pass',
     qbad1: '2NT',
     qbad2: '3S',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
@@ -4244,7 +4244,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 407,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer07',
     qdetail: 'What is your next bid with the following hand ?',
     qcorrect: '3D',
@@ -4258,7 +4258,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 408,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer08',
     qdetail: 'What is your next bid with the following hand ?',
     qcorrect: 'Pass',
@@ -4272,13 +4272,13 @@ exports.QUESTIONS = [
   },
   {
     qid: 409,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer09',
     qdetail: 'What is your next bid with the following hand ?',
     qcorrect: '3S',
     qbad1: '4S',
     qbad2: '3NT',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
@@ -4286,7 +4286,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 410,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer10',
     qdetail: 'What is your next bid with the following hand ?',
     qcorrect: '2NT',
@@ -4300,7 +4300,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 411,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer11',
     qdetail: 'What is your next bid with the following hand ?',
     qcorrect: '4H',
@@ -4314,7 +4314,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 412,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer12',
     qdetail: 'What is your next bid with the following hand ?',
     qcorrect: '3H',
@@ -4328,7 +4328,7 @@ exports.QUESTIONS = [
   },
   {
     qid: 413,
-    qowner: 'public',
+    qowner: 'NZBridge',
     qkey: 'NZBTransfer13',
     qdetail: 'What is your next bid with the following hand ?',
     qcorrect: '3NT',
@@ -4347,11 +4347,11 @@ exports.QUESTIONS = [
     qdetail: 'Test',
     qcorrect: 'x',
     qbad1: 'x',
-    qbad2: '',
-    qbad3: '',
+    qbad2: null,
+    qbad3: null,
     qgroup1: 'Play',
     qgroup2: 'None',
-    qgroup3: 'None',
+    qgroup3: 'Test',
     qrefs: ['None', 'None']
   }
 ]

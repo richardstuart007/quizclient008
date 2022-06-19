@@ -1,5 +1,15 @@
 exports.GROUP1OWNER = [
   {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBStayman',
+    g1title: 'NZB Stayman'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBTransfers',
+    g1title: 'NZB Transfers'
+  },
+  {
     qowner: 'public',
     qgroup1: 'BergenRaises',
     g1title: 'Bergen Raises'
@@ -18,16 +28,6 @@ exports.GROUP1OWNER = [
     qowner: 'public',
     qgroup1: 'MichaelsCueBid',
     g1title: 'Michaels Cue Bid'
-  },
-  {
-    qowner: 'public',
-    qgroup1: 'NZBStayman',
-    g1title: 'NZB Stayman'
-  },
-  {
-    qowner: 'public',
-    qgroup1: 'NZBTransfers',
-    g1title: 'NZB Transfers'
   },
   {
     qowner: 'public',
@@ -52,7 +52,7 @@ exports.GROUP1OWNER = [
   {
     qowner: 'Richard',
     qgroup1: 'Doubles',
-    g1title: '*Del* Doubles'
+    g1title: 'Doubles'
   },
   {
     qowner: 'Richard',
@@ -67,11 +67,11 @@ exports.GROUP1OWNER = [
   {
     qowner: 'Richard',
     qgroup1: 'Points Schmoints',
-    g1title: '*Del* Points Schmoints'
+    g1title: 'Points Schmoints'
   },
   {
     qowner: 'Richard',
     qgroup1: 'WBF',
-    g1title: '*Del* World Bridge Federation'
+    g1title: 'World Bridge Federation'
   }
 ]

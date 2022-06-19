@@ -22,9 +22,20 @@ import MyQueryPromise from '../../components/controls/MyQueryPromise'
 import MyButton from '../../components/controls/MyButton'
 import useMyTable from '../../components/controls/useMyTable'
 //
+//  Common Sub Components
+//
+import QuizInfo from '../Common/QuizInfo'
+//
 //  Utilities
 //
 import { ValtioStore } from '../ValtioStore'
+//
+//  Services
+//
+import BuildOptionsOwner from '../../services/BuildOptionsOwner'
+import BuildOptionsGroup1Owner from '../../services/BuildOptionsGroup1Owner'
+import BuildOptionsGroup2 from '../../services/BuildOptionsGroup2'
+import BuildOptionsGroup3 from '../../services/BuildOptionsGroup3'
 import getTable from '../../services/getTable'
 //
 //  Constants
@@ -51,28 +62,68 @@ let records = [
   { id: 3, table: 'Bidding', status: 'Pending', count: 0 },
   { id: 4, table: 'Hands', status: 'Pending', count: 0 },
   { id: 5, table: 'RefLinks', status: 'Pending', count: 0 },
-  { id: 6, table: 'Group1', status: 'Pending', count: 0 },
-  { id: 7, table: 'Group1Owner', status: 'Pending', count: 0 },
-  { id: 8, table: 'Group2', status: 'Pending', count: 0 },
-  { id: 9, table: 'Group3', status: 'Pending', count: 0 }
+  { id: 6, table: 'Group1Owner', status: 'Pending', count: 0 },
+  { id: 7, table: 'Group2', status: 'Pending', count: 0 },
+  { id: 8, table: 'Group3', status: 'Pending', count: 0 }
 ]
 //
 //  Global variables
 //
 let g_Page
-//..............................................................................
-//.  Initialisation
-//.............................................................................
+let g_PromiseCount = 0
+const g_PromiseTotal = records.length
 //
 // Debug Settings
 //
-const g_log1 = debugSettings()
+const debugLog = debugSettings(true)
+const debugFunStartSetting = false
+const debugFunEndSetting = false
+const debugModule = 'QuizServerData'
+let debugStack = []
+
 //===================================================================================
 const QuizServerData = () => {
+  //.............................................................................
+  //.  Debug Logging
+  //.............................................................................
+  const debugLogging = (objtext, obj) => {
+    if (debugLog) {
+      //
+      //  Object passed
+      //
+      let JSONobj = ''
+      if (obj) {
+        JSONobj = JSON.parse(JSON.stringify(obj))
+      }
+      //
+      //  Output values
+      //
+      console.log('VALUES: Stack ', debugStack, objtext, JSONobj)
+    }
+  }
+  //.............................................................................
+  //.  function start
+  //.............................................................................
+  const debugFunStart = funname => {
+    debugStack.push(funname)
+    if (debugFunStartSetting)
+      console.log('Stack: debugFunStart ==> ', funname, debugStack)
+  }
+  //.............................................................................
+  //.  function End
+  //.............................................................................
+  const debugFunEnd = () => {
+    if (debugStack.length > 1) {
+      const funname = debugStack.pop()
+      if (debugFunEndSetting)
+        console.log('Stack: debugFunEnd <==== ', funname, debugStack)
+    }
+  }
+  //.............................................................................
   //
   //  Set Debug State
   //
-  if (g_log1) console.log('Start QuizServerData')
+  debugLogging('Start QuizServerData')
   //
   //  Define the ValtioStore
   //
@@ -89,44 +140,17 @@ const QuizServerData = () => {
   //
   const [fulfilled, setFulfilled] = useState(false)
   //...................................................................................
-  //.  Load Options - Owner
-  //...................................................................................
-  const LoadOptionsOwner = data => {
-    if (g_log1) console.log('Load Options Owner ')
-    if (g_log1) console.log('Data Options Owner ', data)
-    //
-    //  Options
-    //
-    let OwnerOptions = [
-      {
-        id: 'All',
-        title: 'All'
-      }
-    ]
-    data.forEach(item => {
-      const itemObj = {
-        id: item.oid,
-        title: item.otitle
-      }
-      OwnerOptions.push(itemObj)
-    })
-    //
-    //  Store
-    //
-    ValtioStore.v_OwnerOptions = OwnerOptions
-    if (g_log1) console.log('OwnerOptions ', OwnerOptions)
-  }
-  //...................................................................................
   //.  Load Server - Owner
   //...................................................................................
-  const LoadServerOwner = () => {
-    if (g_log1) console.log('LoadServerOwner')
+  const LoadServerOwner = idx => {
+    debugFunStart('LoadServerOwner')
     //
     //  Initial values
     //
-    const idx = 0
     let count = 0
     let status = 'Pending'
+    records[idx].count = count
+    records[idx].status = status
     //
     //  Process promise
     //
@@ -142,7 +166,9 @@ const QuizServerData = () => {
     //  Resolve Status
     //
     myPromiseOwner.then(function (data) {
-      if (g_log1) console.log('myPromiseOwner data ', data)
+      g_PromiseCount++
+      debugFunStart('myPromiseOwner')
+      debugLogging('myPromiseOwner data ', data)
       //
       //  Update Status
       //
@@ -151,10 +177,11 @@ const QuizServerData = () => {
         records[idx].status = status
       }
       if (myPromiseOwner.isRejected()) {
-        if (g_log1) console.log('records[idx].status ', records[idx].status)
+        debugLogging('records[idx].status ', records[idx].status)
         status = REJECTED
         records[idx].status = status
       }
+      debugLogging('OWNER status ', status)
       //
       //  No data
       //
@@ -172,29 +199,42 @@ const QuizServerData = () => {
         count = data.length
         records[idx].count = count
 
-        if (g_log1) console.log('countOwner count', count)
+        debugLogging('OWNER count', count)
         //
         //  Load Options and Store
         //
-        LoadOptionsOwner(data)
+        debugLogging('OWNER call BuildOptionsOwner ')
+        BuildOptionsOwner(data)
       }
       //
       //  Update Status
       //
-      updateFetchStatus()
+      if (g_PromiseCount === g_PromiseTotal) updateFetchStatus()
+      //
+      //  Return
+      //
+      debugFunEnd()
+      return
     })
+
+    //
+    //  Return Promise
+    //
+    debugFunEnd()
+    return myPromiseOwner
   }
   //...................................................................................
   //.  Load Server - Questions
   //...................................................................................
-  const LoadServerQuestions = () => {
-    if (g_log1) console.log('LoadServerQuestions')
+  const LoadServerQuestions = idx => {
+    debugFunStart('LoadServerQuestions')
     //
     //  Initial values
     //
-    const idx = 1
     let count = 0
     let status = 'Pending'
+    records[idx].count = count
+    records[idx].status = status
     //
     //  Process promise
     //
@@ -210,7 +250,9 @@ const QuizServerData = () => {
     //  Resolve Status
     //
     myPromiseQuestions.then(function (data) {
-      if (g_log1) console.log('myPromiseQuestions data ', data)
+      g_PromiseCount++
+      debugFunStart('myPromiseQuestions')
+      debugLogging('myPromiseQuestions data ', data)
       //
       //  Update Status
       //
@@ -239,30 +281,43 @@ const QuizServerData = () => {
         count = data.length
         records[idx].count = count
 
-        if (g_log1) console.log('countQuestions count', count)
+        debugLogging('countQuestions count', count)
         //
         // update ValtioStore - Data
         //
-        if (g_log1) console.log('update v_Questions', data)
+        debugLogging('update v_Questions', data)
         ValtioStore.v_Questions = data
       }
       //
       //  Update Status
       //
-      updateFetchStatus()
+      if (g_PromiseCount === g_PromiseTotal) updateFetchStatus()
+      //
+      //  Return
+      //
+      debugFunEnd()
+      return
     })
+
+    //
+    //  Return Promise
+    //
+    debugFunEnd()
+    return myPromiseQuestions
   }
   //...................................................................................
   //.  Load Server - Bidding
   //...................................................................................
-  const LoadServerBidding = () => {
-    if (g_log1) console.log('LoadServerBidding')
+  const LoadServerBidding = idx => {
+    debugFunStart('LoadServerBidding')
+
     //
     //  Initial values
     //
-    const idx = 2
     let count = 0
     let status = 'Pending'
+    records[idx].count = count
+    records[idx].status = status
     //
     //  Process promise
     //
@@ -278,7 +333,9 @@ const QuizServerData = () => {
     //  Resolve Status
     //
     myPromiseBidding.then(function (data) {
-      if (g_log1) console.log('myPromiseBidding data ', data)
+      g_PromiseCount++
+      debugFunStart('myPromiseBidding')
+      debugLogging('myPromiseBidding data ', data)
       //
       //  Update Status
       //
@@ -307,30 +364,43 @@ const QuizServerData = () => {
         count = data.length
         records[idx].count = count
 
-        if (g_log1) console.log('countBidding count', count)
+        debugLogging('countBidding count', count)
         //
         // update ValtioStore - Data
         //
-        if (g_log1) console.log('update v_Bidding', data)
+        debugLogging('update v_Bidding', data)
         ValtioStore.v_Bidding = data
       }
       //
       //  Update Status
       //
-      updateFetchStatus()
+      if (g_PromiseCount === g_PromiseTotal) updateFetchStatus()
+      //
+      //  Return
+      //
+      debugFunEnd()
+      return
     })
+
+    //
+    //  Return Promise
+    //
+    debugFunEnd()
+    return myPromiseBidding
   }
   //...................................................................................
   //.  Load Server - Hands
   //...................................................................................
-  const LoadServerHands = () => {
-    if (g_log1) console.log('LoadServerHands')
+  const LoadServerHands = idx => {
+    debugFunStart('LoadServerHands')
+
     //
     //  Initial values
     //
-    const idx = 3
     let count = 0
     let status = 'Pending'
+    records[idx].count = count
+    records[idx].status = status
 
     //
     //  Process promise
@@ -347,7 +417,9 @@ const QuizServerData = () => {
     //  Resolve Status
     //
     myPromiseHands.then(function (data) {
-      if (g_log1) console.log('myPromiseHands data ', data)
+      g_PromiseCount++
+      debugFunStart('myPromiseHands')
+      debugLogging('myPromiseHands data ', data)
       //
       //  Update Status
       //
@@ -376,30 +448,44 @@ const QuizServerData = () => {
         count = data.length
         records[idx].count = count
 
-        if (g_log1) console.log('countHands count', count)
+        debugLogging('countHands count', count)
         //
         // update ValtioStore - Data
         //
-        if (g_log1) console.log('update v_Hands', data)
+        debugLogging('update v_Hands', data)
         ValtioStore.v_Hands = data
       }
       //
       //  Update Status
       //
-      updateFetchStatus()
+      if (g_PromiseCount === g_PromiseTotal) updateFetchStatus()
+      //
+      //  Return
+      //
+      debugFunEnd()
+      return
     })
+
+    //
+    //  Return Promise
+    //
+    debugFunEnd()
+    return myPromiseHands
   }
   //...................................................................................
   //.  Load Server - Reflinks
   //...................................................................................
-  const LoadServerReflinks = () => {
-    if (g_log1) console.log('LoadServerReflinks')
+  const LoadServerReflinks = idx => {
+    debugFunStart('LoadServerReflinks')
+
     //
     //  Initial values
     //
-    const idx = 4
+
     let count = 0
     let status = 'Pending'
+    records[idx].count = count
+    records[idx].status = status
 
     //
     //  Process promise
@@ -416,7 +502,9 @@ const QuizServerData = () => {
     //  Resolve Status
     //
     myPromiseReflinks.then(function (data) {
-      if (g_log1) console.log('myPromiseReflinks data ', data)
+      g_PromiseCount++
+      debugFunStart('myPromiseReflinks')
+      debugLogging('myPromiseReflinks data ', data)
 
       //
       //  Update Status
@@ -446,114 +534,44 @@ const QuizServerData = () => {
         count = data.length
         records[idx].count = count
 
-        if (g_log1) console.log('countReflinks count', count)
+        debugLogging('countReflinks count', count)
         //
         // update ValtioStore - Data
         //
-        if (g_log1) console.log('update v_RefLinks', data)
+        debugLogging('update v_RefLinks', data)
         ValtioStore.v_RefLinks = data
       }
       //
       //  Update Status
       //
-      updateFetchStatus()
+      if (g_PromiseCount === g_PromiseTotal) updateFetchStatus()
+      //
+      //  Return
+      //
+      debugFunEnd()
+      return
     })
-  }
-  //...................................................................................
-  //.  Load Server - Group1
-  //...................................................................................
-  const LoadServerGroup1 = () => {
-    if (g_log1) console.log('LoadServerGroup1')
-    //
-    //  Initial values
-    //
-    const idx = 5
-    let count = 0
-    let status = 'Pending'
-    //
-    //  Process promise
-    //
-    const getTableparams = {
-      sqlCaller: functionName,
-      sqlTable: 'group1',
-      sqlAction: 'SELECT',
-      sqlWhere: '',
-      sqlOrderByRaw: 'g1id'
-    }
-    const myPromiseGroup1 = MyQueryPromise(getTable(getTableparams))
-    //
-    //  Resolve Status
-    //
-    myPromiseGroup1.then(function (data) {
-      if (g_log1) console.log('myPromiseGroup1 data ', data)
-      //
-      //  Update Status
-      //
-      if (myPromiseGroup1.isFulfilled()) {
-        status = FULFILLED
-        records[idx].status = status
-      }
-      if (myPromiseGroup1.isRejected()) {
-        status = REJECTED
-        records[idx].status = status
-      }
-      //
-      //  Default value
-      //
-      let Group1Options = [
-        {
-          id: 'All',
-          title: 'All'
-        }
-      ]
-      //
-      //  No data
-      //
-      if (!data) {
-        status = NODATA
-        records[idx].status = status
-      }
-      //
-      //  Next Step - update store
-      //
-      else {
-        //
-        // Update the count
-        //
-        count = data.length
-        records[idx].count = count
-        if (g_log1) console.log('countGroup1 count', count)
 
-        data.forEach(item => {
-          const itemObj = {
-            id: item.g1id,
-            title: item.g1title
-          }
-          Group1Options.push(itemObj)
-        })
-      }
-      //
-      //  Update Store
-      //
-      ValtioStore.v_Group1Options = Group1Options
-      if (g_log1) console.log('Group1Options ', Group1Options)
-      //
-      //  Update Status
-      //
-      updateFetchStatus()
-    })
+    //
+    //  Return Promise
+    //
+    debugFunEnd()
+    return myPromiseReflinks
   }
+
   //...................................................................................
   //.  Load Server - Group1Owner
   //...................................................................................
-  const LoadServerGroup1Owner = () => {
-    if (g_log1) console.log('LoadServerGroup1Owner')
+  const LoadServerGroup1Owner = idx => {
+    debugFunStart('LoadServerGroup1Owner')
+
     //
     //  Initial values
     //
-    const idx = 6
     let count = 0
     let status = 'Pending'
+    records[idx].count = count
+    records[idx].status = status
     //
     //  Process promise
     //
@@ -568,7 +586,9 @@ const QuizServerData = () => {
     //  Resolve Status
     //
     myPromiseGroup1Owner.then(function (data) {
-      if (g_log1) console.log('myPromiseGroup1Owner data ', data)
+      g_PromiseCount++
+      debugFunStart('myPromiseGroup1Owner')
+      debugLogging('myPromiseGroup1Owner data ', data)
       //
       //  Update Status
       //
@@ -596,30 +616,41 @@ const QuizServerData = () => {
         //
         count = data.length
         records[idx].count = count
-        if (g_log1) console.log('countGroup1Owner count', count)
+        debugLogging('countGroup1Owner count', count)
         //
-        // update ValtioStore - Data
+        //  Load Options and Store
         //
-        if (g_log1) console.log('update Group1OptionsOwner', data)
-        ValtioStore.v_Group1OptionsOwner = data
+        BuildOptionsGroup1Owner(data)
       }
       //
       //  Update Status
       //
-      updateFetchStatus()
+      if (g_PromiseCount === g_PromiseTotal) updateFetchStatus()
+      //
+      //  Return
+      //
+      debugFunEnd()
+      return
     })
+
+    //
+    //  Return Promise
+    //
+    debugFunEnd()
+    return myPromiseGroup1Owner
   }
   //...................................................................................
   //.  Load Server - Group2
   //...................................................................................
-  const LoadServerGroup2 = () => {
-    if (g_log1) console.log('LoadServerGroup2')
+  const LoadServerGroup2 = idx => {
+    debugFunStart('LoadServerGroup2')
     //
     //  Initial values
     //
-    const idx = 7
     let count = 0
     let status = 'Pending'
+    records[idx].count = count
+    records[idx].status = status
     //
     //  Process promise
     //
@@ -635,7 +666,9 @@ const QuizServerData = () => {
     //  Resolve Status
     //
     myPromiseGroup2.then(function (data) {
-      if (g_log1) console.log('myPromiseGroup2 data ', data)
+      g_PromiseCount++
+      debugFunStart('myPromiseGroup2')
+      debugLogging('myPromiseGroup2 data ', data)
       //
       //  Update Status
       //
@@ -647,15 +680,6 @@ const QuizServerData = () => {
         status = REJECTED
         records[idx].status = status
       }
-      //
-      //  Default value
-      //
-      let Group2Options = [
-        {
-          id: 'All',
-          title: 'All'
-        }
-      ]
       //
       //  No data
       //
@@ -673,38 +697,41 @@ const QuizServerData = () => {
         count = data.length
         records[idx].count = count
 
-        if (g_log1) console.log('countGroup2 count', count)
-
-        data.forEach(item => {
-          const itemObj = {
-            id: item.g2id,
-            title: item.g2title
-          }
-          Group2Options.push(itemObj)
-        })
+        debugLogging('countGroup2 count', count)
+        //
+        //  Update Store
+        //
+        BuildOptionsGroup2(data)
       }
-      //
-      //  Update Store
-      //
-      ValtioStore.v_Group2Options = Group2Options
-      if (g_log1) console.log('Group2Options ', Group2Options)
       //
       //  Update Status
       //
-      updateFetchStatus()
+      if (g_PromiseCount === g_PromiseTotal) updateFetchStatus()
+      //
+      //  Return
+      //
+      debugFunEnd()
+      return
     })
+
+    //
+    //  Return Promise
+    //
+    debugFunEnd()
+    return myPromiseGroup2
   }
   //...................................................................................
   //.  Load Server - Group3
   //...................................................................................
-  const LoadServerGroup3 = () => {
-    if (g_log1) console.log('LoadServerGroup3')
+  const LoadServerGroup3 = idx => {
+    debugFunStart('LoadServerGroup3')
     //
     //  Initial values
     //
-    const idx = 8
     let count = 0
     let status = 'Pending'
+    records[idx].count = count
+    records[idx].status = status
     //
     //  Process promise
     //
@@ -720,28 +747,21 @@ const QuizServerData = () => {
     //  Resolve Status
     //
     myPromiseGroup3.then(function (data) {
-      if (g_log1) console.log('myPromiseGroup3 data ', data)
+      g_PromiseCount++
+      debugFunStart('myPromiseGroup3')
+      debugLogging('myPromiseGroup3 data ', data)
       //
       //  Update Status
       //
       if (myPromiseGroup3.isFulfilled()) {
         status = FULFILLED
         records[idx].status = status
-        if (g_log1) console.log('records[idx].status ', records[idx].status)
+        debugLogging('records[idx].status ', records[idx].status)
       }
       if (myPromiseGroup3.isRejected()) {
         status = REJECTED
         records[idx].status = status
       }
-      //
-      //  Default value
-      //
-      let Group3Options = [
-        {
-          id: 'All',
-          title: 'All'
-        }
-      ]
       //
       //  No data
       //
@@ -758,53 +778,64 @@ const QuizServerData = () => {
         //
         count = data.length
         records[idx].count = count
-        if (g_log1) console.log('countGroup3 count', count)
+        debugLogging('countGroup3 count', count)
 
-        data.forEach(item => {
-          const itemObj = {
-            id: item.g3id,
-            title: item.g3title
-          }
-          Group3Options.push(itemObj)
-        })
+        //
+        //  Update Store
+        //
+        BuildOptionsGroup3(data)
       }
-      //
-      //  Update Store
-      //
-
-      ValtioStore.v_Group3Options = Group3Options
-      if (g_log1) console.log('Group3Options ', Group3Options)
       //
       //  Update Status
       //
-      updateFetchStatus()
+      if (g_PromiseCount === g_PromiseTotal) updateFetchStatus()
+      //
+      //  Return
+      //
+      debugFunEnd()
+      return
     })
+
+    //
+    //  Return Promise
+    //
+    debugFunEnd()
+    return myPromiseGroup3
   }
   //...................................................................................
   //.  Load the dropdown options
   //...................................................................................
   const LoadOptions = () => {
-    LoadServerQuestions()
-    LoadServerBidding()
-    LoadServerHands()
-    LoadServerReflinks()
-    LoadServerOwner()
-    LoadServerGroup1()
-    LoadServerGroup1Owner()
-    LoadServerGroup2()
-    LoadServerGroup3()
+    debugFunStart('LoadOptions')
+    debugLogging('LoadOptions start ')
+    g_PromiseCount = 0
+
+    LoadServerQuestions(0)
+    LoadServerBidding(1)
+    LoadServerHands(2)
+    LoadServerReflinks(3)
+    LoadServerOwner(4)
+    LoadServerGroup1Owner(5)
+    LoadServerGroup2(6)
+    LoadServerGroup3(7)
+
+    debugFunEnd()
   }
   //...................................................................................
   //.  Form Submit
   //...................................................................................
   const SubmitForm = e => {
+    debugFunStart('SubmitForm')
     ValtioStore.v_PagePrevious = CurrentPage
     ValtioStore.v_Page = g_Page
+
+    debugFunEnd()
   }
   //...................................................................................
   //.  Update Fetch Status
   //...................................................................................
   const updateFetchStatus = () => {
+    debugFunStart('updateFetchStatus')
     //
     //  Status value
     //
@@ -815,12 +846,17 @@ const QuizServerData = () => {
     //
     if (newFulfilled) {
       setFulfilled(newFulfilled)
-      if (g_log1) console.log('newFulfilled Final', newFulfilled)
+      debugLogging('newFulfilled Final', newFulfilled)
     }
+
+    debugFunEnd()
   }
   //...................................................................................
   //.  Main Line
   //...................................................................................
+  debugStack = []
+  debugFunStart(debugModule)
+
   useEffect(() => {
     LoadOptions()
     // eslint-disable-next-line
@@ -834,9 +870,9 @@ const QuizServerData = () => {
     headCells,
     filterFn
   )
-
-  if (g_log1) console.log('Render the Form ')
-  if (g_log1) console.log('records ', records)
+  debugLogging('Render the Form ')
+  debugLogging('records ', records)
+  debugLogging('g_PromiseCount ', g_PromiseCount)
   //...................................................................................
   //.  Render the form
   //...................................................................................
@@ -876,6 +912,7 @@ const QuizServerData = () => {
           {/*.................................................................................................*/}
         </Grid>
       </Container>
+      <QuizInfo />
     </>
   )
 }

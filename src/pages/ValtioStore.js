@@ -14,8 +14,10 @@ const ValtioStore = proxy({
   v_ShowLinearScore: true,
   v_ShowButtonHelp: false,
   v_ShowButtonSettings: false,
-  v_ShowSelectionOwner: false,
+  v_ShowSelectionOwner: true,
+  v_ShowAllOwner: false,
   v_ShowSelectionGroup1: true,
+  v_ShowAllGroup1: false,
   v_ShowSelectionGroup2: false,
   v_ShowSelectionGroup3: false,
   //
@@ -26,7 +28,7 @@ const ValtioStore = proxy({
   //  Navigation State Variables
   //
   v_Params: null,
-  v_Page: 'QuizRestart',
+  v_Page: 'QuizSplash',
   v_PagePrevious: '',
   v_DataLoad: true,
   //
@@ -53,7 +55,7 @@ const ValtioStore = proxy({
   //  Data Selection Parameters
   //
   v_Owner: 'public',
-  v_Group1: 'All',
+  v_Group1: '',
   v_Group2: 'All',
   v_Group3: 'All',
   v_MaxQuestions: 20,
