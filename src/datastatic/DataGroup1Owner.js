@@ -16,8 +16,8 @@ exports.GROUP1OWNER = [
   },
   {
     qowner: 'Geo',
-    qgroup1: 'Geo',
-    g1title: 'Geo'
+    qgroup1: 'Geo210316',
+    g1title: 'Geo210316'
   },
   {
     qowner: 'public',

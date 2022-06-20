@@ -4531,7 +4531,7 @@ exports.QUESTIONS = [
     qbad1: '4S',
     qbad2: '',
     qbad3: '',
-    qgroup1: 'Geo',
+    qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['Geo210316', 'None']
@@ -4545,7 +4545,7 @@ exports.QUESTIONS = [
     qbad1: '4H',
     qbad2: '3H',
     qbad3: '',
-    qgroup1: 'Geo',
+    qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['Geo210316', 'None']
@@ -4560,7 +4560,7 @@ exports.QUESTIONS = [
     qbad1: 'Take out 3 rounds of trumps to stop a ruff',
     qbad2: 'Take out 2 rounds of trumps to stop a ruff',
     qbad3: '',
-    qgroup1: 'Geo',
+    qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['Geo210316', 'None']
@@ -4574,7 +4574,7 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3D Bergen (10/11)',
     qbad3: '',
-    qgroup1: 'Geo',
+    qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['Geo210316', 'None']
@@ -4589,7 +4589,7 @@ exports.QUESTIONS = [
     qbad1: 'Yes',
     qbad2: '',
     qbad3: '',
-    qgroup1: 'Geo',
+    qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['Geo210316', 'None']
@@ -4603,7 +4603,7 @@ exports.QUESTIONS = [
     qbad1: 'Double',
     qbad2: '3D',
     qbad3: '',
-    qgroup1: 'Geo',
+    qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['Geo210316', 'None']
@@ -4617,7 +4617,7 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '5D',
     qbad3: '4D',
-    qgroup1: 'Geo',
+    qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['Geo210316', 'None']
