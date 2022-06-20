@@ -1483,5 +1483,31 @@ exports.BIDDING = [
       ['2D', 'PASS', '4NT', 'PASS'],
       ['5C', 'PASS', '?', 'N']
     ]
+  },
+  {
+    bid: 427,
+    brounds: [
+      ['2C', 'PASS', '2D', 'PASS'],
+      ['2S', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 429,
+    brounds: [['1H', '3D', '?', 'N']]
+  },
+  {
+    bid: 431,
+    brounds: [['1S', 'PASS', '?', 'N']]
+  },
+  {
+    bid: 433,
+    brounds: [['1H', '?', 'N', 'N']]
+  },
+  {
+    bid: 434,
+    brounds: [
+      ['1H', '2D', 'PASS', '3D'],
+      ['PASS', '?', 'N', 'N']
+    ]
   }
 ]

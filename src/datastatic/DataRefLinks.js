@@ -474,5 +474,14 @@ exports.REFLINKS = [
       'https://www.nzbridge.co.nz/user/inline/1804/NZB%20Improver%2002%20-%20Quiz%20Answers.pdf',
     rwho: 'NZB',
     rtype: 'webdoc'
+  },
+  {
+    rid: 60,
+    rref: 'Geo210316',
+    rdesc: 'Geo Lesson 20210316',
+    rlink:
+      'https://docs.google.com/document/d/1RaheOLZAHoJAaJvexyTjK-0rNoNaqcHv/edit?usp=sharing&ouid=117489839836989015672&rtpof=true&sd=true',
+    rwho: 'Geo',
+    rtype: 'webdoc'
   }
 ]

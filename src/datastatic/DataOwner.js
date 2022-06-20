@@ -10,5 +10,9 @@ exports.OWNER = [
   {
     oid: 'Richard',
     otitle: 'Richard'
+  },
+  {
+    oid: 'Geo',
+    otitle: 'Geo'
   }
 ]

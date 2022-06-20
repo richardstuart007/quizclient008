@@ -15,6 +15,11 @@ exports.GROUP1OWNER = [
     g1title: 'NZB Transfers'
   },
   {
+    qowner: 'Geo',
+    qgroup1: 'Geo',
+    g1title: 'Geo'
+  },
+  {
     qowner: 'public',
     qgroup1: 'BergenRaises',
     g1title: 'Bergen Raises'
