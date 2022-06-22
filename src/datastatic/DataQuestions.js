@@ -3932,7 +3932,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 373,
@@ -3946,7 +3946,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 374,
@@ -3960,7 +3960,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 375,
@@ -3974,7 +3974,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 377,
@@ -3988,7 +3988,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 378,
@@ -4002,7 +4002,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 379,
@@ -4016,7 +4016,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 380,
@@ -4030,7 +4030,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 381,
@@ -4044,7 +4044,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 382,
@@ -4058,7 +4058,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 383,
@@ -4072,7 +4072,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 384,
@@ -4086,7 +4086,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 385,
@@ -4100,7 +4100,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 386,
@@ -4114,7 +4114,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 387,
@@ -4128,7 +4128,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 388,
@@ -4142,7 +4142,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBStayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeStayman']
+    qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
   },
   {
     qid: 400,
@@ -4170,7 +4170,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 402,
@@ -4184,7 +4184,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 403,
@@ -4198,7 +4198,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 404,
@@ -4212,7 +4212,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 405,
@@ -4226,7 +4226,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 406,
@@ -4240,7 +4240,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 407,
@@ -4254,7 +4254,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 408,
@@ -4268,7 +4268,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 409,
@@ -4282,7 +4282,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 410,
@@ -4296,7 +4296,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 411,
@@ -4310,7 +4310,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 412,
@@ -4324,7 +4324,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 413,
@@ -4338,7 +4338,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBTransfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
-    qrefs: ['NZBridgeTransfers', 'None']
+    qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
   },
   {
     qid: 414,
@@ -4366,7 +4366,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 416,
@@ -4380,7 +4380,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 417,
@@ -4394,7 +4394,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 418,
@@ -4408,7 +4408,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 419,
@@ -4422,7 +4422,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 420,
@@ -4436,7 +4436,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 421,
@@ -4450,7 +4450,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 422,
@@ -4464,7 +4464,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 423,
@@ -4478,7 +4478,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 424,
@@ -4492,7 +4492,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 425,
@@ -4506,7 +4506,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 426,
@@ -4520,7 +4520,7 @@ exports.QUESTIONS = [
     qgroup1: 'NZBBlackwood',
     qgroup2: 'None',
     qgroup3: 'None',
-    qrefs: ['NZBridgeBlackwood', 'None']
+    qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
   },
   {
     qid: 427,
@@ -4529,8 +4529,8 @@ exports.QUESTIONS = [
     qdetail: 'Which bid is stronger ?',
     qcorrect: '3S',
     qbad1: '4S',
-    qbad2: '',
-    qbad3: '',
+    qbad2: null,
+    qbad3: null,
     qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
@@ -4544,7 +4544,7 @@ exports.QUESTIONS = [
     qcorrect: '4D',
     qbad1: '4H',
     qbad2: '3H',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
@@ -4559,7 +4559,7 @@ exports.QUESTIONS = [
     qcorrect: 'Finesse diamonds twice entering dummy with AS and 10S',
     qbad1: 'Take out 3 rounds of trumps to stop a ruff',
     qbad2: 'Take out 2 rounds of trumps to stop a ruff',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
@@ -4573,7 +4573,7 @@ exports.QUESTIONS = [
     qcorrect: '4D',
     qbad1: '2NT',
     qbad2: '3D Bergen (10/11)',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
@@ -4587,8 +4587,8 @@ exports.QUESTIONS = [
       'South is playing in NT and West leads 5S.  Should East duck the 2S played by dummy ?',
     qcorrect: 'No',
     qbad1: 'Yes',
-    qbad2: '',
-    qbad3: '',
+    qbad2: null,
+    qbad3: null,
     qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
@@ -4602,7 +4602,7 @@ exports.QUESTIONS = [
     qcorrect: '2D',
     qbad1: 'Double',
     qbad2: '3D',
-    qbad3: '',
+    qbad3: null,
     qgroup1: 'Geo210316',
     qgroup2: 'None',
     qgroup3: 'None',
@@ -4621,5 +4621,285 @@ exports.QUESTIONS = [
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['Geo210316', 'None']
+  },
+  {
+    qid: 435,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack01',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2C',
+    qbad1: '2S',
+    qbad2: 'Pass',
+    qbad3: '2NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 436,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack02',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2C',
+    qbad1: '2S',
+    qbad2: 'Pass',
+    qbad3: '2NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 437,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack03',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2D',
+    qbad1: '2H',
+    qbad2: 'Pass',
+    qbad3: '2NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 438,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack04',
+    qdetail: 'What is your bid ?',
+    qcorrect: '3H',
+    qbad1: '2H',
+    qbad2: 'Pass',
+    qbad3: '2NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 439,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack05',
+    qdetail: 'What is your bid ?',
+    qcorrect: '3NT',
+    qbad1: '2D',
+    qbad2: '2C',
+    qbad3: '2NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 440,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack06',
+    qdetail: 'What is your bid ?',
+    qcorrect: '3C',
+    qbad1: '3S',
+    qbad2: '3NT',
+    qbad3: 'Pass',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 441,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack07',
+    qdetail: 'What is your bid ?',
+    qcorrect: 'Ace Ask',
+    qbad1: '3D',
+    qbad2: '3NT',
+    qbad3: '5D',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 442,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack08',
+    qdetail: 'What is your bid ?',
+    qcorrect: '3C',
+    qbad1: '3D',
+    qbad2: '3H',
+    qbad3: '3S',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 443,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack09',
+    qdetail: 'What is your bid ?',
+    qcorrect: '4S',
+    qbad1: '3NT',
+    qbad2: '3C',
+    qbad3: '3S',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 444,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack10',
+    qdetail: 'What is your bid ?',
+    qcorrect: '4H',
+    qbad1: '3NT',
+    qbad2: '3H',
+    qbad3: '3S',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 445,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack11',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2D',
+    qbad1: '2H',
+    qbad2: '2S',
+    qbad3: '3NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 446,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack12',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2NT',
+    qbad1: '3C',
+    qbad2: '3D',
+    qbad3: '3NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 447,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack13',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2S',
+    qbad1: '2D',
+    qbad2: '3D',
+    qbad3: '2NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 448,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack14',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2H',
+    qbad1: '2S',
+    qbad2: '2D',
+    qbad3: '2NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 449,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack15',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2D',
+    qbad1: '2H',
+    qbad2: '2NT',
+    qbad3: '2S',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 450,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack16',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2S',
+    qbad1: '2D',
+    qbad2: '2H',
+    qbad3: '2NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 451,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack17',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2D',
+    qbad1: '2D',
+    qbad2: '2H',
+    qbad3: '2S',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 452,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack18',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2H',
+    qbad1: '2NT',
+    qbad2: '3H',
+    qbad3: '3NT',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 453,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack19',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2NT',
+    qbad1: 'Pass',
+    qbad2: '2H',
+    qbad3: '2D',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 454,
+    qowner: 'NZBridge',
+    qkey: 'NZBCheckBack20',
+    qdetail: 'What is your bid ?',
+    qcorrect: '2S',
+    qbad1: '2NT',
+    qbad2: '3NT',
+    qbad3: '3S',
+    qgroup1: 'NZBCheckback',
+    qgroup2: 'Bidding',
+    qgroup3: 'None',
+    qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
   }
 ]

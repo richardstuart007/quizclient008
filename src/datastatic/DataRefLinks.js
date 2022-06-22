@@ -156,7 +156,7 @@ exports.REFLINKS = [
     rref: 'PlayEBU',
     rdesc: 'Play EBU',
     rlink:
-      'https://drive.google.com/file/d/1c8GiAftzeZ2efHCeVEgm-eEaXwd8D3Th/view',
+      'https://drive.google.com/file/d/1jyXc1IA05zs_vYR5sJEVfaN_yhrN_SIW/view?usp=sharing',
     rwho: 'ebu',
     rtype: 'pdf'
   },
@@ -451,7 +451,7 @@ exports.REFLINKS = [
   {
     rid: 57,
     rref: 'NZBridgeStayman',
-    rdesc: 'NZ Bridge Stayman',
+    rdesc: 'NZ Bridge Stayman  Quest/Ans',
     rlink:
       'https://www.nzbridge.co.nz/user/inline/2160/NZB%20Improver%2001%20-%20Quiz%20Answers.pdf',
     rwho: 'NZB',
@@ -459,29 +459,74 @@ exports.REFLINKS = [
   },
   {
     rid: 58,
+    rref: 'NZBridgeStaymanTutorial',
+    rdesc: 'NZ Bridge Stayman Tutorial',
+    rlink:
+      'https://www.nzbridge.co.nz/user/inline/2324/NZB%20Improver%2001%20-%20Student%20Notes.pdf',
+    rwho: 'NZB',
+    rtype: 'webdoc'
+  },
+  {
+    rid: 59,
     rref: 'NZBridgeTransfers',
-    rdesc: 'NZ Bridge Transfers',
+    rdesc: 'NZ Bridge Transfers  Quest/Ans',
     rlink:
       'https://www.nzbridge.co.nz/user/inline/3291/NZB%20Intermediate%2001%20-%20Quiz%20%26%20Answers.pdf',
     rwho: 'NZB',
     rtype: 'webdoc'
   },
   {
-    rid: 59,
+    rid: 60,
+    rref: 'NZBridgeTransfersTutorial',
+    rdesc: 'NZ Bridge Transfers  Tutorial',
+    rlink:
+      'https://www.nzbridge.co.nz/user/inline/3040/NZB%20Intermediate%2001%20-%20Student%20Notes.pdf',
+    rwho: 'NZB',
+    rtype: 'webdoc'
+  },
+  {
+    rid: 61,
     rref: 'NZBridgeBlackwood',
-    rdesc: 'NZ Bridge Blackwood',
+    rdesc: 'NZ Bridge Blackwood Quest/Ans',
     rlink:
       'https://www.nzbridge.co.nz/user/inline/1804/NZB%20Improver%2002%20-%20Quiz%20Answers.pdf',
     rwho: 'NZB',
     rtype: 'webdoc'
   },
   {
-    rid: 60,
+    rid: 62,
+    rref: 'NZBridgeBlackwoodTutorial',
+    rdesc: 'NZ Bridge Blackwood Tutorial',
+    rlink:
+      'https://www.nzbridge.co.nz/user/inline/1794/NZB%20Improver%2002%20-%20Student%20Notes.pdf',
+    rwho: 'NZB',
+    rtype: 'webdoc'
+  },
+  {
+    rid: 63,
     rref: 'Geo210316',
     rdesc: 'Geo Lesson 20210316',
     rlink:
-      'https://docs.google.com/document/d/1RaheOLZAHoJAaJvexyTjK-0rNoNaqcHv/edit?usp=sharing&ouid=117489839836989015672&rtpof=true&sd=true',
+      'https://docs.google.com/document/d/1k-eUKe-hGEOAQi3W9bdSr86OkmtuIwGW/edit?usp=sharing&ouid=117489839836989015672&rtpof=true&sd=true',
     rwho: 'Geo',
+    rtype: 'webdoc'
+  },
+  {
+    rid: 64,
+    rref: 'NZBridgeCheckback',
+    rdesc: 'NZ Bridge Checkback Quest/Ans',
+    rlink:
+      'https://www.nzbridge.co.nz/user/inline/3292/NZB%20Intermediate%2002%20-%20Quiz%20%26%20Answers.pdf',
+    rwho: 'NZB',
+    rtype: 'webdoc'
+  },
+  {
+    rid: 65,
+    rref: 'NZBridgeCheckbackTutorial',
+    rdesc: 'NZ Bridge Checkback Tutorial',
+    rlink:
+      'https://www.nzbridge.co.nz/user/inline/2973/NZB%20Intermediate%2002%20-%20Student%20Notes.pdf',
+    rwho: 'NZB',
     rtype: 'webdoc'
   }
 ]

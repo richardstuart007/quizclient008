@@ -1,8 +1,18 @@
 exports.GROUP1OWNER = [
   {
+    qowner: 'Geo',
+    qgroup1: 'Geo210316',
+    g1title: 'Geo210316'
+  },
+  {
     qowner: 'NZBridge',
     qgroup1: 'NZBBlackwood',
     g1title: 'NZB Blackwood'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBCheckback',
+    g1title: 'NZBCheckback'
   },
   {
     qowner: 'NZBridge',
@@ -13,11 +23,6 @@ exports.GROUP1OWNER = [
     qowner: 'NZBridge',
     qgroup1: 'NZBTransfers',
     g1title: 'NZB Transfers'
-  },
-  {
-    qowner: 'Geo',
-    qgroup1: 'Geo210316',
-    g1title: 'Geo210316'
   },
   {
     qowner: 'public',

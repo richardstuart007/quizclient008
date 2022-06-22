@@ -1458,7 +1458,6 @@ exports.BIDDING = [
       ['?', 'N', 'N', 'N']
     ]
   },
-
   {
     bid: 424,
     brounds: [
@@ -1508,6 +1507,156 @@ exports.BIDDING = [
     brounds: [
       ['1H', '2D', 'PASS', '3D'],
       ['PASS', '?', 'N', 'N']
+    ]
+  },
+  {
+    bid: 435,
+    brounds: [
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 436,
+    brounds: [
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 437,
+    brounds: [
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 438,
+    brounds: [
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 439,
+    brounds: [
+      ['1C', 'PASS', '1H', 'PASS'],
+      ['1NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 440,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['2NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 441,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 442,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['2NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 443,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['2NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 444,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['2NT', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 445,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 446,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 447,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 448,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 449,
+    brounds: [
+      ['1D', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 450,
+    brounds: [
+      ['1H', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 451,
+    brounds: [
+      ['1H', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 452,
+    brounds: [
+      ['1H', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 453,
+    brounds: [
+      ['1H', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 454,
+    brounds: [
+      ['1H', 'PASS', '1S', 'PASS'],
+      ['1NT', 'PASS', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
     ]
   }
 ]

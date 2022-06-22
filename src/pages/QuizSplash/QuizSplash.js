@@ -36,30 +36,18 @@ const QuizSplash = () => {
   return (
     <Grid container>
       <Container>
-        <Typography variant='subtitle2' sx={{ marginTop: '8px' }}>
+        <Typography variant='h6' sx={{ marginTop: '8px' }}>
           This product is in Trial/Development.
         </Typography>
         <Typography variant='subtitle2' sx={{ marginTop: '8px' }}>
           It has been developed by Richard Stuart and is FREE to use/distribute.
         </Typography>
         <Typography variant='subtitle2' sx={{ marginTop: '8px' }}>
-          As this is a development version it may be upgraded and cause it to
-          fail. If this happens then contact me via email.
-        </Typography>
-
-        <Typography variant='h6' sx={{ marginTop: '8px' }}>
-          Technical.....URL Parameters:
+          If your URL does not work copy the text below into your browser,
+          alternatively email me.
         </Typography>
         <Typography variant='subtitle2' sx={{ marginTop: '8px' }}>
-          &AllowSelection=false Stops the selection values from changing
-        </Typography>
-
-        <Typography variant='subtitle2' sx={{ marginTop: '8px' }}>
-          &Owner=NZBridge sets Owner default
-        </Typography>
-
-        <Typography variant='subtitsubtitle2le2' sx={{ marginTop: '8px' }}>
-          &Group1=NZTransfers Sets Group1 default
+          https://richardstuart007.github.io/quizclient008/
         </Typography>
 
         <Typography variant='h6' sx={{ marginTop: '8px' }}>
