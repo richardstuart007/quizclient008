@@ -4148,7 +4148,7 @@ exports.QUESTIONS = [
     qid: 400,
     qowner: 'Richard',
     qkey: 'Test01',
-    qdetail: 'Test',
+    qdetail: 'Test 1',
     qcorrect: '3 card support of partners suit',
     qbad1: '4+ clubs',
     qbad2: 'Heart stopper',
@@ -4901,5 +4901,19 @@ exports.QUESTIONS = [
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
+  },
+  {
+    qid: 455,
+    qowner: 'Richard',
+    qkey: 'Test02',
+    qdetail: 'Test 1bbb fff',
+    qcorrect: '3 card support of partners suit',
+    qbad1: '4+ clubs',
+    qbad2: 'Heart stopper',
+    qbad3: 'Bad Bad Bad',
+    qgroup1: 'NZBTransfers',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['BergenRaises', 'None']
   }
 ]

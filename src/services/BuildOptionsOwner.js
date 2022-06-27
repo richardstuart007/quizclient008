@@ -84,7 +84,7 @@ const BuildOptionsOwner = data => {
   //
   data.forEach(item => {
     itemObj = {
-      id: item.oid,
+      id: item.oowner,
       title: item.otitle
     }
     OwnerOptions.push(itemObj)

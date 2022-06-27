@@ -159,7 +159,7 @@ const QuizServerData = () => {
       sqlTable: 'owner',
       sqlAction: 'SELECT',
       sqlWhere: '',
-      sqlOrderByRaw: 'oid'
+      sqlOrderByRaw: 'oowner'
     }
     const myPromiseOwner = MyQueryPromise(getTable(getTableparams))
     //

@@ -1195,5 +1195,12 @@ exports.HANDS = [
     heast: null,
     hsouth: null,
     hwest: null
+  },
+  {
+    hid: 456,
+    hnorth: ['Q', 'n', 'n', 'n'],
+    heast: null,
+    hsouth: null,
+    hwest: null
   }
 ]

@@ -1,18 +1,5 @@
 exports.OWNER = [
-  {
-    oid: 'NZBridge',
-    otitle: 'NZ Bridge'
-  },
-  {
-    oid: 'public',
-    otitle: 'public'
-  },
-  {
-    oid: 'Richard',
-    otitle: 'Richard'
-  },
-  {
-    oid: 'Geo',
-    otitle: 'Geo'
-  }
+  { oowner: 'Geo', otitle: 'Geo' },
+  { oowner: 'NZBridge', otitle: 'NZ Bridge' },
+  { oowner: 'public', otitle: 'public' }
 ]
