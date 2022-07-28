@@ -771,44 +771,44 @@ exports.HANDS = [
   },
   {
     hid: 381,
-    hnorth: ['A8432', 'J632', '83', '76'],
+    hnorth: null,
     heast: null,
-    hsouth: null,
+    hsouth: ['A8432', 'J632', '83', '76'],
     hwest: null
   },
   {
     hid: 382,
-    hnorth: ['K874', '92', 'AQ83', 'Q76'],
+    hnorth: null,
     heast: null,
-    hsouth: null,
+    hsouth: ['K874', '92', 'AQ83', 'Q76'],
     hwest: null
   },
   {
     hid: 383,
-    hnorth: ['K874', '92', 'AQ83', 'Q92'],
+    hnorth: null,
     heast: null,
-    hsouth: null,
+    hsouth: ['K874', '92', 'AQ83', 'Q92'],
     hwest: null
   },
   {
     hid: 384,
-    hnorth: ['A6', 'KJ73', 'A842', 'J76'],
+    hnorth: null,
     heast: null,
-    hsouth: null,
+    hsouth: ['A6', 'KJ73', 'A842', 'J76'],
     hwest: null
   },
   {
     hid: 385,
-    hnorth: ['AQ63', '84', 'K73', 'T964'],
+    hnorth: null,
     heast: null,
-    hsouth: null,
+    hsouth: ['AQ63', '84', 'K73', 'T964'],
     hwest: null
   },
   {
     hid: 386,
-    hnorth: ['863', 'Q4', '973', 'KQ762'],
+    hnorth: null,
     heast: null,
-    hsouth: null,
+    hsouth: ['863', 'Q4', '973', 'KQ762'],
     hwest: null
   },
   {
@@ -904,9 +904,9 @@ exports.HANDS = [
   },
   {
     hid: 409,
-    hnorth: ['KQ7642', 'A87', 'J62', '5'],
+    hnorth: null,
     heast: null,
-    hsouth: null,
+    hsouth: ['KQ7642', 'A87', 'J62', '5'],
     hwest: null
   },
   {
@@ -953,9 +953,9 @@ exports.HANDS = [
   },
   {
     hid: 417,
-    hnorth: null,
+    hnorth: ['K842', 'KQ76', 'A84', 'K6'],
     heast: null,
-    hsouth: ['K842', 'KQ76', 'A84', 'K6'],
+    hsouth: null,
     hwest: null
   },
   {
