@@ -1,9 +1,30 @@
 exports.GROUP1OWNER = [
   { qowner: 'Geo', qgroup1: 'Geo210316', g1title: 'Geo210316' },
-  { qowner: 'NZBridge', qgroup1: 'NZBBlackwood', g1title: 'NZB Blackwood' },
-  { qowner: 'NZBridge', qgroup1: 'NZBCheckback', g1title: 'NZBCheckback' },
-  { qowner: 'NZBridge', qgroup1: 'NZBStayman', g1title: 'NZB Stayman' },
-  { qowner: 'NZBridge', qgroup1: 'NZBTransfers', g1title: 'NZB Transfers' },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZB Imp1 Stayman',
+    g1title: 'NZB Improver 1 Stayman'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZB Imp2 Blackwood',
+    g1title: 'NZB Improver 2 Blackwood'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZB Int1 Transfers',
+    g1title: 'NZB Intermediate 1 Transfers'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZB Int2 Checkback',
+    g1title: 'NZB Intermediate 2 Checkback'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    g1title: 'NZB Intermediate 3 Escaping 1NTX'
+  },
   { qowner: 'public', qgroup1: 'BergenRaises', g1title: 'Bergen Raises' },
   {
     qowner: 'public',
@@ -21,7 +42,11 @@ exports.GROUP1OWNER = [
     g1title: 'Two Way Checkback'
   },
   { qowner: 'Richard', qgroup1: 'Doubles', g1title: 'Doubles' },
-  { qowner: 'Richard', qgroup1: 'NZBTransfers', g1title: 'NZB Transfers' },
+  {
+    qowner: 'Richard',
+    qgroup1: 'NZB Int1 Transfers',
+    g1title: 'NZB Intermediate 1 Transfers'
+  },
   { qowner: 'Richard', qgroup1: 'Play', g1title: 'Play' },
   {
     qowner: 'Richard',

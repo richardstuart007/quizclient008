@@ -54,7 +54,7 @@ const ValtioStore = proxy({
   //
   //  Data Selection Parameters
   //
-  v_Owner: 'public',
+  v_Owner: 'NZBridge',
   v_Group1: '',
   v_Group2: 'All',
   v_Group3: 'All',

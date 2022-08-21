@@ -1320,5 +1320,66 @@ exports.BIDDING = [
       ['?', 'N', 'N', 'N']
     ]
   },
-  { bid: 456, brounds: [['1H', 'N', 'N', 'N']] }
+  { bid: 456, brounds: [['1H', 'N', 'N', 'N']] },
+  { bid: 457, brounds: [['1NT', 'X', '?', 'N']] },
+  { bid: 458, brounds: [['1NT', 'X', '?', 'N']] },
+  { bid: 459, brounds: [['1NT', 'X', '?', 'N']] },
+  { bid: 460, brounds: [['1NT', 'X', '?', 'N']] },
+  { bid: 461, brounds: [['1NT', 'X', '?', 'N']] },
+  {
+    bid: 462,
+    brounds: [
+      ['1NT', 'X', 'XX', 'PASS'],
+      ['2C', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 463,
+    brounds: [
+      ['1NT', 'X', '2D', 'PASS'],
+      ['2H', 'PASS', '?', 'N']
+    ]
+  },
+  {
+    bid: 464,
+    brounds: [
+      ['1NT', 'X', '2H', 'PASS'],
+      ['PASS', 'X', '?', 'N']
+    ]
+  },
+  {
+    bid: 465,
+    brounds: [
+      ['1NT', 'X', 'XX', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 466,
+    brounds: [
+      ['1NT', 'X', '2D', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 467,
+    brounds: [
+      ['1NT', 'X', '2H', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 468,
+    brounds: [
+      ['1NT', 'X', '2C', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  },
+  {
+    bid: 469,
+    brounds: [
+      ['1NT', 'X', 'PASS', 'PASS'],
+      ['?', 'N', 'N', 'N']
+    ]
+  }
 ]

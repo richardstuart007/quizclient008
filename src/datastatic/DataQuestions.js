@@ -3929,7 +3929,7 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: 'Pass',
     qbad3: '2NT',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -3943,7 +3943,7 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: 'Pass',
     qbad3: '2NT',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -3957,7 +3957,7 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: 'Pass',
     qbad3: '2NT',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -3971,7 +3971,7 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '2D',
     qbad3: '2NT',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -3985,7 +3985,7 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3S',
     qbad3: '3D',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -3999,7 +3999,7 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3NT',
     qbad3: 'Pass',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4013,7 +4013,7 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '3D',
     qbad3: null,
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4027,7 +4027,7 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: 'Pass',
     qbad3: null,
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4041,7 +4041,7 @@ exports.QUESTIONS = [
     qbad1: '3S',
     qbad2: '2H',
     qbad3: null,
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4055,7 +4055,7 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '2NT',
     qbad3: '3NT',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4069,7 +4069,7 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3D',
     qbad3: '3NT',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4083,7 +4083,7 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: '3D',
     qbad3: 'Pass',
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4097,7 +4097,7 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3NT',
     qbad3: null,
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4111,7 +4111,7 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '3C',
     qbad3: null,
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4125,7 +4125,7 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '2S',
     qbad3: null,
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4139,7 +4139,7 @@ exports.QUESTIONS = [
     qbad1: '2C',
     qbad2: '3C',
     qbad3: null,
-    qgroup1: 'NZBStayman',
+    qgroup1: 'NZB Imp1 Stayman',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeStayman', 'NZBridgeStaymanTutorial']
@@ -4153,7 +4153,7 @@ exports.QUESTIONS = [
     qbad1: '4+ clubs',
     qbad2: 'Heart stopper',
     qbad3: 'Bad Bad Bad',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['BergenRaises', 'None']
@@ -4167,7 +4167,7 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '2S',
     qbad3: null,
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4181,7 +4181,7 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: '3D',
     qbad3: '3NT',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4195,7 +4195,7 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: 'Pass',
     qbad3: null,
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4209,7 +4209,7 @@ exports.QUESTIONS = [
     qbad1: '3S',
     qbad2: 'Pass',
     qbad3: null,
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4223,7 +4223,7 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: '3H',
     qbad3: '3D',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4237,7 +4237,7 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3S',
     qbad3: null,
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4251,7 +4251,7 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '2NT',
     qbad3: '3NT',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4265,7 +4265,7 @@ exports.QUESTIONS = [
     qbad1: '5C',
     qbad2: '3NT',
     qbad3: '4C',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4279,7 +4279,7 @@ exports.QUESTIONS = [
     qbad1: '4S',
     qbad2: '3NT',
     qbad3: null,
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4293,7 +4293,7 @@ exports.QUESTIONS = [
     qbad1: '3H',
     qbad2: '3NT',
     qbad3: '4H',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4307,7 +4307,7 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '3H',
     qbad3: 'Pass',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4321,7 +4321,7 @@ exports.QUESTIONS = [
     qbad1: '4H',
     qbad2: '3NT',
     qbad3: '3C',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4335,7 +4335,7 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3S',
     qbad3: '3H',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeTransfers', 'NZBridgeTransfersTutorial']
@@ -4363,7 +4363,7 @@ exports.QUESTIONS = [
     qbad1: '4C',
     qbad2: '4H',
     qbad3: '3S',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4377,7 +4377,7 @@ exports.QUESTIONS = [
     qbad1: '4C',
     qbad2: '4NT',
     qbad3: '3S',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4391,7 +4391,7 @@ exports.QUESTIONS = [
     qbad1: '5C',
     qbad2: 'Pass',
     qbad3: '5H',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4405,7 +4405,7 @@ exports.QUESTIONS = [
     qbad1: '4H',
     qbad2: '3H',
     qbad3: '3NT',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4419,7 +4419,7 @@ exports.QUESTIONS = [
     qbad1: '5C',
     qbad2: '5D',
     qbad3: '5S',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4433,7 +4433,7 @@ exports.QUESTIONS = [
     qbad1: '7C',
     qbad2: 'Pass',
     qbad3: '6NT',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4447,7 +4447,7 @@ exports.QUESTIONS = [
     qbad1: '5H',
     qbad2: '7S',
     qbad3: '5NT',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4461,7 +4461,7 @@ exports.QUESTIONS = [
     qbad1: '6H',
     qbad2: '7S',
     qbad3: '6NT',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4475,7 +4475,7 @@ exports.QUESTIONS = [
     qbad1: '5S',
     qbad2: '7S',
     qbad3: '5NT',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4489,7 +4489,7 @@ exports.QUESTIONS = [
     qbad1: '6S',
     qbad2: '7S',
     qbad3: '6NT',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4503,7 +4503,7 @@ exports.QUESTIONS = [
     qbad1: '6S',
     qbad2: '7S',
     qbad3: '6NT',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4517,7 +4517,7 @@ exports.QUESTIONS = [
     qbad1: '6S',
     qbad2: '5NT',
     qbad3: '6NT',
-    qgroup1: 'NZBBlackwood',
+    qgroup1: 'NZB Imp2 Blackwood',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['NZBridgeBlackwood', 'NZBridgeBlackwoodTutorial']
@@ -4631,7 +4631,7 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: 'Pass',
     qbad3: '2NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4645,7 +4645,7 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: 'Pass',
     qbad3: '2NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4659,7 +4659,7 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: 'Pass',
     qbad3: '2NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4673,7 +4673,7 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: 'Pass',
     qbad3: '2NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4687,7 +4687,7 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: '2C',
     qbad3: '2NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4701,7 +4701,7 @@ exports.QUESTIONS = [
     qbad1: '3S',
     qbad2: '3NT',
     qbad3: 'Pass',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4715,7 +4715,7 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '3NT',
     qbad3: '5D',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4729,7 +4729,7 @@ exports.QUESTIONS = [
     qbad1: '3D',
     qbad2: '3H',
     qbad3: '3S',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4743,7 +4743,7 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '3C',
     qbad3: '3S',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4757,7 +4757,7 @@ exports.QUESTIONS = [
     qbad1: '3NT',
     qbad2: '3H',
     qbad3: '3S',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4771,7 +4771,7 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: '2S',
     qbad3: '3NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4785,7 +4785,7 @@ exports.QUESTIONS = [
     qbad1: '3C',
     qbad2: '3D',
     qbad3: '3NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4799,7 +4799,7 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: '3D',
     qbad3: '2NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4813,7 +4813,7 @@ exports.QUESTIONS = [
     qbad1: '2S',
     qbad2: '2D',
     qbad3: '2NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4827,7 +4827,7 @@ exports.QUESTIONS = [
     qbad1: '2H',
     qbad2: '2NT',
     qbad3: '2S',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4841,7 +4841,7 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: '2H',
     qbad3: '2NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4855,7 +4855,7 @@ exports.QUESTIONS = [
     qbad1: '2D',
     qbad2: '2H',
     qbad3: '2S',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4869,7 +4869,7 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3H',
     qbad3: '3NT',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4883,7 +4883,7 @@ exports.QUESTIONS = [
     qbad1: 'Pass',
     qbad2: '2H',
     qbad3: '2D',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4897,7 +4897,7 @@ exports.QUESTIONS = [
     qbad1: '2NT',
     qbad2: '3NT',
     qbad3: '3S',
-    qgroup1: 'NZBCheckback',
+    qgroup1: 'NZB Int2 Checkback',
     qgroup2: 'Bidding',
     qgroup3: 'None',
     qrefs: ['NZBridgeCheckback', 'NZBridgeCheckbackTutorial']
@@ -4911,9 +4911,196 @@ exports.QUESTIONS = [
     qbad1: '4+ clubs',
     qbad2: 'Heart stopper',
     qbad3: 'Bad Bad Bad',
-    qgroup1: 'NZBTransfers',
+    qgroup1: 'NZB Int1 Transfers',
     qgroup2: 'None',
     qgroup3: 'None',
     qrefs: ['BergenRaises', 'None']
+  },
+  {
+    qid: 457,
+    qowner: 'NZBridge',
+    qkey: '1NTX01',
+    qdetail:
+      'Your partner opens 1NT and is doubled (penalty).  What is your response?',
+    qcorrect: 'XX',
+    qbad1: 'Pass',
+    qbad2: '2H',
+    qbad3: '2S',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 458,
+    qowner: 'NZBridge',
+    qkey: '1NTX02',
+    qdetail:
+      'Your partner opens 1NT and is doubled (penalty).  What is your response?',
+    qcorrect: '2D',
+    qbad1: 'XX',
+    qbad2: '2H',
+    qbad3: '2C',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 459,
+    qowner: 'NZBridge',
+    qkey: '1NTX03',
+    qdetail:
+      'Your partner opens 1NT and is doubled (penalty).  What is your response?',
+    qcorrect: 'PASS',
+    qbad1: '2C',
+    qbad2: 'XX',
+    qbad3: '2NT',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 460,
+    qowner: 'NZBridge',
+    qkey: '1NTX04',
+    qdetail:
+      'Your partner opens 1NT and is doubled (penalty).  What is your response?',
+    qcorrect: 'PASS',
+    qbad1: '2H',
+    qbad2: '2S',
+    qbad3: 'XX',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 461,
+    qowner: 'NZBridge',
+    qkey: '1NTX05',
+    qdetail:
+      'Your partner opens 1NT and is doubled (penalty).  What is your response?',
+    qcorrect: '2H',
+    qbad1: '2S',
+    qbad2: '2C',
+    qbad3: 'Pass',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 462,
+    qowner: 'NZBridge',
+    qkey: '1NTX06',
+    qdetail: 'What is your next bid?',
+    qcorrect: '2S',
+    qbad1: 'Pass',
+    qbad2: '2H',
+    qbad3: '',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 463,
+    qowner: 'NZBridge',
+    qkey: '1NTX07',
+    qdetail: 'What is your next bid?',
+    qcorrect: 'Pass',
+    qbad1: '2NT',
+    qbad2: '',
+    qbad3: '',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 464,
+    qowner: 'NZBridge',
+    qkey: '1NTX08',
+    qdetail: 'What is your next bid?',
+    qcorrect: 'Pass',
+    qbad1: '2S',
+    qbad2: '',
+    qbad3: '',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 465,
+    qowner: 'NZBridge',
+    qkey: '1NTX09',
+    qdetail: 'You open 1NT.  What is your next bid?',
+    qcorrect: '2C',
+    qbad1: 'Pass',
+    qbad2: '2H',
+    qbad3: '2S',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 466,
+    qowner: 'NZBridge',
+    qkey: '1NTX10',
+    qdetail: 'You open 1NT.  What is your next bid?',
+    qcorrect: 'PASS',
+    qbad1: '2H',
+    qbad2: '2NT',
+    qbad3: '',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 467,
+    qowner: 'NZBridge',
+    qkey: '1NTX11',
+    qdetail: 'You open 1NT.  What is your next bid?',
+    qcorrect: '2S',
+    qbad1: 'PASS',
+    qbad2: '2NT',
+    qbad3: '',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 468,
+    qowner: 'NZBridge',
+    qkey: '1NTX12',
+    qdetail: 'You open 1NT.  What is your next bid?',
+    qcorrect: '2D',
+    qbad1: 'PASS',
+    qbad2: '2S',
+    qbad3: '',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
+  },
+  {
+    qid: 469,
+    qowner: 'NZBridge',
+    qkey: '1NTX13',
+    qdetail: 'You open 1NT.  What is your next bid?',
+    qcorrect: '2D',
+    qbad1: 'PASS',
+    qbad2: '2S',
+    qbad3: '',
+    qgroup1: 'NZB Int3 Escaping 1NTX',
+    qgroup2: 'None',
+    qgroup3: 'None',
+    qrefs: ['NZB 1NTX Student Notes', 'NZB 1NTX Quiz']
   }
 ]

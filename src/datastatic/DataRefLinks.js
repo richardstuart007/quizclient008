@@ -528,5 +528,23 @@ exports.REFLINKS = [
       'https://www.nzbridge.co.nz/user/inline/2973/NZB%20Intermediate%2002%20-%20Student%20Notes.pdf',
     rwho: 'NZB',
     rtype: 'webdoc'
+  },
+  {
+    rid: 74,
+    rref: 'NZB 1NTX Student Notes',
+    rdesc: 'NZB 1NTX Student Notes',
+    rlink:
+      'https://www.nzbridge.co.nz/user/inline/2543/NZB%20Intermediate%2003%20-%20Student%20Notes.pdf',
+    rwho: 'NZ Bridge',
+    rtype: 'pdf'
+  },
+  {
+    rid: 75,
+    rref: 'NZB 1NTX Quiz',
+    rdesc: 'NZB 1NTX Quiz',
+    rlink:
+      'https://www.nzbridge.co.nz/user/inline/3293/NZB%20Intermediate%2003%20-%20Quiz%20%26%20Answers.pdf',
+    rwho: 'NZ Bridge',
+    rtype: 'pdf'
   }
 ]
