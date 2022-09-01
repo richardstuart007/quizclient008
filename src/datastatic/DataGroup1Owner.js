@@ -2,28 +2,83 @@ exports.GROUP1OWNER = [
   { qowner: 'Geo', qgroup1: 'Geo210316', g1title: 'Geo210316' },
   {
     qowner: 'NZBridge',
-    qgroup1: 'NZB Imp1 Stayman',
-    g1title: 'NZB Improver 1 Stayman'
+    qgroup1: 'NZBIMP01',
+    g1title: 'NZB Improver 01 Stayman'
   },
   {
     qowner: 'NZBridge',
-    qgroup1: 'NZB Imp2 Blackwood',
-    g1title: 'NZB Improver 2 Blackwood'
+    qgroup1: 'NZBIMP02',
+    g1title: 'NZB Improver 02 Blackwood'
   },
   {
     qowner: 'NZBridge',
-    qgroup1: 'NZB Int1 Transfers',
-    g1title: 'NZB Intermediate 1 Transfers'
+    qgroup1: 'NZBIMP03',
+    g1title: 'NZB Improver 03 Play Techniques'
   },
   {
     qowner: 'NZBridge',
-    qgroup1: 'NZB Int2 Checkback',
-    g1title: 'NZB Intermediate 2 Checkback'
+    qgroup1: 'NZBINT01',
+    g1title: 'NZB Intermediate 01 Transfers'
   },
   {
     qowner: 'NZBridge',
-    qgroup1: 'NZB Int3 Escaping 1NTX',
-    g1title: 'NZB Intermediate 3 Escaping 1NTX'
+    qgroup1: 'NZBINT02',
+    g1title: 'NZB Intermediate 02 Checkback'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT03',
+    g1title: 'NZB Intermediate 03 Escaping 1NTX'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT04',
+    g1title: 'NZB Intermediate 04 1NT Interference'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT05',
+    g1title: 'NZB Intermediate 05 1NT Landy'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT06',
+    g1title: 'NZB Intermediate 06 Responding'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT07',
+    g1title: 'NZB Intermediate 07 Overcall'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT08',
+    g1title: 'NZB Intermediate 08 Michaels & UNT'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT09',
+    g1title: 'NZB Intermediate 09 High Level Bidding'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT10',
+    g1title: 'NZB Intermediate 10 Pre-empt Defence'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT11',
+    g1title: 'NZB Intermediate 11 Multi-2D Opening and Defence'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT12',
+    g1title: 'NZB Intermediate 12 Weak 2 Suiter Openers'
+  },
+  {
+    qowner: 'NZBridge',
+    qgroup1: 'NZBINT13',
+    g1title: 'NZB Intermediate 13 RKC and Splinters'
   },
   { qowner: 'public', qgroup1: 'BergenRaises', g1title: 'Bergen Raises' },
   {
@@ -42,12 +97,6 @@ exports.GROUP1OWNER = [
     g1title: 'Two Way Checkback'
   },
   { qowner: 'Richard', qgroup1: 'Doubles', g1title: 'Doubles' },
-  {
-    qowner: 'Richard',
-    qgroup1: 'NZB Int1 Transfers',
-    g1title: 'NZB Intermediate 1 Transfers'
-  },
-  { qowner: 'Richard', qgroup1: 'Play', g1title: 'Play' },
   {
     qowner: 'Richard',
     qgroup1: 'Points Schmoints',
