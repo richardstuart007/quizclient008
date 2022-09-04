@@ -82,11 +82,11 @@ export default function QuizRefs() {
   //
   //  State
   //
-  const [filterFn, setFilterFn] = useState({
+  const filterFn = {
     fn: items => {
       return items
     }
-  })
+  }
   //.............................................................................
   //
   //  Hyperlink open
